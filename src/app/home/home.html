@@ -1,7 +1,6 @@
 <div class="container my-5">
   <div class="row align-items-start my-img">
     <!-- Linke Spalte: Bild (2/3) -->
-
     <div class="col-lg-8 col-md-12 mb-3 mb-lg-0">
       <img
         src="assets/images/weltkarte-ocean-p-1.MAIN.jpg"
@@ -26,20 +25,26 @@
     </div>
   </div>
 </div>
-<!-- Modal -->
-<div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
+
+<!-- MODAL -->
+<div class="modal fade custom-image-modal" id="imageModal" tabindex="-1" aria-hidden="true">
   <div class="modal-dialog modal-fullscreen">
-    <div class="modal-content bg-dark border-0">
+    <div class="modal-content bg-dark border-0" (click)="closeModal()">
       <!-- CLOSE BUTTON -->
       <button
         type="button"
-        class="btn-close btn-close-white position-absolute top-0 end-0 m-3"
+        class="btn-close btn-close-white position-absolute top-0 end-0 m-4"
         aria-label="Close"
-        (click)="closeModal()"
+        (click)="closeModal(); $event.stopPropagation()"
       ></button>
 
       <div class="modal-body p-0 d-flex justify-content-center align-items-center">
-        <img src="assets/images/weltkarte-ocean-p-1.MAIN.jpg" class="modal-img" alt="Weltmeere" />
+        <img
+          class="modal-img"
+          src="assets/images/weltkarte-ocean-p-1.MAIN.jpg"
+          alt="Weltmeere"
+          (click)="$event.stopPropagation()"
+        />
       </div>
     </div>
   </div>

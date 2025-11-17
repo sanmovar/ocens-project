@@ -10,10 +10,10 @@ export class Home {
   modal: any = null;
 
   openModal() {
-    const el = document.getElementById('imageModal');
-    if (!el) return;
+    const element = document.getElementById('imageModal');
+    if (!element) return;
 
-    this.modal = new bootstrap.Modal(el, {
+    this.modal = new bootstrap.Modal(element, {
       backdrop: true,
       keyboard: true,
     });
