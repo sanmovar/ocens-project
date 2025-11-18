@@ -1,8 +1,11 @@
 import { Component } from '@angular/core';
+import { RouterLink, RouterOutlet } from '@angular/router';
+import { Header } from '../header/header';
 import * as bootstrap from 'bootstrap';
 
 @Component({
   selector: 'app-home',
+  imports: [RouterLink, Header],
   templateUrl: './home.html',
   styleUrls: ['./home.css'],
 })

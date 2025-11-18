@@ -5,7 +5,7 @@
 }
 
 .preview-img:hover {
-  transform: scale(1.02);
+  transform: scale(1.03);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 }
 
@@ -19,4 +19,35 @@
 /* Анимация появления */
 .custom-image-modal .modal-dialog {
   transition: transform 0.35s ease !important;
+}
+
+.flex-btn {
+  flex: 0 1 200px;
+  margin: 0 0.5rem;
+  white-space: nowrap;
+  font-size: 1.3rem;
+  color: #e8ddc1;
+  background-color: #004b8c;
+  border: 2px solid #00213d;
+  transition: all 0.3s ease; /* sanfter Übergang */
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+  padding: 0.1rem 0.1rem;
+}
+
+/* Hover-Effekt */
+.flex-btn:hover {
+  background-color: #00213d; /* neue Hintergrundfarbe beim Hover */
+  color: #ffffff; /* Textfarbe ändern */
+  border-color: #00213d; /* optional: Randfarbe anpassen */
+  cursor: pointer; /* zeigt Hand-Symbol */
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover-Effekt */
+.flex-btn:active {
+  background-color: #00213d; /* neue Hintergrundfarbe beim Hover */
+  color: #ffffff; /* Textfarbe ändern */
+  border-color: #00213d; /* optional: Randfarbe anpassen */
+  cursor: pointer; /* zeigt Hand-Symbol */
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }

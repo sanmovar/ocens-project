@@ -3,21 +3,26 @@
 }
 
 .flex-btn {
-  flex: 0 1 250px;
+  flex: 0 1 200px;
   margin: 0 0.5rem;
   white-space: nowrap;
   font-size: 1.3rem;
-  color: #ffffff;
-  background-color: #002cf0;
-  border: 2px solid #000874;
+  color: #e8ddc1;
+  background-color: #2a7485;
+  border: 2px solid #00213d;
   transition: all 0.3s ease; /* sanfter Übergang */
-  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.2);
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+  padding: 0.1rem 0.1rem;
 }
 
 /* Hover-Effekt */
 .flex-btn:hover {
-  background-color: #000bac; /* neue Hintergrundfarbe beim Hover */
-  color: #ffffff; /* Textfarbe ändern */
-  border-color: #000bac; /* optional: Randfarbe anpassen */
+  background-color: #4571a1; /* neue Hintergrundfarbe beim Hover */
   cursor: pointer; /* zeigt Hand-Symbol */
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
+}
+.flex-btn:active {
+  background-color: #4571a1; /* neue Hintergrundfarbe beim Hover */
+  cursor: pointer; /* zeigt Hand-Symbol */
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
 }

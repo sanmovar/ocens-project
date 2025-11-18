@@ -1,0 +1,80 @@
+{
+  "pages": [
+    {
+      "id": "home",
+      "route": "/",
+      "title": "Startseite",
+      "sections": [
+        {
+          "type": "hero",
+          "headline": "Willkommen zu den Ozeanen",
+          "text": "Kurze Einleitung...",
+          "imageId": "hero-ocean"
+        },
+        {
+          "type": "text-block",
+          "title": "Warum Ozeane wichtig sind",
+          "text": "Langer Text über Ozeane..."
+        }
+      ]
+    },
+    {
+      "id": "oceans",
+      "route": "/ozeane",
+      "title": "Ozeane",
+      "sections": [
+        {
+          "type": "text-block",
+          "title": "Atlantik",
+          "text": "Der Atlantik ist..."
+        },
+        {
+          "type": "image-gallery",
+          "title": "Bilder der Ozeane",
+          "imageIds": ["atlantic-1", "pacific-1", "indian-1"]
+        }
+      ]
+    },
+    {
+      "id": "quiz",
+      "route": "/quiz",
+      "title": "Quiz",
+      "sections": [
+        {
+          "type": "quiz-intro",
+          "text": "Teste dein Wissen über die Ozeane!"
+        },
+        {
+          "type": "quiz-questions",
+          "questions": [
+            {
+              "id": "q1",
+              "question": "Welcher Ozean ist der größte?",
+              "options": ["Atlantik", "Pazifik", "Indischer Ozean", "Arktischer Ozean"],
+              "correctIndex": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+
+  "images": {
+    "hero-ocean": {
+      "src": "assets/images/hero-ocean.jpg",
+      "alt": "Blick auf den offenen Ozean"
+    },
+    "atlantic-1": {
+      "src": "assets/images/atlantic-1.jpg",
+      "alt": "Der Atlantische Ozean bei Sonnenuntergang"
+    },
+    "pacific-1": {
+      "src": "assets/images/pacific-1.jpg",
+      "alt": "Wellen im Pazifik"
+    },
+    "indian-1": {
+      "src": "assets/images/indian-1.jpg",
+      "alt": "Der Indische Ozean"
+    }
+  }
+}
