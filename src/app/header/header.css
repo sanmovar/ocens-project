@@ -1,28 +1,41 @@
-.big-gap {
-  gap: 5rem; /* oder 4rem, 5rem – so groß wie du willst */
+.main-nav {
+  background: linear-gradient(135deg, #e0f6ff, #ffffff);
+  border-radius: 999px;
+  padding: 0.35rem 0.7rem;
+  box-shadow: 0 4px 10px rgba(0, 96, 151, 0.18);
+  border: 1px solid rgba(0, 148, 198, 0.25);
 }
 
-.flex-btn {
-  flex: 0 1 200px;
-  margin: 0 0.5rem;
+/* Buttons: alle gleich breit, schön breit */
+.main-nav__btn {
+  flex: 1 1 0; /* 🔹 sorgt für gleiche Breite */
+  max-width: 220px; /* 🔹 wie „breit“ jeder Button ist */
+  border-radius: 999px;
+  background-color: #0094c6;
+  border: none;
+  color: #ffffff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center; /* Text+Icon mittig */
+  gap: 0.4rem;
+  padding: 0.5rem 1.2rem; /* etwas mehr Höhe & Innenabstand */
+  font-size: 0.98rem;
+  font-weight: 600;
+  box-shadow: 0 3px 6px rgba(0, 96, 151, 0.35);
+  transition: transform 0.12s ease, box-shadow 0.12s ease, background-color 0.12s ease;
+}
+
+/* Hover-Effekt bleibt */
+.main-nav__btn:hover {
+  background-color: #00a6de;
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 96, 151, 0.5);
+}
+
+.main-nav__icon {
+  font-size: 1.1rem;
+}
+
+.main-nav__label {
   white-space: nowrap;
-  font-size: 1.3rem;
-  color: #e8ddc1;
-  background-color: #2a7485;
-  border: 2px solid #00213d;
-  transition: all 0.3s ease; /* sanfter Übergang */
-  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
-  padding: 0.1rem 0.1rem;
-}
-
-/* Hover-Effekt */
-.flex-btn:hover {
-  background-color: #4571a1; /* neue Hintergrundfarbe beim Hover */
-  cursor: pointer; /* zeigt Hand-Symbol */
-  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
-}
-.flex-btn:active {
-  background-color: #4571a1; /* neue Hintergrundfarbe beim Hover */
-  cursor: pointer; /* zeigt Hand-Symbol */
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
 }

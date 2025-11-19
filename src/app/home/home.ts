@@ -1,16 +1,20 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { RouterLink, RouterOutlet } from '@angular/router';
 import { Header } from '../header/header';
 import * as bootstrap from 'bootstrap';
+import { Content } from '../services/content';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-home',
-  imports: [RouterLink, Header],
+  imports: [RouterLink, Header, CommonModule],
   templateUrl: './home.html',
   styleUrls: ['./home.css'],
 })
-export class Home {
+export class Home implements OnInit {
   modal: any = null;
+  pageData: any;
+  images: any;
 
   openModal() {
     const element = document.getElementById('imageModal');
@@ -28,5 +32,14 @@ export class Home {
     if (this.modal) {
       this.modal.hide();
     }
+  }
+
+  constructor(private content: Content) {}
+
+  ngOnInit(): void {
+    this.content.getPageWithImages('home').subscribe((result) => {
+      this.pageData = result.page;
+      this.images = result.images;
+    });
   }
 }

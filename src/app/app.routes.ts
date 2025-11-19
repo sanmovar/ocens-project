@@ -10,7 +10,7 @@ export const routes: Routes = [
   { path: '', component: Home }, // Startseite
   { path: 'quiz', component: Quiz },
   { path: 'quizes', component: Quizes },
-  { path: 'animals', component: Animals },
+  { path: 'animals/:seaId', component: Animals },
   { path: 'animal', component: Animal },
   { path: 'seas', component: Seas },
   { path: '**', redirectTo: '' },

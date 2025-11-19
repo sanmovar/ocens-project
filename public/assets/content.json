@@ -7,14 +7,15 @@
       "sections": [
         {
           "type": "hero",
-          "headline": "Willkommen zu den Ozeanen",
-          "text": "Kurze Einleitung...",
+          "headline": "Wasserwelt entdecken",
+          "paragraphs": [
+            "Unsere Erde ist fast überall mit Wasser bedeckt. Dieses Wasser ist in fünf großen Ozeanen verteilt: dem Atlantischen Ozean, dem Pazifischen Ozean, dem Indischen Ozean, dem Arktischen Ozean und dem Südlichen Ozean rund um die Antarktis. In ihnen gibt es Wasser in vielen Tiefen, Strömungen und unzählige Lebewesen.",
+            "Auf dieser Seite bekommst du einfache und spannende Infos über die wichtigsten Meere für Kinder, die in Deutschland leben. Dazu gehören zum Beispiel die Nordsee und die Ostsee, aber auch Meere, in die Deutsche gern reisen, wie das Mittelmeer.",
+            "Du erfährst, warum diese Meere für Menschen, Tiere und das Klima so wichtig sind und wie wir sie besser schützen können. Außerdem lernst du bekannte Meerestiere kennen, zum Beispiel Seehunde, Kegelrobben, Wale, Delfine, Quallen, Krebse und viele bunte Fische.",
+            "Wenn du alles gelesen hast, kannst du dein Wissen testen: Am Ende wartet ein Quiz auf dich. Viel Spaß beim Entdecken, Staunen und Miträtseln!",
+            "Vielleicht kennst du das Meer schon aus dem Urlaub oder aus Bildern: Wellen rollen an den Strand, Möwen kreisen über dir, und im Wasser versteckt sich eine bunte Unterwasserwelt, die du hier Schritt für Schritt entdecken kannst."
+          ],
           "imageId": "hero-ocean"
-        },
-        {
-          "type": "text-block",
-          "title": "Warum Ozeane wichtig sind",
-          "text": "Langer Text über Ozeane..."
         }
       ]
     },
@@ -170,6 +171,10 @@
     "sea-north-atlantic": {
       "src": "assets/images/seas/nordatlantik.jpg",
       "alt": "Der Nordatlantik mit Wellen"
+    },
+    "hero-ocean": {
+      "src": "assets/images/main-picture1.jpg",
+      "alt": "Ozean"
     }
   }
 }

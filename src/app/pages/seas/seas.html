@@ -1,25 +1,32 @@
 <div class="container my-5 px-0" *ngIf="pageData">
-  <div class="mb-4">
-    <h2 class="mb-3">{{ pageData.title }}</h2>
-    <p class="mb-0">
+  <div class="mb-4 seas-header">
+    <h2 class="mb-3 seas-header__title">
+      {{ pageData.title }}
+    </h2>
+    <p class="mb-0 seas-header__description">
       {{ pageData.description }}
     </p>
   </div>
 
+  <!-- WICHTIG: *ngFor auf der COL, nicht auf der ROW -->
   <div class="row mt-4">
     <div class="col-12 col-sm-6 col-lg-3 mb-4" *ngFor="let sea of pageData.seas">
-      <div class="card h-100 shadow-sm">
-        <a [routerLink]="['/animals']">
+      <div class="card h-100 sea-card">
+        <a [routerLink]="['/animals', sea.id]">
           <img
-            class="card-img-top img-fluid"
+            class="card-img-top img-fluid sea-card__image"
+            src="assets/images/seas/test.png"
+            [alt]="images?.[sea.imageId]?.alt || sea.name"
+          />
+          <!-- <img
+            class="card-img-top img-fluid sea-card__image"
             [src]="images?.[sea.imageId]?.src"
             [alt]="images?.[sea.imageId]?.alt || sea.name"
-            style="cursor: pointer; object-fit: cover; height: 160px"
-          />
+          /> -->
         </a>
-        <div class="card-body">
-          <h5 class="card-title">{{ sea.name }}</h5>
-          <p class="card-text mb-0">
+        <div class="card-body sea-card__body">
+          <h5 class="card-title sea-card__title">{{ sea.name }}</h5>
+          <p class="card-text sea-card__text">
             {{ sea.shortDescription }}
           </p>
         </div>

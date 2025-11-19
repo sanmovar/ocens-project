@@ -1,13 +1,18 @@
-<div class="container my-2 px-0">
-  <div class="d-flex justify-content-between">
-    <button class="btn btn-primary btn-lg flex-btn ms-3 mt-3" [routerLink]="['/']">
-      <h3>Startseite</h3>
+<div class="container my-3 px-0">
+  <div class="main-nav d-flex justify-content-between align-items-center">
+    <button class="btn main-nav__btn ms-2" type="button" [routerLink]="['/']">
+      <span class="main-nav__icon">🏠</span>
+      <span class="main-nav__label">Startseite</span>
     </button>
-    <button class="btn btn-primary btn-lg flex-btn mt-3" [routerLink]="['/seas']">
-      <h3>Meere</h3>
+
+    <button class="btn main-nav__btn" type="button" [routerLink]="['/seas']">
+      <span class="main-nav__icon">🌊</span>
+      <span class="main-nav__label">Meere</span>
     </button>
-    <button class="btn btn-primary btn-lg flex-btn me-3 mt-3" [routerLink]="['/quiz']">
-      <h3>Quiz</h3>
+
+    <button class="btn main-nav__btn me-2" type="button" [routerLink]="['/quiz']">
+      <span class="main-nav__icon">❓</span>
+      <span class="main-nav__label">Quiz</span>
     </button>
   </div>
 </div>

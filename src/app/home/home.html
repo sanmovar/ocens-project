@@ -1,47 +1,31 @@
 <div class="container my-5 px-0">
-  <div class="row align-items-start my-img">
-    <!-- Linke Spalte: Bild (2/3) -->
-    <div class="col-lg-8 col-md-12 mb-3 mb-lg-0">
-      <img
-        src="assets/images/main-picture1.jpg"
-        class="img-fluid preview-img rounded shadow"
-        alt="Weltmeere"
-        style="object-fit: cover; cursor: pointer"
-        (click)="openModal()"
-      />
+  <div class="row align-items-start home-hero">
+    <!-- Linke Spalte: Bild  -->
+    <div class="col-lg-6 col-md-12 mb-3 mb-lg-0">
+      <div class="home-hero__image-wrapper">
+        <img
+          [src]="images?.['hero-ocean']?.src"
+          [alt]="images?.['hero-ocean']?.alt || ''"
+          class="img-fluid home-hero__image"
+          (click)="openModal()"
+        />
+        <div class="home-hero__image-badge">🌊 Entdecke die Meere!</div>
+      </div>
     </div>
 
-    <!-- Rechte Spalte: Text (1/3) -->
-    <div class="col-lg-4 col-md-12">
-      <h2 class="mb-3">Weltmeere entdecken</h2>
-      <p class="mb-2">
-        Unsere Erde ist fast überall mit Wasser bedeckt. Dieses Wasser ist in fünf großen Ozeanen
-        verteilt: dem Atlantischen Ozean, dem Pazifischen Ozean, dem Indischen Ozean, dem Arktischen
-        Ozean und dem Südlichen Ozean rund um die Antarktis. In ihnen gibt es Wasser in vielen
-        Tiefen, Strömungen und unzählige Lebewesen.
+    <!-- Rechte Spalte: Text  -->
+    <div class="col-lg-6 col-md-12 home-hero__content">
+      <h2 class="mb-3 home-hero__title">{{ pageData.sections[0].headline }}</h2>
+
+      <p
+        class="home-hero__text"
+        *ngFor="let paragraph of pageData.sections[0].paragraphs; let last = last"
+        [ngClass]="{ 'mb-2': !last, 'mb-0': last }"
+      >
+        {{ paragraph }}
       </p>
-      <p class="mb-2">
-        Auf dieser Seite bekommst du einfache und spannende Infos über die wichtigsten Meere für
-        Kinder, die in Deutschland leben. Dazu gehören zum Beispiel die Nordsee und die Ostsee, aber
-        auch Meere, in die Deutsche gern reisen, wie das Mittelmeer.
-      </p>
-      <p class="mb-2">
-        Du erfährst, warum diese Meere für Menschen, Tiere und das Klima so wichtig sind und wie wir
-        sie besser schützen können. Außerdem lernst du bekannte Meerestiere kennen, zum Beispiel
-        Seehunde, Kegelrobben, Wale, Delfine, Quallen, Krebse und viele bunte Fische.
-      </p>
-      <p>
-        Wenn du alles gelesen hast, kannst du dein Wissen testen: Am Ende wartet ein Quiz auf dich.
-        Viel Spaß beim Entdecken, Staunen und Miträtseln!
-      </p>
-      <p class="mt-1 mb-2">
-        Vielleicht kennst du das Meer schon aus dem Urlaub oder aus Bildern: Wellen rollen an den
-        Strand, Möwen kreisen über dir, und im Wasser versteckt sich eine bunte Unterwasserwelt, die
-        du hier Schritt für Schritt entdecken kannst.
-      </p>
-      <button class="btn btn-primary mt-2 flex-btn mt-1" [routerLink]="['/seas']">
-        Mehr erfahren
-      </button>
+
+      <button class="btn home-hero__cta mt-2" [routerLink]="['/seas']">🌊 Zu den Meeren</button>
     </div>
   </div>
 </div>
@@ -60,9 +44,9 @@
 
       <div class="modal-body p-0 d-flex justify-content-center align-items-center">
         <img
-          class="modal-img"
-          src="assets/images/main-picture1.jpg"
-          alt="Weltmeere"
+          class="modal-img home-hero__modal-image"
+          [src]="images?.['hero-ocean']?.src"
+          [alt]="images?.['hero-ocean']?.alt || ''"
           (click)="$event.stopPropagation()"
         />
       </div>

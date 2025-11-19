@@ -12,7 +12,7 @@ import { RouterLink } from '@angular/router';
 })
 export class Seas implements OnInit {
   pageData: any;
-  images: any; // 🔹 NEU: hier speichern wir das images-Objekt
+  images: any;
 
   constructor(private content: Content) {}
 
