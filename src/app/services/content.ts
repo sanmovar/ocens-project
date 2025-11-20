@@ -7,36 +7,13 @@ import { map } from 'rxjs/operators';
 export class Content {
   constructor(private http: HttpClient) {}
 
-  // ganze JSON-Datei holen
   getContent(): Observable<any> {
     return this.http.get('/assets/content.json');
   }
 
-  // // nur eine Seite per id holen
-  // getPage(id: string): Observable<any> {
-  //   return this.getContent().pipe(map((data) => this.findPageById(id, data)));
-  // }
-
-  // // nur images-Objekt holen
-  // getImages(): Observable<any> {
-  //   return this.getContent().pipe(map((data) => data.images));
-  // }
-
-  // optional: Seite + images zusammen
-  getPageWithImages(id: string): Observable<any> {
+  getPage(id: string): Observable<any | null> {
     return this.getContent().pipe(
-      map((data) => ({
-        page: this.findPageById(id, data),
-        images: data.images,
-      }))
+      map((data: any) => data.pages.find((page: any) => page.id === id) ?? null)
     );
   }
-
-  private findPageById(id: string, data: any): any {
-    return data.pages.find((page: any) => page.id === id) ?? null;
-  }
-
-  // getImage(images: any, imageId: string): any {
-  //   return images[imageId];
-  // }
 }

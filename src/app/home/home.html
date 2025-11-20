@@ -1,11 +1,11 @@
-<div class="container my-5 px-0">
+<div class="container my-5 px-0" *ngIf="pageData">
   <div class="row align-items-start home-hero">
     <!-- Linke Spalte: Bild  -->
     <div class="col-lg-6 col-md-12 mb-3 mb-lg-0">
       <div class="home-hero__image-wrapper">
         <img
-          [src]="images?.['hero-ocean']?.src"
-          [alt]="images?.['hero-ocean']?.alt || ''"
+          [src]="pageData.sections[0].image?.src"
+          [alt]="pageData.sections[0].image?.alt || ''"
           class="img-fluid home-hero__image"
           (click)="openModal()"
         />
@@ -15,7 +15,9 @@
 
     <!-- Rechte Spalte: Text  -->
     <div class="col-lg-6 col-md-12 home-hero__content">
-      <h2 class="mb-3 home-hero__title">{{ pageData.sections[0].headline }}</h2>
+      <h2 class="mb-3 home-hero__title">
+        {{ pageData.sections[0].headline }}
+      </h2>
 
       <p
         class="home-hero__text"
@@ -45,8 +47,8 @@
       <div class="modal-body p-0 d-flex justify-content-center align-items-center">
         <img
           class="modal-img home-hero__modal-image"
-          [src]="images?.['hero-ocean']?.src"
-          [alt]="images?.['hero-ocean']?.alt || ''"
+          [src]="pageData.sections[0].image?.src"
+          [alt]="pageData.sections[0].image?.alt || ''"
           (click)="$event.stopPropagation()"
         />
       </div>

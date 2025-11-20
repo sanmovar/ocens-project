@@ -13,8 +13,6 @@ import { CommonModule } from '@angular/common';
 })
 export class Home implements OnInit {
   modal: any = null;
-  pageData: any;
-  images: any;
 
   openModal() {
     const element = document.getElementById('imageModal');
@@ -34,12 +32,14 @@ export class Home implements OnInit {
     }
   }
 
+  pageData: any;
+
   constructor(private content: Content) {}
 
   ngOnInit(): void {
-    this.content.getPageWithImages('home').subscribe((result) => {
-      this.pageData = result.page;
-      this.images = result.images;
+    this.content.getPage('home').subscribe((page) => {
+      this.pageData = page;
+      // console.log(this.pageData); // zum Testen
     });
   }
 }

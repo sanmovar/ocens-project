@@ -12,14 +12,12 @@ import { RouterLink } from '@angular/router';
 })
 export class Seas implements OnInit {
   pageData: any;
-  images: any;
 
   constructor(private content: Content) {}
 
   ngOnInit(): void {
-    this.content.getPageWithImages('seas').subscribe((result) => {
-      this.pageData = result.page;
-      this.images = result.images;
+    this.content.getPage('seas').subscribe((page) => {
+      this.pageData = page;
     });
   }
 }

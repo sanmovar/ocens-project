@@ -15,7 +15,11 @@
             "Wenn du alles gelesen hast, kannst du dein Wissen testen: Am Ende wartet ein Quiz auf dich. Viel Spaß beim Entdecken, Staunen und Miträtseln!",
             "Vielleicht kennst du das Meer schon aus dem Urlaub oder aus Bildern: Wellen rollen an den Strand, Möwen kreisen über dir, und im Wasser versteckt sich eine bunte Unterwasserwelt, die du hier Schritt für Schritt entdecken kannst."
           ],
-          "imageId": "hero-ocean"
+          "image": {
+            "id": "hero-ocean",
+            "src": "assets/images/main-picture1.jpg",
+            "alt": "Ozean"
+          }
         }
       ]
     },
@@ -29,73 +33,121 @@
           "id": "north-sea",
           "name": "Nordsee",
           "shortDescription": "Flaches Randmeer des Atlantiks mit Watt, Gezeiten und vielen Seehunden.",
-          "imageId": "sea-north-sea"
+          "image": {
+            "id": "sea-north-sea",
+            "src": "assets/images/seas/nordsee.png",
+            "alt": "Die Nordsee mit Wellen und Strand"
+          }
         },
         {
           "id": "baltic-sea",
           "name": "Ostsee",
           "shortDescription": "Ruhiges Binnenmeer mit vielen Ferieninseln und eher geringem Salzgehalt.",
-          "imageId": "sea-baltic-sea"
+          "image": {
+            "id": "sea-baltic-sea",
+            "src": "assets/images/seas/ostsee.png",
+            "alt": "Die Ostsee mit ruhigem Wasser"
+          }
         },
         {
           "id": "mediterranean",
           "name": "Mittelmeer",
           "shortDescription": "Beliebtes Urlaubsmeer mit warmem Wasser, Felsküsten, Sandstränden und bunten Fischen.",
-          "imageId": "sea-mediterranean"
+          "image": {
+            "id": "sea-mediterranean",
+            "src": "assets/images/seas/mittelmeer.png",
+            "alt": "Das Mittelmeer mit Küste"
+          }
         },
         {
           "id": "atlantic",
           "name": "Atlantischer Ozean",
           "shortDescription": "Großer Ozean zwischen Europa, Afrika und Amerika mit starken Strömungen.",
-          "imageId": "sea-atlantic"
+          "image": {
+            "id": "sea-atlantic",
+            "src": "assets/images/seas/atlantik.png",
+            "alt": "Der Atlantische Ozean"
+          }
         },
         {
           "id": "pacific",
           "name": "Pazifischer Ozean",
           "shortDescription": "Der größte Ozean der Erde mit Tiefseegräben, Inseln und Korallenriffen.",
-          "imageId": "sea-pacific"
+          "image": {
+            "id": "sea-pacific",
+            "src": "assets/images/seas/pazifik.png",
+            "alt": "Der Pazifische Ozean"
+          }
         },
         {
           "id": "indian-ocean",
           "name": "Indischer Ozean",
           "shortDescription": "Warmer Ozean mit tropischen Inseln und farbenfrohen Korallenriffen.",
-          "imageId": "sea-indian-ocean"
+          "image": {
+            "id": "sea-indian-ocean",
+            "src": "assets/images/seas/indischer-ozean.png",
+            "alt": "Der Indische Ozean"
+          }
         },
         {
           "id": "arctic-ocean",
           "name": "Arktischer Ozean",
           "shortDescription": "Kaltes Nordmeer mit Eis, Polarlichtern und Walrossen an den Küsten.",
-          "imageId": "sea-arctic-ocean"
+          "image": {
+            "id": "sea-arctic-ocean",
+            "src": "assets/images/seas/arktischer-ozean.png",
+            "alt": "Der Arktische Ozean mit Eis"
+          }
         },
         {
           "id": "southern-ocean",
           "name": "Südlicher Ozean",
           "shortDescription": "Ozean rund um die Antarktis mit Eisbergen, Pinguinen und stürmischem Wetter.",
-          "imageId": "sea-southern-ocean"
+          "image": {
+            "id": "sea-southern-ocean",
+            "src": "assets/images/seas/suedlicher-ozean.png",
+            "alt": "Der Südliche Ozean mit Eisbergen"
+          }
         },
         {
           "id": "caribbean",
           "name": "Karibisches Meer",
           "shortDescription": "Türkisblaues, warmes Meer mit Korallenriffen, Palmenstränden und Meeresschildkröten.",
-          "imageId": "sea-caribbean"
+          "image": {
+            "id": "sea-caribbean",
+            "src": "assets/images/seas/karibik.png",
+            "alt": "Das Karibische Meer mit Palmenstrand"
+          }
         },
         {
           "id": "red-sea",
           "name": "Rotes Meer",
           "shortDescription": "Sehr warmes Meer mit klarer Sicht und besonders farbenfrohen Korallenriffen.",
-          "imageId": "sea-red-sea"
+          "image": {
+            "id": "sea-red-sea",
+            "src": "assets/images/seas/rotes-meer.png",
+            "alt": "Das Rote Meer mit Korallen"
+          }
         },
         {
           "id": "black-sea",
           "name": "Schwarzes Meer",
           "shortDescription": "Binnenmeer zwischen Europa und Asien mit vielen Küstenstädten und Stränden.",
-          "imageId": "sea-black-sea"
+          "image": {
+            "id": "sea-black-sea",
+            "src": "assets/images/seas/schwarzes-meer.png",
+            "alt": "Das Schwarze Meer"
+          }
         },
         {
           "id": "north-atlantic",
           "name": "Nordatlantik",
           "shortDescription": "Kühle Meeresregion mit vielen Walen, Stürmen und wichtigen Schifffahrtsrouten.",
-          "imageId": "sea-north-atlantic"
+          "image": {
+            "id": "sea-north-atlantic",
+            "src": "assets/images/seas/nordatlantik.png",
+            "alt": "Der Nordatlantik mit Wellen"
+          }
         }
       ]
     },
@@ -121,60 +173,5 @@
         }
       ]
     }
-  ],
-
-  "images": {
-    "sea-north-sea": {
-      "src": "assets/images/seas/nordsee.jpg",
-      "alt": "Die Nordsee mit Wellen und Strand"
-    },
-    "sea-baltic-sea": {
-      "src": "assets/images/seas/ostsee.jpg",
-      "alt": "Die Ostsee mit ruhigem Wasser"
-    },
-    "sea-mediterranean": {
-      "src": "assets/images/seas/mittelmeer.jpg",
-      "alt": "Das Mittelmeer mit Küste"
-    },
-    "sea-atlantic": {
-      "src": "assets/images/seas/atlantik.jpg",
-      "alt": "Der Atlantische Ozean"
-    },
-    "sea-pacific": {
-      "src": "assets/images/seas/pazifik.jpg",
-      "alt": "Der Pazifische Ozean"
-    },
-    "sea-indian-ocean": {
-      "src": "assets/images/seas/indischer-ozean.jpg",
-      "alt": "Der Indische Ozean"
-    },
-    "sea-arctic-ocean": {
-      "src": "assets/images/seas/arktischer-ozean.jpg",
-      "alt": "Der Arktische Ozean mit Eis"
-    },
-    "sea-southern-ocean": {
-      "src": "assets/images/seas/suedlicher-ozean.jpg",
-      "alt": "Der Südliche Ozean mit Eisbergen"
-    },
-    "sea-caribbean": {
-      "src": "assets/images/seas/karibik.jpg",
-      "alt": "Das Karibische Meer mit Palmenstrand"
-    },
-    "sea-red-sea": {
-      "src": "assets/images/seas/rotes-meer.jpg",
-      "alt": "Das Rote Meer mit Korallen"
-    },
-    "sea-black-sea": {
-      "src": "assets/images/seas/schwarzes-meer.jpg",
-      "alt": "Das Schwarze Meer"
-    },
-    "sea-north-atlantic": {
-      "src": "assets/images/seas/nordatlantik.jpg",
-      "alt": "Der Nordatlantik mit Wellen"
-    },
-    "hero-ocean": {
-      "src": "assets/images/main-picture1.jpg",
-      "alt": "Ozean"
-    }
-  }
+  ]
 }
