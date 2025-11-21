@@ -26,7 +26,6 @@
 }
 
 .card-front {
-  color: #fff;
   display: flex;
   align-items: center;
   border-radius: 10px;
@@ -35,45 +34,29 @@
   transform: rotateY(0deg);
 }
 
+.card-front-radius {
+  border-radius: 5px;
+}
+
 .card-back {
   color: #000000;
   display: flex;
-  align-items: center;
-  border-radius: 10px;
+  background-color: #bfe6f2;
+  align-items: top;
+  border-radius: 5px;
   justify-content: center;
   font-size: 12px;
   transform: rotateY(180deg);
 }
 
-/* .sea-card {
-  border-radius: 18px;
-  overflow: hidden;
-  border: none;
-  background: linear-gradient(145deg, #e6f6ff, #ffffff);
-  box-shadow: 0 6px 14px rgba(0, 96, 151, 0.12);
-  transition: transform 0.18s ease, box-shadow 0.18s ease;
-  display: flex;
-  flex-direction: column;
-}
-
-.sea-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 10px 20px rgba(0, 96, 151, 0.25);
-}
-
 .sea-card__image {
-  height: 150px;
-  width: 100%;
-  object-fit: cover;
   cursor: pointer;
 }
-*/
-.sea-card__body {
-  padding: 0.8rem 0.9rem 1rem;
-}
-/*
+
 .sea-card__title {
+  position: top;
   font-size: 1.1rem;
+  color: #005b96;
   font-weight: 700;
   margin-bottom: 0.45rem;
   letter-spacing: 0.02em;
@@ -86,15 +69,6 @@
   margin-bottom: 0;
 }
 
-@media (max-width: 575.98px) {
-  .sea-card__title {
-    font-size: 1.05rem;
-  }
-
-  .sea-card__text {
-    font-size: 0.9rem;
-  }
-}
 .seas-header {
   background: linear-gradient(135deg, #e0f6ff, #ffffff);
   border-radius: 20px;
@@ -124,52 +98,3 @@
   color: #1f4456;
   max-width: 60rem;
 }
-.card {
-  width: 300px;
-  height: 400px;
-  perspective: 1000px;
-}
-
-.card-inner {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  transform-style: preserve-3d;
-  transition: transform 0.999s;
-}
-
-.card:hover .card-inner {
-  transform: rotateY(180deg);
-}
-
-.card-front,
-.card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-}
-
-.card-front {
-  background-color: #6a2c70;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  border: 10px solid #6a2c70;
-  border-radius: 10px;
-  justify-content: center;
-  font-size: 24px;
-  transform: rotateY(0deg);
-}
-
-.card-back {
-  background-color: #f08a5d;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  border: 10px solid #f08a5d;
-  border-radius: 10px;
-  justify-content: center;
-  font-size: 24px;
-  transform: rotateY(180deg);
-} */

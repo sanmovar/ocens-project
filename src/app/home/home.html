@@ -9,7 +9,9 @@
           class="img-fluid home-hero__image"
           (click)="openModal()"
         />
-        <div class="home-hero__image-badge">🌊 Entdecke die Meere!</div>
+        <div class="home-hero__image-badge" [routerLink]="['/seas']">
+          🌊 {{ pageData.sections[0].linkText }}
+        </div>
       </div>
     </div>
 

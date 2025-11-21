@@ -1,1 +1,69 @@
-<p>animals works!</p>
+<div class="container my-5 px-0">
+  <div class="row">
+    <!-- LINKE SPALTE: Tiere im Gitter -->
+    <div class="col-lg-7 col-md-12 mb-4">
+      <h2 class="mb-3 animals-title animals-header">Tiere im {{ seaInfo.name }}</h2>
+
+      <div class="row g-4">
+        <div class="col-12 col-md-4" *ngFor="let animal of animals">
+          <!-- Ganze Card als Link -->
+          <a [routerLink]="['/animal', animal.id]" class="text-decoration-none text-reset">
+            <!-- Flip-Card -->
+            <div class="animals-flip-card">
+              <!-- VORDERSEITE: Bild -->
+              <div class="first-content">
+                <!-- [src]="animal.image.src" -->
+                <img
+                  *ngIf="animal.image"
+                  class="animals-card__img"
+                  src="assets/images/animals/test.png"
+                  [alt]="animal.image.alt"
+                />
+              </div>
+
+              <!-- RÜCKSEITE: Name + Kurzbeschreibung -->
+              <div class="second-content">
+                <div class="animals-card__inner">
+                  <h3 class="animals-card__title">
+                    {{ animal.name }}
+                  </h3>
+                  <p class="animals-card__text">
+                    {{ animal.shortDescription }}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- RECHTE SPALTE: Info über das Meer -->
+    <div class="col-lg-5 col-md-12">
+      <div class="sea-info-card p-4">
+        <h2 class="sea-info__title mb-3">
+          {{ seaInfo.name }}
+        </h2>
+        <p class="sea-info__short mb-3">
+          {{ seaInfo.shortDescription }}
+        </p>
+
+        <p class="sea-info__paragraph" *ngFor="let p of seaInfo.detailParagraphs">
+          {{ p }}
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation unten: Zurück + Quiz -->
+  <div class="mt-4 d-flex justify-content-between">
+    <button class="btn btn-outline-primary btn-lg px-4" [routerLink]="['/seas']">Zurück</button>
+
+    <button class="btn btn-primary btn-lg px-4" [routerLink]="['/quiz']">Quiz</button>
+  </div>
+</div>
+
+<!-- Fallback, falls seaInfo noch nicht geladen ist -->
+<div class="container my-5 px-0" *ngIf="!seaInfo">
+  <p>Lade Meer und Tiere...</p>
+</div>

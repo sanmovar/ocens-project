@@ -16,4 +16,27 @@ export class Content {
       map((data: any) => data.pages.find((page: any) => page.id === id) ?? null)
     );
   }
+
+  /** alle Tiere für ein bestimmtes Meer holen */
+  getAnimalsBySea(seaId: string): Observable<any[]> {
+    return this.getContent().pipe(
+      map((data: any) => {
+        const entry = data.animalsBySea.find((item: any) => item.seaId === seaId);
+        return entry ? entry.animals : [];
+      })
+    );
+  }
+
+  /** Meer-Infos (Name, Beschreibungen) zu seaId holen */
+  getSea(seaId: string): Observable<any | null> {
+    return this.getPage('seas').pipe(
+      map((seasPage: any) => {
+        if (!seasPage || !seasPage.seas) {
+          return null;
+        }
+        const sea = seasPage.seas.find((item: any) => item.id === seaId);
+        return sea ?? null;
+      })
+    );
+  }
 }

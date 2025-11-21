@@ -17,19 +17,21 @@
           <div class="card-front">
             <a [routerLink]="['/animals', sea.id]">
               <img
-                class="card-img-top img-fluid sea-card__image"
+                class="card-img img-fluid sea-card__image card-front-radius"
                 [src]="sea.image?.src"
                 [alt]="sea.image?.alt || sea.name"
               />
             </a>
           </div>
           <div class="card-back">
-            <div class="card-body sea-card__body">
-              <h5 class="card-title sea-card__title">{{ sea.name }}</h5>
-              <p class="card-text sea-card__text">
-                {{ sea.shortDescription }}
-              </p>
-            </div>
+            <a [routerLink]="['/animals', sea.id]">
+              <div class="card-body">
+                <h5 class="card-title sea-card__title">{{ sea.name }}</h5>
+                <p class="card-text sea-card__text">
+                  {{ sea.shortDescription }}
+                </p>
+              </div>
+            </a>
           </div>
         </div>
       </div>

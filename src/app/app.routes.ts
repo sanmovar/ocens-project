@@ -11,7 +11,7 @@ export const routes: Routes = [
   { path: 'quiz', component: Quiz },
   { path: 'quizes', component: Quizes },
   { path: 'animals/:seaId', component: Animals },
-  { path: 'animal', component: Animal },
+  { path: 'animal/:animalId', component: Animal },
   { path: 'seas', component: Seas },
   { path: '**', redirectTo: '' },
 ];
