@@ -252,120 +252,240 @@
       "animals": [
         {
           "id": "north-sea-kegelrobbe",
+          "seaId": "north-sea",
           "name": "Kegelrobbe",
           "shortDescription": "Die Kegelrobbe ist eine große Robbe mit langem Kopf, die gern an Sandstränden und Felsen der Nordsee ruht.",
+          "detailParagraphs": [
+            "Kegelrobben sind sehr gute Schwimmer und können lange unter Wasser bleiben, wenn sie nach Fischen und Tintenfischen jagen.",
+            "An Land ruhen sie in Gruppen am Strand oder auf Felsen und ziehen dort im Frühjahr ihre Jungen auf. Dabei sind sie neugierig und beobachten genau, was um sie herum passiert."
+          ],
           "image": {
             "id": "img-north-sea-kegelrobbe",
+            "src": "assets/images/animals/north-sea/north-sea-kegelrobbe.png",
+            "alt": "Eine Kegelrobbe liegt am Strand der Nordsee."
+          },
+          "bigImage": {
+            "id": "big-img-north-sea-kegelrobbe",
             "src": "assets/images/animals/north-sea/north-sea-kegelrobbe.png",
             "alt": "Eine Kegelrobbe liegt am Strand der Nordsee."
           }
         },
         {
           "id": "north-sea-seehund",
+          "seaId": "north-sea",
           "name": "Seehund",
           "shortDescription": "Der Seehund ist eine kleine Robbe, die oft im Watt liegt und neugierig ihren Kopf aus dem Wasser streckt.",
+          "detailParagraphs": [
+            "Seehunde nutzen das Watt als Ruheplatz, wenn bei Ebbe das Wasser zurückgeht. Dann liegen sie dicht beieinander und sonnen sich.",
+            "Im Wasser sind sie flink und geschickt. Sie tauchen nach Fischen und Krebsen und können ihren Kopf schnell aus den Wellen strecken, um nach Luft zu schnappen und sich umzuschauen."
+          ],
           "image": {
             "id": "img-north-sea-seehund",
+            "src": "assets/images/animals/north-sea/north-sea-seehund.png",
+            "alt": "Ein Seehund schaut im Wasser der Nordsee aus den Wellen."
+          },
+          "bigImage": {
+            "id": "big-img-north-sea-seehund",
             "src": "assets/images/animals/north-sea/north-sea-seehund.png",
             "alt": "Ein Seehund schaut im Wasser der Nordsee aus den Wellen."
           }
         },
         {
           "id": "north-sea-schweinswal",
+          "seaId": "north-sea",
           "name": "Schweinswal",
           "shortDescription": "Der Schweinswal ist ein kleiner Wal, der leise an der Wasseroberfläche auftaucht und wieder abtaucht.",
+          "detailParagraphs": [
+            "Schweinswale sind scheue Tiere und zeigen meist nur kurz ihren Rücken mit der kleinen Rückenflosse, wenn sie Luft holen.",
+            "Sie jagen kleine Fische und Krebse und orientieren sich mit einer Art Echolot. Dabei senden sie Klicklaute aus und hören am Echo, was um sie herum schwimmt."
+          ],
           "image": {
             "id": "img-north-sea-schweinswal",
+            "src": "assets/images/animals/north-sea/north-sea-schweinswal.png",
+            "alt": "Ein Schweinswal taucht in der Nordsee auf."
+          },
+          "bigImage": {
+            "id": "big-img-north-sea-schweinswal",
             "src": "assets/images/animals/north-sea/north-sea-schweinswal.png",
             "alt": "Ein Schweinswal taucht in der Nordsee auf."
           }
         },
         {
           "id": "north-sea-atlantischer-hering",
+          "seaId": "north-sea",
           "name": "Atlantischer Hering",
           "shortDescription": "Atlantische Heringe schwimmen in großen Schwärmen und sind ein wichtiger Speisefisch in der Nordsee.",
+          "detailParagraphs": [
+            "Atlantische Heringe glitzern silbrig im Licht und sind oft in riesigen Schwärmen unterwegs, die wie Wolken im Wasser aussehen.",
+            "Viele Meerestiere wie größere Fische, Seevögel und Meeressäuger fressen Heringe. Auch für uns Menschen ist der Hering als Nahrungsmittel sehr wichtig."
+          ],
           "image": {
             "id": "img-north-sea-atlantischer-hering",
+            "src": "assets/images/animals/north-sea/north-sea-atlantischer-hering.png",
+            "alt": "Ein Schwarm Atlantischer Heringe in der Nordsee."
+          },
+          "bigImage": {
+            "id": "big-img-north-sea-atlantischer-hering",
             "src": "assets/images/animals/north-sea/north-sea-atlantischer-hering.png",
             "alt": "Ein Schwarm Atlantischer Heringe in der Nordsee."
           }
         },
         {
           "id": "north-sea-atlantischer-kabeljau",
+          "seaId": "north-sea",
           "name": "Atlantischer Kabeljau",
           "shortDescription": "Der Atlantische Kabeljau ist ein bekannter Speisefisch, der in den kühleren Bereichen der Nordsee lebt.",
+          "detailParagraphs": [
+            "Kabeljaue haben einen typischen Bartfaden am Kinn und können in verschiedenen Tiefen der Nordsee vorkommen.",
+            "Sie fressen kleinere Fische und Meeresbewohner und sind für Fischer seit vielen Jahren ein wichtiger Fang, weshalb ihr Bestand gut geschützt werden muss."
+          ],
           "image": {
             "id": "img-north-sea-atlantischer-kabeljau",
+            "src": "assets/images/animals/north-sea/north-sea-atlantischer-kabeljau.png",
+            "alt": "Ein Atlantischer Kabeljau schwimmt im Meer."
+          },
+          "bigImage": {
+            "id": "big-img-north-sea-atlantischer-kabeljau",
             "src": "assets/images/animals/north-sea/north-sea-atlantischer-kabeljau.png",
             "alt": "Ein Atlantischer Kabeljau schwimmt im Meer."
           }
         },
         {
           "id": "north-sea-scholle",
+          "seaId": "north-sea",
           "name": "Scholle",
           "shortDescription": "Die Scholle ist ein Plattfisch, der flach auf dem Meeresboden liegt und sich im Sand tarnen kann.",
+          "detailParagraphs": [
+            "Schollen haben beide Augen auf einer Körperseite und können sich mit ihrer Musterung gut an den sandigen Grund der Nordsee anpassen.",
+            "Sie fressen kleine Würmer, Krebse und andere Bodentiere. Wenn Gefahr droht, bleiben sie ganz still liegen und sind fast unsichtbar."
+          ],
           "image": {
             "id": "img-north-sea-scholle",
+            "src": "assets/images/animals/north-sea/north-sea-scholle.png",
+            "alt": "Eine Scholle liegt getarnt auf dem Boden der Nordsee."
+          },
+          "bigImage": {
+            "id": "big-img-north-sea-scholle",
             "src": "assets/images/animals/north-sea/north-sea-scholle.png",
             "alt": "Eine Scholle liegt getarnt auf dem Boden der Nordsee."
           }
         },
         {
           "id": "north-sea-gemeiner-seestern",
+          "seaId": "north-sea",
           "name": "Gemeiner Seestern",
           "shortDescription": "Der Gemeine Seestern hat meist fünf Arme und krabbelt langsam über Steine und Muschelbänke.",
+          "detailParagraphs": [
+            "Seesterne bewegen sich mit vielen winzigen Füßchen auf der Unterseite ihrer Arme über den Meeresboden.",
+            "Sie können sogar verlorene Arme wieder nachwachsen lassen. Mit ihrem Bauch saugen sie Muscheln fest und fressen sie langsam auf."
+          ],
           "image": {
             "id": "img-north-sea-gemeiner-seestern",
+            "src": "assets/images/animals/north-sea/north-sea-gemeiner-seestern.png",
+            "alt": "Ein orangefarbener Seestern auf Steinen."
+          },
+          "bigImage": {
+            "id": "big-img-north-sea-gemeiner-seestern",
             "src": "assets/images/animals/north-sea/north-sea-gemeiner-seestern.png",
             "alt": "Ein orangefarbener Seestern auf Steinen."
           }
         },
         {
           "id": "north-sea-nordseegarnele",
+          "seaId": "north-sea",
           "name": "Nordseegarnele",
           "shortDescription": "Nordseegarnelen sind kleine, durchsichtige Krebse, die im Sand und zwischen Pflanzen leben.",
+          "detailParagraphs": [
+            "Nordseegarnelen durchsieben mit ihren Beinchen den Sand und suchen nach kleinen Futterteilchen.",
+            "Sie sind ein wichtiger Bestandteil der Nahrungskette in der Nordsee und werden auch von Menschen gefangen und gegessen, oft als Nordseekrabben."
+          ],
           "image": {
             "id": "img-north-sea-nordseegarnele",
+            "src": "assets/images/animals/north-sea/north-sea-nordseegarnele.png",
+            "alt": "Eine Nordseegarnele im flachen Wasser."
+          },
+          "bigImage": {
+            "id": "big-img-north-sea-nordseegarnele",
             "src": "assets/images/animals/north-sea/north-sea-nordseegarnele.png",
             "alt": "Eine Nordseegarnele im flachen Wasser."
           }
         },
         {
           "id": "north-sea-miesmuschel",
+          "seaId": "north-sea",
           "name": "Miesmuschel",
           "shortDescription": "Miesmuscheln sitzen dicht an dicht auf Steinen und filtern Nahrung aus dem Meerwasser.",
+          "detailParagraphs": [
+            "Miesmuscheln bilden dichte Bänke, in denen viele Muscheln mit Fäden am Untergrund festkleben.",
+            "Sie öffnen ihre Schalen und filtern winzige Pflanzenteilchen und andere Nahrung aus dem Wasser. So reinigen sie gleichzeitig ein bisschen das Meer."
+          ],
           "image": {
             "id": "img-north-sea-miesmuschel",
+            "src": "assets/images/animals/north-sea/north-sea-miesmuschel.png",
+            "alt": "Viele Miesmuscheln kleben an einem Felsen."
+          },
+          "bigImage": {
+            "id": "big-img-north-sea-miesmuschel",
             "src": "assets/images/animals/north-sea/north-sea-miesmuschel.png",
             "alt": "Viele Miesmuscheln kleben an einem Felsen."
           }
         },
         {
           "id": "north-sea-makrele",
+          "seaId": "north-sea",
           "name": "Makrele",
           "shortDescription": "Makrelen sind schnelle, silbrig-blaue Fische, die oft in größeren Schwärmen unterwegs sind.",
+          "detailParagraphs": [
+            "Makrelen haben einen stromlinienförmigen Körper und können deshalb besonders schnell durch das Wasser der Nordsee schießen.",
+            "Sie jagen kleinere Fische und bilden selbst wieder Nahrung für größere Räuber wie Delfine, Haie oder Seevögel."
+          ],
           "image": {
             "id": "img-north-sea-makrele",
+            "src": "assets/images/animals/north-sea/north-sea-makrele.png",
+            "alt": "Eine Makrele schwimmt im offenen Wasser."
+          },
+          "bigImage": {
+            "id": "big-img-north-sea-makrele",
             "src": "assets/images/animals/north-sea/north-sea-makrele.png",
             "alt": "Eine Makrele schwimmt im offenen Wasser."
           }
         },
         {
           "id": "north-sea-seeskorpion",
+          "seaId": "north-sea",
           "name": "Seeskorpion",
           "shortDescription": "Der Seeskorpion ist ein stachelig aussehender Fisch, der sich gut zwischen Steinen verstecken kann.",
+          "detailParagraphs": [
+            "Seeskorpione sitzen oft bewegungslos auf dem Boden und warten, bis eine Beute direkt an ihnen vorbeischwimmt.",
+            "Mit ihrer Tarnfarbe fallen sie zwischen Steinen und Algen kaum auf. Dann schnappen sie blitzschnell zu und verschlingen kleinere Fische oder Krebse."
+          ],
           "image": {
             "id": "img-north-sea-seeskorpion",
+            "src": "assets/images/animals/north-sea/north-sea-seeskorpion.png",
+            "alt": "Ein Seeskorpion zwischen Steinen am Meeresboden."
+          },
+          "bigImage": {
+            "id": "big-img-north-sea-seeskorpion",
             "src": "assets/images/animals/north-sea/north-sea-seeskorpion.png",
             "alt": "Ein Seeskorpion zwischen Steinen am Meeresboden."
           }
         },
         {
           "id": "north-sea-herzmuschel",
+          "seaId": "north-sea",
           "name": "Herzmuschel",
           "shortDescription": "Herzmuscheln leben eingegraben im Sand und haben eine Schale, die wie ein kleines Herz aussieht.",
+          "detailParagraphs": [
+            "Herzmuscheln graben sich mit ihrem Fuß in den Sand ein und sitzen dort meist gut versteckt im Watt der Nordsee.",
+            "Wenn das Wasser darüber steht, filtern sie kleine Nahrungsteilchen aus dem Meer und sind gleichzeitig eine wichtige Nahrung für Vögel und andere Tiere."
+          ],
           "image": {
             "id": "img-north-sea-herzmuschel",
+            "src": "assets/images/animals/north-sea/north-sea-herzmuschel.png",
+            "alt": "Eine Herzmuschel liegt im Sand."
+          },
+          "bigImage": {
+            "id": "big-img-north-sea-herzmuschel",
             "src": "assets/images/animals/north-sea/north-sea-herzmuschel.png",
             "alt": "Eine Herzmuschel liegt im Sand."
           }
@@ -377,120 +497,240 @@
       "animals": [
         {
           "id": "baltic-sea-ostsee-hering",
+          "seaId": "baltic-sea",
           "name": "Ostsee-Hering",
           "shortDescription": "Der Ostsee-Hering ist ein wichtiger Schwarmfisch, der in großen Gruppen durch das Meer zieht.",
+          "detailParagraphs": [
+            "Ostsee-Heringe glitzern silbrig im Wasser und schwimmen oft in dichten Schwärmen, damit sie besser vor Räubern geschützt sind.",
+            "Viele andere Tiere der Ostsee, wie größere Fische, Robben und Vögel, fressen Heringe. Auch für Menschen ist der Ostsee-Hering ein wichtiger Speisefisch."
+          ],
           "image": {
             "id": "img-baltic-sea-ostsee-hering",
+            "src": "assets/images/animals/baltic-sea/baltic-sea-ostsee-hering.png",
+            "alt": "Ein Schwarm Ostsee-Heringe im Wasser."
+          },
+          "bigImage": {
+            "id": "big-img-baltic-sea-ostsee-hering",
             "src": "assets/images/animals/baltic-sea/baltic-sea-ostsee-hering.png",
             "alt": "Ein Schwarm Ostsee-Heringe im Wasser."
           }
         },
         {
           "id": "baltic-sea-flunder",
+          "seaId": "baltic-sea",
           "name": "Flunder",
           "shortDescription": "Die Flunder ist ein Plattfisch, der fast unsichtbar am sandigen Boden der Ostsee liegen kann.",
+          "detailParagraphs": [
+            "Flundern haben beide Augen auf einer Körperseite und können ihre Farben dem sandigen Untergrund anpassen, sodass sie fast verschwinden.",
+            "Sie warten ruhig am Boden, bis kleine Tiere wie Würmer oder Krebse vorbeikommen, und schnappen dann blitzschnell zu."
+          ],
           "image": {
             "id": "img-baltic-sea-flunder",
+            "src": "assets/images/animals/baltic-sea/baltic-sea-flunder.png",
+            "alt": "Eine Flunder liegt auf dem Meeresboden."
+          },
+          "bigImage": {
+            "id": "big-img-baltic-sea-flunder",
             "src": "assets/images/animals/baltic-sea/baltic-sea-flunder.png",
             "alt": "Eine Flunder liegt auf dem Meeresboden."
           }
         },
         {
           "id": "baltic-sea-barsch",
+          "seaId": "baltic-sea",
           "name": "Barsch",
           "shortDescription": "Der Barsch hat dunkle Streifen und rote Flossen und lebt manchmal in Bereichen, in denen Süß- und Salzwasser sich mischen.",
+          "detailParagraphs": [
+            "Barsche sind neugierige Räuberfische, die gerne in der Nähe von Pflanzen und Steinen unterwegs sind und kleinere Fische jagen.",
+            "In der Ostsee fühlen sie sich dort wohl, wo Flusswasser ins Meer fließt und das Wasser nicht ganz so salzig ist."
+          ],
           "image": {
             "id": "img-baltic-sea-barsch",
+            "src": "assets/images/animals/baltic-sea/baltic-sea-barsch.png",
+            "alt": "Ein Barsch mit roten Flossen im Wasser."
+          },
+          "bigImage": {
+            "id": "big-img-baltic-sea-barsch",
             "src": "assets/images/animals/baltic-sea/baltic-sea-barsch.png",
             "alt": "Ein Barsch mit roten Flossen im Wasser."
           }
         },
         {
           "id": "baltic-sea-hecht",
+          "seaId": "baltic-sea",
           "name": "Hecht",
           "shortDescription": "Der Hecht ist ein langer, schneller Räuberfisch, der auch in den küstennahen Bereichen der Ostsee vorkommt.",
+          "detailParagraphs": [
+            "Hechte haben einen langen Körper und ein großes Maul mit vielen scharfen Zähnen, mit denen sie blitzschnell Beute packen.",
+            "Sie verstecken sich gerne zwischen Wasserpflanzen und warten dort geduldig, bis ein ahnungsloser Fisch vorbeischwimmt."
+          ],
           "image": {
             "id": "img-baltic-sea-hecht",
+            "src": "assets/images/animals/baltic-sea/baltic-sea-hecht.png",
+            "alt": "Ein Hecht lauert im Pflanzenwasser."
+          },
+          "bigImage": {
+            "id": "big-img-baltic-sea-hecht",
             "src": "assets/images/animals/baltic-sea/baltic-sea-hecht.png",
             "alt": "Ein Hecht lauert im Pflanzenwasser."
           }
         },
         {
           "id": "baltic-sea-ostsee-ringelrobbe",
+          "seaId": "baltic-sea",
           "name": "Ostsee-Ringelrobbe",
           "shortDescription": "Die Ostsee-Ringelrobbe ist eine kleine Robbenart, die im Winter auf dem Eis ruht und ihre Jungen bekommt.",
+          "detailParagraphs": [
+            "Ostsee-Ringelrobben haben ein geflecktes Fell und sind gut an kaltes Wasser angepasst. Sie können lange tauchen, um nach Fischen zu suchen.",
+            "Im Winter brauchen sie Eisflächen, auf denen sie sich ausruhen und ihre Robbenbabys sicher großziehen können. Deshalb ist Klimaschutz für sie besonders wichtig."
+          ],
           "image": {
             "id": "img-baltic-sea-ostsee-ringelrobbe",
+            "src": "assets/images/animals/baltic-sea/baltic-sea-ostsee-ringelrobbe.png",
+            "alt": "Eine Ostsee-Ringelrobbe liegt auf dem Eis."
+          },
+          "bigImage": {
+            "id": "big-img-baltic-sea-ostsee-ringelrobbe",
             "src": "assets/images/animals/baltic-sea/baltic-sea-ostsee-ringelrobbe.png",
             "alt": "Eine Ostsee-Ringelrobbe liegt auf dem Eis."
           }
         },
         {
           "id": "baltic-sea-ostsee-schweinswal",
+          "seaId": "baltic-sea",
           "name": "Ostsee-Schweinswal",
           "shortDescription": "Der Ostsee-Schweinswal ist ein kleiner Wal, der in manchen Gebieten der Ostsee noch vorkommt, aber streng geschützt werden muss.",
+          "detailParagraphs": [
+            "Ostsee-Schweinswale sind sehr selten geworden. Sie werden durch Lärm, Netze und Verschmutzung bedroht und brauchen ruhige, saubere Meeresbereiche.",
+            "Mit ihren Klicklauten finden sie im trüben Wasser Beute und orientieren sich. Forschende versuchen, sie besser zu schützen, damit sie nicht aussterben."
+          ],
           "image": {
             "id": "img-baltic-sea-ostsee-schweinswal",
+            "src": "assets/images/animals/baltic-sea/baltic-sea-ostsee-schweinswal.png",
+            "alt": "Ein Ostsee-Schweinswal springt aus dem Wasser."
+          },
+          "bigImage": {
+            "id": "big-img-baltic-sea-ostsee-schweinswal",
             "src": "assets/images/animals/baltic-sea/baltic-sea-ostsee-schweinswal.png",
             "alt": "Ein Ostsee-Schweinswal springt aus dem Wasser."
           }
         },
         {
           "id": "baltic-sea-strandkrabbe",
+          "seaId": "baltic-sea",
           "name": "Strandkrabbe",
           "shortDescription": "Die Strandkrabbe läuft flink über den Boden im flachen Wasser und versteckt sich gerne unter Steinen.",
+          "detailParagraphs": [
+            "Strandkrabben sind kleine Krebse mit kräftigen Scheren, mit denen sie Futter festhalten oder sich verteidigen.",
+            "Am Strand kannst du sie manchmal unter Steinen entdecken, wo sie sich vor Feinden und der Sonne schützen."
+          ],
           "image": {
             "id": "img-baltic-sea-strandkrabbe",
+            "src": "assets/images/animals/baltic-sea/baltic-sea-strandkrabbe.png",
+            "alt": "Eine Strandkrabbe sitzt am Meeresboden."
+          },
+          "bigImage": {
+            "id": "big-img-baltic-sea-strandkrabbe",
             "src": "assets/images/animals/baltic-sea/baltic-sea-strandkrabbe.png",
             "alt": "Eine Strandkrabbe sitzt am Meeresboden."
           }
         },
         {
           "id": "baltic-sea-stint",
+          "seaId": "baltic-sea",
           "name": "Stint",
           "shortDescription": "Der Stint ist ein kleiner Fisch, der im Frühjahr in großer Zahl in Flüsse aufsteigt und in der Ostsee lebt.",
+          "detailParagraphs": [
+            "Stinte riechen frisch gefangen ein bisschen nach Gurke, weshalb sie manchmal auch Gurkenfische genannt werden.",
+            "Sie wandern zum Laichen in die Flüsse, die in die Ostsee münden. Auf ihrem Weg sind sie eine wichtige Nahrung für viele Wasservögel und andere Fische."
+          ],
           "image": {
             "id": "img-baltic-sea-stint",
+            "src": "assets/images/animals/baltic-sea/baltic-sea-stint.png",
+            "alt": "Ein Stint schwimmt im Wasser."
+          },
+          "bigImage": {
+            "id": "big-img-baltic-sea-stint",
             "src": "assets/images/animals/baltic-sea/baltic-sea-stint.png",
             "alt": "Ein Stint schwimmt im Wasser."
           }
         },
         {
           "id": "baltic-sea-ostsee-sprotte",
+          "seaId": "baltic-sea",
           "name": "Ostsee-Sprotte",
           "shortDescription": "Die Ostsee-Sprotte ist ein kleiner Schwarmfisch, der für viele größere Tiere eine wichtige Nahrung ist.",
+          "detailParagraphs": [
+            "Ostsee-Sprotten bilden glänzende Schwärme, die sich schnell bewegen und im Licht silbern aufblitzen.",
+            "Sie fressen winzige Planktonteilchen und werden selbst von größeren Fischen, Vögeln und Meeressäugern gefressen. So sind sie ein wichtiger Baustein im Nahrungsnetz der Ostsee."
+          ],
           "image": {
             "id": "img-baltic-sea-ostsee-sprotte",
+            "src": "assets/images/animals/baltic-sea/baltic-sea-ostsee-sprotte.png",
+            "alt": "Ein Schwarm Ostsee-Sprotten im Meer."
+          },
+          "bigImage": {
+            "id": "big-img-baltic-sea-ostsee-sprotte",
             "src": "assets/images/animals/baltic-sea/baltic-sea-ostsee-sprotte.png",
             "alt": "Ein Schwarm Ostsee-Sprotten im Meer."
           }
         },
         {
           "id": "baltic-sea-flussneunauge",
+          "seaId": "baltic-sea",
           "name": "Flussneunauge",
           "shortDescription": "Das Flussneunauge sieht ein bisschen wie ein Aal aus, hat aber einen runden Saugmund mit kleinen Zähnchen.",
+          "detailParagraphs": [
+            "Flussneunaugen verbringen einen Teil ihres Lebens als Larven im Flussboden, bevor sie ins Meer wandern.",
+            "Mit ihrem runden Maul können sie sich an Steinen oder anderen Fischen festsaugen. Sie gelten als sehr ursprüngliche, also uralte, Fischart."
+          ],
           "image": {
             "id": "img-baltic-sea-flussneunauge",
+            "src": "assets/images/animals/baltic-sea/baltic-sea-flussneunauge.png",
+            "alt": "Ein Flussneunauge mit rundem Maul."
+          },
+          "bigImage": {
+            "id": "big-img-baltic-sea-flussneunauge",
             "src": "assets/images/animals/baltic-sea/baltic-sea-flussneunauge.png",
             "alt": "Ein Flussneunauge mit rundem Maul."
           }
         },
         {
           "id": "baltic-sea-quappe",
+          "seaId": "baltic-sea",
           "name": "Quappe",
           "shortDescription": "Die Quappe ist ein dicker Fisch mit Bartfaden am Kinn, der kühles Wasser liebt.",
+          "detailParagraphs": [
+            "Quappen gehören zur gleichen Familie wie der Kabeljau und mögen eher kaltes Wasser in Flüssen und küstennahen Meeresbereichen.",
+            "Sie sind vor allem nachts aktiv und suchen am Boden nach Beute wie Würmern, kleinen Fischen und anderen Kleintieren."
+          ],
           "image": {
             "id": "img-baltic-sea-quappe",
+            "src": "assets/images/animals/baltic-sea/baltic-sea-quappe.png",
+            "alt": "Eine Quappe schwimmt nahe dem Boden."
+          },
+          "bigImage": {
+            "id": "big-img-baltic-sea-quappe",
             "src": "assets/images/animals/baltic-sea/baltic-sea-quappe.png",
             "alt": "Eine Quappe schwimmt nahe dem Boden."
           }
         },
         {
           "id": "baltic-sea-aal",
+          "seaId": "baltic-sea",
           "name": "Aal",
           "shortDescription": "Der Aal sieht aus wie eine lange Schlange, ist aber ein Fisch, der durch Pflanzenstreifen und über den Grund schlängelt.",
+          "detailParagraphs": [
+            "Aale können im Dunkeln gut sehen und riechen und suchen nachts im flachen Wasser nach Nahrung wie Würmern und kleinen Fischen.",
+            "Sie legen auf ihren Wanderungen riesige Strecken zurück und reisen zum Laichen bis in den Atlantik, bevor junge Aale wieder in die Ostsee zurückkehren."
+          ],
           "image": {
             "id": "img-baltic-sea-aal",
+            "src": "assets/images/animals/baltic-sea/baltic-sea-aal.png",
+            "alt": "Ein Aal schlängelt sich durchs Wasser."
+          },
+          "bigImage": {
+            "id": "big-img-baltic-sea-aal",
             "src": "assets/images/animals/baltic-sea/baltic-sea-aal.png",
             "alt": "Ein Aal schlängelt sich durchs Wasser."
           }
@@ -502,120 +742,240 @@
       "animals": [
         {
           "id": "mediterranean-mittelmeer-moenchsrobbe",
+          "seaId": "mediterranean",
           "name": "Mittelmeer-Mönchsrobbe",
           "shortDescription": "Die Mittelmeer-Mönchsrobbe ist eine seltene Robbe, die in Höhlen und versteckten Buchten des Mittelmeers lebt.",
+          "detailParagraphs": [
+            "Die Mittelmeer-Mönchsrobbe ist stark bedroht und lebt nur noch an wenigen, ruhigen Küstenabschnitten und in Höhlen.",
+            "Sie legt ihre Jungen an geschützten Orten ab und meidet Menschen. Naturschutz ist wichtig, damit sie nicht ausstirbt."
+          ],
           "image": {
             "id": "img-mediterranean-mittelmeer-moenchsrobbe",
+            "src": "assets/images/animals/mediterranean/mediterranean-mittelmeer-moenchsrobbe.png",
+            "alt": "Eine Mönchsrobbe ruht auf einem Felsen am Meer."
+          },
+          "bigImage": {
+            "id": "big-img-mediterranean-mittelmeer-moenchsrobbe",
             "src": "assets/images/animals/mediterranean/mediterranean-mittelmeer-moenchsrobbe.png",
             "alt": "Eine Mönchsrobbe ruht auf einem Felsen am Meer."
           }
         },
         {
           "id": "mediterranean-grosser-tuemmler",
+          "seaId": "mediterranean",
           "name": "Großer Tümmler",
           "shortDescription": "Der Große Tümmler ist ein bekannter Delfin, der oft in Gruppen schwimmt und verspielt aus dem Wasser springt.",
+          "detailParagraphs": [
+            "Große Tümmler sind sehr soziale Tiere und kommunizieren mit Pfeif- und Klicklauten.",
+            "Sie jagen oft im Team und spielen manchmal sogar mit Wellen oder Booten."
+          ],
           "image": {
             "id": "img-mediterranean-grosser-tuemmler",
+            "src": "assets/images/animals/mediterranean/mediterranean-grosser-tuemmler.png",
+            "alt": "Ein Großer Tümmler springt aus dem Meer."
+          },
+          "bigImage": {
+            "id": "big-img-mediterranean-grosser-tuemmler",
             "src": "assets/images/animals/mediterranean/mediterranean-grosser-tuemmler.png",
             "alt": "Ein Großer Tümmler springt aus dem Meer."
           }
         },
         {
           "id": "mediterranean-gemeiner-delfin",
+          "seaId": "mediterranean",
           "name": "Gemeiner Delfin",
           "shortDescription": "Der Gemeine Delfin ist ein schlanker, schneller Meeressäuger, der gerne in Wellen von Schiffen surft.",
+          "detailParagraphs": [
+            "Gemeine Delfine leben in großen Gruppen und schwimmen oft lange Strecken.",
+            "Sie reagieren empfindlich auf Lärm im Wasser und benötigen saubere, ruhige Lebensräume."
+          ],
           "image": {
             "id": "img-mediterranean-gemeiner-delfin",
+            "src": "assets/images/animals/mediterranean/mediterranean-gemeiner-delfin.png",
+            "alt": "Mehrere Gemeine Delfine schwimmen gemeinsam."
+          },
+          "bigImage": {
+            "id": "big-img-mediterranean-gemeiner-delfin",
             "src": "assets/images/animals/mediterranean/mediterranean-gemeiner-delfin.png",
             "alt": "Mehrere Gemeine Delfine schwimmen gemeinsam."
           }
         },
         {
           "id": "mediterranean-schwertfisch",
+          "seaId": "mediterranean",
           "name": "Schwertfisch",
           "shortDescription": "Der Schwertfisch hat eine lange, schwertähnliche Schnauze und kann sehr schnell schwimmen.",
+          "detailParagraphs": [
+            "Schwertfische nutzen ihr langes „Schwert“, um Fischschwärme aufzuschrecken und einzelne Fische zu fangen.",
+            "Sie können über 80 km/h schwimmen und legen große Strecken im Meer zurück."
+          ],
           "image": {
             "id": "img-mediterranean-schwertfisch",
+            "src": "assets/images/animals/mediterranean/mediterranean-schwertfisch.png",
+            "alt": "Ein Schwertfisch mit langer Schnauze im Meer."
+          },
+          "bigImage": {
+            "id": "big-img-mediterranean-schwertfisch",
             "src": "assets/images/animals/mediterranean/mediterranean-schwertfisch.png",
             "alt": "Ein Schwertfisch mit langer Schnauze im Meer."
           }
         },
         {
           "id": "mediterranean-unechte-karettschildkroete",
+          "seaId": "mediterranean",
           "name": "Unechte Karettschildkröte",
           "shortDescription": "Die Unechte Karettschildkröte ist eine Meeresschildkröte, die im warmen Mittelmeer schwimmt und an Stränden ihre Eier ablegt.",
+          "detailParagraphs": [
+            "Die Unechte Karettschildkröte kehrt jedes Jahr an denselben Strand zurück, um ihre Eier im Sand abzulegen.",
+            "Leider werden viele Nistplätze durch Tourismus gestört, weshalb sie geschützt werden muss."
+          ],
           "image": {
             "id": "img-mediterranean-unechte-karettschildkroete",
+            "src": "assets/images/animals/mediterranean/mediterranean-unechte-karettschildkroete.png",
+            "alt": "Eine Meeresschildkröte schwimmt im klaren Wasser."
+          },
+          "bigImage": {
+            "id": "big-img-mediterranean-unechte-karettschildkroete",
             "src": "assets/images/animals/mediterranean/mediterranean-unechte-karettschildkroete.png",
             "alt": "Eine Meeresschildkröte schwimmt im klaren Wasser."
           }
         },
         {
           "id": "mediterranean-mittelmeer-muraene",
+          "seaId": "mediterranean",
           "name": "Mittelmeer-Muräne",
           "shortDescription": "Die Mittelmeer-Muräne versteckt sich in Felsspalten und zeigt manchmal nur ihren Kopf mit den scharfen Zähnen.",
+          "detailParagraphs": [
+            "Muränen sind nachtaktive Räuber und jagen kleine Fische oder Krebse.",
+            "Sie wohnen in Höhlen und Riffspalten und können ihre Farbe leicht anpassen."
+          ],
           "image": {
             "id": "img-mediterranean-mittelmeer-muraene",
+            "src": "assets/images/animals/mediterranean/mediterranean-mittelmeer-muraene.png",
+            "alt": "Eine Muräne schaut aus einer Felsspalte."
+          },
+          "bigImage": {
+            "id": "big-img-mediterranean-mittelmeer-muraene",
             "src": "assets/images/animals/mediterranean/mediterranean-mittelmeer-muraene.png",
             "alt": "Eine Muräne schaut aus einer Felsspalte."
           }
         },
         {
           "id": "mediterranean-rotfeuerfisch",
+          "seaId": "mediterranean",
           "name": "Rotfeuerfisch",
           "shortDescription": "Der Rotfeuerfisch hat lange, bunte Flossenstrahlen und sieht aus wie ein schwebender, stacheliger Fächer.",
+          "detailParagraphs": [
+            "Rotfeuerfische haben giftige Stacheln, die sie zur Verteidigung einsetzen.",
+            "Sie bewegen sich langsam, aber geschickt und sind bei Tauchern sehr beliebt – aus sicherer Entfernung!"
+          ],
           "image": {
             "id": "img-mediterranean-rotfeuerfisch",
+            "src": "assets/images/animals/mediterranean/mediterranean-rotfeuerfisch.png",
+            "alt": "Ein Rotfeuerfisch mit auffälligen Flossen."
+          },
+          "bigImage": {
+            "id": "big-img-mediterranean-rotfeuerfisch",
             "src": "assets/images/animals/mediterranean/mediterranean-rotfeuerfisch.png",
             "alt": "Ein Rotfeuerfisch mit auffälligen Flossen."
           }
         },
         {
           "id": "mediterranean-zackenbarsch",
+          "seaId": "mediterranean",
           "name": "Zackenbarsch",
           "shortDescription": "Der Zackenbarsch ist ein kräftiger Fisch, der gern in Höhlen und an Felsküsten des Mittelmeers lebt.",
+          "detailParagraphs": [
+            "Zackenbarsche können sehr alt werden und verteidigen ihr kleines Revier am Riff.",
+            "Früher wurde er stark befischt, weshalb er heute unter Schutz steht."
+          ],
           "image": {
             "id": "img-mediterranean-zackenbarsch",
+            "src": "assets/images/animals/mediterranean/mediterranean-zackenbarsch.png",
+            "alt": "Ein Zackenbarsch vor einer Felswand."
+          },
+          "bigImage": {
+            "id": "big-img-mediterranean-zackenbarsch",
             "src": "assets/images/animals/mediterranean/mediterranean-zackenbarsch.png",
             "alt": "Ein Zackenbarsch vor einer Felswand."
           }
         },
         {
           "id": "mediterranean-oktopus",
+          "seaId": "mediterranean",
           "name": "Oktopus",
           "shortDescription": "Der Oktopus hat acht Arme, kann seine Farbe ändern und sich geschickt in Höhlen verstecken.",
+          "detailParagraphs": [
+            "Oktopusse sind sehr intelligent und können sogar Rätsel lösen.",
+            "Sie tarnen sich blitzschnell, indem sie Farbe und Hautstruktur an ihre Umgebung anpassen."
+          ],
           "image": {
             "id": "img-mediterranean-oktopus",
+            "src": "assets/images/animals/mediterranean/mediterranean-oktopus.png",
+            "alt": "Ein Oktopus sitzt auf dem Meeresboden."
+          },
+          "bigImage": {
+            "id": "big-img-mediterranean-oktopus",
             "src": "assets/images/animals/mediterranean/mediterranean-oktopus.png",
             "alt": "Ein Oktopus sitzt auf dem Meeresboden."
           }
         },
         {
           "id": "mediterranean-gelbstreifen-barrakuda",
+          "seaId": "mediterranean",
           "name": "Gelbstreifen-Barrakuda",
           "shortDescription": "Der Gelbstreifen-Barrakuda ist ein schneller Raubfisch mit schlankem Körper und dunklen Streifen.",
+          "detailParagraphs": [
+            "Barrakudas haben ein großes Maul mit scharfen Zähnen und jagen blitzschnell.",
+            "Sie schwimmen oft einzeln oder in kleinen Gruppen durch das offene Wasser."
+          ],
           "image": {
             "id": "img-mediterranean-gelbstreifen-barrakuda",
+            "src": "assets/images/animals/mediterranean/mediterranean-gelbstreifen-barrakuda.png",
+            "alt": "Ein Barrakuda schwimmt im blauen Meer."
+          },
+          "bigImage": {
+            "id": "big-img-mediterranean-gelbstreifen-barrakuda",
             "src": "assets/images/animals/mediterranean/mediterranean-gelbstreifen-barrakuda.png",
             "alt": "Ein Barrakuda schwimmt im blauen Meer."
           }
         },
         {
           "id": "mediterranean-roter-knurrhahn",
+          "seaId": "mediterranean",
           "name": "Roter Knurrhahn",
-          "shortDescription": "Der Rote Knurrhahn hat bunte Brustflossen und kann mit seinen Strahlenfüßen über den Boden „laufen“. ",
+          "shortDescription": "Der Rote Knurrhahn hat bunte Brustflossen und kann mit seinen Strahlenfüßen über den Boden „laufen“.",
+          "detailParagraphs": [
+            "Der Rote Knurrhahn kann knurrende Laute erzeugen, wenn er sich bedroht fühlt.",
+            "Seine breiten Flossen nutzt er manchmal wie kleine Flügel, um sich über den Boden zu bewegen."
+          ],
           "image": {
             "id": "img-mediterranean-roter-knurrhahn",
+            "src": "assets/images/animals/mediterranean/mediterranean-roter-knurrhahn.png",
+            "alt": "Ein Roter Knurrhahn mit ausgebreiteten Flossen."
+          },
+          "bigImage": {
+            "id": "big-img-mediterranean-roter-knurrhahn",
             "src": "assets/images/animals/mediterranean/mediterranean-roter-knurrhahn.png",
             "alt": "Ein Roter Knurrhahn mit ausgebreiteten Flossen."
           }
         },
         {
           "id": "mediterranean-flaschenqualle",
+          "seaId": "mediterranean",
           "name": "Flaschenqualle",
           "shortDescription": "Die Flaschenqualle ist eine durchsichtige Qualle, deren Körper im Licht fast glasartig wirkt.",
+          "detailParagraphs": [
+            "Flaschenquallen bewegen sich langsam und lassen sich meist von der Strömung treiben.",
+            "Ihre Tentakel können beim Berühren brennen, deshalb sollte man ihnen besser nicht zu nah kommen."
+          ],
           "image": {
             "id": "img-mediterranean-flaschenqualle",
+            "src": "assets/images/animals/mediterranean/mediterranean-flaschenqualle.png",
+            "alt": "Eine leuchtende Qualle im Meer."
+          },
+          "bigImage": {
+            "id": "big-img-mediterranean-flaschenqualle",
             "src": "assets/images/animals/mediterranean/mediterranean-flaschenqualle.png",
             "alt": "Eine leuchtende Qualle im Meer."
           }
@@ -626,123 +986,243 @@
       "seaId": "atlantic",
       "animals": [
         {
+          "id": "atlantic-pottwal",
+          "seaId": "atlantic",
+          "name": "Pottwal",
+          "shortDescription": "Der Pottwal ist der größte Zahnwal der Welt und kann sehr tief tauchen.",
+          "detailParagraphs": [
+            "Pottwale können über zwei Stunden unter Wasser bleiben und bis zu 3.000 Meter tief tauchen, um Riesenkalmare zu jagen.",
+            "Ihr Kopf ist riesig und mit einer besonderen Flüssigkeit gefüllt, die ihnen beim Tauchen hilft. Sie leben in Gruppen, den sogenannten Schulen."
+          ],
+          "image": {
+            "id": "img-atlantic-pottwal",
+            "src": "assets/images/animals/atlantic/atlantic-pottwal.png",
+            "alt": "Ein Pottwal taucht durch das tiefe Meer."
+          },
+          "bigImage": {
+            "id": "big-img-atlantic-pottwal",
+            "src": "assets/images/animals/atlantic/atlantic-pottwal.png",
+            "alt": "Ein Pottwal taucht durch das tiefe Meer."
+          }
+        },
+        {
+          "id": "atlantic-makohai",
+          "seaId": "atlantic",
+          "name": "Makohai",
+          "shortDescription": "Der Makohai ist der schnellste Hai der Welt und kann bis zu 70 km/h schwimmen.",
+          "detailParagraphs": [
+            "Makohai springen manchmal sogar aus dem Wasser, wenn sie Beute jagen.",
+            "Trotz seines wilden Aussehens greift er selten Menschen an. Er jagt vor allem Fische und kleine Haie."
+          ],
+          "image": {
+            "id": "img-atlantic-makohai",
+            "src": "assets/images/animals/atlantic/atlantic-makohai.png",
+            "alt": "Ein schneller Makohai schwimmt durch das Meer."
+          },
+          "bigImage": {
+            "id": "big-img-atlantic-makohai",
+            "src": "assets/images/animals/atlantic/atlantic-makohai.png",
+            "alt": "Ein schneller Makohai schwimmt durch das Meer."
+          }
+        },
+        {
           "id": "atlantic-blauwal",
+          "seaId": "atlantic",
           "name": "Blauwal",
-          "shortDescription": "Der Blauwal ist das größte Tier der Welt und schwimmt durch die Weiten des Atlantiks.",
+          "shortDescription": "Der Blauwal ist das größte Tier der Erde und lebt auch im Atlantik.",
+          "detailParagraphs": [
+            "Ein Blauwal kann bis zu 30 Meter lang werden und wiegt so viel wie etwa 33 Elefanten.",
+            "Er ernährt sich von winzigen Krill-Krebsen und filtert sie mit seinen Barten aus dem Wasser."
+          ],
           "image": {
             "id": "img-atlantic-blauwal",
             "src": "assets/images/animals/atlantic/atlantic-blauwal.png",
-            "alt": "Ein riesiger Blauwal im offenen Meer."
+            "alt": "Ein riesiger Blauwal schwimmt im offenen Ozean."
+          },
+          "bigImage": {
+            "id": "big-img-atlantic-blauwal",
+            "src": "assets/images/animals/atlantic/atlantic-blauwal.png",
+            "alt": "Ein riesiger Blauwal schwimmt im offenen Ozean."
           }
         },
         {
-          "id": "atlantic-finnwal",
-          "name": "Finnwal",
-          "shortDescription": "Der Finnwal ist ein besonders schneller Großwal, der lange Strecken im Atlantik zurücklegt.",
+          "id": "atlantic-seeschlange",
+          "seaId": "atlantic",
+          "name": "Meerneunauge",
+          "shortDescription": "Das Meerneunauge sieht wie eine Schlange aus, ist aber ein uralter Fisch mit einem Saugmaul.",
+          "detailParagraphs": [
+            "Das Meerneunauge hat keine Kiefer, sondern saugt sich mit einem runden Mund an seiner Beute fest.",
+            "Es gilt als lebendes Fossil, weil sich seine Art seit Millionen Jahren kaum verändert hat."
+          ],
           "image": {
-            "id": "img-atlantic-finnwal",
-            "src": "assets/images/animals/atlantic/atlantic-finnwal.png",
-            "alt": "Ein Finnwal taucht an der Wasseroberfläche auf."
+            "id": "img-atlantic-seeschlange",
+            "src": "assets/images/animals/atlantic/atlantic-meerneunauge.png",
+            "alt": "Ein Meerneunauge schlängelt sich durchs Wasser."
+          },
+          "bigImage": {
+            "id": "big-img-atlantic-seeschlange",
+            "src": "assets/images/animals/atlantic/atlantic-meerneunauge.png",
+            "alt": "Ein Meerneunauge schlängelt sich durchs Wasser."
           }
         },
         {
-          "id": "atlantic-orca",
-          "name": "Orca",
-          "shortDescription": "Der Orca, auch Schwertwal genannt, ist ein schwarz-weißer Meeressäuger, der in Gruppen jagt.",
+          "id": "atlantic-klippenpinguin",
+          "seaId": "atlantic",
+          "name": "Klippenpinguin",
+          "shortDescription": "Der Klippenpinguin lebt an steilen Felsküsten und hat gelbe Federbüsche am Kopf.",
+          "detailParagraphs": [
+            "Klippenpinguine klettern erstaunlich geschickt über Felsen, obwohl sie nicht fliegen können.",
+            "Sie leben in großen Kolonien und kümmern sich gemeinsam um die Brutplätze."
+          ],
           "image": {
-            "id": "img-atlantic-orca",
-            "src": "assets/images/animals/atlantic/atlantic-orca.png",
-            "alt": "Ein Orca springt aus den Wellen."
+            "id": "img-atlantic-klippenpinguin",
+            "src": "assets/images/animals/atlantic/atlantic-klippenpinguin.png",
+            "alt": "Ein Klippenpinguin mit gelben Federn steht auf einem Felsen."
+          },
+          "bigImage": {
+            "id": "big-img-atlantic-klippenpinguin",
+            "src": "assets/images/animals/atlantic/atlantic-klippenpinguin.png",
+            "alt": "Ein Klippenpinguin mit gelben Federn steht auf einem Felsen."
           }
         },
         {
-          "id": "atlantic-atlantischer-thunfisch",
-          "name": "Atlantischer Thunfisch",
-          "shortDescription": "Der Atlantische Thunfisch ist ein sehr schneller Fisch, der im offenen Ozean weite Strecken schwimmt.",
+          "id": "atlantic-papageienfisch",
+          "seaId": "atlantic",
+          "name": "Papageienfisch",
+          "shortDescription": "Der Papageienfisch hat bunte Schuppen und einen Schnabel, der an einen Papagei erinnert.",
+          "detailParagraphs": [
+            "Mit seinem Schnabel kratzt er Algen von Korallen und hilft so beim Riffschutz.",
+            "Seine Farben können sich im Laufe seines Lebens stark verändern."
+          ],
           "image": {
-            "id": "img-atlantic-atlantischer-thunfisch",
-            "src": "assets/images/animals/atlantic/atlantic-atlantischer-thunfisch.png",
-            "alt": "Ein Thunfisch schwimmt durchs blaue Meer."
+            "id": "img-atlantic-papageienfisch",
+            "src": "assets/images/animals/atlantic/atlantic-papageienfisch.png",
+            "alt": "Ein bunter Papageienfisch schwimmt nahe einer Koralle."
+          },
+          "bigImage": {
+            "id": "big-img-atlantic-papageienfisch",
+            "src": "assets/images/animals/atlantic/atlantic-papageienfisch.png",
+            "alt": "Ein bunter Papageienfisch schwimmt nahe einer Koralle."
           }
         },
         {
-          "id": "atlantic-schwarzer-marlin",
-          "name": "Schwarzer Marlin",
-          "shortDescription": "Der Schwarze Marlin hat einen langen Speer auf der Schnauze und schießt pfeilschnell durchs Wasser.",
+          "id": "atlantic-loggerhead-seaturtle",
+          "seaId": "atlantic",
+          "name": "Atlantische Meeresschildkröte",
+          "shortDescription": "Diese Schildkröte wandert über den ganzen Atlantik und kommt zum Eierlegen an Strände zurück.",
+          "detailParagraphs": [
+            "Atlantische Meeresschildkröten legen oft nachts ihre Eier im warmen Sand ab.",
+            "Die Babys müssen ohne Hilfe ihren Weg ins Meer finden – viele schaffen es nicht."
+          ],
           "image": {
-            "id": "img-atlantic-schwarzer-marlin",
-            "src": "assets/images/animals/atlantic/atlantic-schwarzer-marlin.png",
-            "alt": "Ein Schwarzer Marlin mit langem Speer."
+            "id": "img-atlantic-seaturtle",
+            "src": "assets/images/animals/atlantic/atlantic-meeresschildkroete.png",
+            "alt": "Eine Meeresschildkröte schwimmt durch den blauen Atlantik."
+          },
+          "bigImage": {
+            "id": "big-img-atlantic-seaturtle",
+            "src": "assets/images/animals/atlantic/atlantic-meeresschildkroete.png",
+            "alt": "Eine Meeresschildkröte schwimmt durch den blauen Atlantik."
           }
         },
         {
           "id": "atlantic-fliegender-fisch",
+          "seaId": "atlantic",
           "name": "Fliegender Fisch",
-          "shortDescription": "Fliegende Fische können mit ihren großen Brustflossen ein Stück weit über die Wasseroberfläche gleiten.",
+          "shortDescription": "Der Fliegende Fisch kann mit seinen Flossen kurze Zeit über das Wasser gleiten.",
+          "detailParagraphs": [
+            "Er springt aus dem Meer und gleitet bis zu 200 Meter weit, um vor Feinden zu fliehen.",
+            "Seine Flossen sehen fast aus wie Flügel!"
+          ],
           "image": {
             "id": "img-atlantic-fliegender-fisch",
             "src": "assets/images/animals/atlantic/atlantic-fliegender-fisch.png",
-            "alt": "Ein Fliegender Fisch gleitet über die Wellen."
-          }
-        },
-        {
-          "id": "atlantic-atlantischer-lachs",
-          "name": "Atlantischer Lachs",
-          "shortDescription": "Der Atlantische Lachs wandert zwischen Flüssen und dem Meer hin und her und legt dabei weite Strecken zurück.",
-          "image": {
-            "id": "img-atlantic-atlantischer-lachs",
-            "src": "assets/images/animals/atlantic/atlantic-atlantischer-lachs.png",
-            "alt": "Ein Atlantischer Lachs springt aus einem Fluss."
-          }
-        },
-        {
-          "id": "atlantic-atlantischer-hammerhai",
-          "name": "Atlantischer Hammerhai",
-          "shortDescription": "Der Atlantische Hammerhai hat einen auffällig breiten Kopf, der wie ein Hammer aussieht.",
-          "image": {
-            "id": "img-atlantic-atlantischer-hammerhai",
-            "src": "assets/images/animals/atlantic/atlantic-atlantischer-hammerhai.png",
-            "alt": "Ein Hammerhai schwimmt im tiefen Wasser."
-          }
-        },
-        {
-          "id": "atlantic-riesenmantarochen",
-          "name": "Riesenmantarochen",
-          "shortDescription": "Der Riesenmantarochen gleitet mit großen Flossen elegant durch das Meer und filtert Plankton aus dem Wasser.",
-          "image": {
-            "id": "img-atlantic-riesenmantarochen",
-            "src": "assets/images/animals/atlantic/atlantic-riesenmantarochen.png",
-            "alt": "Ein großer Mantarochen im Atlantik."
-          }
-        },
-        {
-          "id": "atlantic-suppenschildkroete",
-          "name": "Suppenschildkröte",
-          "shortDescription": "Die Suppenschildkröte ist eine Meeresschildkröte, die Seegras und Algen frisst und lange tauchen kann.",
-          "image": {
-            "id": "img-atlantic-suppenschildkroete",
-            "src": "assets/images/animals/atlantic/atlantic-suppenschildkroete.png",
-            "alt": "Eine Suppenschildkröte schwimmt im Atlantik."
+            "alt": "Ein fliegender Fisch gleitet über die Meeresoberfläche."
+          },
+          "bigImage": {
+            "id": "big-img-atlantic-fliegender-fisch",
+            "src": "assets/images/animals/atlantic/atlantic-fliegender-fisch.png",
+            "alt": "Ein fliegender Fisch gleitet über die Meeresoberfläche."
           }
         },
         {
           "id": "atlantic-kompassqualle",
+          "seaId": "atlantic",
           "name": "Kompassqualle",
-          "shortDescription": "Die Kompassqualle hat braune Zeichnungen auf ihrem Schirm, die an eine Windrose erinnern.",
+          "shortDescription": "Diese Qualle hat braune Linien auf ihrem Körper, die an einen Kompass erinnern.",
+          "detailParagraphs": [
+            "Die Kompassqualle kann andere Tiere mit ihren Tentakeln berühren, was etwas brennen kann.",
+            "Sie bewegt sich elegant durch rhythmisches Zusammenziehen ihres Körpers."
+          ],
           "image": {
             "id": "img-atlantic-kompassqualle",
             "src": "assets/images/animals/atlantic/atlantic-kompassqualle.png",
-            "alt": "Eine Kompassqualle treibt im Wasser."
+            "alt": "Eine Kompassqualle schwebt im Wasser."
+          },
+          "bigImage": {
+            "id": "big-img-atlantic-kompassqualle",
+            "src": "assets/images/animals/atlantic/atlantic-kompassqualle.png",
+            "alt": "Eine Kompassqualle schwebt im Wasser."
           }
         },
         {
-          "id": "atlantic-atlantische-auster",
-          "name": "Atlantische Auster",
-          "shortDescription": "Atlantische Austern sind Muscheln, die sich an Felsen festhalten und das Wasser filtern.",
+          "id": "atlantic-weisser-thunfisch",
+          "seaId": "atlantic",
+          "name": "Weißer Thunfisch",
+          "shortDescription": "Der Weiße Thunfisch ist ein schneller Schwimmer und wichtiger Wanderfisch im Atlantik.",
+          "detailParagraphs": [
+            "Thunfische sind sehr starke Schwimmer und können lange Strecken zurücklegen.",
+            "Sie jagen in Gruppen und folgen oft warmen Strömungen durch das Meer."
+          ],
           "image": {
-            "id": "img-atlantic-atlantische-auster",
-            "src": "assets/images/animals/atlantic/atlantic-atlantische-auster.png",
-            "alt": "Mehrere Austern an einem Felsen unter Wasser."
+            "id": "img-atlantic-weisser-thunfisch",
+            "src": "assets/images/animals/atlantic/atlantic-weisser-thunfisch.png",
+            "alt": "Ein weißer Thunfisch schwimmt im Atlantik."
+          },
+          "bigImage": {
+            "id": "big-img-atlantic-weisser-thunfisch",
+            "src": "assets/images/animals/atlantic/atlantic-weisser-thunfisch.png",
+            "alt": "Ein weißer Thunfisch schwimmt im Atlantik."
+          }
+        },
+        {
+          "id": "atlantic-lippfisch",
+          "seaId": "atlantic",
+          "name": "Lippfisch",
+          "shortDescription": "Der Lippfisch hat oftmals bunte Farben und frisst Parasiten von anderen Fischen.",
+          "detailParagraphs": [
+            "Lippfische helfen beim Putzen anderer Fische und sind dadurch sehr nützlich für das Ökosystem.",
+            "Manche Arten ändern später sogar ihr Geschlecht!"
+          ],
+          "image": {
+            "id": "img-atlantic-lippfisch",
+            "src": "assets/images/animals/atlantic/atlantic-lippfisch.png",
+            "alt": "Ein farbenfroher Lippfisch vor einem Riff."
+          },
+          "bigImage": {
+            "id": "big-img-atlantic-lippfisch",
+            "src": "assets/images/animals/atlantic/atlantic-lippfisch.png",
+            "alt": "Ein farbenfroher Lippfisch vor einem Riff."
+          }
+        },
+        {
+          "id": "atlantic-meerengel",
+          "seaId": "atlantic",
+          "name": "Meerengel",
+          "shortDescription": "Der Meerengel ist ein flach liegender Hai, der wie ein Engel mit „Flügeln“ aussieht.",
+          "detailParagraphs": [
+            "Meerengel tarnen sich im Sand und lauern auf kleine Fische.",
+            "Trotz ihres Namens sind sie Haie, aber meist harmlos für Menschen."
+          ],
+          "image": {
+            "id": "img-atlantic-meerengel",
+            "src": "assets/images/animals/atlantic/atlantic-meerengel.png",
+            "alt": "Ein Meerengel liegt am Meeresboden."
+          },
+          "bigImage": {
+            "id": "big-img-atlantic-meerengel",
+            "src": "assets/images/animals/atlantic/atlantic-meerengel.png",
+            "alt": "Ein Meerengel liegt am Meeresboden."
           }
         }
       ]
@@ -751,123 +1231,243 @@
       "seaId": "pacific",
       "animals": [
         {
-          "id": "pacific-grauwal",
-          "name": "Grauwal",
-          "shortDescription": "Der Grauwal ist ein großer Wal, der lange Wanderungen durch den Pazifik unternimmt.",
+          "id": "pacific-pazifik-orca",
+          "seaId": "pacific",
+          "name": "Orca (Schwertwal)",
+          "shortDescription": "Der Orca ist ein schwarz-weißer Wal und ein sehr intelligenter Jäger.",
+          "detailParagraphs": [
+            "Orcas leben in Familiengruppen und jagen gemeinsam. Sie können Robben, Fische oder sogar große Wale fangen.",
+            "Sie verständigen sich mit Pfeif- und Klicklauten und lernen sogar neue Jagdtricks voneinander."
+          ],
           "image": {
-            "id": "img-pacific-grauwal",
-            "src": "assets/images/animals/pacific/pacific-grauwal.png",
-            "alt": "Ein Grauwal taucht an der Meeresoberfläche auf."
+            "id": "img-pacific-orca",
+            "src": "assets/images/animals/pacific/pacific-orca.png",
+            "alt": "Ein Orca springt aus dem Wasser."
+          },
+          "bigImage": {
+            "id": "big-img-pacific-orca",
+            "src": "assets/images/animals/pacific/pacific-orca.png",
+            "alt": "Ein Orca springt aus dem Wasser."
           }
         },
         {
-          "id": "pacific-pazifischer-weissstreifendelfin",
-          "name": "Pazifischer Weißstreifendelfin",
-          "shortDescription": "Der Pazifische Weißstreifendelfin ist ein lebhafter Delfin mit hellen Streifen an den Seiten.",
+          "id": "pacific-haifisch-weisser",
+          "seaId": "pacific",
+          "name": "Weißer Hai",
+          "shortDescription": "Der Weiße Hai ist einer der bekanntesten Raubtiere im Ozean.",
+          "detailParagraphs": [
+            "Weißhaie haben einen ausgezeichneten Geruchssinn und können Blut schon aus großer Entfernung wahrnehmen.",
+            "Sie sind sehr schnelle Schwimmer und springen bei der Jagd manchmal sogar aus dem Wasser."
+          ],
           "image": {
-            "id": "img-pacific-pazifischer-weissstreifendelfin",
-            "src": "assets/images/animals/pacific/pacific-pazifischer-weissstreifendelfin.png",
-            "alt": "Ein Delfin mit hellen Streifen im Pazifik."
+            "id": "img-pacific-weisser-hai",
+            "src": "assets/images/animals/pacific/pacific-weisser-hai.png",
+            "alt": "Ein Weißer Hai schwimmt durch den Pazifik."
+          },
+          "bigImage": {
+            "id": "big-img-pacific-weisser-hai",
+            "src": "assets/images/animals/pacific/pacific-weisser-hai.png",
+            "alt": "Ein Weißer Hai schwimmt durch den Pazifik."
           }
         },
         {
-          "id": "pacific-walhai",
-          "name": "Walhai",
-          "shortDescription": "Der Walhai ist der größte Fisch der Welt, frisst aber nur winzige Planktonorganismen.",
+          "id": "pacific-buckelwal",
+          "seaId": "pacific",
+          "name": "Buckelwal",
+          "shortDescription": "Der Buckelwal ist für seine Gesänge und beeindruckenden Sprünge bekannt.",
+          "detailParagraphs": [
+            "Buckelwale kommunizieren über Walgesänge, die kilometerweit zu hören sind.",
+            "Sie springen manchmal komplett aus dem Wasser – Forscher glauben, dass sie so kommunizieren oder Parasiten abschütteln."
+          ],
           "image": {
-            "id": "img-pacific-walhai",
-            "src": "assets/images/animals/pacific/pacific-walhai.png",
-            "alt": "Ein riesiger Walhai mit Punkten auf der Haut."
+            "id": "img-pacific-buckelwal",
+            "src": "assets/images/animals/pacific/pacific-buckelwal.png",
+            "alt": "Ein Buckelwal springt aus dem Meer."
+          },
+          "bigImage": {
+            "id": "big-img-pacific-buckelwal",
+            "src": "assets/images/animals/pacific/pacific-buckelwal.png",
+            "alt": "Ein Buckelwal springt aus dem Meer."
           }
         },
         {
-          "id": "pacific-riesenkrake",
-          "name": "Riesenkrake",
-          "shortDescription": "Der Riesenkrake hat acht lange Arme und kann sich mit Saugnäpfen an Felsen festhalten.",
+          "id": "pacific-pazifik-seekuh",
+          "seaId": "pacific",
+          "name": "Seekuh (Dugong)",
+          "shortDescription": "Die Seekuh ist ein friedliches Meeressäugetier, das Seegras frisst.",
+          "detailParagraphs": [
+            "Seekühe schwimmen langsam und verbringen viel Zeit mit Fressen von Seegrasflächen.",
+            "Sie haben keine Rückenflosse und sehen manchmal aus, als würden sie schweben."
+          ],
           "image": {
-            "id": "img-pacific-riesenkrake",
-            "src": "assets/images/animals/pacific/pacific-riesenkrake.png",
-            "alt": "Ein großer Krake breitet seine Arme aus."
+            "id": "img-pacific-seekuh",
+            "src": "assets/images/animals/pacific/pacific-seekuh.png",
+            "alt": "Eine Seekuh schwimmt gemütlich im Meer."
+          },
+          "bigImage": {
+            "id": "big-img-pacific-seekuh",
+            "src": "assets/images/animals/pacific/pacific-seekuh.png",
+            "alt": "Eine Seekuh schwimmt gemütlich im Meer."
           }
         },
         {
-          "id": "pacific-pazifischer-thunfisch",
-          "name": "Pazifischer Thunfisch",
-          "shortDescription": "Der Pazifische Thunfisch ist ein schneller Schwimmer, der im offenen Ozean unterwegs ist.",
+          "id": "pacific-manta-rochen",
+          "seaId": "pacific",
+          "name": "Manta-Rochen",
+          "shortDescription": "Der Manta-Rochen hat riesige Flügel und gleitet elegant durchs Meer.",
+          "detailParagraphs": [
+            "Mantas können bis zu sieben Meter breit werden und schweben fast schwerelos durchs Wasser.",
+            "Sie ernähren sich von Plankton und sind für Menschen ungefährlich."
+          ],
           "image": {
-            "id": "img-pacific-pazifischer-thunfisch",
-            "src": "assets/images/animals/pacific/pacific-pazifischer-thunfisch.png",
-            "alt": "Ein Thunfisch schwimmt durch das blaue Wasser."
+            "id": "img-pacific-manta-rochen",
+            "src": "assets/images/animals/pacific/pacific-manta-rochen.png",
+            "alt": "Ein großer Manta-Rochen schwebt über dem Meeresboden."
+          },
+          "bigImage": {
+            "id": "big-img-pacific-manta-rochen",
+            "src": "assets/images/animals/pacific/pacific-manta-rochen.png",
+            "alt": "Ein großer Manta-Rochen schwebt über dem Meeresboden."
           }
         },
         {
-          "id": "pacific-papageifisch",
-          "name": "Papageifisch",
-          "shortDescription": "Papageifische haben bunte Schuppen und kräftige Mäuler, mit denen sie Korallen abknabbern.",
+          "id": "pacific-pazifik-blaufuss-toelpel",
+          "seaId": "pacific",
+          "name": "Blaufußtölpel",
+          "shortDescription": "Der Blaufußtölpel ist ein Vogel mit auffällig blauen Füßen.",
+          "detailParagraphs": [
+            "Diese Vögel leben auf Pazifikinseln und tanzen bei der Partnersuche mit ihren blauen Füßen.",
+            "Je blauer die Füße, desto gesünder gilt der Vogel!"
+          ],
           "image": {
-            "id": "img-pacific-papageifisch",
-            "src": "assets/images/animals/pacific/pacific-papageifisch.png",
-            "alt": "Ein bunter Papageifisch vor einem Riff."
+            "id": "img-pacific-blaufusstolpel",
+            "src": "assets/images/animals/pacific/pacific-blaufusstolpel.png",
+            "alt": "Ein Blaufußtölpel mit hellblauen Füßen auf einem Felsen."
+          },
+          "bigImage": {
+            "id": "big-img-pacific-blaufusstolpel",
+            "src": "assets/images/animals/pacific/pacific-blaufusstolpel.png",
+            "alt": "Ein Blaufußtölpel mit hellblauen Füßen auf einem Felsen."
           }
         },
         {
-          "id": "pacific-gelbflossenmakrele",
-          "name": "Gelbflossenmakrele",
-          "shortDescription": "Die Gelbflossenmakrele ist ein silbriger Fisch mit gelben Flossen, der sich schnell bewegen kann.",
+          "id": "pacific-seestern-kronenfisch",
+          "seaId": "pacific",
+          "name": "Dornenkrone-Seestern",
+          "shortDescription": "Dieser Seestern hat viele spitze Arme und lebt auf Korallenriffen.",
+          "detailParagraphs": [
+            "Die Dornenkrone frisst Korallenpolypen und kann ganze Riffbereiche zerstören, wenn sie sich zu stark vermehrt.",
+            "Ihre spitzen Dornen sind giftig und können bei Berührung wehtun."
+          ],
           "image": {
-            "id": "img-pacific-gelbflossenmakrele",
-            "src": "assets/images/animals/pacific/pacific-gelbflossenmakrele.png",
-            "alt": "Eine Gelbflossenmakrele im offenen Meer."
+            "id": "img-pacific-dornenkrone",
+            "src": "assets/images/animals/pacific/pacific-dornenkrone.png",
+            "alt": "Ein großer Dornenkrone-Seestern auf einem Riff."
+          },
+          "bigImage": {
+            "id": "big-img-pacific-dornenkrone",
+            "src": "assets/images/animals/pacific/pacific-dornenkrone.png",
+            "alt": "Ein großer Dornenkrone-Seestern auf einem Riff."
           }
         },
         {
-          "id": "pacific-clownfisch",
-          "name": "Clownfisch",
-          "shortDescription": "Clownfische leben in Seeanemonen und sind orange mit weißen Streifen – ein echter Kinderliebling.",
+          "id": "pacific-napoleonfisch",
+          "seaId": "pacific",
+          "name": "Napoleonfisch",
+          "shortDescription": "Der Napoleonfisch ist kräftig gebaut und hat einen großen Höcker auf dem Kopf.",
+          "detailParagraphs": [
+            "Napoleonfische leben in Korallenriffen und können sehr alt werden.",
+            "Sie sind neugierig und schwimmen manchmal direkt zu Tauchern."
+          ],
           "image": {
-            "id": "img-pacific-clownfisch",
-            "src": "assets/images/animals/pacific/pacific-clownfisch.png",
-            "alt": "Ein Clownfisch schwimmt in einer Seeanemone."
+            "id": "img-pacific-napoleonfisch",
+            "src": "assets/images/animals/pacific/pacific-napoleonfisch.png",
+            "alt": "Ein Napoleonfisch schwimmt über ein Riff."
+          },
+          "bigImage": {
+            "id": "big-img-pacific-napoleonfisch",
+            "src": "assets/images/animals/pacific/pacific-napoleonfisch.png",
+            "alt": "Ein Napoleonfisch schwimmt über ein Riff."
           }
         },
         {
-          "id": "pacific-kaiserin-kaiserfisch",
-          "name": "Kaiserin-Kaiserfisch",
-          "shortDescription": "Der Kaiserin-Kaiserfisch trägt ein leuchtend gestreiftes Muster und lebt an Korallenriffen.",
+          "id": "pacific-pazifik-laubfisch",
+          "seaId": "pacific",
+          "name": "Laubfisch",
+          "shortDescription": "Der Laubfisch sieht aus wie ein schwimmendes Blatt und tarn sich im Riff.",
+          "detailParagraphs": [
+            "Durch seine Körperform sieht er wirklich wie ein welkes Blatt aus und wird kaum entdeckt.",
+            "Er bewegt sich langsam und wartet darauf, dass kleine Beutefische nah kommen."
+          ],
           "image": {
-            "id": "img-pacific-kaiserin-kaiserfisch",
-            "src": "assets/images/animals/pacific/pacific-kaiserin-kaiserfisch.png",
-            "alt": "Ein bunt gestreifter Kaiserfisch am Riff."
+            "id": "img-pacific-laubfisch",
+            "src": "assets/images/animals/pacific/pacific-laubfisch.png",
+            "alt": "Ein Laubfisch, der wie ein Blatt aussieht."
+          },
+          "bigImage": {
+            "id": "big-img-pacific-laubfisch",
+            "src": "assets/images/animals/pacific/pacific-laubfisch.png",
+            "alt": "Ein Laubfisch, der wie ein Blatt aussieht."
           }
         },
         {
-          "id": "pacific-pazifisches-seepferdchen",
-          "name": "Pazifisches Seepferdchen",
-          "shortDescription": "Das Pazifische Seepferdchen ist ein kleiner Fisch, der aufrecht im Wasser schwebt und Pflanzen umklammert.",
+          "id": "pacific-mondfisch",
+          "seaId": "pacific",
+          "name": "Mondfisch",
+          "shortDescription": "Der Mondfisch ist einer der schwersten Knochenfische und schwimmt aufrecht.",
+          "detailParagraphs": [
+            "Mondfische wirken platt und schwimmen seitlich – deshalb sehen sie aus wie ein schwimmender Mond.",
+            "Manchmal liegen sie an der Oberfläche und lassen sich von Vögeln reinigen."
+          ],
           "image": {
-            "id": "img-pacific-pazifisches-seepferdchen",
-            "src": "assets/images/animals/pacific/pacific-pazifisches-seepferdchen.png",
+            "id": "img-pacific-mondfisch",
+            "src": "assets/images/animals/pacific/pacific-mondfisch.png",
+            "alt": "Ein Mondfisch schwimmt seitlich im Wasser."
+          },
+          "bigImage": {
+            "id": "big-img-pacific-mondfisch",
+            "src": "assets/images/animals/pacific/pacific-mondfisch.png",
+            "alt": "Ein Mondfisch schwimmt seitlich im Wasser."
+          }
+        },
+        {
+          "id": "pacific-seepferdchen",
+          "seaId": "pacific",
+          "name": "Seepferdchen",
+          "shortDescription": "Das Seepferdchen schwimmt aufrecht und klammert sich mit seinem Schwanz an Pflanzen.",
+          "detailParagraphs": [
+            "Beim Seepferdchen trägt das Männchen die Eier im Bauchbeutel, bis die Babys schlüpfen.",
+            "Es bewegt sich langsam und sieht mit seiner Form und Haltung wie ein kleines Pferd aus."
+          ],
+          "image": {
+            "id": "img-pacific-seepferdchen",
+            "src": "assets/images/animals/pacific/pacific-seepferdchen.png",
+            "alt": "Ein Seepferdchen hält sich an einer Pflanze fest."
+          },
+          "bigImage": {
+            "id": "big-img-pacific-seepferdchen",
+            "src": "assets/images/animals/pacific/pacific-seepferdchen.png",
             "alt": "Ein Seepferdchen hält sich an einer Pflanze fest."
           }
         },
         {
-          "id": "pacific-stachelrochen",
-          "name": "Stachelrochen",
-          "shortDescription": "Der Stachelrochen hat eine flache Körperform und zieht eine lange Schwanzpeitsche hinter sich her.",
+          "id": "pacific-walhai",
+          "seaId": "pacific",
+          "name": "Walhai",
+          "shortDescription": "Der Walhai ist der größte Fisch der Welt und trotzdem ganz sanft.",
+          "detailParagraphs": [
+            "Walhaie fressen nur winziges Plankton, obwohl sie bis zu 18 Meter lang werden können.",
+            "Taucher können manchmal direkt neben ihnen schwimmen – sie sind friedlich und lassen sich kaum stören."
+          ],
           "image": {
-            "id": "img-pacific-stachelrochen",
-            "src": "assets/images/animals/pacific/pacific-stachelrochen.png",
-            "alt": "Ein Stachelrochen gleitet knapp über dem Meeresboden."
-          }
-        },
-        {
-          "id": "pacific-pazifische-seegurke",
-          "name": "Pazifische Seegurke",
-          "shortDescription": "Die Pazifische Seegurke sieht aus wie eine dicke Wurst und reinigt den Meeresboden, indem sie Sand frisst.",
-          "image": {
-            "id": "img-pacific-pazifische-seegurke",
-            "src": "assets/images/animals/pacific/pacific-pazifische-seegurke.png",
-            "alt": "Eine Seegurke liegt auf dem Boden."
+            "id": "img-pacific-walhai",
+            "src": "assets/images/animals/pacific/pacific-walhai.png",
+            "alt": "Ein Walhai schwimmt majestätisch durch das Meer."
+          },
+          "bigImage": {
+            "id": "big-img-pacific-walhai",
+            "src": "assets/images/animals/pacific/pacific-walhai.png",
+            "alt": "Ein Walhai schwimmt majestätisch durch das Meer."
           }
         }
       ]
@@ -877,122 +1477,242 @@
       "animals": [
         {
           "id": "indian-ocean-dugong",
+          "seaId": "indian-ocean",
           "name": "Dugong",
-          "shortDescription": "Der Dugong ist ein friedlicher Meeressäuger, der Seegras frisst und manchmal Seekuh genannt wird.",
+          "shortDescription": "Der Dugong ist ein sanftes Meeressäugetier, das wie eine Seekuh aussieht.",
+          "detailParagraphs": [
+            "Dugongs leben in ruhigen, warmen Gewässern und fressen Seegraswiesen am Meeresgrund.",
+            "Sie sind sehr friedlich und verbringen den größten Teil des Tages mit langsamen Schwimmbewegungen."
+          ],
           "image": {
             "id": "img-indian-ocean-dugong",
             "src": "assets/images/animals/indian-ocean/indian-ocean-dugong.png",
-            "alt": "Ein Dugong schwimmt über einer Seegraswiese."
+            "alt": "Ein Dugong schwebt über dem Meeresboden."
+          },
+          "bigImage": {
+            "id": "big-img-indian-ocean-dugong",
+            "src": "assets/images/animals/indian-ocean/indian-ocean-dugong.png",
+            "alt": "Ein Dugong schwebt über dem Meeresboden."
           }
         },
         {
-          "id": "indian-ocean-indischer-ozean-bottlenose-delfin",
-          "name": "Indischer Ozean-Bottlenose-Delfin",
-          "shortDescription": "Dieser Delfin lebt im warmen Indischen Ozean und schwimmt gern in Gruppen nahe der Oberfläche.",
+          "id": "indian-ocean-hai-zhai",
+          "seaId": "indian-ocean",
+          "name": "Zebra-Hai",
+          "shortDescription": "Der Zebra-Hai hat Streifen als Jungtier, die später zu Punkten werden.",
+          "detailParagraphs": [
+            "Junge Zebra-Haie zeigen schwarze Streifen, die an Zebras erinnern. Erwachsene haben eine Punktzeichnung.",
+            "Er ist langsam und verbringt viel Zeit am Meeresboden, wo er nach Schnecken und Muscheln sucht."
+          ],
           "image": {
-            "id": "img-indian-ocean-indischer-ozean-bottlenose-delfin",
-            "src": "assets/images/animals/indian-ocean/indian-ocean-indischer-ozean-bottlenose-delfin.png",
-            "alt": "Mehrere Delfine springen aus dem Wasser."
+            "id": "img-indian-ocean-zebra-hai",
+            "src": "assets/images/animals/indian-ocean/indian-ocean-zebra-hai.png",
+            "alt": "Ein Zebra-Hai schwimmt über dem Sand."
+          },
+          "bigImage": {
+            "id": "big-img-indian-ocean-zebra-hai",
+            "src": "assets/images/animals/indian-ocean/indian-ocean-zebra-hai.png",
+            "alt": "Ein Zebra-Hai schwimmt über dem Sand."
           }
         },
         {
-          "id": "indian-ocean-gruene-meeresschildkroete",
-          "name": "Grüne Meeresschildkröte",
-          "shortDescription": "Die Grüne Meeresschildkröte schwimmt gemächlich durch tropische Gewässer und frisst Algen und Seegras.",
+          "id": "indian-ocean-falchengarnele",
+          "seaId": "indian-ocean",
+          "name": "Felsengarnele",
+          "shortDescription": "Eine kleine Garnele mit leuchtenden Farben, die sich gut verstecken kann.",
+          "detailParagraphs": [
+            "Felsengarnelen leben in Korallenriffen und verstecken sich geschickt zwischen Spalten.",
+            "Manche Arten putzen sogar größere Fische von Parasiten, ohne dabei gefressen zu werden."
+          ],
           "image": {
-            "id": "img-indian-ocean-gruene-meeresschildkroete",
-            "src": "assets/images/animals/indian-ocean/indian-ocean-gruene-meeresschildkroete.png",
-            "alt": "Eine Grüne Meeresschildkröte im klaren Wasser."
+            "id": "img-indian-ocean-felsengarnele",
+            "src": "assets/images/animals/indian-ocean/indian-ocean-felsengarnele.png",
+            "alt": "Eine bunte Felsengarnele sitzt im Korallenriff."
+          },
+          "bigImage": {
+            "id": "big-img-indian-ocean-felsengarnele",
+            "src": "assets/images/animals/indian-ocean/indian-ocean-felsengarnele.png",
+            "alt": "Eine bunte Felsengarnele sitzt im Korallenriff."
           }
         },
         {
-          "id": "indian-ocean-indischer-ozean-riffhai",
-          "name": "Indischer Ozean-Riffhai",
-          "shortDescription": "Der Indischer Ozean-Riffhai schwimmt rund um Korallenriffe und ist schlank und flink.",
+          "id": "indian-ocean-leopardrochen",
+          "seaId": "indian-ocean",
+          "name": "Leopardrochen",
+          "shortDescription": "Der Leopardrochen hat dunkle Flecken wie ein Leopard und gleitet elegant durchs Meer.",
+          "detailParagraphs": [
+            "Leopardrochen bewegen sich fast schwebend im Wasser und ernähren sich von Krebsen.",
+            "Ihre Fleckenmuster sind bei jedem Tier einzigartig – wie bei Fingerabdrücken."
+          ],
           "image": {
-            "id": "img-indian-ocean-indischer-ozean-riffhai",
-            "src": "assets/images/animals/indian-ocean/indian-ocean-indischer-ozean-riffhai.png",
-            "alt": "Ein Riffhai zieht seine Runden am Riff."
+            "id": "img-indian-ocean-leopardrochen",
+            "src": "assets/images/animals/indian-ocean/indian-ocean-leopardrochen.png",
+            "alt": "Ein Leopardrochen gleitet durch das Wasser."
+          },
+          "bigImage": {
+            "id": "big-img-indian-ocean-leopardrochen",
+            "src": "assets/images/animals/indian-ocean/indian-ocean-leopardrochen.png",
+            "alt": "Ein Leopardrochen gleitet durch das Wasser."
           }
         },
         {
-          "id": "indian-ocean-mandarinfisch",
-          "name": "Mandarinfisch",
-          "shortDescription": "Der Mandarinfisch ist klein, aber leuchtend bunt gefärbt und wirkt fast wie ein gemaltes Bild.",
+          "id": "indian-ocean-seegurke",
+          "seaId": "indian-ocean",
+          "name": "Seegurke",
+          "shortDescription": "Die Seegurke sieht unscheinbar aus, ist aber wichtig für das Meer.",
+          "detailParagraphs": [
+            "Seegurken reinigen den Meeresboden, indem sie Sand und kleine Partikel aufsaugen.",
+            "Sie schützen Korallen, indem sie das Ökosystem stabil halten."
+          ],
           "image": {
-            "id": "img-indian-ocean-mandarinfisch",
-            "src": "assets/images/animals/indian-ocean/indian-ocean-mandarinfisch.png",
-            "alt": "Ein farbenfroher Mandarinfisch zwischen Korallen."
+            "id": "img-indian-ocean-seegurke",
+            "src": "assets/images/animals/indian-ocean/indian-ocean-seegurke.png",
+            "alt": "Eine Seegurke liegt auf dem Meeresboden."
+          },
+          "bigImage": {
+            "id": "big-img-indian-ocean-seegurke",
+            "src": "assets/images/animals/indian-ocean/indian-ocean-seegurke.png",
+            "alt": "Eine Seegurke liegt auf dem Meeresboden."
           }
         },
         {
-          "id": "indian-ocean-napoleon-lippfisch",
-          "name": "Napoleon-Lippfisch",
-          "shortDescription": "Der Napoleon-Lippfisch ist ein großer, auffälliger Fisch mit dicker Stirn und bunten Mustern.",
+          "id": "indian-ocean-hammerhai",
+          "seaId": "indian-ocean",
+          "name": "Hammerhai",
+          "shortDescription": "Der Hammerhai hat einen auffälligen Kopf, der ihm beim Jagen hilft.",
+          "detailParagraphs": [
+            "Durch die besondere Form seines Kopfes kann der Hammerhai sehr gut riechen und sehen.",
+            "Er jagt oft in Gruppen und schwimmt in warmen Küstengewässern."
+          ],
           "image": {
-            "id": "img-indian-ocean-napoleon-lippfisch",
-            "src": "assets/images/animals/indian-ocean/indian-ocean-napoleon-lippfisch.png",
-            "alt": "Ein Napoleon-Lippfisch schwimmt am Riff vorbei."
+            "id": "img-indian-ocean-hammerhai",
+            "src": "assets/images/animals/indian-ocean/indian-ocean-hammerhai.png",
+            "alt": "Ein Hammerhai schwimmt über dem Riff."
+          },
+          "bigImage": {
+            "id": "big-img-indian-ocean-hammerhai",
+            "src": "assets/images/animals/indian-ocean/indian-ocean-hammerhai.png",
+            "alt": "Ein Hammerhai schwimmt über dem Riff."
           }
         },
         {
-          "id": "indian-ocean-gelbgebaenderter-schnapper",
-          "name": "Gelbgebänderter Schnapper",
-          "shortDescription": "Dieser Schnapper bildet leuchtend gelbe Schwärme und hält sich oft nahe bei Korallenriffen auf.",
+          "id": "indian-ocean-milchrochen",
+          "seaId": "indian-ocean",
+          "name": "Milchrochen",
+          "shortDescription": "Ein sanfter Rochen, der sich gerne im warmen Wasser aufhält.",
+          "detailParagraphs": [
+            "Milchrochen haben einen weißen Bauch, der im Sonnenlicht fast leuchtet.",
+            "Sie fressen gerne Würmer und leben in ruhigen Buchten."
+          ],
           "image": {
-            "id": "img-indian-ocean-gelbgebaenderter-schnapper",
-            "src": "assets/images/animals/indian-ocean/indian-ocean-gelbgebaenderter-schnapper.png",
-            "alt": "Ein Schwarm gelbgebänderter Schnapper."
+            "id": "img-indian-ocean-milchrochen",
+            "src": "assets/images/animals/indian-ocean/indian-ocean-milchrochen.png",
+            "alt": "Ein Milchrochen schwimmt durchs klare Wasser."
+          },
+          "bigImage": {
+            "id": "big-img-indian-ocean-milchrochen",
+            "src": "assets/images/animals/indian-ocean/indian-ocean-milchrochen.png",
+            "alt": "Ein Milchrochen schwimmt durchs klare Wasser."
           }
         },
         {
-          "id": "indian-ocean-feuerkoralle",
-          "name": "Feuerkoralle",
-          "shortDescription": "Feuerkorallen sehen schön aus, können aber wie ein kleiner Stromschlag brennen, wenn man sie berührt.",
+          "id": "indian-ocean-kaiserfisch",
+          "seaId": "indian-ocean",
+          "name": "Kaiserfisch",
+          "shortDescription": "Ein bunt gemusterter Riff-Fisch mit königlichem Aussehen.",
+          "detailParagraphs": [
+            "Kaiserfische haben auffällige Streifen und Punkte und schwimmen zwischen Korallen.",
+            "Sie verteidigen ihr Gebiet und treiben manchmal andere Fische weg."
+          ],
           "image": {
-            "id": "img-indian-ocean-feuerkoralle",
-            "src": "assets/images/animals/indian-ocean/indian-ocean-feuerkoralle.png",
-            "alt": "Leuchtende Feuerkorallen am Riff."
+            "id": "img-indian-ocean-kaiserfisch",
+            "src": "assets/images/animals/indian-ocean/indian-ocean-kaiserfisch.png",
+            "alt": "Ein farbenprächtiger Kaiserfisch im Korallenriff."
+          },
+          "bigImage": {
+            "id": "big-img-indian-ocean-kaiserfisch",
+            "src": "assets/images/animals/indian-ocean/indian-ocean-kaiserfisch.png",
+            "alt": "Ein farbenprächtiger Kaiserfisch im Korallenriff."
           }
         },
         {
-          "id": "indian-ocean-blauer-seestern",
-          "name": "Blauer Seestern",
-          "shortDescription": "Der Blaue Seestern fällt durch seine kräftig blaue Farbe auf und sitzt auf Felsen oder Korallen.",
+          "id": "indian-ocean-geigenrochen",
+          "seaId": "indian-ocean",
+          "name": "Geigenrochen",
+          "shortDescription": "Der Geigenrochen sieht aus wie eine Mischung aus Hai und Rochen.",
+          "detailParagraphs": [
+            "Er hat einen flachen Körper wie ein Rochen und eine lange Schnauze wie ein Hai.",
+            "Geigenrochen ruhen oft am Boden und warten auf Beute."
+          ],
           "image": {
-            "id": "img-indian-ocean-blauer-seestern",
-            "src": "assets/images/animals/indian-ocean/indian-ocean-blauer-seestern.png",
-            "alt": "Ein blauer Seestern auf dem Meeresboden."
+            "id": "img-indian-ocean-geigenrochen",
+            "src": "assets/images/animals/indian-ocean/indian-ocean-geigenrochen.png",
+            "alt": "Ein Geigenrochen auf dem Sandboden."
+          },
+          "bigImage": {
+            "id": "big-img-indian-ocean-geigenrochen",
+            "src": "assets/images/animals/indian-ocean/indian-ocean-geigenrochen.png",
+            "alt": "Ein Geigenrochen auf dem Sandboden."
           }
         },
         {
-          "id": "indian-ocean-kaurischnecke",
-          "name": "Kaurischnecke",
-          "shortDescription": "Kaurischnecken haben glatte, glänzende Gehäuse, die früher oft als Schmuck oder Tauschmittel genutzt wurden.",
+          "id": "indian-ocean-korallendoktorfisch",
+          "seaId": "indian-ocean",
+          "name": "Korallendoktorfisch",
+          "shortDescription": "Ein Fisch, der Korallen von Algen befreit und so das Riff gesund hält.",
+          "detailParagraphs": [
+            "Er wirkt wie ein kleiner Gärtner unter Wasser, indem er Pflanzen von den Korallen abknabbert.",
+            "Er lebt in Gruppen und schwimmt schnell zwischen den Korallenriffen."
+          ],
           "image": {
-            "id": "img-indian-ocean-kaurischnecke",
-            "src": "assets/images/animals/indian-ocean/indian-ocean-kaurischnecke.png",
-            "alt": "Eine Kaurischnecke auf Sand."
+            "id": "img-indian-ocean-korallendoktorfisch",
+            "src": "assets/images/animals/indian-ocean/indian-ocean-korallendoktorfisch.png",
+            "alt": "Ein Doktorfisch schwimmt durch das Riff."
+          },
+          "bigImage": {
+            "id": "big-img-indian-ocean-korallendoktorfisch",
+            "src": "assets/images/animals/indian-ocean/indian-ocean-korallendoktorfisch.png",
+            "alt": "Ein Doktorfisch schwimmt durch das Riff."
           }
         },
         {
-          "id": "indian-ocean-indischer-ozean-drueckerfisch",
-          "name": "Indischer Ozean-Drückerfisch",
-          "shortDescription": "Drückerfische haben kräftige Zähne und auffällige Muster und verteidigen ihr kleines Revier am Riff.",
+          "id": "indian-ocean-seeschlange",
+          "seaId": "indian-ocean",
+          "name": "Seeschlange",
+          "shortDescription": "Seeschlangen leben ihr ganzes Leben im Meer und sind sehr gute Schwimmer.",
+          "detailParagraphs": [
+            "Seeschlangen haben giftige Zähne, greifen aber selten Menschen an.",
+            "Sie holen an der Oberfläche Luft und tauchen dann wieder ab, um nach Fischen zu jagen."
+          ],
           "image": {
-            "id": "img-indian-ocean-indischer-ozean-drueckerfisch",
-            "src": "assets/images/animals/indian-ocean/indian-ocean-indischer-ozean-drueckerfisch.png",
-            "alt": "Ein bunt gemusterter Drückerfisch."
+            "id": "img-indian-ocean-seeschlange",
+            "src": "assets/images/animals/indian-ocean/indian-ocean-seeschlange.png",
+            "alt": "Eine Seeschlange schlängelt durchs Wasser."
+          },
+          "bigImage": {
+            "id": "big-img-indian-ocean-seeschlange",
+            "src": "assets/images/animals/indian-ocean/indian-ocean-seeschlange.png",
+            "alt": "Eine Seeschlange schlängelt durchs Wasser."
           }
         },
         {
-          "id": "indian-ocean-indischer-ozean-anemonenfisch",
-          "name": "Indischer Ozean-Anemonenfisch",
-          "shortDescription": "Dieser Anemonenfisch lebt geschützt in den Tentakeln einer Seeanemone und ist leuchtend gefärbt.",
+          "id": "indian-ocean-riesenmuschel",
+          "seaId": "indian-ocean",
+          "name": "Riesenmuschel",
+          "shortDescription": "Die Riesenmuschel kann sehr groß werden und fest am Meeresboden sitzen.",
+          "detailParagraphs": [
+            "Sie filtert das Meerwasser und liefert wichtigen Lebensraum für viele kleine Tiere.",
+            "Manche Riesenmuscheln wiegen mehr als 200 Kilogramm!"
+          ],
           "image": {
-            "id": "img-indian-ocean-indischer-ozean-anemonenfisch",
-            "src": "assets/images/animals/indian-ocean/indian-ocean-indischer-ozean-anemonenfisch.png",
-            "alt": "Ein Anemonenfisch sitzt in seiner Anemone."
+            "id": "img-indian-ocean-riesenmuschel",
+            "src": "assets/images/animals/indian-ocean/indian-ocean-riesenmuschel.png",
+            "alt": "Eine Riesenmuschel im Korallenriff."
+          },
+          "bigImage": {
+            "id": "big-img-indian-ocean-riesenmuschel",
+            "src": "assets/images/animals/indian-ocean/indian-ocean-riesenmuschel.png",
+            "alt": "Eine Riesenmuschel im Korallenriff."
           }
         }
       ]
@@ -1002,122 +1722,242 @@
       "animals": [
         {
           "id": "arctic-ocean-eisbaer",
+          "seaId": "arctic-ocean",
           "name": "Eisbär",
           "shortDescription": "Der Eisbär ist der größte Bär der Welt und jagt auf dem Eis nach Robben.",
+          "detailParagraphs": [
+            "Eisbären sind sehr gute Schwimmer und können lange Strecken im eiskalten Wasser zurücklegen.",
+            "Sie nutzen das Meereis als Jagdplatz und warten geduldig auf Robben, die zum Atmen auftauchen."
+          ],
           "image": {
             "id": "img-arctic-ocean-eisbaer",
+            "src": "assets/images/animals/arctic-ocean/arctic-ocean-eisbaer.png",
+            "alt": "Ein Eisbär steht auf einer Eisscholle."
+          },
+          "bigImage": {
+            "id": "big-img-arctic-ocean-eisbaer",
             "src": "assets/images/animals/arctic-ocean/arctic-ocean-eisbaer.png",
             "alt": "Ein Eisbär steht auf einer Eisscholle."
           }
         },
         {
           "id": "arctic-ocean-narwal",
+          "seaId": "arctic-ocean",
           "name": "Narwal",
-          "shortDescription": "Der Narwal wird wegen seines langen Stoßzahns auch Einhorn der Meere genannt.",
+          "shortDescription": "Der Narwal wird wegen seines langen Stoßzahns auch „Einhorn des Meeres“ genannt.",
+          "detailParagraphs": [
+            "Der Stoßzahn des Narwals ist eigentlich ein Zahn, der bis zu 3 Meter lang werden kann.",
+            "Narwale leben meist in Gruppen und kommunizieren über Klick- und Pfeiflaute."
+          ],
           "image": {
             "id": "img-arctic-ocean-narwal",
+            "src": "assets/images/animals/arctic-ocean/arctic-ocean-narwal.png",
+            "alt": "Ein Narwal mit langem Stoßzahn im Wasser."
+          },
+          "bigImage": {
+            "id": "big-img-arctic-ocean-narwal",
             "src": "assets/images/animals/arctic-ocean/arctic-ocean-narwal.png",
             "alt": "Ein Narwal mit langem Stoßzahn im Wasser."
           }
         },
         {
           "id": "arctic-ocean-belugawal",
+          "seaId": "arctic-ocean",
           "name": "Belugawal",
-          "shortDescription": "Der Belugawal ist ein weißer Wal, der oft in Gruppen reist und viele Laute von sich gibt.",
+          "shortDescription": "Der Belugawal ist ein weißer Wal, der viele Töne machen kann.",
+          "detailParagraphs": [
+            "Belugawale werden auch „Kanarienvögel der Meere“ genannt, weil sie so viele Laute erzeugen können.",
+            "Sie leben oft in flacheren arktischen Gewässern und schwimmen manchmal bei Eisschollen entlang."
+          ],
           "image": {
             "id": "img-arctic-ocean-belugawal",
             "src": "assets/images/animals/arctic-ocean/arctic-ocean-belugawal.png",
-            "alt": "Ein weißer Belugawal im Arktischen Meer."
+            "alt": "Ein weißer Belugawal im eisigen Wasser."
+          },
+          "bigImage": {
+            "id": "big-img-arctic-ocean-belugawal",
+            "src": "assets/images/animals/arctic-ocean/arctic-ocean-belugawal.png",
+            "alt": "Ein weißer Belugawal im eisigen Wasser."
           }
         },
         {
           "id": "arctic-ocean-ringelrobbe",
+          "seaId": "arctic-ocean",
           "name": "Ringelrobbe",
-          "shortDescription": "Die Ringelrobbe hat dunkles Fell mit hellen Ringen und lebt in eisbedeckten Gebieten.",
+          "shortDescription": "Die Ringelrobbe hat dunkles Fell mit hellen Ringen und lebt im Packeis.",
+          "detailParagraphs": [
+            "Ringelrobben schneiden mit ihren Krallen Löcher ins Eis, um zum Atmen an die Oberfläche zu kommen.",
+            "Sie verstecken ihre Jungen in Schneehöhlen, damit sie vor Kälte und Feinden geschützt sind."
+          ],
           "image": {
             "id": "img-arctic-ocean-ringelrobbe",
+            "src": "assets/images/animals/arctic-ocean/arctic-ocean-ringelrobbe.png",
+            "alt": "Eine Ringelrobbe ruht auf dem Eis."
+          },
+          "bigImage": {
+            "id": "big-img-arctic-ocean-ringelrobbe",
             "src": "assets/images/animals/arctic-ocean/arctic-ocean-ringelrobbe.png",
             "alt": "Eine Ringelrobbe ruht auf dem Eis."
           }
         },
         {
           "id": "arctic-ocean-walross",
+          "seaId": "arctic-ocean",
           "name": "Walross",
-          "shortDescription": "Das Walross ist ein großes Tier mit langen Stoßzähnen und Bartborsten, das in Gruppen auf Eisschollen liegt.",
+          "shortDescription": "Das Walross hat lange Stoßzähne und ruht oft in Gruppen auf Eisflächen.",
+          "detailParagraphs": [
+            "Walrosse nutzen ihre Stoßzähne, um aus dem Wasser aufs Eis zu klettern.",
+            "Sie leben in großen Gruppen und kommunizieren über röchelnde Geräusche."
+          ],
           "image": {
             "id": "img-arctic-ocean-walross",
             "src": "assets/images/animals/arctic-ocean/arctic-ocean-walross.png",
-            "alt": "Ein Walross mit Stoßzähnen liegt am Ufer."
+            "alt": "Ein Walross mit langen Stoßzähnen auf dem Eis."
+          },
+          "bigImage": {
+            "id": "big-img-arctic-ocean-walross",
+            "src": "assets/images/animals/arctic-ocean/arctic-ocean-walross.png",
+            "alt": "Ein Walross mit langen Stoßzähnen auf dem Eis."
           }
         },
         {
           "id": "arctic-ocean-groenlandwal",
+          "seaId": "arctic-ocean",
           "name": "Grönlandwal",
-          "shortDescription": "Der Grönlandwal lebt in kalten Gewässern und kann sehr alt werden, manchmal über 100 Jahre.",
+          "shortDescription": "Der Grönlandwal lebt in den eisigen Gewässern und kann über 100 Jahre alt werden.",
+          "detailParagraphs": [
+            "Er hat eine sehr dicke Speckschicht, die ihn vor der Kälte schützt.",
+            "Sein Kopf ist so stark, dass er Eisdecken durchbrechen kann, um Luft zu holen."
+          ],
           "image": {
             "id": "img-arctic-ocean-groenlandwal",
+            "src": "assets/images/animals/arctic-ocean/arctic-ocean-groenlandwal.png",
+            "alt": "Ein Grönlandwal schwimmt durch kaltes Wasser."
+          },
+          "bigImage": {
+            "id": "big-img-arctic-ocean-groenlandwal",
             "src": "assets/images/animals/arctic-ocean/arctic-ocean-groenlandwal.png",
             "alt": "Ein Grönlandwal schwimmt durch kaltes Wasser."
           }
         },
         {
           "id": "arctic-ocean-polardorsch",
+          "seaId": "arctic-ocean",
           "name": "Polardorsch",
-          "shortDescription": "Der Polardorsch ist ein kleiner Fisch, der gut an sehr kaltes Wasser angepasst ist.",
+          "shortDescription": "Der Polardorsch ist ein kleiner Fisch, der gut an kaltes Wasser angepasst ist.",
+          "detailParagraphs": [
+            "Polardorsche haben spezielle Stoffe im Blut, die verhindern, dass es gefriert.",
+            "Sie sind wichtige Nahrung für viele arktische Tiere wie Wale und Seevögel."
+          ],
           "image": {
             "id": "img-arctic-ocean-polardorsch",
             "src": "assets/images/animals/arctic-ocean/arctic-ocean-polardorsch.png",
-            "alt": "Ein Polardorsch im dunklen Wasser."
+            "alt": "Ein Polardorsch im kalten Wasser."
+          },
+          "bigImage": {
+            "id": "big-img-arctic-ocean-polardorsch",
+            "src": "assets/images/animals/arctic-ocean/arctic-ocean-polardorsch.png",
+            "alt": "Ein Polardorsch im kalten Wasser."
           }
         },
         {
-          "id": "arctic-ocean-arktische-seespinne",
+          "id": "arctic-ocean-seespinne",
+          "seaId": "arctic-ocean",
           "name": "Arktische Seespinne",
-          "shortDescription": "Die Arktische Seespinne hat sehr lange Beine und krabbelt über den Meeresboden.",
+          "shortDescription": "Die Arktische Seespinne krabbelt mit sehr langen Beinen über den Meeresboden.",
+          "detailParagraphs": [
+            "Sie frisst kleine Tiere und Pflanzenreste, die sie zwischen Felsen findet.",
+            "Obwohl sie wie eine Landspinne aussieht, lebt sie ausschließlich im Meer."
+          ],
           "image": {
-            "id": "img-arctic-ocean-arktische-seespinne",
-            "src": "assets/images/animals/arctic-ocean/arctic-ocean-arktische-seespinne.png",
-            "alt": "Eine Seespinne sitzt auf dem Boden."
-          }
-        },
-        {
-          "id": "arctic-ocean-arktische-krabbe",
-          "name": "Arktische Krabbe",
-          "shortDescription": "Arktische Krabben leben im kalten Wasser und suchen auf dem Boden nach Futter.",
-          "image": {
-            "id": "img-arctic-ocean-arktische-krabbe",
-            "src": "assets/images/animals/arctic-ocean/arctic-ocean-arktische-krabbe.png",
-            "alt": "Eine Krabbe läuft über den sandigen Grund."
+            "id": "img-arctic-ocean-seespinne",
+            "src": "assets/images/animals/arctic-ocean/arctic-ocean-seespinne.png",
+            "alt": "Eine Seespinne auf dem Meeresboden."
+          },
+          "bigImage": {
+            "id": "big-img-arctic-ocean-seespinne",
+            "src": "assets/images/animals/arctic-ocean/arctic-ocean-seespinne.png",
+            "alt": "Eine Seespinne auf dem Meeresboden."
           }
         },
         {
           "id": "arctic-ocean-schneekrabbe",
+          "seaId": "arctic-ocean",
           "name": "Schneekrabbe",
-          "shortDescription": "Die Schneekrabbe hat lange Beine und lebt in sehr kalten Meeresregionen.",
+          "shortDescription": "Die Schneekrabbe hat lange Beine und lebt in sehr kalten Meeresbereichen.",
+          "detailParagraphs": [
+            "Sie wandert häufig über Sandflächen und sucht nach kleinen Krebsen und Schnecken.",
+            "Ihre Beine können bei manchen Tieren länger sein als ihr Körper."
+          ],
           "image": {
             "id": "img-arctic-ocean-schneekrabbe",
+            "src": "assets/images/animals/arctic-ocean/arctic-ocean-schneekrabbe.png",
+            "alt": "Eine Schneekrabbe im kalten Wasser."
+          },
+          "bigImage": {
+            "id": "big-img-arctic-ocean-schneekrabbe",
             "src": "assets/images/animals/arctic-ocean/arctic-ocean-schneekrabbe.png",
             "alt": "Eine Schneekrabbe im kalten Wasser."
           }
         },
         {
           "id": "arctic-ocean-dickschnabellumme",
+          "seaId": "arctic-ocean",
           "name": "Dickschnabellumme",
-          "shortDescription": "Die Dickschnabellumme ist ein Seevogel, der Fische jagt und auf Felsklippen brütet.",
+          "shortDescription": "Die Dickschnabellumme ist ein Seevogel, der tief tauchen kann.",
+          "detailParagraphs": [
+            "Sie jagt kleine Fische, indem sie unter Wasser flattert wie ein Vogel in der Luft.",
+            "Ihre Küken springen direkt nach dem Schlüpfen von hohen Felsen – sicher begleitet vom Vater."
+          ],
           "image": {
             "id": "img-arctic-ocean-dickschnabellumme",
+            "src": "assets/images/animals/arctic-ocean/arctic-ocean-dickschnabellumme.png",
+            "alt": "Eine Dickschnabellumme fliegt über das Meer."
+          },
+          "bigImage": {
+            "id": "big-img-arctic-ocean-dickschnabellumme",
             "src": "assets/images/animals/arctic-ocean/arctic-ocean-dickschnabellumme.png",
             "alt": "Eine Dickschnabellumme fliegt über das Meer."
           }
         },
         {
           "id": "arctic-ocean-eisqualle",
+          "seaId": "arctic-ocean",
           "name": "Eisqualle",
-          "shortDescription": "Die Eisqualle schwebt langsam im kalten Wasser und erinnert mit ihrem Schirm an eine weiße Glocke.",
+          "shortDescription": "Die Eisqualle erinnert an eine weiße Glocke und treibt langsam im Wasser.",
+          "detailParagraphs": [
+            "Sie überlebt sogar unter Eisflächen, wo das Wasser extrem kalt ist.",
+            "Ihre Tentakel können sehr lang werden, sind aber für Menschen ungefährlich."
+          ],
           "image": {
             "id": "img-arctic-ocean-eisqualle",
             "src": "assets/images/animals/arctic-ocean/arctic-ocean-eisqualle.png",
             "alt": "Eine weiße Qualle im kalten Meer."
+          },
+          "bigImage": {
+            "id": "big-img-arctic-ocean-eisqualle",
+            "src": "assets/images/animals/arctic-ocean/arctic-ocean-eisqualle.png",
+            "alt": "Eine weiße Qualle im kalten Meer."
+          }
+        },
+        {
+          "id": "arctic-ocean-schneefisch",
+          "seaId": "arctic-ocean",
+          "name": "Schneefisch",
+          "shortDescription": "Der Schneefisch hat besonders klares Blut, das ihn vor Frost schützt.",
+          "detailParagraphs": [
+            "Er besitzt kein rotes Blutpigment und ist dadurch durchsichtig.",
+            "Diese ungewöhnliche Eigenschaft schützt ihn vor dem Gefrieren."
+          ],
+          "image": {
+            "id": "img-arctic-ocean-schneefisch",
+            "src": "assets/images/animals/arctic-ocean/arctic-ocean-schneefisch.png",
+            "alt": "Ein heller Schneefisch im kalten Wasser."
+          },
+          "bigImage": {
+            "id": "big-img-arctic-ocean-schneefisch",
+            "src": "assets/images/animals/arctic-ocean/arctic-ocean-schneefisch.png",
+            "alt": "Ein heller Schneefisch im kalten Wasser."
           }
         }
       ]
@@ -1127,122 +1967,242 @@
       "animals": [
         {
           "id": "southern-ocean-kaiserpinguin",
+          "seaId": "southern-ocean",
           "name": "Kaiserpinguin",
-          "shortDescription": "Der Kaiserpinguin ist der größte Pinguin und lebt in großen Kolonien auf dem Eis rund um die Antarktis.",
+          "shortDescription": "Der Kaiserpinguin ist der größte aller Pinguine und brütet im Winter auf dem Eis.",
+          "detailParagraphs": [
+            "Kaiserpinguine können über 500 Meter tief tauchen und mehrere Minuten unter Wasser bleiben.",
+            "Sie wärmen ihre Eier auf ihren Füßen und schützen sie mit einer warmen Bauchfalte."
+          ],
           "image": {
             "id": "img-southern-ocean-kaiserpinguin",
             "src": "assets/images/animals/southern-ocean/southern-ocean-kaiserpinguin.png",
-            "alt": "Kaiserpinguine stehen dicht zusammen auf dem Eis."
-          }
-        },
-        {
-          "id": "southern-ocean-koenigspinguin",
-          "name": "Königspinguin",
-          "shortDescription": "Der Königspinguin trägt ein elegantes schwarzes und weißes Federkleid mit gelben Flecken am Hals.",
-          "image": {
-            "id": "img-southern-ocean-koenigspinguin",
-            "src": "assets/images/animals/southern-ocean/southern-ocean-koenigspinguin.png",
-            "alt": "Ein Königspinguin steht am Ufer."
-          }
-        },
-        {
-          "id": "southern-ocean-schneesturmvogel",
-          "name": "Schneesturmvogel",
-          "shortDescription": "Der Schneesturmvogel ist ein Seevogel mit hellen Federn, der auch bei starkem Wind sicher fliegt.",
-          "image": {
-            "id": "img-southern-ocean-schneesturmvogel",
-            "src": "assets/images/animals/southern-ocean/southern-ocean-schneesturmvogel.png",
-            "alt": "Ein Schneesturmvogel gleitet über den Wellen."
+            "alt": "Ein Kaiserpinguin steht auf dem Eis."
+          },
+          "bigImage": {
+            "id": "big-img-southern-ocean-kaiserpinguin",
+            "src": "assets/images/animals/southern-ocean/southern-ocean-kaiserpinguin.png",
+            "alt": "Ein Kaiserpinguin steht auf dem Eis."
           }
         },
         {
           "id": "southern-ocean-antarktischer-krill",
+          "seaId": "southern-ocean",
           "name": "Antarktischer Krill",
-          "shortDescription": "Antarktischer Krill sind winzige Krebschen, die in riesigen Schwärmen vorkommen und die wichtigste Nahrung für viele Tiere sind.",
+          "shortDescription": "Krill sind kleine Krebstiere und die wichtigste Nahrung vieler Tiere im Südpolarmeer.",
+          "detailParagraphs": [
+            "Ein Schwarm Krill kann riesig sein und sieht im Wasser wie eine rote Wolke aus.",
+            "Ohne Krill könnten Tiere wie Pinguine, Wale oder Robben nicht überleben."
+          ],
           "image": {
-            "id": "img-southern-ocean-antarktischer-krill",
-            "src": "assets/images/animals/southern-ocean/southern-ocean-antarktischer-krill.png",
+            "id": "img-southern-ocean-krill",
+            "src": "assets/images/animals/southern-ocean/southern-ocean-krill.png",
+            "alt": "Ein Schwarm Krill im Wasser."
+          },
+          "bigImage": {
+            "id": "big-img-southern-ocean-krill",
+            "src": "assets/images/animals/southern-ocean/southern-ocean-krill.png",
             "alt": "Ein Schwarm Krill im Wasser."
           }
         },
         {
-          "id": "southern-ocean-leopardenrobbe",
-          "name": "Leopardenrobbe",
-          "shortDescription": "Die Leopardenrobbe hat ein geflecktes Fell und jagt im Südlichen Ozean nach Fischen und Pinguinen.",
+          "id": "southern-ocean-rossrobbe",
+          "seaId": "southern-ocean",
+          "name": "Rossrobbe",
+          "shortDescription": "Die Rossrobbe lebt in Eisgebieten der Antarktis und hat ein ruhiges Wesen.",
+          "detailParagraphs": [
+            "Sie schläft oft auf großen Eisschollen und jagt im Wasser nach Fischen.",
+            "Rossrobben leben meist allein und sind neugierig gegenüber Tauchern."
+          ],
           "image": {
-            "id": "img-southern-ocean-leopardenrobbe",
-            "src": "assets/images/animals/southern-ocean/southern-ocean-leopardenrobbe.png",
-            "alt": "Eine Leopardenrobbe schwimmt im kalten Meer."
+            "id": "img-southern-ocean-rossrobbe",
+            "src": "assets/images/animals/southern-ocean/southern-ocean-rossrobbe.png",
+            "alt": "Eine Rossrobbe ruht auf Eis."
+          },
+          "bigImage": {
+            "id": "big-img-southern-ocean-rossrobbe",
+            "src": "assets/images/animals/southern-ocean/southern-ocean-rossrobbe.png",
+            "alt": "Eine Rossrobbe ruht auf Eis."
           }
         },
         {
-          "id": "southern-ocean-krabbenfresserrobbe",
-          "name": "Krabbenfresserrobbe",
-          "shortDescription": "Die Krabbenfresserrobbe frisst vor allem Krill und liegt gern in Gruppen auf dem Eis.",
+          "id": "southern-ocean-weissflossen-kreuzfisch",
+          "seaId": "southern-ocean",
+          "name": "Weißflossen-Kreuzfisch",
+          "shortDescription": "Ein Tiefseefisch mit durchscheinendem Körper, perfekt für eisiges Wasser.",
+          "detailParagraphs": [
+            "Sein Blut enthält Frostschutzstoffe, die ein Gefrieren verhindern.",
+            "Er lebt nahe Eisbergen und ernährt sich von kleinen Krebstieren."
+          ],
           "image": {
-            "id": "img-southern-ocean-krabbenfresserrobbe",
-            "src": "assets/images/animals/southern-ocean/southern-ocean-krabbenfresserrobbe.png",
-            "alt": "Krabbenfresserrobben ruhen auf einer Eisscholle."
+            "id": "img-southern-ocean-kreuzfisch",
+            "src": "assets/images/animals/southern-ocean/southern-ocean-kreuzfisch.png",
+            "alt": "Ein hell glänzender Kreuzfisch im dunklen Wasser."
+          },
+          "bigImage": {
+            "id": "big-img-southern-ocean-kreuzfisch",
+            "src": "assets/images/animals/southern-ocean/southern-ocean-kreuzfisch.png",
+            "alt": "Ein hell glänzender Kreuzfisch im dunklen Wasser."
+          }
+        },
+        {
+          "id": "southern-ocean-msuedlicher-glattwal",
+          "seaId": "southern-ocean",
+          "name": "Südlicher Glattwal",
+          "shortDescription": "Ein großer Wal, der langsam schwimmt und friedlich wirkt.",
+          "detailParagraphs": [
+            "Er hat keine Rückenflosse und wird bis zu 17 Meter lang.",
+            "Der Glattwal filtert Kieselalgen und Krill aus dem Wasser."
+          ],
+          "image": {
+            "id": "img-southern-ocean-glattwal",
+            "src": "assets/images/animals/southern-ocean/southern-ocean-glattwal.png",
+            "alt": "Ein Glattwal schwimmt im Meer."
+          },
+          "bigImage": {
+            "id": "big-img-southern-ocean-glattwal",
+            "src": "assets/images/animals/southern-ocean/southern-ocean-glattwal.png",
+            "alt": "Ein Glattwal schwimmt im Meer."
+          }
+        },
+        {
+          "id": "southern-ocean-schneesturmvogel",
+          "seaId": "southern-ocean",
+          "name": "Schneesturmvogel",
+          "shortDescription": "Ein weißer Seevogel, der sogar während Schneestürmen fliegen kann.",
+          "detailParagraphs": [
+            "Er nistet an Klippen stellenweise direkt über dem Meer.",
+            "Der Schneesturmvogel findet selbst im Nebel seinen Weg über das weite Eis."
+          ],
+          "image": {
+            "id": "img-southern-ocean-schneesturmvogel",
+            "src": "assets/images/animals/southern-ocean/southern-ocean-schneesturmvogel.png",
+            "alt": "Ein weißer Schneesturmvogel fliegt über Eis."
+          },
+          "bigImage": {
+            "id": "big-img-southern-ocean-schneesturmvogel",
+            "src": "assets/images/animals/southern-ocean/southern-ocean-schneesturmvogel.png",
+            "alt": "Ein weißer Schneesturmvogel fliegt über Eis."
+          }
+        },
+        {
+          "id": "southern-ocean-seeleopard",
+          "seaId": "southern-ocean",
+          "name": "Seeleopard",
+          "shortDescription": "Ein Robbenräuber mit Fleckmuster, der auch Pinguine jagt.",
+          "detailParagraphs": [
+            "Seeleoparden sind sehr kräftig und haben ein großes Maul.",
+            "Trotz ihrer Stärke sind sie gute Schwimmer und jagen blitzschnell."
+          ],
+          "image": {
+            "id": "img-southern-ocean-seeleopard",
+            "src": "assets/images/animals/southern-ocean/southern-ocean-seeleopard.png",
+            "alt": "Ein Seeleopard schwimmt durchs eisige Wasser."
+          },
+          "bigImage": {
+            "id": "big-img-southern-ocean-seeleopard",
+            "src": "assets/images/animals/southern-ocean/southern-ocean-seeleopard.png",
+            "alt": "Ein Seeleopard schwimmt durchs eisige Wasser."
           }
         },
         {
           "id": "southern-ocean-antarktischer-silberfisch",
+          "seaId": "southern-ocean",
           "name": "Antarktischer Silberfisch",
-          "shortDescription": "Der Antarktische Silberfisch ist ein kleiner, glänzender Fisch, der im kalten Wasser des Südlichen Ozeans lebt.",
+          "shortDescription": "Ein kleiner Fisch, den viele Meerestiere fressen.",
+          "detailParagraphs": [
+            "Einige Silberfische schwimmen direkt unter dem Meereis.",
+            "Sie bilden große Schwärme und sind wichtige Nahrung für Robben und Pinguine."
+          ],
           "image": {
-            "id": "img-southern-ocean-antarktischer-silberfisch",
-            "src": "assets/images/animals/southern-ocean/southern-ocean-antarktischer-silberfisch.png",
-            "alt": "Ein Silberfisch schwimmt im dunklen Wasser."
+            "id": "img-southern-ocean-silberfisch",
+            "src": "assets/images/animals/southern-ocean/southern-ocean-silberfisch.png",
+            "alt": "Antarktische Silberfische unter dem Eis."
+          },
+          "bigImage": {
+            "id": "big-img-southern-ocean-silberfisch",
+            "src": "assets/images/animals/southern-ocean/southern-ocean-silberfisch.png",
+            "alt": "Antarktische Silberfische unter dem Eis."
           }
         },
         {
-          "id": "southern-ocean-blauaeugiger-kormoran",
-          "name": "Blauäugiger Kormoran",
-          "shortDescription": "Der Blauäugige Kormoran ist ein Seevogel, der taucht und im eiskalten Wasser nach Fischen sucht.",
+          "id": "southern-ocean-bartrobbe",
+          "seaId": "southern-ocean",
+          "name": "Bartrobbe",
+          "shortDescription": "Die Bartrobbe hat lange Schnurrhaare, mit denen sie im Dunkeln Beute spürt.",
+          "detailParagraphs": [
+            "Sie jagt am Meeresboden nach Garnelen und Würmern.",
+            "Ihre Schnurrhaare sind sehr empfindlich und können Bewegungen im Sand wahrnehmen."
+          ],
           "image": {
-            "id": "img-southern-ocean-blauaeugiger-kormoran",
-            "src": "assets/images/animals/southern-ocean/southern-ocean-blauaeugiger-kormoran.png",
-            "alt": "Ein Kormoran sitzt auf einem Felsen über dem Meer."
+            "id": "img-southern-ocean-bartrobbe",
+            "src": "assets/images/animals/southern-ocean/southern-ocean-bartrobbe.png",
+            "alt": "Eine Bartrobbe mit langen Schnurrhaaren."
+          },
+          "bigImage": {
+            "id": "big-img-southern-ocean-bartrobbe",
+            "src": "assets/images/animals/southern-ocean/southern-ocean-bartrobbe.png",
+            "alt": "Eine Bartrobbe mit langen Schnurrhaaren."
           }
         },
         {
-          "id": "southern-ocean-antarktischer-eisfisch",
-          "name": "Antarktischer Eisfisch",
-          "shortDescription": "Der Antarktische Eisfisch hat besonders klares Blut, das ihm hilft, im eiskalten Wasser zu überleben.",
+          "id": "southern-ocean-schneegans",
+          "seaId": "southern-ocean",
+          "name": "Schneegans",
+          "shortDescription": "Eine Zugvogelart, die im Sommer sogar bis nahe der Antarktis fliegt.",
+          "detailParagraphs": [
+            "Sie überwintert in wärmeren Ländern und fliegt Tausende Kilometer in den Süden.",
+            "Ihr weißes Gefieder bietet gute Tarnung im Schnee."
+          ],
           "image": {
-            "id": "img-southern-ocean-antarktischer-eisfisch",
-            "src": "assets/images/animals/southern-ocean/southern-ocean-antarktischer-eisfisch.png",
-            "alt": "Ein heller Fisch im kalten Meer."
+            "id": "img-southern-ocean-schneegans",
+            "src": "assets/images/animals/southern-ocean/southern-ocean-schneegans.png",
+            "alt": "Eine Schneegans steht auf Schnee."
+          },
+          "bigImage": {
+            "id": "big-img-southern-ocean-schneegans",
+            "src": "assets/images/animals/southern-ocean/southern-ocean-schneegans.png",
+            "alt": "Eine Schneegans steht auf Schnee."
           }
         },
         {
-          "id": "southern-ocean-weddellrobbe",
-          "name": "Weddellrobbe",
-          "shortDescription": "Die Weddellrobbe kann lange tauchen und atmet durch Löcher im Eis, die sie mit den Zähnen offen hält.",
+          "id": "southern-ocean-schwertwal",
+          "seaId": "southern-ocean",
+          "name": "Schwertwal",
+          "shortDescription": "Der Schwertwal, auch Orca genannt, ist ein schneller Jäger im Südpolarmeer.",
+          "detailParagraphs": [
+            "Er jagt manchmal im Team und teilt die Beute mit seinen Familienmitgliedern.",
+            "Orcas können Robben sogar von Eisschollen herunterspülen."
+          ],
           "image": {
-            "id": "img-southern-ocean-weddellrobbe",
-            "src": "assets/images/animals/southern-ocean/southern-ocean-weddellrobbe.png",
-            "alt": "Eine Weddellrobbe liegt auf dem Eis."
+            "id": "img-southern-ocean-schwertwal",
+            "src": "assets/images/animals/southern-ocean/southern-ocean-schwertwal.png",
+            "alt": "Ein Orca springt über das Wasser."
+          },
+          "bigImage": {
+            "id": "big-img-southern-ocean-schwertwal",
+            "src": "assets/images/animals/southern-ocean/southern-ocean-schwertwal.png",
+            "alt": "Ein Orca springt über das Wasser."
           }
         },
         {
-          "id": "southern-ocean-antarktischer-seeengel",
-          "name": "Antarktischer Seeengel",
-          "shortDescription": "Der Antarktische Seeengel ist ein kleiner, durchsichtig wirkender Meeresschnecke, die frei im Wasser schwebt.",
+          "id": "southern-ocean-suedlicher-elefantenrobbe",
+          "seaId": "southern-ocean",
+          "name": "Südliche Elefantenrobbe",
+          "shortDescription": "Die größte Robbenart der Welt, benannt nach ihrer rüsselähnlichen Nase.",
+          "detailParagraphs": [
+            "Männliche Elefantenrobben können bis zu 4 Tonnen wiegen.",
+            "Sie tauchen über 1500 Meter tief, um nach Tintenfischen zu suchen."
+          ],
           "image": {
-            "id": "img-southern-ocean-antarktischer-seeengel",
-            "src": "assets/images/animals/southern-ocean/southern-ocean-antarktischer-seeengel.png",
-            "alt": "Ein kleiner Seeengel im Wasser."
-          }
-        },
-        {
-          "id": "southern-ocean-riesenkalmar",
-          "name": "Riesenkalmar",
-          "shortDescription": "Der Riesenkalmar ist ein sehr großes, tief lebendes Tintenfisch-Tier, das nur selten gesichtet wird.",
-          "image": {
-            "id": "img-southern-ocean-riesenkalmar",
-            "src": "assets/images/animals/southern-ocean/southern-ocean-riesenkalmar.png",
-            "alt": "Ein großer Kalmar in der Tiefsee."
+            "id": "img-southern-ocean-elefantenrobbe",
+            "src": "assets/images/animals/southern-ocean/southern-ocean-elefantenrobbe.png",
+            "alt": "Eine Elefantenrobbe ruht auf dem Eis."
+          },
+          "bigImage": {
+            "id": "big-img-southern-ocean-elefantenrobbe",
+            "src": "assets/images/animals/southern-ocean/southern-ocean-elefantenrobbe.png",
+            "alt": "Eine Elefantenrobbe ruht auf dem Eis."
           }
         }
       ]
@@ -1251,123 +2211,243 @@
       "seaId": "caribbean",
       "animals": [
         {
-          "id": "caribbean-karibischer-riffhai",
+          "id": "caribbean-meeresschildkroete",
+          "seaId": "caribbean",
+          "name": "Meeresschildkröte",
+          "shortDescription": "Meeresschildkröten schwimmen durch warmes Wasser und legen Eier an Sandstränden ab.",
+          "detailParagraphs": [
+            "Sie kehren oft an denselben Strand zurück, an dem sie geboren wurden, um ihre eigenen Eier zu legen.",
+            "Junge Schildkröten müssen schnell ins Meer gelangen, um nicht von Möwen gefressen zu werden."
+          ],
+          "image": {
+            "id": "img-caribbean-meeresschildkroete",
+            "src": "assets/images/animals/caribbean/caribbean-meeresschildkroete.png",
+            "alt": "Eine Meeresschildkröte schwimmt im klaren Wasser."
+          },
+          "bigImage": {
+            "id": "big-img-caribbean-meeresschildkroete",
+            "src": "assets/images/animals/caribbean/caribbean-meeresschildkroete.png",
+            "alt": "Eine Meeresschildkröte schwimmt im klaren Wasser."
+          }
+        },
+        {
+          "id": "caribbean-korallenkoenig",
+          "seaId": "caribbean",
+          "name": "Korallenkönigfisch",
+          "shortDescription": "Ein bunter Fisch, der zwischen Korallenriffen lebt.",
+          "detailParagraphs": [
+            "Korallenkönigfische sind sehr territorial und verteidigen ihr Zuhause in den Riffen.",
+            "Sie ernähren sich von kleinen Algen und sind durch ihre bunten Farben gut getarnt."
+          ],
+          "image": {
+            "id": "img-caribbean-korallenkoenig",
+            "src": "assets/images/animals/caribbean/caribbean-korallenkoenig.png",
+            "alt": "Ein bunter Korallenkönigfisch schwimmt im Riff."
+          },
+          "bigImage": {
+            "id": "big-img-caribbean-korallenkoenig",
+            "src": "assets/images/animals/caribbean/caribbean-korallenkoenig.png",
+            "alt": "Ein bunter Korallenkönigfisch schwimmt im Riff."
+          }
+        },
+        {
+          "id": "caribbean-papageifisch",
+          "seaId": "caribbean",
+          "name": "Papageifisch",
+          "shortDescription": "Der Papageifisch knabbert Korallen ab und hilft, Sandstrände zu bilden!",
+          "detailParagraphs": [
+            "Er raspelt Korallen auf und scheidet den Sand aus – so entstehen viele tropische Strände.",
+            "Sein Name kommt vom bunten Körper und dem schnabelartigen Maul."
+          ],
+          "image": {
+            "id": "img-caribbean-papageifisch",
+            "src": "assets/images/animals/caribbean/caribbean-papageifisch.png",
+            "alt": "Ein Papageifisch schwimmt über Korallen."
+          },
+          "bigImage": {
+            "id": "big-img-caribbean-papageifisch",
+            "src": "assets/images/animals/caribbean/caribbean-papageifisch.png",
+            "alt": "Ein Papageifisch schwimmt über Korallen."
+          }
+        },
+        {
+          "id": "caribbean-hai",
+          "seaId": "caribbean",
           "name": "Karibischer Riffhai",
-          "shortDescription": "Der Karibische Riffhai schwimmt entlang von Korallenriffen und ist flink und schlank gebaut.",
+          "shortDescription": "Ein schneller Jäger, der oft in warmen Küstengewässern schwimmt.",
+          "detailParagraphs": [
+            "Riffhaie greifen normalerweise keine Menschen an, solange sie nicht provoziert werden.",
+            "Sie halten das Ökosystem gesund, indem sie kranke oder schwache Fische fressen."
+          ],
           "image": {
-            "id": "img-caribbean-karibischer-riffhai",
-            "src": "assets/images/animals/caribbean/caribbean-karibischer-riffhai.png",
-            "alt": "Ein Karibischer Riffhai nahe einem Riff."
+            "id": "img-caribbean-riffhai",
+            "src": "assets/images/animals/caribbean/caribbean-riffhai.png",
+            "alt": "Ein Karibischer Riffhai im Meer."
+          },
+          "bigImage": {
+            "id": "big-img-caribbean-riffhai",
+            "src": "assets/images/animals/caribbean/caribbean-riffhai.png",
+            "alt": "Ein Karibischer Riffhai im Meer."
           }
         },
         {
-          "id": "caribbean-echte-karettschildkroete",
-          "name": "Echte Karettschildkröte",
-          "shortDescription": "Die Echte Karettschildkröte hat ein bunt gemustertes Panzer und frisst Schwämme und kleine Meerestiere.",
+          "id": "caribbean-seepferdchen",
+          "seaId": "caribbean",
+          "name": "Seepferdchen",
+          "shortDescription": "Das Seepferdchen sieht aus wie ein kleines Pferd und schwimmt aufrecht.",
+          "detailParagraphs": [
+            "Bei Seepferdchen tragen die Männchen die Eier und kümmern sich um den Nachwuchs.",
+            "Sie halten sich oft mit ihrem Schwanz an Pflanzen fest, damit sie nicht davongetrieben werden."
+          ],
           "image": {
-            "id": "img-caribbean-echte-karettschildkroete",
-            "src": "assets/images/animals/caribbean/caribbean-echte-karettschildkroete.png",
-            "alt": "Eine Karettschildkröte schwimmt im klaren Wasser."
+            "id": "img-caribbean-seepferdchen",
+            "src": "assets/images/animals/caribbean/caribbean-seepferdchen.png",
+            "alt": "Ein Seepferdchen klammert sich an Seegras."
+          },
+          "bigImage": {
+            "id": "big-img-caribbean-seepferdchen",
+            "src": "assets/images/animals/caribbean/caribbean-seepferdchen.png",
+            "alt": "Ein Seepferdchen klammert sich an Seegras."
           }
         },
         {
-          "id": "caribbean-karibischer-papageifisch",
-          "name": "Karibischer Papageifisch",
-          "shortDescription": "Der Karibische Papageifisch hat bunte Schuppen und knabbert mit seinem Schnabel an Korallen.",
+          "id": "caribbean-stachelrochen",
+          "seaId": "caribbean",
+          "name": "Stachelrochen",
+          "shortDescription": "Ein flacher Fisch, der elegant über den Meeresboden gleitet.",
+          "detailParagraphs": [
+            "Stachelrochen sind meist friedlich, können sich aber mit einem giftigen Stachel verteidigen.",
+            "Sie ruhen oft halb im Sand vergraben und warten auf Beute."
+          ],
           "image": {
-            "id": "img-caribbean-karibischer-papageifisch",
-            "src": "assets/images/animals/caribbean/caribbean-karibischer-papageifisch.png",
-            "alt": "Ein bunter Papageifisch in der Karibik."
+            "id": "img-caribbean-stachelrochen",
+            "src": "assets/images/animals/caribbean/caribbean-stachelrochen.png",
+            "alt": "Ein Stachelrochen gleitet über den Sand."
+          },
+          "bigImage": {
+            "id": "big-img-caribbean-stachelrochen",
+            "src": "assets/images/animals/caribbean/caribbean-stachelrochen.png",
+            "alt": "Ein Stachelrochen gleitet über den Sand."
           }
         },
         {
-          "id": "caribbean-koenigs-engelfisch",
-          "name": "Königs-Engelfisch",
-          "shortDescription": "Der Königs-Engelfisch trägt ein königliches Muster aus Gelb und Blau und lebt an Riffen.",
+          "id": "caribbean-delfin",
+          "seaId": "caribbean",
+          "name": "Karibischer Delfin",
+          "shortDescription": "Delfine sind sehr schlau und spielen gern mit anderen Delfinen.",
+          "detailParagraphs": [
+            "Delfine verständigen sich über Klicklaute und springen oft aus dem Wasser.",
+            "Sie reisen meist in Gruppen und helfen einander bei der Nahrungssuche."
+          ],
           "image": {
-            "id": "img-caribbean-koenigs-engelfisch",
-            "src": "assets/images/animals/caribbean/caribbean-koenigs-engelfisch.png",
-            "alt": "Ein Königs-Engelfisch vor Korallen."
+            "id": "img-caribbean-delfin",
+            "src": "assets/images/animals/caribbean/caribbean-delfin.png",
+            "alt": "Ein Delfin springt aus dem Wasser."
+          },
+          "bigImage": {
+            "id": "big-img-caribbean-delfin",
+            "src": "assets/images/animals/caribbean/caribbean-delfin.png",
+            "alt": "Ein Delfin springt aus dem Wasser."
           }
         },
         {
-          "id": "caribbean-doktorfisch",
-          "name": "Doktorfisch",
-          "shortDescription": "Doktorfische haben seitlich kleine, scharfe „Skalpelle“ an der Schwanzwurzel und weiden Algen ab.",
+          "id": "caribbean-feuerfisch",
+          "seaId": "caribbean",
+          "name": "Feuerfisch",
+          "shortDescription": "Der Feuerfisch hat lange, giftige Stacheln und sieht wie ein roter Fächer aus.",
+          "detailParagraphs": [
+            "Er bewegt sich langsam, aber seine Stacheln schützen ihn vor Feinden.",
+            "Obwohl er schön aussieht, darf man ihm nicht zu nahe kommen."
+          ],
           "image": {
-            "id": "img-caribbean-doktorfisch",
-            "src": "assets/images/animals/caribbean/caribbean-doktorfisch.png",
-            "alt": "Mehrere Doktorfische weiden Algen am Riff."
+            "id": "img-caribbean-feuerfisch",
+            "src": "assets/images/animals/caribbean/caribbean-feuerfisch.png",
+            "alt": "Ein roter Feuerfisch im Korallenriff."
+          },
+          "bigImage": {
+            "id": "big-img-caribbean-feuerfisch",
+            "src": "assets/images/animals/caribbean/caribbean-feuerfisch.png",
+            "alt": "Ein roter Feuerfisch im Korallenriff."
           }
         },
         {
-          "id": "caribbean-karibischer-hummer",
-          "name": "Karibischer Hummer",
-          "shortDescription": "Der Karibische Hummer hat lange Fühler und versteckt sich tagsüber in Spalten und Höhlen.",
+          "id": "caribbean-murene",
+          "seaId": "caribbean",
+          "name": "Muräne",
+          "shortDescription": "Die Muräne versteckt sich in Höhlen und schaut mit ihrem Kopf heraus.",
+          "detailParagraphs": [
+            "Muränen öffnen und schließen ständig ihr Maul, um atmen zu können.",
+            "Sie sind nachtaktiv und jagen kleine Fische im Dunkeln."
+          ],
           "image": {
-            "id": "img-caribbean-karibischer-hummer",
-            "src": "assets/images/animals/caribbean/caribbean-karibischer-hummer.png",
-            "alt": "Ein Hummer krabbelt über den Meeresboden."
+            "id": "img-caribbean-murene",
+            "src": "assets/images/animals/caribbean/caribbean-murene.png",
+            "alt": "Eine Muräne lugt aus einer Felsöffnung."
+          },
+          "bigImage": {
+            "id": "big-img-caribbean-murene",
+            "src": "assets/images/animals/caribbean/caribbean-murene.png",
+            "alt": "Eine Muräne lugt aus einer Felsöffnung."
           }
         },
         {
-          "id": "caribbean-karibischer-seestern",
-          "name": "Karibischer Seestern",
-          "shortDescription": "Karibische Seesterne haben oft leuchtende Farben und liegen auf Sand und Seegrasflächen.",
+          "id": "caribbean-karibischer-manfisch",
+          "seaId": "caribbean",
+          "name": "Karibischer Man-Fisch",
+          "shortDescription": "Ein geheimnisvoller Fisch, der tief in Korallen lebt.",
+          "detailParagraphs": [
+            "Er ist nachtaktiv und kaum zu sehen, weil er sich gut versteckt.",
+            "Sein Körper schimmert schwach blau im Dunkeln."
+          ],
           "image": {
-            "id": "img-caribbean-karibischer-seestern",
-            "src": "assets/images/animals/caribbean/caribbean-karibischer-seestern.png",
-            "alt": "Ein orangefarbener Seestern auf hellem Sand."
+            "id": "img-caribbean-manfisch",
+            "src": "assets/images/animals/caribbean/caribbean-manfisch.png",
+            "alt": "Ein bläulicher Fisch im Dunkelwasser."
+          },
+          "bigImage": {
+            "id": "big-img-caribbean-manfisch",
+            "src": "assets/images/animals/caribbean/caribbean-manfisch.png",
+            "alt": "Ein bläulicher Fisch im Dunkelwasser."
           }
         },
         {
-          "id": "caribbean-adlerrochen",
-          "name": "Adlerrochen",
-          "shortDescription": "Adlerrochen gleiten wie große Vögel durchs Wasser und haben auffällige Muster auf dem Rücken.",
+          "id": "caribbean-seestern",
+          "seaId": "caribbean",
+          "name": "Seestern",
+          "shortDescription": "Seesterne bewegen sich langsam über den Meeresgrund und haben meistens fünf Arme.",
+          "detailParagraphs": [
+            "Wenn ein Seestern einen Arm verliert, kann er ihn sogar nachwachsen lassen.",
+            "Er bewegt sich mit vielen winzigen Füßchen, die wie Saugnäpfe wirken."
+          ],
           "image": {
-            "id": "img-caribbean-adlerrochen",
-            "src": "assets/images/animals/caribbean/caribbean-adlerrochen.png",
-            "alt": "Ein Adlerrochen gleitet über den Meeresboden."
+            "id": "img-caribbean-seestern",
+            "src": "assets/images/animals/caribbean/caribbean-seestern.png",
+            "alt": "Ein roter Seestern liegt auf Sand."
+          },
+          "bigImage": {
+            "id": "big-img-caribbean-seestern",
+            "src": "assets/images/animals/caribbean/caribbean-seestern.png",
+            "alt": "Ein roter Seestern liegt auf Sand."
           }
         },
         {
-          "id": "caribbean-karibischer-kugelfisch",
-          "name": "Karibischer Kugelfisch",
-          "shortDescription": "Der Karibische Kugelfisch kann sich aufpusten und kugelrund werden, wenn er sich bedroht fühlt.",
+          "id": "caribbean-schwamm",
+          "seaId": "caribbean",
+          "name": "Meerschwamm",
+          "shortDescription": "Ein Meerschwamm sieht aus wie eine bunte Pflanze, ist aber ein Tier.",
+          "detailParagraphs": [
+            "Er bewegt sich nicht, sondern filtert Nährstoffe aus dem Meerwasser.",
+            "Manche Schwämme leuchten nachts unter UV-Licht und sind sehr farbenprächtig."
+          ],
           "image": {
-            "id": "img-caribbean-karibischer-kugelfisch",
-            "src": "assets/images/animals/caribbean/caribbean-karibischer-kugelfisch.png",
-            "alt": "Ein aufgeblasener Kugelfisch im Wasser."
-          }
-        },
-        {
-          "id": "caribbean-koenigsschnapper",
-          "name": "Königsschnapper",
-          "shortDescription": "Der Königsschnapper ist ein rötlicher Fisch, der in Schulen um Riffe schwimmt.",
-          "image": {
-            "id": "img-caribbean-koenigsschnapper",
-            "src": "assets/images/animals/caribbean/caribbean-koenigsschnapper.png",
-            "alt": "Ein Königsschnapper vor Korallen."
-          }
-        },
-        {
-          "id": "caribbean-karibische-muraene",
-          "name": "Karibische Muräne",
-          "shortDescription": "Die Karibische Muräne lebt in Felsspalten und lässt manchmal nur ihren Kopf mit den Zähnen sehen.",
-          "image": {
-            "id": "img-caribbean-karibische-muraene",
-            "src": "assets/images/animals/caribbean/caribbean-karibische-muraene.png",
-            "alt": "Eine Muräne schaut aus einem Loch im Riff."
-          }
-        },
-        {
-          "id": "caribbean-karibischer-tintenfisch",
-          "name": "Karibischer Tintenfisch",
-          "shortDescription": "Der Karibische Tintenfisch kann seine Farbe ändern und bei Gefahr eine dunkle Wolke ausspritzen.",
-          "image": {
-            "id": "img-caribbean-karibischer-tintenfisch",
-            "src": "assets/images/animals/caribbean/caribbean-karibischer-tintenfisch.png",
-            "alt": "Ein Tintenfisch schwimmt im klaren Wasser."
+            "id": "img-caribbean-schwamm",
+            "src": "assets/images/animals/caribbean/caribbean-schwamm.png",
+            "alt": "Ein bunter Meerschwamm am Korallenriff."
+          },
+          "bigImage": {
+            "id": "big-img-caribbean-schwamm",
+            "src": "assets/images/animals/caribbean/caribbean-schwamm.png",
+            "alt": "Ein bunter Meerschwamm am Korallenriff."
           }
         }
       ]
@@ -1376,123 +2456,223 @@
       "seaId": "red-sea",
       "animals": [
         {
-          "id": "red-sea-rotfeuerfisch-des-roten-meeres",
-          "name": "Rotfeuerfisch des Roten Meeres",
-          "shortDescription": "Dieser Rotfeuerfisch trägt lange, bunte Flossen und wirkt wie ein schwebender Fächer im Wasser.",
+          "id": "red-sea-kaiserfisch",
+          "seaId": "red-sea",
+          "name": "Roter Kaiserfisch",
+          "shortDescription": "Dieser Fisch hat leuchtend rote, gelbe und blaue Muster und lebt zwischen Korallen.",
+          "detailParagraphs": [
+            "Der Rote Kaiserfisch ist sehr auffällig gefärbt, um Feinde zu warnen.",
+            "Er verteidigt sein Riffgebiet mutig und vertreibt sogar größere Fische."
+          ],
           "image": {
-            "id": "img-red-sea-rotfeuerfisch-des-roten-meeres",
-            "src": "assets/images/animals/red-sea/red-sea-rotfeuerfisch-des-roten-meeres.png",
-            "alt": "Ein Rotfeuerfisch mit langen Flossen im Roten Meer."
+            "id": "img-red-sea-kaiserfisch",
+            "src": "assets/images/animals/red-sea/red-sea-kaiserfisch.png",
+            "alt": "Ein farbenfroher Kaiserfisch schwimmt über Korallen."
+          },
+          "bigImage": {
+            "id": "big-img-red-sea-kaiserfisch",
+            "src": "assets/images/animals/red-sea/red-sea-kaiserfisch.png",
+            "alt": "Ein farbenfroher Kaiserfisch schwimmt über Korallen."
           }
         },
         {
-          "id": "red-sea-riesenmuraene-des-roten-meeres",
-          "name": "Riesenmuräne des Roten Meeres",
-          "shortDescription": "Die Riesenmuräne des Roten Meeres ist ein langer, kräftiger Fisch, der in Höhlen lauert.",
+          "id": "red-sea-anemonenfisch",
+          "seaId": "red-sea",
+          "name": "Anemonenfisch",
+          "shortDescription": "Der Anemonenfisch versteckt sich zwischen den giftigen Tentakeln von Seeanemonen.",
+          "detailParagraphs": [
+            "Durch eine Schutzschicht auf seiner Haut kann er gefahrlos in Anemonen leben.",
+            "Bekannt ist er besonders aus einem berühmten Animationsfilm."
+          ],
           "image": {
-            "id": "img-red-sea-riesenmuraene-des-roten-meeres",
-            "src": "assets/images/animals/red-sea/red-sea-riesenmuraene-des-roten-meeres.png",
-            "alt": "Eine große Muräne schaut aus einer Felsspalte."
+            "id": "img-red-sea-anemonenfisch",
+            "src": "assets/images/animals/red-sea/red-sea-anemonenfisch.png",
+            "alt": "Ein Anemonenfisch versteckt sich in einer Seeanemone."
+          },
+          "bigImage": {
+            "id": "big-img-red-sea-anemonenfisch",
+            "src": "assets/images/animals/red-sea/red-sea-anemonenfisch.png",
+            "alt": "Ein Anemonenfisch versteckt sich in einer Seeanemone."
           }
         },
         {
-          "id": "red-sea-rotes-meer-drueckerfisch",
-          "name": "Rotes-Meer-Drückerfisch",
-          "shortDescription": "Der Rotes-Meer-Drückerfisch hat kräftige Zähne und ein auffälliges Muster auf dem Körper.",
+          "id": "red-sea-rochen",
+          "seaId": "red-sea",
+          "name": "Blaupunktrochen",
+          "shortDescription": "Der Blaupunktrochen hat leuchtend blaue Flecken auf seinem Rücken.",
+          "detailParagraphs": [
+            "Er gleitet über Sandböden und versteckt sich oft unter Sand.",
+            "Sein Schwanz trägt einen giftigen Stachel, mit dem er sich verteidigen kann."
+          ],
           "image": {
-            "id": "img-red-sea-rotes-meer-drueckerfisch",
-            "src": "assets/images/animals/red-sea/red-sea-rotes-meer-drueckerfisch.png",
-            "alt": "Ein bunt gemusterter Drückerfisch im Roten Meer."
+            "id": "img-red-sea-blaupunktrochen",
+            "src": "assets/images/animals/red-sea/red-sea-blaupunktrochen.png",
+            "alt": "Ein Blaupunktrochen liegt im Sand."
+          },
+          "bigImage": {
+            "id": "big-img-red-sea-blaupunktrochen",
+            "src": "assets/images/animals/red-sea/red-sea-blaupunktrochen.png",
+            "alt": "Ein Blaupunktrochen liegt im Sand."
           }
         },
         {
-          "id": "red-sea-rotes-meer-engelfisch",
-          "name": "Rotes-Meer-Engelfisch",
-          "shortDescription": "Der Rotes-Meer-Engelfisch ist leuchtend gefärbt und lebt an den bunten Korallenriffen.",
+          "id": "red-sea-lippfisch",
+          "seaId": "red-sea",
+          "name": "Napoleon-Lippfisch",
+          "shortDescription": "Ein großer Riff-Fisch mit einer Art 'Beule' auf dem Kopf.",
+          "detailParagraphs": [
+            "Der Napoleonfisch kann über 2 Meter groß werden.",
+            "Er ist sehr neugierig und schwimmt oft zu Tauchern."
+          ],
           "image": {
-            "id": "img-red-sea-rotes-meer-engelfisch",
-            "src": "assets/images/animals/red-sea/red-sea-rotes-meer-engelfisch.png",
-            "alt": "Ein Engelfisch vor einem Riff."
+            "id": "img-red-sea-napoleonfisch",
+            "src": "assets/images/animals/red-sea/red-sea-napoleonfisch.png",
+            "alt": "Ein Napoleonfisch schwimmt im Riff."
+          },
+          "bigImage": {
+            "id": "big-img-red-sea-napoleonfisch",
+            "src": "assets/images/animals/red-sea/red-sea-napoleonfisch.png",
+            "alt": "Ein Napoleonfisch schwimmt im Riff."
           }
         },
         {
-          "id": "red-sea-rotes-meer-papageifisch",
-          "name": "Rotes-Meer-Papageifisch",
-          "shortDescription": "Der Rotes-Meer-Papageifisch besitzt ein kräftiges Maul und knabbert an Korallen und Algen.",
+          "id": "red-sea-rotfeuerfisch",
+          "seaId": "red-sea",
+          "name": "Rotfeuerfisch",
+          "shortDescription": "Dieser Fisch hat lange, giftige Flossenstrahlen und bewegt sich majestätisch.",
+          "detailParagraphs": [
+            "Der Rotfeuerfisch gehört zu den schönsten, aber auch gefährlichen Riffbewohnern.",
+            "Er jagt kleine Fische, indem er sie mit seinen Flossen in die Enge treibt."
+          ],
           "image": {
-            "id": "img-red-sea-rotes-meer-papageifisch",
-            "src": "assets/images/animals/red-sea/red-sea-rotes-meer-papageifisch.png",
-            "alt": "Ein bunter Papageifisch im Roten Meer."
+            "id": "img-red-sea-rotfeuerfisch",
+            "src": "assets/images/animals/red-sea/red-sea-rotfeuerfisch.png",
+            "alt": "Ein Rotfeuerfisch zeigt seine fächerartigen Flossen."
+          },
+          "bigImage": {
+            "id": "big-img-red-sea-rotfeuerfisch",
+            "src": "assets/images/animals/red-sea/red-sea-rotfeuerfisch.png",
+            "alt": "Ein Rotfeuerfisch zeigt seine fächerartigen Flossen."
           }
         },
         {
-          "id": "red-sea-rotes-meer-kugelfisch",
-          "name": "Rotes-Meer-Kugelfisch",
-          "shortDescription": "Der Rotes-Meer-Kugelfisch kann sich kugelrund aufblasen und hat oft ein gepunktetes Muster.",
+          "id": "red-sea-zackenbarsch",
+          "seaId": "red-sea",
+          "name": "Roter Zackenbarsch",
+          "shortDescription": "Ein kräftiger Raubfisch, der in Felsspalten auf Beute lauert.",
+          "detailParagraphs": [
+            "Zackenbarsche können jahrzehntelang leben und sehr groß werden.",
+            "Sie öffnen blitzschnell ihr Maul, um Fische einzusaugen."
+          ],
           "image": {
-            "id": "img-red-sea-rotes-meer-kugelfisch",
-            "src": "assets/images/animals/red-sea/red-sea-rotes-meer-kugelfisch.png",
-            "alt": "Ein Kugelfisch schwimmt über Korallen."
+            "id": "img-red-sea-zackenbarsch",
+            "src": "assets/images/animals/red-sea/red-sea-zackenbarsch.png",
+            "alt": "Ein roter Zackenbarsch ruht im Riff."
+          },
+          "bigImage": {
+            "id": "big-img-red-sea-zackenbarsch",
+            "src": "assets/images/animals/red-sea/red-sea-zackenbarsch.png",
+            "alt": "Ein roter Zackenbarsch ruht im Riff."
           }
         },
         {
-          "id": "red-sea-rotmeer-anemonenfisch",
-          "name": "Rotmeer-Anemonenfisch",
-          "shortDescription": "Der Rotmeer-Anemonenfisch lebt in schützenden Seeanemonen und hat leuchtende Farben.",
+          "id": "red-sea-krokodilfisch",
+          "seaId": "red-sea",
+          "name": "Krokodilfisch",
+          "shortDescription": "Dieser Fisch sieht aus wie ein Krokodil und tarnt sich im Sand.",
+          "detailParagraphs": [
+            "Er liegt bewegungslos auf dem Boden und wartet auf Beute.",
+            "Seine Augen können sich drehen, um Feinde und Futter besser zu erkennen."
+          ],
           "image": {
-            "id": "img-red-sea-rotmeer-anemonenfisch",
-            "src": "assets/images/animals/red-sea/red-sea-rotmeer-anemonenfisch.png",
-            "alt": "Ein kleiner Anemonenfisch in einer Anemone."
+            "id": "img-red-sea-krokodilfisch",
+            "src": "assets/images/animals/red-sea/red-sea-krokodilfisch.png",
+            "alt": "Ein Krokodilfisch tarnt sich im Sand."
+          },
+          "bigImage": {
+            "id": "big-img-red-sea-krokodilfisch",
+            "src": "assets/images/animals/red-sea/red-sea-krokodilfisch.png",
+            "alt": "Ein Krokodilfisch tarnt sich im Sand."
           }
         },
         {
-          "id": "red-sea-rotes-meer-napoleonfisch",
-          "name": "Rotes-Meer-Napoleonfisch",
-          "shortDescription": "Der Rotes-Meer-Napoleonfisch ist groß, bunt und hat einen dicken Kopf mit charakteristischem Profil.",
+          "id": "red-sea-korallendrache",
+          "seaId": "red-sea",
+          "name": "Korallendrache",
+          "shortDescription": "Ein kleiner Fisch, der sich wie ein Drache zwischen Korallen bewegt.",
+          "detailParagraphs": [
+            "Er hat schuppige Haut und bewegt sich ruckartig wie ein Mini-Dino.",
+            "Seine Färbung passt sich oft der Umgebung an."
+          ],
           "image": {
-            "id": "img-red-sea-rotes-meer-napoleonfisch",
-            "src": "assets/images/animals/red-sea/red-sea-rotes-meer-napoleonfisch.png",
-            "alt": "Ein Napoleonfisch schwimmt über einem Riff."
+            "id": "img-red-sea-korallendrache",
+            "src": "assets/images/animals/red-sea/red-sea-korallendrache.png",
+            "alt": "Ein kleiner Korallendrache im Riff."
+          },
+          "bigImage": {
+            "id": "big-img-red-sea-korallendrache",
+            "src": "assets/images/animals/red-sea/red-sea-korallendrache.png",
+            "alt": "Ein kleiner Korallendrache im Riff."
           }
         },
         {
-          "id": "red-sea-rotes-meer-kaiserfisch",
-          "name": "Rotes-Meer-Kaiserfisch",
-          "shortDescription": "Der Rotes-Meer-Kaiserfisch ist ein eleganter, bunt gemusterter Riffbewohner.",
+          "id": "red-sea-kugelfisch",
+          "seaId": "red-sea",
+          "name": "Kugelfisch",
+          "shortDescription": "Der Kugelfisch kann sich bei Gefahr zu einer runden Kugel aufblähen.",
+          "detailParagraphs": [
+            "Wenn er sich aufbläht, sieht er lustig aus, aber er enthält starkes Gift.",
+            "Sein Grinsen hat ihn bei Kindern besonders beliebt gemacht."
+          ],
           "image": {
-            "id": "img-red-sea-rotes-meer-kaiserfisch",
-            "src": "assets/images/animals/red-sea/red-sea-rotes-meer-kaiserfisch.png",
-            "alt": "Ein Kaiserfisch vor Korallen."
+            "id": "img-red-sea-kugelfisch",
+            "src": "assets/images/animals/red-sea/red-sea-kugelfisch.png",
+            "alt": "Ein Kugelfisch schwimmt durch das Riff."
+          },
+          "bigImage": {
+            "id": "big-img-red-sea-kugelfisch",
+            "src": "assets/images/animals/red-sea/red-sea-kugelfisch.png",
+            "alt": "Ein Kugelfisch schwimmt durch das Riff."
           }
         },
         {
-          "id": "red-sea-rotes-meer-lippfisch",
-          "name": "Rotes-Meer-Lippfisch",
-          "shortDescription": "Der Rotes-Meer-Lippfisch durchsucht die Riffe nach kleinen Krebsen und Schnecken.",
+          "id": "red-sea-langschnauzen-seepferdchen",
+          "seaId": "red-sea",
+          "name": "Langschnauzen-Seepferdchen",
+          "shortDescription": "Dieses Seepferdchen hat einen besonders langen Maulbereich, um kleine Beute zu saugen.",
+          "detailParagraphs": [
+            "Es lebt gut versteckt zwischen Korallen und Seegras.",
+            "Der Vater trägt die Babys in einer Bauchhöhle."
+          ],
           "image": {
-            "id": "img-red-sea-rotes-meer-lippfisch",
-            "src": "assets/images/animals/red-sea/red-sea-rotes-meer-lippfisch.png",
-            "alt": "Ein Lippfisch über einem Korallenblock."
+            "id": "img-red-sea-seepferdchen",
+            "src": "assets/images/animals/red-sea/red-sea-seepferdchen.png",
+            "alt": "Ein Seepferdchen klammert sich an Korallen."
+          },
+          "bigImage": {
+            "id": "big-img-red-sea-seepferdchen",
+            "src": "assets/images/animals/red-sea/red-sea-seepferdchen.png",
+            "alt": "Ein Seepferdchen klammert sich an Korallen."
           }
         },
         {
-          "id": "red-sea-rotes-meer-seestern",
-          "name": "Rotes-Meer-Seestern",
-          "shortDescription": "Rotes-Meer-Seesterne liegen in leuchtenden Farben auf dem Sand zwischen Korallen.",
+          "id": "red-sea-fledermausfisch",
+          "seaId": "red-sea",
+          "name": "Fledermausfisch",
+          "shortDescription": "Ein Fisch mit flügelartigen Flossen, der oft ganz nah am Boden schwimmt.",
+          "detailParagraphs": [
+            "Seine Flossen wirken wie Flügel, weshalb er so genannt wird.",
+            "Er bewegt sich langsam und versteckt sich zwischen Pflanzen."
+          ],
           "image": {
-            "id": "img-red-sea-rotes-meer-seestern",
-            "src": "assets/images/animals/red-sea/red-sea-rotes-meer-seestern.png",
-            "alt": "Ein farbiger Seestern auf Sand."
-          }
-        },
-        {
-          "id": "red-sea-rotes-meer-meeresschildkroete",
-          "name": "Rotes-Meer-Meeresschildkröte",
-          "shortDescription": "Diese Meeresschildkröte schwimmt im warmen Wasser des Roten Meeres und sucht nach Seegras und Schwämmen.",
-          "image": {
-            "id": "img-red-sea-rotes-meer-meeresschildkroete",
-            "src": "assets/images/animals/red-sea/red-sea-rotes-meer-meeresschildkroete.png",
-            "alt": "Eine Meeresschildkröte im Roten Meer."
+            "id": "img-red-sea-fledermausfisch",
+            "src": "assets/images/animals/red-sea/red-sea-fledermausfisch.png",
+            "alt": "Ein Fledermausfisch schwimmt knapp über dem Boden."
+          },
+          "bigImage": {
+            "id": "big-img-red-sea-fledermausfisch",
+            "src": "assets/images/animals/red-sea/red-sea-fledermausfisch.png",
+            "alt": "Ein Fledermausfisch schwimmt knapp über dem Boden."
           }
         }
       ]
@@ -1501,123 +2681,243 @@
       "seaId": "black-sea",
       "animals": [
         {
-          "id": "black-sea-schwarzmeer-delfin",
+          "id": "black-sea-delfin",
+          "seaId": "black-sea",
           "name": "Schwarzmeer-Delfin",
-          "shortDescription": "Der Schwarzmeer-Delfin ist ein kleiner Delfin, der in Gruppen im Schwarzen Meer lebt.",
+          "shortDescription": "Ein kleiner Delfin, der in Gruppen lebt und oft nah an der Küste schwimmt.",
+          "detailParagraphs": [
+            "Der Schwarzmeer-Delfin ist kleiner als viele andere Delfinarten und lebt hauptsächlich in Küstennähe.",
+            "Er gehört zu den wenigen Meeressäugern im Schwarzen Meer und ist streng geschützt."
+          ],
           "image": {
-            "id": "img-black-sea-schwarzmeer-delfin",
-            "src": "assets/images/animals/black-sea/black-sea-schwarzmeer-delfin.png",
-            "alt": "Ein Delfin springt aus den Wellen im Schwarzen Meer."
+            "id": "img-black-sea-delfin",
+            "src": "assets/images/animals/black-sea/black-sea-delfin.png",
+            "alt": "Ein Delfin springt aus dem Wasser."
+          },
+          "bigImage": {
+            "id": "big-img-black-sea-delfin",
+            "src": "assets/images/animals/black-sea/black-sea-delfin.png",
+            "alt": "Ein Delfin springt aus dem Wasser."
           }
         },
         {
-          "id": "black-sea-schwarzmeer-schweinswal",
-          "name": "Schwarzmeer-Schweinswal",
-          "shortDescription": "Der Schwarzmeer-Schweinswal ist ein kleiner Wal, der selten an der Oberfläche zu sehen ist.",
+          "id": "black-sea-seehase",
+          "seaId": "black-sea",
+          "name": "Seehase",
+          "shortDescription": "Ein kleiner Fisch mit rundem Körper, der starke Strömungen meidet.",
+          "detailParagraphs": [
+            "Seehase hat eine dicke Haut und kann sich an Felsen ansaugen.",
+            "Er lebt oft in küstennahen Bereichen und legt seine Eier in geschützten Nischen ab."
+          ],
           "image": {
-            "id": "img-black-sea-schwarzmeer-schweinswal",
-            "src": "assets/images/animals/black-sea/black-sea-schwarzmeer-schweinswal.png",
-            "alt": "Ein Schweinswal taucht kurz auf."
+            "id": "img-black-sea-seehase",
+            "src": "assets/images/animals/black-sea/black-sea-seehase.png",
+            "alt": "Ein Seehase schwimmt im flachen Wasser."
+          },
+          "bigImage": {
+            "id": "big-img-black-sea-seehase",
+            "src": "assets/images/animals/black-sea/black-sea-seehase.png",
+            "alt": "Ein Seehase schwimmt im flachen Wasser."
           }
         },
         {
-          "id": "black-sea-schwarzmeer-sprotte",
-          "name": "Schwarzmeer-Sprotte",
-          "shortDescription": "Die Schwarzmeer-Sprotte ist ein kleiner Schwarmfisch, der von vielen größeren Fischen gefressen wird.",
+          "id": "black-sea-gobiefisch",
+          "seaId": "black-sea",
+          "name": "Schwarzmeer-Grundel",
+          "shortDescription": "Ein kleiner Bodenfisch, der sich zwischen Steinen versteckt.",
+          "detailParagraphs": [
+            "Die Grundel ist ein anpassungsfähiger Fisch, der auch bei schlechter Wasserqualität überlebt.",
+            "Sie gräbt sich manchmal in den Sand ein und jagt kleine Krebstiere."
+          ],
           "image": {
-            "id": "img-black-sea-schwarzmeer-sprotte",
-            "src": "assets/images/animals/black-sea/black-sea-schwarzmeer-sprotte.png",
-            "alt": "Ein Schwarm Schwarzmeer-Sprotten im Wasser."
+            "id": "img-black-sea-grundel",
+            "src": "assets/images/animals/black-sea/black-sea-grundel.png",
+            "alt": "Eine Grundel sitzt auf dem Sandboden."
+          },
+          "bigImage": {
+            "id": "big-img-black-sea-grundel",
+            "src": "assets/images/animals/black-sea/black-sea-grundel.png",
+            "alt": "Eine Grundel sitzt auf dem Sandboden."
           }
         },
         {
-          "id": "black-sea-schwarzmeer-sardelle",
+          "id": "black-sea-sardelle",
+          "seaId": "black-sea",
           "name": "Schwarzmeer-Sardelle",
-          "shortDescription": "Die Schwarzmeer-Sardelle bildet dichte Schwärme und ist ein wichtiger Speisefisch.",
+          "shortDescription": "Ein kleiner Schwarmfisch, der küstennah lebt.",
+          "detailParagraphs": [
+            "Sardellen schwimmen in großen Gruppen und dienen vielen Raubfischen als Nahrung.",
+            "Sie reagieren sehr schnell auf Bewegungen im Wasser und ändern gemeinsam die Richtung."
+          ],
           "image": {
-            "id": "img-black-sea-schwarzmeer-sardelle",
-            "src": "assets/images/animals/black-sea/black-sea-schwarzmeer-sardelle.png",
-            "alt": "Ein Schwarm Sardellen im Schwarzen Meer."
+            "id": "img-black-sea-sardelle",
+            "src": "assets/images/animals/black-sea/black-sea-sardelle.png",
+            "alt": "Ein Schwarm Sardellen im Meer."
+          },
+          "bigImage": {
+            "id": "big-img-black-sea-sardelle",
+            "src": "assets/images/animals/black-sea/black-sea-sardelle.png",
+            "alt": "Ein Schwarm Sardellen im Meer."
           }
         },
         {
-          "id": "black-sea-schwarzmeer-hering",
-          "name": "Schwarzmeer-Hering",
-          "shortDescription": "Der Schwarzmeer-Hering ist ein Verwandter des Atlantischen Herings und lebt in den oberen Wasserschichten.",
+          "id": "black-sea-seepilz",
+          "seaId": "black-sea",
+          "name": "Seepilz",
+          "shortDescription": "Eine sessile Meerestiere, die aussehen wie kleine Pilze am Boden.",
+          "detailParagraphs": [
+            "Seepilze sind einfache Lebewesen, die das Wasser filtern und in Küstennähe vorkommen.",
+            "Sie sind oft orange oder rosa gefärbt und bilden kleine Gruppen auf Steinen."
+          ],
           "image": {
-            "id": "img-black-sea-schwarzmeer-hering",
-            "src": "assets/images/animals/black-sea/black-sea-schwarzmeer-hering.png",
-            "alt": "Ein Hering im dunklen Wasser."
+            "id": "img-black-sea-seepilz",
+            "src": "assets/images/animals/black-sea/black-sea-seepilz.png",
+            "alt": "Ein Seepilz sitzt auf einem Felsen."
+          },
+          "bigImage": {
+            "id": "big-img-black-sea-seepilz",
+            "src": "assets/images/animals/black-sea/black-sea-seepilz.png",
+            "alt": "Ein Seepilz sitzt auf einem Felsen."
           }
         },
         {
-          "id": "black-sea-schwarzmeer-steinbutt",
-          "name": "Schwarzmeer-Steinbutt",
-          "shortDescription": "Der Schwarzmeer-Steinbutt ist ein Plattfisch, der am Boden liegt und kaum zu sehen ist.",
+          "id": "black-sea-felsenauster",
+          "seaId": "black-sea",
+          "name": "Felsenauster",
+          "shortDescription": "Eine Muschel, die sich fest an Steinen verankert.",
+          "detailParagraphs": [
+            "Felsenaustern filtern ihre Nahrung aus dem Wasser.",
+            "Früher wurden sie als Delikatesse gefischt, heute stehen sie unter Schutz."
+          ],
           "image": {
-            "id": "img-black-sea-schwarzmeer-steinbutt",
-            "src": "assets/images/animals/black-sea/black-sea-schwarzmeer-steinbutt.png",
-            "alt": "Ein Steinbutt liegt auf dem Meeresboden."
+            "id": "img-black-sea-felsenauster",
+            "src": "assets/images/animals/black-sea/black-sea-felsenauster.png",
+            "alt": "Eine Felsenauster auf einem Stein."
+          },
+          "bigImage": {
+            "id": "big-img-black-sea-felsenauster",
+            "src": "assets/images/animals/black-sea/black-sea-felsenauster.png",
+            "alt": "Eine Felsenauster auf einem Stein."
           }
         },
         {
-          "id": "black-sea-schwarzmeer-krabbe",
+          "id": "black-sea-schwarzmeer-schnapper",
+          "seaId": "black-sea",
+          "name": "Schwarzmeer-Schnapper",
+          "shortDescription": "Ein schlanker Raubfisch, der sich in Seegras versteckt.",
+          "detailParagraphs": [
+            "Schnapper jagen meist kleinere Fische und Krebse.",
+            "Sie leben nah an Küsten und verstecken sich in Algenfeldern."
+          ],
+          "image": {
+            "id": "img-black-sea-schnapper",
+            "src": "assets/images/animals/black-sea/black-sea-schnapper.png",
+            "alt": "Ein Schnapper schwimmt im Schwarzen Meer."
+          },
+          "bigImage": {
+            "id": "big-img-black-sea-schnapper",
+            "src": "assets/images/animals/black-sea/black-sea-schnapper.png",
+            "alt": "Ein Schnapper schwimmt im Schwarzen Meer."
+          }
+        },
+        {
+          "id": "black-sea-krabbe",
+          "seaId": "black-sea",
           "name": "Schwarzmeer-Krabbe",
-          "shortDescription": "Die Schwarzmeer-Krabbe durchsucht den Boden nach Futter und versteckt sich zwischen Steinen.",
+          "shortDescription": "Eine flinke Krabbe, die oft zwischen Steinen gesucht wird.",
+          "detailParagraphs": [
+            "Sie sucht nach Muscheln und kleinen Tieren zwischen den Steinen.",
+            "Wenn Gefahr droht, verschwindet sie blitzschnell unter Felsen."
+          ],
           "image": {
-            "id": "img-black-sea-schwarzmeer-krabbe",
-            "src": "assets/images/animals/black-sea/black-sea-schwarzmeer-krabbe.png",
-            "alt": "Eine Krabbe krabbelt über Steine."
+            "id": "img-black-sea-krabbe",
+            "src": "assets/images/animals/black-sea/black-sea-krabbe.png",
+            "alt": "Eine Schwarzmeer-Krabbe krabbelt über Steine."
+          },
+          "bigImage": {
+            "id": "big-img-black-sea-krabbe",
+            "src": "assets/images/animals/black-sea/black-sea-krabbe.png",
+            "alt": "Eine Schwarzmeer-Krabbe krabbelt über Steine."
           }
         },
         {
-          "id": "black-sea-schwarzmeer-qualle",
-          "name": "Schwarzmeer-Qualle",
-          "shortDescription": "Schwarzmeer-Quallen treiben langsam im Wasser und bewegen ihren Schirm auf und ab.",
-          "image": {
-            "id": "img-black-sea-schwarzmeer-qualle",
-            "src": "assets/images/animals/black-sea/black-sea-schwarzmeer-qualle.png",
-            "alt": "Eine Qualle schwebt im Wasser."
-          }
-        },
-        {
-          "id": "black-sea-schwarzmeer-seestern",
+          "id": "black-sea-seestern",
+          "seaId": "black-sea",
           "name": "Schwarzmeer-Seestern",
-          "shortDescription": "Der Schwarzmeer-Seestern krabbelt langsam über Muschelbänke und Felsen.",
+          "shortDescription": "Ein kleines Seestern-Arten leben im wärmeren Teil des Schwarzen Meeres.",
+          "detailParagraphs": [
+            "Er ernährt sich von Muscheln und kleinen Meerestieren.",
+            "Wenn ein Arm verletzt wird, kann er nachwachsen."
+          ],
           "image": {
-            "id": "img-black-sea-schwarzmeer-seestern",
-            "src": "assets/images/animals/black-sea/black-sea-schwarzmeer-seestern.png",
+            "id": "img-black-sea-seestern",
+            "src": "assets/images/animals/black-sea/black-sea-seestern.png",
+            "alt": "Ein Seestern liegt auf Steinen."
+          },
+          "bigImage": {
+            "id": "big-img-black-sea-seestern",
+            "src": "assets/images/animals/black-sea/black-sea-seestern.png",
             "alt": "Ein Seestern liegt auf Steinen."
           }
         },
         {
-          "id": "black-sea-schwarzmeer-scholle",
-          "name": "Schwarzmeer-Scholle",
-          "shortDescription": "Die Schwarzmeer-Scholle ist ein Plattfisch, der sich zur Tarnung in den Boden einwühlt.",
+          "id": "black-sea-flussneunauge",
+          "seaId": "black-sea",
+          "name": "Flussneunauge",
+          "shortDescription": "Ein aalartiger Fisch mit Saugmund.",
+          "detailParagraphs": [
+            "Das Flussneunauge lebt im Meer, wandert aber zum Laichen in Flüsse.",
+            "Sein Maul funktioniert wie ein Saugnapf mit kleinen Hornzähnchen."
+          ],
           "image": {
-            "id": "img-black-sea-schwarzmeer-scholle",
-            "src": "assets/images/animals/black-sea/black-sea-schwarzmeer-scholle.png",
-            "alt": "Eine Scholle ist im Sand versteckt."
+            "id": "img-black-sea-flussneunauge",
+            "src": "assets/images/animals/black-sea/black-sea-flussneunauge.png",
+            "alt": "Ein Flussneunauge schwimmt im Wasser."
+          },
+          "bigImage": {
+            "id": "big-img-black-sea-flussneunauge",
+            "src": "assets/images/animals/black-sea/black-sea-flussneunauge.png",
+            "alt": "Ein Flussneunauge schwimmt im Wasser."
           }
         },
         {
-          "id": "black-sea-schwarzmeer-dorsch",
-          "name": "Schwarzmeer-Dorsch",
-          "shortDescription": "Der Schwarzmeer-Dorsch ist ein Raubfisch, der kleinere Fische jagt und klare, kühle Bereiche mag.",
+          "id": "black-sea-schnecke",
+          "seaId": "black-sea",
+          "name": "Schwarzmeer-Schnecke",
+          "shortDescription": "Eine kleine Schnecke mit glattem Gehäuse, die über den Boden kriecht.",
+          "detailParagraphs": [
+            "Sie frisst Algenreste und trägt ihr Haus immer auf dem Rücken.",
+            "Viele Arten leben zwischen Seegras und in Felsritzen."
+          ],
           "image": {
-            "id": "img-black-sea-schwarzmeer-dorsch",
-            "src": "assets/images/animals/black-sea/black-sea-schwarzmeer-dorsch.png",
-            "alt": "Ein Dorsch schwimmt im dunklen Wasser."
+            "id": "img-black-sea-schnecke",
+            "src": "assets/images/animals/black-sea/black-sea-schnecke.png",
+            "alt": "Eine kleine Meerschnecke auf Sand."
+          },
+          "bigImage": {
+            "id": "big-img-black-sea-schnecke",
+            "src": "assets/images/animals/black-sea/black-sea-schnecke.png",
+            "alt": "Eine kleine Meerschnecke auf Sand."
           }
         },
         {
-          "id": "black-sea-schwarzmeer-stoer",
-          "name": "Schwarzmeer-Stör",
-          "shortDescription": "Der Schwarzmeer-Stör ist ein uralter Knochenfisch mit knöchernen Platten auf dem Rücken.",
+          "id": "black-sea-seepferdchen",
+          "seaId": "black-sea",
+          "name": "Schwarzmeer-Seepferdchen",
+          "shortDescription": "Ein kleines Seepferdchen, das sich gerne in Pflanzen versteckt.",
+          "detailParagraphs": [
+            "Es bewegt sich langsam und hält sich an Seegras fest.",
+            "Männliche Seepferdchen tragen die Eier in einer Bauchtasche."
+          ],
           "image": {
-            "id": "img-black-sea-schwarzmeer-stoer",
-            "src": "assets/images/animals/black-sea/black-sea-schwarzmeer-stoer.png",
-            "alt": "Ein Stör schwimmt nahe am Boden."
+            "id": "img-black-sea-seepferdchen",
+            "src": "assets/images/animals/black-sea/black-sea-seepferdchen.png",
+            "alt": "Ein Seepferdchen im Schwarzen Meer."
+          },
+          "bigImage": {
+            "id": "big-img-black-sea-seepferdchen",
+            "src": "assets/images/animals/black-sea/black-sea-seepferdchen.png",
+            "alt": "Ein Seepferdchen im Schwarzen Meer."
           }
         }
       ]
@@ -1626,124 +2926,255 @@
       "seaId": "north-atlantic",
       "animals": [
         {
-          "id": "north-atlantic-nordatlantischer-buckelwal",
-          "name": "Nordatlantischer Buckelwal",
-          "shortDescription": "Der Nordatlantische Buckelwal ist bekannt für seine Sprünge aus dem Wasser und seine langen Gesänge.",
+          "id": "north-atlantic-blauwal",
+          "seaId": "north-atlantic",
+          "name": "Blauwal",
+          "shortDescription": "Der Blauwal ist das größte bekannte Tier der Erde.",
+          "detailParagraphs": [
+            "Blauwale können über 30 Meter lang werden und bis zu 200 Tonnen wiegen.",
+            "Sie ernähren sich hauptsächlich von winzigem Krill und sind trotz ihrer Größe friedlich."
+          ],
           "image": {
-            "id": "img-north-atlantic-nordatlantischer-buckelwal",
-            "src": "assets/images/animals/north-atlantic/north-atlantic-nordatlantischer-buckelwal.png",
-            "alt": "Ein Buckelwal springt aus dem Meer."
+            "id": "img-north-atlantic-blauwal",
+            "src": "assets/images/animals/north-atlantic/north-atlantic-blauwal.png",
+            "alt": "Ein riesiger Blauwal schwimmt im kalten Meer."
+          },
+          "bigImage": {
+            "id": "big-img-north-atlantic-blauwal",
+            "src": "assets/images/animals/north-atlantic/north-atlantic-blauwal.png",
+            "alt": "Ein riesiger Blauwal schwimmt im kalten Meer."
           }
         },
         {
-          "id": "north-atlantic-nordatlantischer-glattwal",
-          "name": "Nordatlantischer Glattwal",
-          "shortDescription": "Der Nordatlantische Glattwal ist ein großer Wal, der langsam schwimmt und Plankton filtert.",
+          "id": "north-atlantic-grindwal",
+          "seaId": "north-atlantic",
+          "name": "Grindwal",
+          "shortDescription": "Ein sozialer Wal, der in großen Familiengruppen schwimmt.",
+          "detailParagraphs": [
+            "Grindwale kommunizieren über Klick- und Pfeiflaute miteinander.",
+            "Sie leben sehr eng zusammen und kümmern sich umeinander."
+          ],
           "image": {
-            "id": "img-north-atlantic-nordatlantischer-glattwal",
-            "src": "assets/images/animals/north-atlantic/north-atlantic-nordatlantischer-glattwal.png",
-            "alt": "Ein Glattwal an der Wasseroberfläche."
+            "id": "img-north-atlantic-grindwal",
+            "src": "assets/images/animals/north-atlantic/north-atlantic-grindwal.png",
+            "alt": "Eine Gruppe Grindwale schwimmt gemeinsam."
+          },
+          "bigImage": {
+            "id": "big-img-north-atlantic-grindwal",
+            "src": "assets/images/animals/north-atlantic/north-atlantic-grindwal.png",
+            "alt": "Eine Gruppe Grindwale schwimmt gemeinsam."
           }
         },
         {
-          "id": "north-atlantic-nordatlantischer-blauflossen-thunfisch",
-          "name": "Nordatlantischer Blauflossen-Thunfisch",
-          "shortDescription": "Der Nordatlantische Blauflossen-Thunfisch ist groß und kräftig und kann sehr schnell schwimmen.",
+          "id": "north-atlantic-orka",
+          "seaId": "north-atlantic",
+          "name": "Orka (Schwertwal)",
+          "shortDescription": "Ein schwarz-weißer Raubwal, bekannt für seine hohe Intelligenz.",
+          "detailParagraphs": [
+            "Orkas sind Spitzenräuber und jagen oft in Gruppen wie Wölfe.",
+            "Sie erkennen Gruppenmitglieder an ihrer Stimme."
+          ],
           "image": {
-            "id": "img-north-atlantic-nordatlantischer-blauflossen-thunfisch",
-            "src": "assets/images/animals/north-atlantic/north-atlantic-nordatlantischer-blauflossen-thunfisch.png",
-            "alt": "Ein Blauflossen-Thunfisch im offenen Meer."
+            "id": "img-north-atlantic-orka",
+            "src": "assets/images/animals/north-atlantic/north-atlantic-orka.png",
+            "alt": "Ein Orka springt aus dem Wasser."
+          },
+          "bigImage": {
+            "id": "big-img-north-atlantic-orka",
+            "src": "assets/images/animals/north-atlantic/north-atlantic-orka.png",
+            "alt": "Ein Orka springt aus dem Wasser."
           }
         },
         {
-          "id": "north-atlantic-nordatlantischer-seehund",
-          "name": "Nordatlantischer Seehund",
-          "shortDescription": "Der Nordatlantische Seehund ruht an felsigen Küsten und taucht auf der Suche nach Fischen.",
+          "id": "north-atlantic-eisbartwal",
+          "seaId": "north-atlantic",
+          "name": "Eisbartwal",
+          "shortDescription": "Ein Wal, der an Eisrändern nach Nahrung sucht.",
+          "detailParagraphs": [
+            "Der Eisbartwal hat zahlreiche Barten im Maul, mit denen er Plankton filtert.",
+            "Er bevorzugt kalte Gewässer und wird oft in der Nähe von Eis beobachtet."
+          ],
           "image": {
-            "id": "img-north-atlantic-nordatlantischer-seehund",
-            "src": "assets/images/animals/north-atlantic/north-atlantic-nordatlantischer-seehund.png",
-            "alt": "Ein Seehund liegt auf einem Felsen."
+            "id": "img-north-atlantic-eisbartwal",
+            "src": "assets/images/animals/north-atlantic/north-atlantic-eisbartwal.png",
+            "alt": "Ein Eisbartwal in kaltem Wasser."
+          },
+          "bigImage": {
+            "id": "big-img-north-atlantic-eisbartwal",
+            "src": "assets/images/animals/north-atlantic/north-atlantic-eisbartwal.png",
+            "alt": "Ein Eisbartwal in kaltem Wasser."
           }
         },
         {
-          "id": "north-atlantic-nordatlantischer-sturmvogel",
-          "name": "Nordatlantischer Sturmvogel",
-          "shortDescription": "Der Nordatlantische Sturmvogel segelt geschickt über wilde Wellen und sucht nach Futter.",
+          "id": "north-atlantic-eismoewe",
+          "seaId": "north-atlantic",
+          "name": "Eismöwe",
+          "shortDescription": "Eine große weiße Möwe, die auch über das Meer fliegt.",
+          "detailParagraphs": [
+            "Die Eismöwe lebt in eisigen Küstenregionen und sucht nach Fischresten.",
+            "Sie kann lange Zeit über dem Wasser fliegen."
+          ],
           "image": {
-            "id": "img-north-atlantic-nordatlantischer-sturmvogel",
-            "src": "assets/images/animals/north-atlantic/north-atlantic-nordatlantischer-sturmvogel.png",
-            "alt": "Ein Sturmvogel gleitet über das Meer."
+            "id": "img-north-atlantic-eismoewe",
+            "src": "assets/images/animals/north-atlantic/north-atlantic-eismoewe.png",
+            "alt": "Eine weiße Eismöwe fliegt über dem Meer."
+          },
+          "bigImage": {
+            "id": "big-img-north-atlantic-eismoewe",
+            "src": "assets/images/animals/north-atlantic/north-atlantic-eismoewe.png",
+            "alt": "Eine weiße Eismöwe fliegt über dem Meer."
           }
         },
         {
-          "id": "north-atlantic-nordatlantischer-makrelenschwarm",
-          "name": "Nordatlantischer Makrelenschwarm",
-          "shortDescription": "Makrelen bilden im Nordatlantik glänzende Schwärme, die von Walen und Delfinen gejagt werden.",
+          "id": "north-atlantic-schwertfisch",
+          "seaId": "north-atlantic",
+          "name": "Schwertfisch",
+          "shortDescription": "Ein Raubfisch mit langem, schwertähnlichem Maul.",
+          "detailParagraphs": [
+            "Schwertfische schwimmen sehr schnell und nutzen ihr „Schwert“ zum Beuteschlagen.",
+            "Sie leben meist alleine und jagen in der Tiefe."
+          ],
           "image": {
-            "id": "img-north-atlantic-nordatlantischer-makrelenschwarm",
-            "src": "assets/images/animals/north-atlantic/north-atlantic-nordatlantischer-makrelenschwarm.png",
-            "alt": "Ein Schwarm Makrelen im tiefen Wasser."
+            "id": "img-north-atlantic-schwertfisch",
+            "src": "assets/images/animals/north-atlantic/north-atlantic-schwertfisch.png",
+            "alt": "Ein Schwertfisch schwimmt durch das Meer."
+          },
+          "bigImage": {
+            "id": "big-img-north-atlantic-schwertfisch",
+            "src": "assets/images/animals/north-atlantic/north-atlantic-schwertfisch.png",
+            "alt": "Ein Schwertfisch schwimmt durch das Meer."
           }
         },
         {
-          "id": "north-atlantic-nordatlantischer-kabeljau",
-          "name": "Nordatlantischer Kabeljau",
-          "shortDescription": "Der Nordatlantische Kabeljau lebt in kühlen, klaren Meeresbereichen und ist ein wichtiger Speisefisch.",
+          "id": "north-atlantic-steinbutt",
+          "seaId": "north-atlantic",
+          "name": "Steinbutt",
+          "shortDescription": "Ein flacher Bodenfisch, der sich tarnen kann.",
+          "detailParagraphs": [
+            "Steinbutte liegen im Sand und jagen vorbeischwimmende Fische.",
+            "Ihre Augen befinden sich beide auf der rechten Seite des Kopfes."
+          ],
           "image": {
-            "id": "img-north-atlantic-nordatlantischer-kabeljau",
-            "src": "assets/images/animals/north-atlantic/north-atlantic-nordatlantischer-kabeljau.png",
-            "alt": "Ein Kabeljau schwimmt durch das kalte Meer."
+            "id": "img-north-atlantic-steinbutt",
+            "src": "assets/images/animals/north-atlantic/north-atlantic-steinbutt.png",
+            "alt": "Ein Steinbutt tarnt sich im Sand."
+          },
+          "bigImage": {
+            "id": "big-img-north-atlantic-steinbutt",
+            "src": "assets/images/animals/north-atlantic/north-atlantic-steinbutt.png",
+            "alt": "Ein Steinbutt tarnt sich im Sand."
           }
         },
         {
-          "id": "north-atlantic-nordatlantischer-seeteufel",
-          "name": "Nordatlantischer Seeteufel",
-          "shortDescription": "Der Seeteufel hat einen großen Kopf und lockt Beutefische mit einem „Angelköder“ direkt vor seinem Maul an.",
+          "id": "north-atlantic-hummer",
+          "seaId": "north-atlantic",
+          "name": "Atlantischer Hummer",
+          "shortDescription": "Ein großer Meereskrebs mit kräftigen Scheren.",
+          "detailParagraphs": [
+            "Hummer leben bis zu 70 Jahre und wachsen sehr langsam.",
+            "Sie verstecken sich tagsüber in Felsspalten und gehen nachts auf Nahrungssuche."
+          ],
           "image": {
-            "id": "img-north-atlantic-nordatlantischer-seeteufel",
-            "src": "assets/images/animals/north-atlantic/north-atlantic-nordatlantischer-seeteufel.png",
-            "alt": "Ein Seeteufel liegt am Meeresboden."
+            "id": "img-north-atlantic-hummer",
+            "src": "assets/images/animals/north-atlantic/north-atlantic-hummer.png",
+            "alt": "Ein Hummer klettert über Felsen."
+          },
+          "bigImage": {
+            "id": "big-img-north-atlantic-hummer",
+            "src": "assets/images/animals/north-atlantic/north-atlantic-hummer.png",
+            "alt": "Ein Hummer klettert über Felsen."
           }
         },
         {
-          "id": "north-atlantic-nordatlantischer-hering",
-          "name": "Nordatlantischer Hering",
-          "shortDescription": "Der Nordatlantische Hering bildet riesige Schwärme und glänzt silbrig im Licht.",
+          "id": "north-atlantic-meeresengel",
+          "seaId": "north-atlantic",
+          "name": "Meeresengel",
+          "shortDescription": "Ein kleiner durchsichtiger Meeresschnecke mit Flügeln.",
+          "detailParagraphs": [
+            "Der Meeresengel sieht zart und durchsichtig aus und bewegt sich mit Flügeln durchs Wasser.",
+            "Er lebt in kalten Gewässern der Tiefsee."
+          ],
           "image": {
-            "id": "img-north-atlantic-nordatlantischer-hering",
-            "src": "assets/images/animals/north-atlantic/north-atlantic-nordatlantischer-hering.png",
-            "alt": "Ein Hering im blauen Meer."
+            "id": "img-north-atlantic-meeresengel",
+            "src": "assets/images/animals/north-atlantic/north-atlantic-meeresengel.png",
+            "alt": "Ein Meeresengel schwebt durchs Wasser."
+          },
+          "bigImage": {
+            "id": "big-img-north-atlantic-meeresengel",
+            "src": "assets/images/animals/north-atlantic/north-atlantic-meeresengel.png",
+            "alt": "Ein Meeresengel schwebt durchs Wasser."
           }
         },
         {
-          "id": "north-atlantic-nordatlantischer-rotbarsch",
-          "name": "Nordatlantischer Rotbarsch",
-          "shortDescription": "Der Nordatlantische Rotbarsch ist ein tiefroter Fisch, der in kälteren Tiefen lebt.",
+          "id": "north-atlantic-sturmvogel",
+          "seaId": "north-atlantic",
+          "name": "Sturmvogel",
+          "shortDescription": "Ein Seevogel, der auch bei starkem Wind über dem Meer fliegt.",
+          "detailParagraphs": [
+            "Sturmvögel können stundenlang in der Luft bleiben und gleiten geschickt über Wellen.",
+            "Sie legen oft große Strecken über das offene Meer zurück."
+          ],
           "image": {
-            "id": "img-north-atlantic-nordatlantischer-rotbarsch",
-            "src": "assets/images/animals/north-atlantic/north-atlantic-nordatlantischer-rotbarsch.png",
-            "alt": "Ein roter Fisch im tiefen Wasser."
+            "id": "img-north-atlantic-sturmvogel",
+            "src": "assets/images/animals/north-atlantic/north-atlantic-sturmvogel.png",
+            "alt": "Ein Sturmvogel fliegt über dem Meer."
+          },
+          "bigImage": {
+            "id": "big-img-north-atlantic-sturmvogel",
+            "src": "assets/images/animals/north-atlantic/north-atlantic-sturmvogel.png",
+            "alt": "Ein Sturmvogel fliegt über dem Meer."
           }
         },
         {
-          "id": "north-atlantic-nordatlantischer-dornhai",
-          "name": "Nordatlantischer Dornhai",
-          "shortDescription": "Der Nordatlantische Dornhai ist ein kleiner Hai mit stacheligen Flossenstrahlen.",
+          "id": "north-atlantic-eisseeigel",
+          "seaId": "north-atlantic",
+          "name": "Eisseeigel",
+          "shortDescription": "Ein Seeigel, der in kalten Tiefen lebt.",
+          "detailParagraphs": [
+            "Der Eisseeigel ernährt sich von abgestorbenem Material und Algenresten.",
+            "Seine Stacheln schützen ihn vor Fressfeinden."
+          ],
           "image": {
-            "id": "img-north-atlantic-nordatlantischer-dornhai",
-            "src": "assets/images/animals/north-atlantic/north-atlantic-nordatlantischer-dornhai.png",
-            "alt": "Ein Dornhai zieht durch das dunkle Meer."
+            "id": "img-north-atlantic-eisseeigel",
+            "src": "assets/images/animals/north-atlantic/north-atlantic-eisseeigel.png",
+            "alt": "Ein Eisseeigel in der Tiefe."
+          },
+          "bigImage": {
+            "id": "big-img-north-atlantic-eisseeigel",
+            "src": "assets/images/animals/north-atlantic/north-atlantic-eisseeigel.png",
+            "alt": "Ein Eisseeigel in der Tiefe."
           }
         },
         {
-          "id": "north-atlantic-nordatlantischer-seeigel",
-          "name": "Nordatlantischer Seeigel",
-          "shortDescription": "Der Nordatlantische Seeigel sitzt mit vielen Stacheln auf Felsen und frisst Algen.",
+          "id": "north-atlantic-langschnauzen-dinnahai",
+          "seaId": "north-atlantic",
+          "name": "Langschnauzen-Dinnahai",
+          "shortDescription": "Ein Tiefseehai mit langem spitzen Maul.",
+          "detailParagraphs": [
+            "Der Hai lebt in über 1000 Meter Tiefe und jagt nachts.",
+            "Er kann Beute durch elektrische Signale wahrnehmen."
+          ],
           "image": {
-            "id": "img-north-atlantic-nordatlantischer-seeigel",
-            "src": "assets/images/animals/north-atlantic/north-atlantic-nordatlantischer-seeigel.png",
-            "alt": "Ein Seeigel mit vielen Stacheln."
+            "id": "img-north-atlantic-dinnahai",
+            "src": "assets/images/animals/north-atlantic/north-atlantic-dinnahai.png",
+            "alt": "Ein Tiefseehai schwimmt durch dunkles Wasser."
+          },
+          "bigImage": {
+            "id": "big-img-north-atlantic-dinnahai",
+            "src": "assets/images/animals/north-atlantic/north-atlantic-dinnahai.png",
+            "alt": "Ein Tiefseehai schwimmt durch dunkles Wasser."
           }
+        }
+      ]
+    },
+    {
+      "id": "animal",
+      "route": "/animal/:animalId",
+      "title": "Tier entdecken",
+      "sections": [
+        {
+          "type": "animal-intro",
+          "text": "Hier erfährst du mehr über ein besonderes Tier und das Meer, in dem es lebt."
         }
       ]
     }

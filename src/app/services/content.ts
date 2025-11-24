@@ -20,9 +20,9 @@ export class Content {
   /** alle Tiere für ein bestimmtes Meer holen */
   getAnimalsBySea(seaId: string): Observable<any[]> {
     return this.getContent().pipe(
-      map((data: any) => {
-        const entry = data.animalsBySea.find((item: any) => item.seaId === seaId);
-        return entry ? entry.animals : [];
+      map((data) => {
+        const sea = data.animalsBySea.find((s: any) => s.seaId === seaId);
+        return sea ? sea.animals : []; // Fallback
       })
     );
   }
@@ -38,5 +38,21 @@ export class Content {
         return sea ?? null;
       })
     );
+  }
+
+  getAnimal(animalId: string) {
+    return this.http.get('assets/content.json').pipe(
+      map((data: any) => {
+        // Tiere pro Meer sind jetzt ein flaches Array
+        const allAnimals = data.animalsBySea.flatMap((sea: any) => sea.animals);
+
+        // Exaktes Tier suchen
+        return allAnimals.find((animal: any) => animal.id === animalId) || null;
+      })
+    );
+  }
+
+  getSeaInfo(seaId: string): Observable<any> {
+    return this.getPage('seas').pipe(map((page) => page.seas.find((sea: any) => sea.id === seaId)));
   }
 }

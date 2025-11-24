@@ -120,3 +120,9 @@
     max-height: 260px;
   }
 }
+
+.btn.btn-outline-primary.btn-lg,
+.btn.btn-primary.btn-lg {
+  border-radius: 999px;
+  font-weight: 600;
+}

@@ -1,1 +1,40 @@
-<p>animal works!</p>
+<div class="container my-5 px-0" *ngIf="animal">
+  <div class="row">
+    <!-- LINKS: Bild -->
+    <div class="col-lg-7 col-md-12 mb-4 text-center">
+      <img
+        class="animal-image"
+        src="assets/images/animals/test1.png"
+        [alt]="animal.bigImage?.alt"
+      />
+      <!-- <img class="animal-image" [src]="animal.bigImage?.src" [alt]="animal.bigImage?.alt" /> -->
+    </div>
+
+    <!-- RECHTS: Information -->
+    <div class="col-lg-5 col-md-12">
+      <div class="animal-info-card p-4">
+        <h2 class="animal-info__title">{{ animal.name }}</h2>
+        <p class="animal-info__short">{{ animal.shortDescription }}</p>
+
+        <!-- Detailabsätze -->
+        <p *ngFor="let p of animal.detailParagraphs" class="animal-info__paragraph">
+          {{ p }}
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAVIGATION -->
+  <div class="mt-4 d-flex justify-content-between">
+    <button class="btn btn-primary btn-lg px-4 w-25" [routerLink]="['/animals', seaId]">
+      Zurück
+    </button>
+
+    <button class="btn btn-primary btn-lg px-4 w-25" [routerLink]="['/quiz', seaId]">Quiz</button>
+  </div>
+</div>
+
+<!-- Fallback -->
+<div class="container my-5 px-0" *ngIf="!animal">
+  <p>Lade Tierdaten...</p>
+</div>
