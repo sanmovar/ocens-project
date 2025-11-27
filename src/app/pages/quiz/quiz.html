@@ -1,39 +1,42 @@
-<div class="container my-5 px-0" *ngIf="questions && questions.length; else loading">
+<div class="container my-5 px-0" *ngIf="questions && questions.length">
   <div class="row">
-    <!-- LINKE SPALTE: Fragen -->
+    <!-- LINKE SPALTE: Quizfragen -->
     <div class="col-lg-7 col-md-12 mb-4">
-      <h2 class="animals-title animals-header mb-3">Quiz zum {{ seaInfo?.name || 'Meer' }}</h2>
+      <h2 class="quiz-title quiz-header mb-3">Quiz zum {{ seaInfo?.name || 'Meer' }}</h2>
 
-      <form>
+      <form (ngSubmit)="checkAnswers()">
         <div class="quiz-question-card mb-3" *ngFor="let q of questions; let i = index">
-          <div class="quiz-question-header">
-            <span class="quiz-question-number">Frage {{ i + 1 }}</span>
-            <h3 class="quiz-question-text">
-              {{ q.question }}
-            </h3>
-          </div>
+          <div class="quiz-question-title">Frage {{ i + 1 }}: {{ q.question }}</div>
 
-          <div class="quiz-answer-list">
-            <label class="quiz-answer-option" *ngFor="let answer of q.answers; let j = index">
+          <div class="quiz-options">
+            <label
+              class="quiz-option"
+              *ngFor="let opt of q.options; let optIndex = index"
+              [ngClass]="{
+                'quiz-option--correct': checked && optIndex === q.correctIndex,
+                'quiz-option--wrong':
+                  checked && userAnswers[i] === optIndex && optIndex !== q.correctIndex
+              }"
+            >
               <input
                 type="radio"
-                class="quiz-answer-radio"
-                name="question{{ i }}"
-                [value]="j"
+                [name]="'q' + i"
+                [value]="optIndex"
                 [(ngModel)]="userAnswers[i]"
+                [disabled]="checked"
               />
-              <span class="quiz-answer-text">{{ answer }}</span>
+              <span class="quiz-option-text">{{ opt }}</span>
             </label>
           </div>
         </div>
 
-        <!-- Buttons unten links -->
-        <div class="d-flex justify-content-between mt-4">
-          <button type="button" class="btn btn-outline-primary btn-lg px-4 w-25" (click)="goBack()">
-            Zurück
-          </button>
-
-          <button type="button" class="btn btn-primary btn-lg px-4 w-25" (click)="checkAnswers()">
+        <div class="d-flex gap-3 mt-3">
+          <button
+            type="button"
+            class="btn btn-primary btn-lg px-4"
+            (click)="checkAnswers()"
+            [disabled]="checked"
+          >
             Prüfen
           </button>
         </div>
@@ -43,36 +46,41 @@
     <!-- RECHTE SPALTE: Ergebnis-Card -->
     <div class="col-lg-5 col-md-12">
       <div class="quiz-result-card p-4">
-        <h2 class="quiz-result__title mb-3">Dein Ergebnis</h2>
+        <h2 class="quiz-result-title mb-3">Dein Ergebnis</h2>
 
-        <p class="quiz-result__hint" *ngIf="!checked">
-          Beantworte die Fragen links und klicke auf <strong>„Prüfen“</strong>, um zu sehen, wie
-          viele Antworten richtig sind.
-        </p>
+        <ng-container *ngIf="!checked">
+          <p class="quiz-result-text">
+            Beantworte die Fragen links und klicke dann auf
+            <strong>„Prüfen“</strong>, um zu sehen, wie viele Antworten richtig sind.
+          </p>
+          <p class="quiz-result-text" *ngIf="seaInfo">
+            Du machst gerade das Quiz zum
+            <strong>{{ seaInfo.name }}</strong
+            >. Viel Erfolg!
+          </p>
+        </ng-container>
 
         <ng-container *ngIf="checked">
-          <p class="quiz-result__score mb-2">
-            Du hast
-            <strong>{{ correctCount }} von {{ questions.length }}</strong>
-            Fragen richtig beantwortet.
+          <p class="quiz-result-score">
+            Du hast <strong>{{ correctCount }}</strong> von
+            <strong>{{ questions.length }}</strong> Fragen richtig beantwortet.
           </p>
-          <p class="quiz-result__text">
+          <p class="quiz-result-text">
             {{ resultText }}
           </p>
         </ng-container>
 
-        <!-- Zurück-Button unten rechts -->
-        <button type="button" class="btn btn-secondary btn-lg mt-4 w-100" (click)="goBack()">
-          Zurück
-        </button>
+        <div class="mt-4">
+          <button type="button" class="btn btn-outline-primary btn-lg w-100" (click)="goBack()">
+            Zurück
+          </button>
+        </div>
       </div>
     </div>
   </div>
 </div>
 
-<!-- Fallback / Ladeanzeige -->
-<ng-template #loading>
-  <div class="container my-5 px-0">
-    <p>Lade Quizdaten...</p>
-  </div>
-</ng-template>
+<!-- Fallback, wenn keine Fragen geladen wurden -->
+<div class="container my-5 px-0" *ngIf="!questions || !questions.length">
+  <p>Lade Quizdaten...</p>
+</div>

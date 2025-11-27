@@ -8,7 +8,7 @@ import { Quizes } from './pages/quizes/quizes';
 
 export const routes: Routes = [
   { path: '', component: Home }, // Startseite
-  { path: 'quiz/seaID', component: Quiz },
+  { path: 'quiz/:seaId', component: Quiz },
   { path: 'quizes', component: Quizes },
   { path: 'animals/:seaId', component: Animals },
   { path: 'animal/:animalId', component: Animal },

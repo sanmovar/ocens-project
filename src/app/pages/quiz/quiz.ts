@@ -31,17 +31,16 @@ export class Quiz implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    // seaId aus :seaId oder ?seaId holen (falls Route später angepasst wird)
     this.seaId =
       this.route.snapshot.paramMap.get('seaId') || this.route.snapshot.queryParamMap.get('seaId');
 
     if (this.seaId) {
-      // Meer-Infos für Überschrift
+      // Meer-Infos
       this.content.getSea(this.seaId).subscribe((sea: any | null) => {
         this.seaInfo = sea;
       });
 
-      // Quizfragen & Ergebnis-Texte laden
+      // Quizfragen & Ergebnis-Texte
       this.content.getQuizForSea(this.seaId).subscribe((quizData: any) => {
         this.questions = quizData?.questions ?? [];
         this.resultTexts = quizData?.resultTexts ?? {};
@@ -56,7 +55,6 @@ export class Quiz implements OnInit {
     }
 
     let count = 0;
-
     this.questions.forEach((q, index) => {
       if (this.userAnswers[index] === q.correctIndex) {
         count++;
