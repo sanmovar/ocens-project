@@ -1,23 +1,76 @@
 import { Component, OnInit } from '@angular/core';
-import { Content } from '../../services/content';
 import { CommonModule } from '@angular/common';
-import { RouterLink } from '@angular/router';
+import { FormsModule } from '@angular/forms';
+import { ActivatedRoute } from '@angular/router';
+import { Location } from '@angular/common';
+import { Content } from '../../services/content';
 
 @Component({
   selector: 'app-quiz',
   standalone: true,
-  imports: [CommonModule, RouterLink],
+  imports: [CommonModule, FormsModule],
   templateUrl: './quiz.html',
   styleUrl: './quiz.css',
 })
 export class Quiz implements OnInit {
-  pageData: any;
+  seaId: string | null = null;
+  seaInfo: any | null = null;
 
-  constructor(private content: Content) {}
+  questions: any[] = [];
+  userAnswers: (number | null)[] = [];
+
+  checked = false;
+  correctCount = 0;
+  resultText = '';
+  resultTexts: { [key: string]: string } = {};
+
+  constructor(
+    private route: ActivatedRoute,
+    private content: Content,
+    private location: Location
+  ) {}
 
   ngOnInit(): void {
-    this.content.getPage('quiz').subscribe((page) => {
-      this.pageData = page;
+    // seaId aus :seaId oder ?seaId holen (falls Route später angepasst wird)
+    this.seaId =
+      this.route.snapshot.paramMap.get('seaId') || this.route.snapshot.queryParamMap.get('seaId');
+
+    if (this.seaId) {
+      // Meer-Infos für Überschrift
+      this.content.getSea(this.seaId).subscribe((sea: any | null) => {
+        this.seaInfo = sea;
+      });
+
+      // Quizfragen & Ergebnis-Texte laden
+      this.content.getQuizForSea(this.seaId).subscribe((quizData: any) => {
+        this.questions = quizData?.questions ?? [];
+        this.resultTexts = quizData?.resultTexts ?? {};
+        this.userAnswers = new Array(this.questions.length).fill(null);
+      });
+    }
+  }
+
+  checkAnswers(): void {
+    if (!this.questions || this.questions.length === 0) {
+      return;
+    }
+
+    let count = 0;
+
+    this.questions.forEach((q, index) => {
+      if (this.userAnswers[index] === q.correctIndex) {
+        count++;
+      }
     });
+
+    this.correctCount = count;
+    this.checked = true;
+
+    const key = String(this.correctCount);
+    this.resultText = this.resultTexts[key] ?? '';
+  }
+
+  goBack(): void {
+    this.location.back();
   }
 }

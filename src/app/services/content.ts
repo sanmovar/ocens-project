@@ -22,18 +22,16 @@ export class Content {
     return this.getContent().pipe(
       map((data) => {
         const sea = data.animalsBySea.find((s: any) => s.seaId === seaId);
-        return sea ? sea.animals : []; // Fallback
+        return sea ? sea.animals : [];
       })
     );
   }
 
-  /** Meer-Infos (Name, Beschreibungen) zu seaId holen */
+  /** Meer-Infos holen */
   getSea(seaId: string): Observable<any | null> {
     return this.getPage('seas').pipe(
       map((seasPage: any) => {
-        if (!seasPage || !seasPage.seas) {
-          return null;
-        }
+        if (!seasPage || !seasPage.seas) return null;
         const sea = seasPage.seas.find((item: any) => item.id === seaId);
         return sea ?? null;
       })
@@ -43,10 +41,7 @@ export class Content {
   getAnimal(animalId: string) {
     return this.http.get('assets/content.json').pipe(
       map((data: any) => {
-        // Tiere pro Meer sind jetzt ein flaches Array
         const allAnimals = data.animalsBySea.flatMap((sea: any) => sea.animals);
-
-        // Exaktes Tier suchen
         return allAnimals.find((animal: any) => animal.id === animalId) || null;
       })
     );
@@ -54,5 +49,34 @@ export class Content {
 
   getSeaInfo(seaId: string): Observable<any> {
     return this.getPage('seas').pipe(map((page) => page.seas.find((sea: any) => sea.id === seaId)));
+  }
+
+  /** 🔹 Neues: Seite "quizes" holen */
+  getQuizesPage(): Observable<any | null> {
+    return this.getPage('quizes');
+  }
+
+  /** 🔹 Neues: Alle Meere für Quiz-Startseite holen */
+  getSeasForQuiz(): Observable<any[]> {
+    return this.getPage('seas').pipe(map((page: any) => (page && page.seas ? page.seas : [])));
+  }
+
+  /** Quiz-Fragen & Ergebnis-Texte für ein Meer holen */
+  getQuizForSea(
+    seaId: string
+  ): Observable<{ questions: any[]; resultTexts: { [key: string]: string } }> {
+    return this.getPage('quiz').pipe(
+      map((quizPage: any) => {
+        if (!quizPage || !quizPage.questionsBySea) {
+          return { questions: [], resultTexts: {} };
+        }
+
+        const seaBlock = quizPage.questionsBySea.find((item: any) => item.seaId === seaId);
+        const questions = seaBlock ? seaBlock.questions : [];
+        const resultTexts = quizPage.resultTexts ?? {};
+
+        return { questions, resultTexts };
+      })
+    );
   }
 }

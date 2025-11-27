@@ -1,0 +1,160 @@
+/* ------------------------------------
+   Überschrift (wie bei animals)
+------------------------------------ */
+
+.animals-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #0a4c6b;
+  letter-spacing: 0.03em;
+  margin-bottom: 1rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.animals-header {
+  background: linear-gradient(135deg, #e0f6ff, #ffffff);
+  border-radius: 20px;
+  padding: 1.2rem 1.4rem;
+  box-shadow: 0 6px 14px rgba(0, 96, 151, 0.12);
+  border-left: 6px solid #0094c6;
+}
+
+/* ------------------------------------
+   Fragen-Card links
+------------------------------------ */
+
+.quiz-question-card {
+  background: #ffffff;
+  border-radius: 16px;
+  border: 2px solid #c9e8ff;
+  box-shadow: 0 4px 10px rgba(0, 80, 120, 0.08);
+  padding: 1rem 1.2rem;
+}
+
+.quiz-question-header {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  margin-bottom: 0.6rem;
+}
+
+.quiz-question-number {
+  display: inline-block;
+  min-width: 70px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #ffffff;
+  background: #0094c6;
+  border-radius: 999px;
+  padding: 0.2rem 0.7rem;
+}
+
+.quiz-question-text {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #06415d;
+  margin: 0;
+}
+
+/* ------------------------------------
+   Antwortliste (Single Choice)
+------------------------------------ */
+
+.quiz-answer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  margin-top: 0.4rem;
+}
+
+.quiz-answer-option {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.35rem 0.55rem;
+  border-radius: 999px;
+  transition: background 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.quiz-answer-option:hover {
+  background: #e3f6ff;
+  box-shadow: 0 2px 6px rgba(0, 80, 120, 0.15);
+}
+
+.quiz-answer-radio {
+  width: 1.1rem;
+  height: 1.1rem;
+}
+
+.quiz-answer-text {
+  font-size: 0.9rem;
+  color: #053652;
+}
+
+/* ------------------------------------
+   Ergebnis-Card rechts
+------------------------------------ */
+
+.quiz-result-card {
+  background: #f0f8ff;
+  border-radius: 16px;
+  border: 2px solid #b3e1ff;
+  box-shadow: 0 4px 10px rgba(0, 80, 120, 0.15);
+  min-height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.quiz-result__title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #06415d;
+}
+
+.quiz-result__hint {
+  font-size: 0.95rem;
+  color: #053652;
+}
+
+.quiz-result__score {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #053652;
+}
+
+.quiz-result__text {
+  font-size: 0.95rem;
+  line-height: 1.4;
+  color: #053652;
+}
+
+/* ------------------------------------
+   Buttons
+------------------------------------ */
+
+.btn.btn-outline-primary.btn-lg,
+.btn.btn-primary.btn-lg,
+.btn.btn-secondary.btn-lg {
+  border-radius: 999px;
+  font-weight: 600;
+}
+
+/* ------------------------------------
+   Mobile
+------------------------------------ */
+
+@media (max-width: 576px) {
+  .animals-title {
+    font-size: 1.6rem;
+  }
+
+  .quiz-question-text {
+    font-size: 0.95rem;
+  }
+
+  .quiz-answer-text {
+    font-size: 0.85rem;
+  }
+}
