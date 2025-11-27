@@ -24,10 +24,10 @@
             </a>
           </div>
           <div class="card-back">
-            <a [routerLink]="['/animals', sea.id]">
-              <div class="card-body">
-                <h5 class="card-title sea-card__title">{{ sea.name }}</h5>
-                <p class="card-text sea-card__text">
+            <a [routerLink]="['/animals', sea.id]" class="sea-card-link">
+              <div class="sea-card__inner">
+                <h3 class="sea-card__title">{{ sea.name }}</h3>
+                <p class="sea-card__text">
                   {{ sea.shortDescription }}
                 </p>
               </div>
@@ -35,21 +35,6 @@
           </div>
         </div>
       </div>
-      <!-- <div class="card h-100 sea-card">
-        <a [routerLink]="['/animals', sea.id]">
-          <img
-            class="card-img-top img-fluid sea-card__image"
-            [src]="sea.image?.src"
-            [alt]="sea.image?.alt || sea.name"
-          />
-        </a>
-        <div class="card-body sea-card__body">
-          <h5 class="card-title sea-card__title">{{ sea.name }}</h5>
-          <p class="card-text sea-card__text">
-            {{ sea.shortDescription }}
-          </p>
-        </div>
-      </div> -->
     </div>
   </div>
 </div>

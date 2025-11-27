@@ -38,7 +38,7 @@
   position: relative;
   z-index: 0;
   width: 100%; /* nutzt volle Spaltenbreite */
-  aspect-ratio: 1 / 1; /* Quadrat */
+  aspect-ratio: 3 / 2;
   background: linear-gradient(145deg, #67e1ff, #7bd4ff);
   transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
   border-radius: 14px;
@@ -90,8 +90,8 @@
 
   /* Verschieben nach außen:
      +x nach rechts, -y nach oben */
-  transform: translate(10px, -10px) scale(0);
-  transform-origin: top left;
+  transform: translateY(-100%) scale(0);
+  transform-origin: bottom left;
 
   display: flex;
   justify-content: flex-start;
@@ -106,7 +106,7 @@
 /* Beim Hover: Bubble sichtbar und vergrößert */
 .animals-flip-card:hover .second-content {
   opacity: 1;
-  transform: translate(10px, -10px) scale(1.5); /* ~150% */
+  transform: translate(50px, -80px) scale(1.5); /* ~150% */
 }
 
 /* Inneres Kästchen mit Text */

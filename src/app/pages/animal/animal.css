@@ -1,7 +1,7 @@
 /* 🐾 Bildbereich */
 .animal-image {
   width: 100%;
-  max-height: 450px;
+  /* max-height: 450px; */
   object-fit: contain;
   border-radius: 16px;
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
