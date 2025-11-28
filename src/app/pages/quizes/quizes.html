@@ -1,31 +1,31 @@
-<div class="container my-5 px-0" *ngIf="quizPage && seas">
+<div class="container my-5 px-0" *ngIf="quizPage">
   <div class="row">
-    <!-- LINKE SPALTE: Meere im Gitter -->
+    <!-- LINKE SPALTE: Quiz-Meere im Gitter -->
     <div class="col-lg-7 col-md-12 mb-4">
       <h2 class="animals-title animals-header mb-3">
         {{ quizPage.sections[0].headline }}
       </h2>
 
       <div class="row g-3 animals-grid">
-        <div class="col-6 col-md-3" *ngFor="let sea of seas">
+        <div class="col-6 col-md-3" *ngFor="let quiz of quizes">
           <a
-            [routerLink]="['/quiz', sea.id]"
+            [routerLink]="['/quiz', quiz.seaId]"
             class="animals-card-link text-decoration-none text-reset"
           >
             <div class="animals-flip-card">
               <div class="first-content">
                 <img
-                  *ngIf="sea.image"
+                  *ngIf="quiz.image"
                   class="animals-card__img"
-                  [src]="sea.image.src"
-                  [alt]="sea.image.alt"
+                  [src]="quiz.image.src"
+                  [alt]="quiz.image.alt"
                 />
               </div>
 
               <div class="second-content">
                 <div class="animals-card__inner">
-                  <h3 class="animals-card__title">{{ sea.name }}</h3>
-                  <p class="animals-card__text">{{ sea.shortDescription }}</p>
+                  <h3 class="animals-card__title">{{ quiz.title }}</h3>
+                  <p class="animals-card__text">{{ quiz.description }}</p>
                 </div>
               </div>
             </div>
@@ -34,7 +34,7 @@
       </div>
     </div>
 
-    <!-- RECHTE SPALTE: Beschreibung -->
+    <!-- RECHTE SPALTE: Erklärung -->
     <div class="col-lg-5 col-md-12">
       <div class="sea-info-card p-4">
         <h2 class="sea-info__title mb-3">
@@ -51,7 +51,7 @@
   <!-- Navigation unten -->
   <div class="mt-4 d-flex justify-content-between">
     <button class="btn btn-primary btn-lg px-4 w-25" [routerLink]="['/seas']">Zurück</button>
-    <button class="btn btn-primary btn-lg px-4 w-25" [routerLink]="['/home']">Startseite</button>
+    <button class="btn btn-primary btn-lg px-4 w-25" [routerLink]="['/']">Startseite</button>
   </div>
 </div>
 

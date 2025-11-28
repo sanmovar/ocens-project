@@ -223,7 +223,7 @@
           "paragraphs": [
             "Hier kannst du dein Wissen über verschiedene Meere und Ozeane testen!",
             "Klicke auf ein Bild, um dein Lieblingsmeer auszuwählen und spannende Fragen zu entdecken.",
-            "Jedes Meer hat sein eigenes Quiz mit bunten Bildern, Tieren und tollen Überraschungen.",
+            "Jedes Meer hat sein eigenes Quiz.",
             "Mach mit – und werde ein echter Meeres-Profi!"
           ],
           "quizes": [
@@ -355,196 +355,188 @@
       "id": "quiz",
       "route": "/quiz/:seaId",
       "title": "Dein Meeres-Quiz",
+
       "sections": [
         {
           "type": "quiz-intro",
           "title": "Teste dein Meereswissen!",
           "text": "Wähle ein Meer aus und beantworte die Fragen zu den Tieren dort. Alle Fragen beziehen sich auf die Texte und Tiere, die du in der App sehen kannst."
-        },
+        }
+      ],
+
+      "quizzes": [
         {
-          "type": "quiz-questions",
-          "questionsBySea": [
+          "seaId": "north-sea",
+          "title": "Quiz zur Nordsee",
+          "questions": [
             {
-              "seaId": "north-sea",
-              "title": "Quiz zur Nordsee",
-              "questions": [
-                {
-                  "id": "q-north-sea-1",
-                  "question": "Welches Nordsee-Tier wird als „große Robbe mit langem Kopf“ beschrieben, die gern an Sandstränden und Felsen ruht?",
-                  "options": ["Seehund", "Schweinswal", "Kegelrobbe", "Makrele"],
-                  "correctIndex": 2
-                },
-                {
-                  "id": "q-north-sea-2",
-                  "question": "Welches Tier aus der Nordsee ist ein kleiner Wal, der leise an der Wasseroberfläche auftaucht und wieder abtaucht?",
-                  "options": ["Scholle", "Schweinswal", "Nordseegarnele", "Miesmuschel"],
-                  "correctIndex": 1
-                },
-                {
-                  "id": "q-north-sea-3",
-                  "question": "Welches Nordsee-Tier liegt flach auf dem Meeresboden und kann sich im Sand tarnen?",
-                  "options": ["Gemeiner Seestern", "Herzmuschel", "Scholle", "Seeskorpion"],
-                  "correctIndex": 2
-                },
-                {
-                  "id": "q-north-sea-4",
-                  "question": "Welches Tier bildet dichte Bänke und filtriert Nahrung aus dem Wasser, während es an Steinen festklebt?",
-                  "options": ["Nordseegarnele", "Miesmuschel", "Makrele", "Atlantischer Kabeljau"],
-                  "correctIndex": 1
-                },
-                {
-                  "id": "q-north-sea-5",
-                  "question": "Welcher Fisch hat einen Bartfaden am Kinn und ist ein bekannter Speisefisch in der Nordsee?",
-                  "options": [
-                    "Atlantischer Kabeljau",
-                    "Atlantischer Hering",
-                    "Makrele",
-                    "Seeskorpion"
-                  ],
-                  "correctIndex": 0
-                },
-                {
-                  "id": "q-north-sea-6",
-                  "question": "Welches dieser Tiere aus der Nordsee kann verlorene Arme nachwachsen lassen?",
-                  "options": ["Kegelrobbe", "Gemeiner Seestern", "Herzmuschel", "Nordseegarnele"],
-                  "correctIndex": 1
-                },
-                {
-                  "id": "q-north-sea-7",
-                  "question": "Welches Nordsee-Tier schwimmt in großen silbrig glänzenden Schwärmen und ist ein wichtiger Speisefisch?",
-                  "options": ["Atlantischer Hering", "Seehund", "Schweinswal", "Herzmuschel"],
-                  "correctIndex": 0
-                }
-              ]
+              "id": "q-north-sea-1",
+              "question": "Welches Nordsee-Tier wird als „große Robbe mit langem Kopf“ beschrieben, die gern an Sandstränden und Felsen ruht?",
+              "options": ["Seehund", "Schweinswal", "Kegelrobbe", "Makrele"],
+              "correctIndex": 2
             },
             {
-              "seaId": "baltic-sea",
-              "title": "Quiz zur Ostsee",
-              "questions": [
-                {
-                  "id": "q-baltic-sea-1",
-                  "question": "Welcher Ostsee-Fisch ist ein Plattfisch, der fast unsichtbar am sandigen Boden liegen kann?",
-                  "options": ["Barsch", "Flunder", "Stint", "Aal"],
-                  "correctIndex": 1
-                },
-                {
-                  "id": "q-baltic-sea-2",
-                  "question": "Welcher Fisch aus der Ostsee riecht frisch gefangen ein bisschen nach Gurke und wandert in Flüsse zum Laichen?",
-                  "options": ["Ostsee-Sprotte", "Quappe", "Stint", "Ostsee-Hering"],
-                  "correctIndex": 2
-                },
-                {
-                  "id": "q-baltic-sea-3",
-                  "question": "Welches Tier wird in deinen Ostsee-Tiertexten als kleine Robbenart beschrieben, die im Winter auf dem Eis ruht?",
-                  "options": ["Ostsee-Ringelrobbe", "Ostsee-Schweinswal", "Strandkrabbe", "Aal"],
-                  "correctIndex": 0
-                },
-                {
-                  "id": "q-baltic-sea-4",
-                  "question": "Welcher Fisch mit dunklen Streifen und roten Flossen lebt dort, wo Süß- und Salzwasser sich mischen?",
-                  "options": ["Barsch", "Hecht", "Aal", "Ostsee-Hering"],
-                  "correctIndex": 0
-                },
-                {
-                  "id": "q-baltic-sea-5",
-                  "question": "Welches Ostsee-Tier ist ein kleiner Wal, der sehr selten geworden ist und mit Klicklauten Beute findet?",
-                  "options": [
-                    "Ostsee-Schweinswal",
-                    "Ostsee-Ringelrobbe",
-                    "Strandkrabbe",
-                    "Flussneunauge"
-                  ],
-                  "correctIndex": 0
-                },
-                {
-                  "id": "q-baltic-sea-6",
-                  "question": "Welches dieser Tiere aus der Ostsee wird als kleiner Krebs beschrieben, der flink über den Boden läuft und sich unter Steinen versteckt?",
-                  "options": ["Strandkrabbe", "Quappe", "Ostsee-Sprotte", "Flunder"],
-                  "correctIndex": 0
-                },
-                {
-                  "id": "q-baltic-sea-7",
-                  "question": "Welcher Fisch aus der Ostsee gehört zur gleichen Familie wie der Kabeljau und mag kühles Wasser?",
-                  "options": ["Quappe", "Barsch", "Stint", "Aal"],
-                  "correctIndex": 0
-                }
-              ]
+              "id": "q-north-sea-2",
+              "question": "Welches Tier aus der Nordsee ist ein kleiner Wal, der leise an der Wasseroberfläche auftaucht und wieder abtaucht?",
+              "options": ["Scholle", "Schweinswal", "Nordseegarnele", "Miesmuschel"],
+              "correctIndex": 1
             },
             {
-              "seaId": "mediterranean",
-              "title": "Quiz zum Mittelmeer",
-              "questions": [
-                {
-                  "id": "q-mediterranean-1",
-                  "question": "Welche Mittelmeer-Robbe ist stark bedroht und lebt nur noch an wenigen, ruhigen Küstenabschnitten und in Höhlen?",
-                  "options": [
-                    "Mittelmeer-Mönchsrobbe",
-                    "Großer Tümmler",
-                    "Gemeiner Delfin",
-                    "Mittelmeer-Muräne"
-                  ],
-                  "correctIndex": 0
-                },
-                {
-                  "id": "q-mediterranean-2",
-                  "question": "Welcher Meeressäuger im Mittelmeer springt oft verspielt aus dem Wasser und schwimmt in Gruppen?",
-                  "options": [
-                    "Mittelmeer-Mönchsrobbe",
-                    "Großer Tümmler",
-                    "Rotfeuerfisch",
-                    "Zackenbarsch"
-                  ],
-                  "correctIndex": 1
-                },
-                {
-                  "id": "q-mediterranean-3",
-                  "question": "Welche Meeresschildkröte kehrt jedes Jahr an denselben Strand zurück, um ihre Eier im Sand abzulegen?",
-                  "options": [
-                    "Unechte Karettschildkröte",
-                    "Atlantische Meeresschildkröte",
-                    "Meeresschildkröte der Karibik",
-                    "Walhai"
-                  ],
-                  "correctIndex": 0
-                },
-                {
-                  "id": "q-mediterranean-4",
-                  "question": "Welcher Fisch im Mittelmeer hat eine lange, schwertähnliche Schnauze und kann sehr schnell schwimmen?",
-                  "options": [
-                    "Schwertfisch",
-                    "Rotfeuerfisch",
-                    "Gelbstreifen-Barrakuda",
-                    "Zackenbarsch"
-                  ],
-                  "correctIndex": 0
-                },
-                {
-                  "id": "q-mediterranean-5",
-                  "question": "Welches Tier aus dem Mittelmeer versteckt sich in Felsspalten und zeigt oft nur seinen Kopf mit scharfen Zähnen?",
-                  "options": ["Mittelmeer-Muräne", "Oktopus", "Flaschenqualle", "Gemeiner Delfin"],
-                  "correctIndex": 0
-                },
-                {
-                  "id": "q-mediterranean-6",
-                  "question": "Welcher auffällige Fisch hat lange, bunte Flossenstrahlen und sieht aus wie ein schwebender, stacheliger Fächer?",
-                  "options": ["Rotfeuerfisch", "Schwertfisch", "Oktopus", "Gelbstreifen-Barrakuda"],
-                  "correctIndex": 0
-                },
-                {
-                  "id": "q-mediterranean-7",
-                  "question": "Welches dieser Mittelmeer-Tiere hat acht Arme, kann seine Farbe ändern und sich geschickt in Höhlen verstecken?",
-                  "options": [
-                    "Oktopus",
-                    "Zackenbarsch",
-                    "Flaschenqualle",
-                    "Mittelmeer-Mönchsrobbe"
-                  ],
-                  "correctIndex": 0
-                }
-              ]
+              "id": "q-north-sea-3",
+              "question": "Welches Nordsee-Tier liegt flach auf dem Meeresboden und kann sich im Sand tarnen?",
+              "options": ["Gemeiner Seestern", "Herzmuschel", "Scholle", "Seeskorpion"],
+              "correctIndex": 2
+            },
+            {
+              "id": "q-north-sea-4",
+              "question": "Welches Tier bildet dichte Bänke und filtriert Nahrung aus dem Wasser, während es an Steinen festklebt?",
+              "options": ["Nordseegarnele", "Miesmuschel", "Makrele", "Atlantischer Kabeljau"],
+              "correctIndex": 1
+            },
+            {
+              "id": "q-north-sea-5",
+              "question": "Welcher Fisch hat einen Bartfaden am Kinn und ist ein bekannter Speisefisch in der Nordsee?",
+              "options": ["Atlantischer Kabeljau", "Atlantischer Hering", "Makrele", "Seeskorpion"],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-north-sea-6",
+              "question": "Welches dieser Tiere aus der Nordsee kann verlorene Arme nachwachsen lassen?",
+              "options": ["Kegelrobbe", "Gemeiner Seestern", "Herzmuschel", "Nordseegarnele"],
+              "correctIndex": 1
+            },
+            {
+              "id": "q-north-sea-7",
+              "question": "Welches Nordsee-Tier schwimmt in großen silbrig glänzenden Schwärmen und ist ein wichtiger Speisefisch?",
+              "options": ["Atlantischer Hering", "Seehund", "Schweinswal", "Herzmuschel"],
+              "correctIndex": 0
             }
           ]
         },
+
+        {
+          "seaId": "baltic-sea",
+          "title": "Quiz zur Ostsee",
+          "questions": [
+            {
+              "id": "q-baltic-sea-1",
+              "question": "Welcher Ostsee-Fisch ist ein Plattfisch, der fast unsichtbar am sandigen Boden liegen kann?",
+              "options": ["Barsch", "Flunder", "Stint", "Aal"],
+              "correctIndex": 1
+            },
+            {
+              "id": "q-baltic-sea-2",
+              "question": "Welcher Fisch aus der Ostsee riecht frisch gefangen ein bisschen nach Gurke und wandert in Flüsse zum Laichen?",
+              "options": ["Ostsee-Sprotte", "Quappe", "Stint", "Ostsee-Hering"],
+              "correctIndex": 2
+            },
+            {
+              "id": "q-baltic-sea-3",
+              "question": "Welches Tier wird in deinen Ostsee-Tiertexten als kleine Robbenart beschrieben, die im Winter auf dem Eis ruht?",
+              "options": ["Ostsee-Ringelrobbe", "Ostsee-Schweinswal", "Strandkrabbe", "Aal"],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-baltic-sea-4",
+              "question": "Welcher Fisch mit dunklen Streifen und roten Flossen lebt dort, wo Süß- und Salzwasser sich mischen?",
+              "options": ["Barsch", "Hecht", "Aal", "Ostsee-Hering"],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-baltic-sea-5",
+              "question": "Welches Ostsee-Tier ist ein kleiner Wal, der sehr selten geworden ist und mit Klicklauten Beute findet?",
+              "options": [
+                "Ostsee-Schweinswal",
+                "Ostsee-Ringelrobbe",
+                "Strandkrabbe",
+                "Flussneunauge"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-baltic-sea-6",
+              "question": "Welches dieser Tiere aus der Ostsee wird als kleiner Krebs beschrieben, der flink über den Boden läuft und sich unter Steinen versteckt?",
+              "options": ["Strandkrabbe", "Quappe", "Ostsee-Sprotte", "Flunder"],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-baltic-sea-7",
+              "question": "Welcher Fisch aus der Ostsee gehört zur gleichen Familie wie der Kabeljau und mag kühles Wasser?",
+              "options": ["Quappe", "Barsch", "Stint", "Aal"],
+              "correctIndex": 0
+            }
+          ]
+        },
+
+        {
+          "seaId": "mediterranean",
+          "title": "Quiz zum Mittelmeer",
+          "questions": [
+            {
+              "id": "q-mediterranean-1",
+              "question": "Welche Mittelmeer-Robbe ist stark bedroht und lebt nur noch an wenigen, ruhigen Küstenabschnitten und in Höhlen?",
+              "options": [
+                "Mittelmeer-Mönchsrobbe",
+                "Großer Tümmler",
+                "Gemeiner Delfin",
+                "Mittelmeer-Muräne"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-mediterranean-2",
+              "question": "Welcher Meeressäuger im Mittelmeer springt oft verspielt aus dem Wasser und schwimmt in Gruppen?",
+              "options": [
+                "Mittelmeer-Mönchsrobbe",
+                "Großer Tümmler",
+                "Rotfeuerfisch",
+                "Zackenbarsch"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "q-mediterranean-3",
+              "question": "Welche Meeresschildkröte kehrt jedes Jahr an denselben Strand zurück, um ihre Eier im Sand abzulegen?",
+              "options": [
+                "Unechte Karettschildkröte",
+                "Atlantische Meeresschildkröte",
+                "Meeresschildkröte der Karibik",
+                "Walhai"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-mediterranean-4",
+              "question": "Welcher Fisch im Mittelmeer hat eine lange, schwertähnliche Schnauze und kann sehr schnell schwimmen?",
+              "options": [
+                "Schwertfisch",
+                "Rotfeuerfisch",
+                "Gelbstreifen-Barrakuda",
+                "Zackenbarsch"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-mediterranean-5",
+              "question": "Welches Tier aus dem Mittelmeer versteckt sich in Felsspalten und zeigt oft nur seinen Kopf mit scharfen Zähnen?",
+              "options": ["Mittelmeer-Muräne", "Oktopus", "Flaschenqualle", "Gemeiner Delfin"],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-mediterranean-6",
+              "question": "Welcher auffällige Fisch hat lange, bunte Flossenstrahlen und sieht aus wie ein schwebender, stacheliger Fächer?",
+              "options": ["Rotfeuerfisch", "Schwertfisch", "Oktopus", "Gelbstreifen-Barrakuda"],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-mediterranean-7",
+              "question": "Welches dieser Mittelmeer-Tiere hat acht Arme, kann seine Farbe ändern und sich geschickt in Höhlen verstecken?",
+              "options": ["Oktopus", "Zackenbarsch", "Flaschenqualle", "Mittelmeer-Mönchsrobbe"],
+              "correctIndex": 0
+            }
+          ]
+        },
+
         {
           "seaId": "atlantic",
           "title": "Quiz zum Atlantik",
@@ -598,6 +590,7 @@
             }
           ]
         },
+
         {
           "seaId": "pacific",
           "title": "Quiz zum Pazifik",
@@ -646,6 +639,7 @@
             }
           ]
         },
+
         {
           "seaId": "indian-ocean",
           "title": "Quiz zum Indischen Ozean",
@@ -694,6 +688,7 @@
             }
           ]
         },
+
         {
           "seaId": "arctic-ocean",
           "title": "Quiz zum Arktischen Ozean",
@@ -742,6 +737,7 @@
             }
           ]
         },
+
         {
           "seaId": "southern-ocean",
           "title": "Quiz zum Südpolarmeer",
@@ -800,6 +796,7 @@
             }
           ]
         },
+
         {
           "seaId": "caribbean",
           "title": "Quiz zur Karibik",
@@ -853,6 +850,7 @@
             }
           ]
         },
+
         {
           "seaId": "red-sea",
           "title": "Quiz zum Roten Meer",
@@ -916,6 +914,7 @@
             }
           ]
         },
+
         {
           "seaId": "black-sea",
           "title": "Quiz zum Schwarzen Meer",
@@ -989,6 +988,7 @@
             }
           ]
         },
+
         {
           "seaId": "north-atlantic",
           "title": "Quiz zum Nordatlantik",
@@ -1041,53 +1041,19 @@
               "correctIndex": 0
             }
           ]
-        },
-        {
-          "type": "quiz-results",
-          "results": [
-            {
-              "score": 0,
-              "title": "Du bist ein neugieriger Meeresanfänger!",
-              "text": "Noch ist vieles neu für dich – und das ist völlig in Ordnung. Schau dir die Tierseiten noch einmal in Ruhe an und versuche das Quiz einfach wieder. Jede Runde macht dich schlauer!"
-            },
-            {
-              "score": 1,
-              "title": "Ein erster Tropfen Meereswissen!",
-              "text": "Du hast schon eine richtige Antwort geschafft – super! Mit jedem weiteren Versuch lernst du die Tiere noch besser kennen."
-            },
-            {
-              "score": 2,
-              "title": "Guter Start in die Unterwasserwelt!",
-              "text": "Du hast schon einige richtige Antworten. Bleib dran, schau dir die Texte in der App noch einmal an und du wirst beim nächsten Mal noch mehr wissen."
-            },
-            {
-              "score": 3,
-              "title": "Du kennst schon viele Meerestiere!",
-              "text": "Das war eine tolle Leistung! Ein paar Antworten waren noch schwierig, aber genau so lernt man dazu. Probier das Quiz gern noch einmal."
-            },
-            {
-              "score": 4,
-              "title": "Starke Leistung – Meeres-Forscher in Ausbildung!",
-              "text": "Du hast schon richtig viel Wissen gesammelt. Wenn du weiter übst, wirst du bald ein echter Meeres-Profi."
-            },
-            {
-              "score": 5,
-              "title": "Wow, du bist ein Meereskenner!",
-              "text": "Du hast die meisten Fragen richtig beantwortet. Man merkt, dass du gut aufgepasst hast und dir die Tiere merkst."
-            },
-            {
-              "score": 6,
-              "title": "Fast perfekt – Meeresexperte!",
-              "text": "Nur ganz wenige Fragen waren noch knifflig. Du kennst dich schon super aus. Wenn du magst, versuch die volle Punktzahl zu schaffen!"
-            },
-            {
-              "score": 7,
-              "title": "Unglaublich – du bist ein Meeres-Profi!",
-              "text": "Du hast alle Fragen richtig beantwortet! Deine Aufmerksamkeit und dein Wissen sind beeindruckend. Du könntest anderen Kindern schon viel über die Meere erklären."
-            }
-          ]
         }
-      ]
+      ],
+
+      "resultTexts": {
+        "0": "Noch ist vieles neu für dich – und das ist völlig in Ordnung. Schau dir die Tierseiten noch einmal in Ruhe an und versuche das Quiz einfach wieder. Jede Runde macht dich schlauer!",
+        "1": "Du hast schon eine richtige Antwort geschafft – super! Mit jedem weiteren Versuch lernst du die Tiere noch besser kennen.",
+        "2": "Du hast schon einige richtige Antworten. Bleib dran, schau dir die Texte in der App noch einmal an und du wirst beim nächsten Mal noch mehr wissen.",
+        "3": "Das war eine tolle Leistung! Ein paar Antworten waren noch schwierig, aber genau so lernt man dazu. Probier das Quiz gern noch einmal.",
+        "4": "Du hast schon richtig viel Wissen gesammelt. Wenn du weiter übst, wirst du bald ein echter Meeres-Profi.",
+        "5": "Du hast die meisten Fragen richtig beantwortet. Man merkt, dass du gut aufgepasst hast und dir die Tiere merkst.",
+        "6": "Nur ganz wenige Fragen waren noch knifflig. Du kennst dich schon super aus. Wenn du magst, versuch die volle Punktzahl zu schaffen!",
+        "7": "Du hast alle Fragen richtig beantwortet! Deine Aufmerksamkeit und dein Wissen sind beeindruckend. Du könntest anderen Kindern schon viel über die Meere erklären."
+      }
     }
   ],
   "animalsBySea": [

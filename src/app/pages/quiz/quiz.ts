@@ -24,6 +24,9 @@ export class Quiz implements OnInit {
   resultText = '';
   resultTexts: { [key: string]: string } = {};
 
+  /** falls kein Quiz gefunden wird */
+  noQuizFound = false;
+
   constructor(
     private route: ActivatedRoute,
     private content: Content,
@@ -31,22 +34,41 @@ export class Quiz implements OnInit {
   ) {}
 
   ngOnInit(): void {
+    // seaId aus /quiz/:seaId oder ?seaId
     this.seaId =
       this.route.snapshot.paramMap.get('seaId') || this.route.snapshot.queryParamMap.get('seaId');
 
-    if (this.seaId) {
-      // Meer-Infos
-      this.content.getSea(this.seaId).subscribe((sea: any | null) => {
-        this.seaInfo = sea;
-      });
+    console.log('Quiz: seaId aus Route =', this.seaId);
 
-      // Quizfragen & Ergebnis-Texte
-      this.content.getQuizForSea(this.seaId).subscribe((quizData: any) => {
-        this.questions = quizData?.questions ?? [];
-        this.resultTexts = quizData?.resultTexts ?? {};
-        this.userAnswers = new Array(this.questions.length).fill(null);
-      });
+    if (!this.seaId) {
+      this.noQuizFound = true;
+      return;
     }
+
+    // Meer-Infos (Name etc.)
+    this.content.getSea(this.seaId).subscribe((sea: any | null) => {
+      this.seaInfo = sea;
+    });
+
+    // Quizfragen & Ergebnis-Texte laden
+    this.content.getQuizForSea(this.seaId).subscribe((quizData: any) => {
+      console.log('Quizdaten für', this.seaId, quizData);
+
+      if (!quizData) {
+        this.noQuizFound = true;
+        this.questions = [];
+        this.resultTexts = {};
+        return;
+      }
+
+      this.questions = quizData.questions ?? [];
+      this.resultTexts = quizData.resultTexts ?? {};
+      this.userAnswers = new Array(this.questions.length).fill(null);
+
+      if (!this.questions.length) {
+        this.noQuizFound = true;
+      }
+    });
   }
 
   checkAnswers(): void {
@@ -55,6 +77,7 @@ export class Quiz implements OnInit {
     }
 
     let count = 0;
+
     this.questions.forEach((q, index) => {
       if (this.userAnswers[index] === q.correctIndex) {
         count++;
@@ -70,5 +93,32 @@ export class Quiz implements OnInit {
 
   goBack(): void {
     this.location.back();
+  }
+
+  getOptionClass(questionIndex: number, optionIndex: number): string {
+    if (!this.checked) {
+      return '';
+    }
+
+    const q = this.questions[questionIndex];
+
+    // Richtige Antwort → grün
+    if (optionIndex === q.correctIndex) {
+      return 'option-correct';
+    }
+
+    // Falsch angeklickt → rot
+    if (this.userAnswers[questionIndex] === optionIndex) {
+      return 'option-wrong';
+    }
+
+    return '';
+  }
+
+  resetQuiz(): void {
+    this.checked = false;
+    this.correctCount = 0;
+    this.resultText = '';
+    this.userAnswers = new Array(this.questions.length).fill(null);
   }
 }

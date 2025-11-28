@@ -1,152 +1,137 @@
 /* ------------------------------------
-   Überschrift links (angelehnt an animals)
+   Überschrift
 ------------------------------------ */
-
 .quiz-title {
   font-size: 2rem;
   font-weight: 700;
   color: #0a4c6b;
-  letter-spacing: 0.03em;
-  margin-bottom: 1rem;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-}
-
-.quiz-header {
-  background: linear-gradient(135deg, #e0f6ff, #ffffff);
-  border-radius: 20px;
-  padding: 1.2rem 1.4rem;
-  box-shadow: 0 6px 14px rgba(0, 96, 151, 0.12);
-  border-left: 6px solid #0094c6;
 }
 
 /* ------------------------------------
-   Fragekarten
+   Quizfragen
 ------------------------------------ */
-
-.quiz-question-card {
-  background: #ffffff;
-  border-radius: 16px;
-  border: 2px solid #b3e1ff;
-  box-shadow: 0 4px 10px rgba(0, 80, 120, 0.08);
+.quiz-question-box {
+  background: #e9f7ff;
+  border: 1px solid #b8e4ff;
   padding: 1rem 1.2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 14px rgba(0, 96, 151, 0.1);
 }
 
-.quiz-question-title {
+.quiz-question {
   font-size: 1rem;
   font-weight: 600;
   color: #06415d;
-  margin-bottom: 0.75rem;
 }
 
-/* Optionen */
-
 .quiz-options {
+  margin-top: 0.6rem;
   display: flex;
   flex-direction: column;
-  gap: 0.4rem;
+  gap: 0.45rem;
 }
 
 .quiz-option {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 0.5rem;
   padding: 0.4rem 0.6rem;
+  background: #ffffff;
   border-radius: 10px;
-  transition: background 0.2s ease, box-shadow 0.2s ease, transform 0.1s ease;
-  cursor: pointer;
+  border: 1px solid #cdeaff;
+  transition: background 0.2s;
+}
+
+.quiz-option:hover {
+  background: #dff5ff;
 }
 
 .quiz-option input[type='radio'] {
-  margin-top: 0.15rem;
-}
-
-.quiz-option-text {
-  font-size: 0.9rem;
-  line-height: 1.3;
-  color: #053652;
-}
-
-/* Hover-Effekt vor dem Prüfen */
-.quiz-option:hover {
-  background: #f0f8ff;
-  box-shadow: 0 2px 6px rgba(0, 80, 120, 0.15);
-  transform: translateY(-1px);
-}
-
-/* Nach dem Prüfen: richtige / falsche Antwort hervorheben */
-
-.quiz-option--correct {
-  background: #e0f9ea;
-  border: 1px solid #39b363;
-}
-
-.quiz-option--wrong {
-  background: #ffe5e5;
-  border: 1px solid #ff7676;
+  width: 1.1rem;
+  height: 1.1rem;
 }
 
 /* ------------------------------------
-   Rechte Spalte: Ergebnis-Card
+   Ergebnis-Box (Sticky rechts)
 ------------------------------------ */
+.quiz-result-wrapper {
+  position: sticky;
+  top: 20px;
+  z-index: 200;
+}
 
 .quiz-result-card {
   background: #f0f8ff;
   border-radius: 16px;
   border: 2px solid #b3e1ff;
   box-shadow: 0 4px 10px rgba(0, 80, 120, 0.15);
-  min-height: 280px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
 }
 
 .quiz-result-title {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 700;
   color: #06415d;
-  margin-bottom: 0.5rem;
 }
 
-.quiz-result-score {
+.quiz-score-number {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #0a4c6b;
+}
+
+/* Fortschrittsbalken */
+.quiz-progress {
+  width: 100%;
+  height: 10px;
+  background: #dcefff;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.quiz-progress-bar {
+  height: 100%;
+  background: #0094c6;
+  border-radius: 10px;
+}
+
+/* Ergebnistext */
+.quiz-result__subtitle {
   font-size: 1rem;
-  font-weight: 600;
-  color: #0a5678;
-  margin-bottom: 0.75rem;
-}
-
-.quiz-result-text {
-  font-size: 0.9rem;
   line-height: 1.4;
-  color: #053652;
-  margin-bottom: 0.5rem;
+  color: #07425f;
 }
 
-/* Buttons */
-
-.btn.btn-primary.btn-lg,
-.btn.btn-outline-primary.btn-lg {
+/* Sticky Zurück-Button */
+.quiz-result-wrapper button {
   border-radius: 999px;
   font-weight: 600;
 }
 
-/* ------------------------------------
-   Mobile
------------------------------------- */
-
+/* Responsive */
 @media (max-width: 576px) {
   .quiz-title {
     font-size: 1.6rem;
   }
 
-  .quiz-question-title {
-    font-size: 0.95rem;
+  .quiz-result-wrapper {
+    top: 10px;
   }
+}
 
-  .quiz-option-text {
-    font-size: 0.85rem;
-  }
+/* Nach dem Prüfen – richtige Antwort */
+.option-correct {
+  background: #d9f7d9 !important;
+  border-color: #8ddf8d !important;
+}
 
-  .quiz-result-title {
-    font-size: 1.4rem;
-  }
+/* Nach dem Prüfen – falsch angeklickte Antwort */
+.option-wrong {
+  background: #ffe0e0 !important;
+  border-color: #ff9e9e !important;
+}
+
+.quiz-button,
+.btn-sticky,
+.btn-primary.btn-lg {
+  border-radius: 999px;
 }
