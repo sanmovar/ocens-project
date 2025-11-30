@@ -1,23 +1,22 @@
-<div class="container my-5 px-0" *ngIf="seaInfo">
+@if (seaInfo) {
+<div class="container my-5 px-0">
   <div class="row">
     <!-- LINKE SPALTE: Tiere im Gitter -->
     <div class="col-lg-7 col-md-12 mb-4">
       <h2 class="animals-title animals-header mb-3">Tiere im {{ seaInfo.name }}</h2>
 
       <div class="row g-3 animals-grid">
-        <div class="col-6 col-md-3" *ngFor="let animal of animals">
+        @for (animal of animals; track animal) {
+        <div class="col-6 col-md-3">
           <a
             [routerLink]="['/animal', animal.id]"
             class="animals-card-link text-decoration-none text-reset"
           >
             <div class="animals-flip-card">
               <div class="first-content">
-                <img
-                  *ngIf="animal.image"
-                  class="animals-card__img"
-                  [src]="animal.image.src"
-                  [alt]="animal.image.alt"
-                />
+                @if (animal.image) {
+                <img class="animals-card__img" [src]="animal.image.src" [alt]="animal.image.alt" />
+                }
               </div>
 
               <div class="second-content">
@@ -29,6 +28,7 @@
             </div>
           </a>
         </div>
+        }
       </div>
     </div>
 
@@ -37,9 +37,11 @@
       <div class="sea-info-card p-4">
         <h2 class="sea-info__title mb-3">{{ seaInfo.name }}</h2>
         <p class="sea-info__short mb-3">{{ seaInfo.shortDescription }}</p>
-        <p class="sea-info__paragraph" *ngFor="let p of seaInfo.detailParagraphs">
+        @for (p of seaInfo.detailParagraphs; track p) {
+        <p class="sea-info__paragraph">
           {{ p }}
         </p>
+        }
       </div>
     </div>
   </div>
@@ -50,3 +52,4 @@
     <button class="btn btn-primary btn-lg px-4 w-25" [routerLink]="['/quiz', seaId]">Quiz</button>
   </div>
 </div>
+}

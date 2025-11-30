@@ -1,4 +1,5 @@
-<div class="container my-5 px-0" *ngIf="pageData">
+@if (pageData) {
+<div class="container my-5 px-0">
   <div class="mb-4 seas-header">
     <h2 class="mb-3 seas-header__title">
       {{ pageData.title }}
@@ -10,7 +11,8 @@
 
   <!-- WICHTIG: *ngFor auf der COL, nicht auf der ROW -->
   <div class="row mt-4">
-    <div class="col-12 col-sm-6 col-lg-3 mb-4" *ngFor="let sea of pageData?.seas">
+    @for (sea of pageData.seas; track sea) {
+    <div class="col-12 col-sm-6 col-lg-3 mb-4">
       <!-- From Uiverse.io by vamsidevendrakumar -->
       <div class="card">
         <div class="card-inner">
@@ -36,5 +38,7 @@
         </div>
       </div>
     </div>
+    }
   </div>
 </div>
+}

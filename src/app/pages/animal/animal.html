@@ -1,4 +1,5 @@
-<div class="container my-5 px-0" *ngIf="animal">
+@if (animal) {
+<div class="container my-5 px-0">
   <div class="row">
     <!-- LINKS: Bild -->
     <div class="col-lg-7 col-md-12 mb-4 text-center">
@@ -12,9 +13,11 @@
         <p class="animal-info__short">{{ animal.shortDescription }}</p>
 
         <!-- Detailabsätze -->
-        <p *ngFor="let p of animal.detailParagraphs" class="animal-info__paragraph">
+        @for (p of animal.detailParagraphs; track p) {
+        <p class="animal-info__paragraph">
           {{ p }}
         </p>
+        }
       </div>
     </div>
   </div>
@@ -28,8 +31,10 @@
     <button class="btn btn-primary btn-lg px-4 w-25" [routerLink]="['/quiz', seaId]">Quiz</button>
   </div>
 </div>
-
+}
 <!-- Fallback -->
-<div class="container my-5 px-0" *ngIf="!animal">
+@if (!animal) {
+<div class="container my-5 px-0">
   <p>Lade Tierdaten...</p>
 </div>
+}

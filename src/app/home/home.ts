@@ -7,7 +7,7 @@ import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-home',
-  imports: [RouterLink, Header, CommonModule],
+  imports: [RouterLink, CommonModule],
   templateUrl: './home.html',
   styleUrls: ['./home.css'],
 })

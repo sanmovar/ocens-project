@@ -24,13 +24,12 @@
         {{ pageData.sections[0].headline }}
       </h2>
 
-      <p
-        class="home-hero__text"
-        *ngFor="let paragraph of pageData.sections[0].paragraphs; let last = last"
-        [ngClass]="{ 'mb-2': !last, 'mb-0': last }"
-      >
+      @for (paragraph of pageData.sections[0].paragraphs; track $index) {
+      <p class="home-hero__text" [ngClass]="{ 'mb-2': !$last, 'mb-0': $last }">
         {{ paragraph }}
       </p>
+      }
+
       <div class="mt-4 d-flex justify-content-center">
         <button class="btn btn-primary btn-lg px-4 w-50" [routerLink]="['/seas']">
           🌊 Zu den Meeren

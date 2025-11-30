@@ -1,4 +1,5 @@
-<div class="container my-5 px-0" *ngIf="seaInfo && questions.length > 0">
+@if (seaInfo && questions.length > 0) {
+<div class="container my-5 px-0">
   <div class="row">
     <!-- LINKE SPALTE – Quizfragen -->
     <div class="col-lg-7 col-md-12 mb-4">
@@ -6,26 +7,26 @@
 
       <!-- Quizfragen -->
       <form>
-        <div class="quiz-question-box mb-4" *ngFor="let q of questions; let i = index">
-          <p class="quiz-question">{{ i + 1 }}. {{ q.question }}</p>
+        @for (q of questions; let qi = $index; track qi) {
+        <div class="quiz-question-box mb-4">
+          <p class="quiz-question">{{ qi + 1 }}. {{ q.question }}</p>
 
           <div class="quiz-options">
-            <label
-              class="quiz-option"
-              [ngClass]="getOptionClass(i, optIndex)"
-              *ngFor="let option of q.options; let optIndex = index"
-            >
+            @for (option of q.options; let oi = $index; track oi) {
+            <label class="quiz-option" [ngClass]="getOptionClass(qi, oi)">
               <input
                 type="radio"
-                [name]="'question-' + i"
-                [value]="optIndex"
-                [(ngModel)]="userAnswers[i]"
+                [name]="'question-' + qi"
+                [value]="oi"
+                [(ngModel)]="userAnswers[qi]"
                 [disabled]="checked"
               />
               <span>{{ option }}</span>
             </label>
+            }
           </div>
         </div>
+        }
 
         <!-- Prüfen-Button -->
         <button
@@ -41,7 +42,8 @@
 
     <!-- RECHTE SPALTE – Sticky Ergebnis -->
     <div class="col-lg-5 col-md-12">
-      <div class="quiz-result-wrapper" *ngIf="checked">
+      @if (checked) {
+      <div class="quiz-result-wrapper">
         <div class="quiz-result-card p-4">
           <h3 class="quiz-result-title">Dein Ergebnis</h3>
 
@@ -68,11 +70,14 @@
           Zurück
         </button>
       </div>
+      }
     </div>
   </div>
 </div>
-
+}
 <!-- Fallback -->
-<div class="container my-5 px-0" *ngIf="questions.length === 0">
+@if (questions.length === 0) {
+<div class="container my-5 px-0">
   <p>Lade Quizdaten...</p>
 </div>
+}
