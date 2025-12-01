@@ -51,15 +51,6 @@
   height: 1.1rem;
 }
 
-/* ------------------------------------
-   Ergebnis-Box rechts
------------------------------------- */
-
-/* Basis – auf kleinen Screens normales Verhalten */
-.quiz-result-wrapper {
-  /* auf Mobile nicht sticky, damit es einfach unter den Fragen sitzt */
-}
-
 /* Ab Desktop (lg) – rechte Spalte sticky, Buttons am unteren Rand der Spalte */
 @media (min-width: 992px) {
   .quiz-result-wrapper {
@@ -82,6 +73,8 @@
   border-radius: 16px;
   border: 2px solid #b3e1ff;
   box-shadow: 0 4px 10px rgba(0, 80, 120, 0.15);
+
+  margin-top: 3rem;
 }
 
 .quiz-result-title {
