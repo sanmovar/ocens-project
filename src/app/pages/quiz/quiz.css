@@ -52,12 +52,29 @@
 }
 
 /* ------------------------------------
-   Ergebnis-Box (Sticky rechts)
+   Ergebnis-Box rechts
 ------------------------------------ */
+
+/* Basis – auf kleinen Screens normales Verhalten */
 .quiz-result-wrapper {
-  position: sticky;
-  top: 20px;
-  z-index: 200;
+  /* auf Mobile nicht sticky, damit es einfach unter den Fragen sitzt */
+}
+
+/* Ab Desktop (lg) – rechte Spalte sticky, Buttons am unteren Rand der Spalte */
+@media (min-width: 992px) {
+  .quiz-result-wrapper {
+    position: sticky;
+    top: 20px;
+    z-index: 200;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Buttons an das untere Ende des Wrappers schieben */
+  .quiz-actions {
+    margin-top: auto;
+  }
 }
 
 .quiz-result-card {
@@ -101,37 +118,34 @@
   color: #07425f;
 }
 
-/* Sticky Zurück-Button */
-.quiz-result-wrapper button {
+/* ------------------------------------
+   Buttons rechts (Prüfen / Zurück)
+------------------------------------ */
+
+.quiz-actions .btn-lg {
   border-radius: 999px;
   font-weight: 600;
 }
 
-/* Responsive */
+/* ------------------------------------
+   Responsive
+------------------------------------ */
 @media (max-width: 576px) {
   .quiz-title {
     font-size: 1.6rem;
   }
-
-  .quiz-result-wrapper {
-    top: 10px;
-  }
 }
 
-/* Nach dem Prüfen – richtige Antwort */
+/* ------------------------------------
+   Zustände nach dem Prüfen
+------------------------------------ */
+
 .option-correct {
   background: #d9f7d9 !important;
   border-color: #8ddf8d !important;
 }
 
-/* Nach dem Prüfen – falsch angeklickte Antwort */
 .option-wrong {
   background: #ffe0e0 !important;
   border-color: #ff9e9e !important;
-}
-
-.quiz-button,
-.btn-sticky,
-.btn-primary.btn-lg {
-  border-radius: 999px;
 }

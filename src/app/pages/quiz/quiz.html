@@ -1,5 +1,5 @@
 @if (seaInfo && questions.length > 0) {
-<div class="container my-5 px-0">
+<div id="quiz-container" class="container my-5 px-0">
   <div class="row">
     <!-- LINKE SPALTE – Quizfragen -->
     <div class="col-lg-7 col-md-12 mb-4">
@@ -27,28 +27,18 @@
           </div>
         </div>
         }
-
-        <!-- Prüfen-Button -->
-        <button
-          type="button"
-          class="btn btn-primary btn-lg w-50 mt-3"
-          (click)="checkAnswers()"
-          [disabled]="checked"
-        >
-          Prüfen
-        </button>
       </form>
     </div>
 
-    <!-- RECHTE SPALTE – Sticky Ergebnis -->
+    <!-- RECHTE SPALTE – Sticky Bereich mit Ergebnis + Buttons -->
     <div class="col-lg-5 col-md-12">
-      @if (checked) {
       <div class="quiz-result-wrapper">
+        @if (checked) {
         <div class="quiz-result-card p-4">
           <h3 class="quiz-result-title">Dein Ergebnis</h3>
 
-          <div class="quiz-result__content">
-            <div class="quiz-result__score text-center">
+          <div>
+            <div class="text-center">
               <div class="quiz-score-number">{{ correctCount }} / {{ questions.length }}</div>
 
               <div class="quiz-progress">
@@ -64,13 +54,25 @@
             </h3>
           </div>
         </div>
+        }
+        <br /><br /><br />
 
-        <!-- Zurück -->
-        <button type="button" class="btn btn-primary btn-lg w-50 mt-3" (click)="goBack()">
-          Zurück
-        </button>
+        <!-- Buttons immer sichtbar, unterhalb des (evtl.) Ergebnisses -->
+        <div class="quiz-actions d-flex flex-column flex-sm-row gap-2">
+          <button
+            type="button"
+            class="btn btn-primary btn-lg flex-fill"
+            (click)="checkAnswers()"
+            [disabled]="checked"
+          >
+            Prüfen
+          </button>
+
+          <button type="button" class="btn btn-primary btn-lg flex-fill" (click)="goBack()">
+            Zurück
+          </button>
+        </div>
       </div>
-      }
     </div>
   </div>
 </div>

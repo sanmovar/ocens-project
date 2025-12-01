@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { ActivatedRoute } from '@angular/router';
@@ -12,7 +12,7 @@ import { Content } from '../../services/content';
   templateUrl: './quiz.html',
   styleUrl: './quiz.css',
 })
-export class Quiz implements OnInit {
+export class Quiz implements OnInit, AfterViewInit {
   seaId: string | null = null;
   seaInfo: any | null = null;
 
@@ -69,6 +69,14 @@ export class Quiz implements OnInit {
         this.noQuizFound = true;
       }
     });
+  }
+
+  ngAfterViewInit(): void {
+    // nach dem Rendern zum Quiz-Bereich scrollen
+    const el = document.getElementById('quiz-container');
+    if (el) {
+      el.scrollIntoView({ behavior: 'auto', block: 'start' });
+    }
   }
 
   checkAnswers(): void {
