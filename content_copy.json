@@ -213,37 +213,847 @@
       ]
     },
     {
-      "id": "quiz",
-      "route": "/quiz",
-      "title": "Quiz",
+      "id": "quizes",
+      "route": "/quizes",
+      "title": "Wähle dein Meeres-Quiz",
       "sections": [
         {
-          "type": "quiz-intro",
-          "text": "Teste dein Wissen über Meere und Ozeane! Lies zuerst die Infoseiten und versuche dann, die Fragen richtig zu beantworten."
-        },
-        {
-          "type": "quiz-questions",
-          "questions": [
+          "type": "quiz-overview",
+          "headline": "Welches Meer möchtest du testen?",
+          "paragraphs": [
+            "Hier kannst du dein Wissen über verschiedene Meere und Ozeane testen!",
+            "Klicke auf ein Bild, um dein Lieblingsmeer auszuwählen und spannende Fragen zu entdecken.",
+            "Jedes Meer hat sein eigenes Quiz.",
+            "Mach mit – und werde ein echter Meeres-Profi!"
+          ],
+          "quizes": [
             {
-              "id": "q1",
-              "question": "Welcher Ozean ist der größte der Erde?",
-              "options": [
-                "Atlantischer Ozean",
-                "Pazifischer Ozean",
-                "Indischer Ozean",
-                "Arktischer Ozean"
-              ],
-              "correctIndex": 1
+              "seaId": "north-sea",
+              "title": "Quiz zur Nordsee",
+              "description": "Teste dein Wissen über Watt, Seehunde und Wellen der Nordsee.",
+              "image": {
+                "id": "quiz-north-sea",
+                "src": "assets/images/seas/nordsee.png",
+                "alt": "Die Nordsee mit Wellen und Strand"
+              }
             },
             {
-              "id": "q2",
-              "question": "Welches Meer liegt zwischen Europa und Afrika und ist ein beliebtes Urlaubsmeer?",
-              "options": ["Nordsee", "Schwarzes Meer", "Mittelmeer", "Karibisches Meer"],
-              "correctIndex": 2
+              "seaId": "baltic-sea",
+              "title": "Quiz zur Ostsee",
+              "description": "Wie gut kennst du das ruhige Binnenmeer mit Inseln und Stränden?",
+              "image": {
+                "id": "quiz-baltic-sea",
+                "src": "assets/images/seas/ostsee.png",
+                "alt": "Die Ostsee mit ruhigem Wasser"
+              }
+            },
+            {
+              "seaId": "mediterranean",
+              "title": "Quiz zum Mittelmeer",
+              "description": "Weißt du, welche Tiere und Pflanzen im warmen Mittelmeer leben?",
+              "image": {
+                "id": "quiz-mediterranean",
+                "src": "assets/images/seas/mittelmeer.png",
+                "alt": "Das Mittelmeer mit Küste"
+              }
+            },
+            {
+              "seaId": "atlantic",
+              "title": "Quiz zum Atlantischen Ozean",
+              "description": "Starke Strömungen, Wale und Geheimnisse – test dein Wissen!",
+              "image": {
+                "id": "quiz-atlantic",
+                "src": "assets/images/seas/atlantik.png",
+                "alt": "Der Atlantische Ozean"
+              }
+            },
+            {
+              "seaId": "pacific",
+              "title": "Quiz zum Pazifischen Ozean",
+              "description": "Der größte Ozean der Welt wartet mit spannenden Fragen!",
+              "image": {
+                "id": "quiz-pacific",
+                "src": "assets/images/seas/pazifik.png",
+                "alt": "Der Pazifische Ozean"
+              }
+            },
+            {
+              "seaId": "indian-ocean",
+              "title": "Quiz zum Indischen Ozean",
+              "description": "Wie gut kennst du das tropische Meer voller Inseln und Korallen?",
+              "image": {
+                "id": "quiz-indian-ocean",
+                "src": "assets/images/seas/indischer-ozean.png",
+                "alt": "Der Indische Ozean"
+              }
+            },
+            {
+              "seaId": "arctic-ocean",
+              "title": "Quiz zum Arktischen Ozean",
+              "description": "Eis, Polarlichter und Walrosse – was weißt du über das Nordmeer?",
+              "image": {
+                "id": "quiz-arctic-ocean",
+                "src": "assets/images/seas/arktischer-ozean.png",
+                "alt": "Der Arktische Ozean mit Eis"
+              }
+            },
+            {
+              "seaId": "southern-ocean",
+              "title": "Quiz zum Südlichen Ozean",
+              "description": "Pinguine, Eisberge und Stürme – entdecke das Meer rund um die Antarktis!",
+              "image": {
+                "id": "quiz-southern-ocean",
+                "src": "assets/images/seas/suedlicher-ozean.png",
+                "alt": "Der Südliche Ozean mit Eisbergen"
+              }
+            },
+            {
+              "seaId": "caribbean",
+              "title": "Quiz zum Karibischen Meer",
+              "description": "Bunte Korallen, Schildkröten und Palmen – wie gut kennst du die Karibik?",
+              "image": {
+                "id": "quiz-caribbean",
+                "src": "assets/images/seas/karibik.png",
+                "alt": "Das Karibische Meer mit Palmenstrand"
+              }
+            },
+            {
+              "seaId": "red-sea",
+              "title": "Quiz zum Roten Meer",
+              "description": "Erfahre mehr über bunte Korallen und warme Gewässer!",
+              "image": {
+                "id": "quiz-red-sea",
+                "src": "assets/images/seas/rotes-meer.png",
+                "alt": "Das Rote Meer mit Korallen"
+              }
+            },
+            {
+              "seaId": "black-sea",
+              "title": "Quiz zum Schwarzen Meer",
+              "description": "Wie gut kennst du das Binnenmeer zwischen Europa und Asien?",
+              "image": {
+                "id": "quiz-black-sea",
+                "src": "assets/images/seas/schwarzes-meer.png",
+                "alt": "Das Schwarze Meer"
+              }
+            },
+            {
+              "seaId": "north-atlantic",
+              "title": "Quiz zum Nordatlantik",
+              "description": "Teste dein Wissen über Wale, Schiffe und Stürme im Nordatlantik.",
+              "image": {
+                "id": "quiz-north-atlantic",
+                "src": "assets/images/seas/nordatlantik.png",
+                "alt": "Der Nordatlantik mit Wellen"
+              }
             }
           ]
         }
       ]
+    },
+    {
+      "id": "quiz",
+      "route": "/quiz/:seaId",
+      "title": "Dein Meeres-Quiz",
+
+      "sections": [
+        {
+          "type": "quiz-intro",
+          "title": "Teste dein Meereswissen!",
+          "text": "Wähle ein Meer aus und beantworte die Fragen zu den Tieren dort. Alle Fragen beziehen sich auf die Texte und Tiere, die du in der App sehen kannst."
+        }
+      ],
+
+      "quizzes": [
+        {
+          "seaId": "north-sea",
+          "title": "Quiz zur Nordsee",
+          "questions": [
+            {
+              "id": "q-north-sea-1",
+              "question": "Welches Nordsee-Tier wird als „große Robbe mit langem Kopf“ beschrieben, die gern an Sandstränden und Felsen ruht?",
+              "options": ["Seehund", "Schweinswal", "Kegelrobbe", "Makrele"],
+              "correctIndex": 2
+            },
+            {
+              "id": "q-north-sea-2",
+              "question": "Welches Tier aus der Nordsee ist ein kleiner Wal, der leise an der Wasseroberfläche auftaucht und wieder abtaucht?",
+              "options": ["Scholle", "Schweinswal", "Nordseegarnele", "Miesmuschel"],
+              "correctIndex": 1
+            },
+            {
+              "id": "q-north-sea-3",
+              "question": "Welches Nordsee-Tier liegt flach auf dem Meeresboden und kann sich im Sand tarnen?",
+              "options": ["Gemeiner Seestern", "Herzmuschel", "Scholle", "Seeskorpion"],
+              "correctIndex": 2
+            },
+            {
+              "id": "q-north-sea-4",
+              "question": "Welches Tier bildet dichte Bänke und filtriert Nahrung aus dem Wasser, während es an Steinen festklebt?",
+              "options": ["Nordseegarnele", "Miesmuschel", "Makrele", "Atlantischer Kabeljau"],
+              "correctIndex": 1
+            },
+            {
+              "id": "q-north-sea-5",
+              "question": "Welcher Fisch hat einen Bartfaden am Kinn und ist ein bekannter Speisefisch in der Nordsee?",
+              "options": ["Atlantischer Kabeljau", "Atlantischer Hering", "Makrele", "Seeskorpion"],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-north-sea-6",
+              "question": "Welches dieser Tiere aus der Nordsee kann verlorene Arme nachwachsen lassen?",
+              "options": ["Kegelrobbe", "Gemeiner Seestern", "Herzmuschel", "Nordseegarnele"],
+              "correctIndex": 1
+            },
+            {
+              "id": "q-north-sea-7",
+              "question": "Welches Nordsee-Tier schwimmt in großen silbrig glänzenden Schwärmen und ist ein wichtiger Speisefisch?",
+              "options": ["Atlantischer Hering", "Seehund", "Schweinswal", "Herzmuschel"],
+              "correctIndex": 0
+            }
+          ]
+        },
+
+        {
+          "seaId": "baltic-sea",
+          "title": "Quiz zur Ostsee",
+          "questions": [
+            {
+              "id": "q-baltic-sea-1",
+              "question": "Welcher Ostsee-Fisch ist ein Plattfisch, der fast unsichtbar am sandigen Boden liegen kann?",
+              "options": ["Barsch", "Flunder", "Stint", "Aal"],
+              "correctIndex": 1
+            },
+            {
+              "id": "q-baltic-sea-2",
+              "question": "Welcher Fisch aus der Ostsee riecht frisch gefangen ein bisschen nach Gurke und wandert in Flüsse zum Laichen?",
+              "options": ["Ostsee-Sprotte", "Quappe", "Stint", "Ostsee-Hering"],
+              "correctIndex": 2
+            },
+            {
+              "id": "q-baltic-sea-3",
+              "question": "Welches Tier wird in deinen Ostsee-Tiertexten als kleine Robbenart beschrieben, die im Winter auf dem Eis ruht?",
+              "options": ["Ostsee-Ringelrobbe", "Ostsee-Schweinswal", "Strandkrabbe", "Aal"],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-baltic-sea-4",
+              "question": "Welcher Fisch mit dunklen Streifen und roten Flossen lebt dort, wo Süß- und Salzwasser sich mischen?",
+              "options": ["Barsch", "Hecht", "Aal", "Ostsee-Hering"],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-baltic-sea-5",
+              "question": "Welches Ostsee-Tier ist ein kleiner Wal, der sehr selten geworden ist und mit Klicklauten Beute findet?",
+              "options": [
+                "Ostsee-Schweinswal",
+                "Ostsee-Ringelrobbe",
+                "Strandkrabbe",
+                "Flussneunauge"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-baltic-sea-6",
+              "question": "Welches dieser Tiere aus der Ostsee wird als kleiner Krebs beschrieben, der flink über den Boden läuft und sich unter Steinen versteckt?",
+              "options": ["Strandkrabbe", "Quappe", "Ostsee-Sprotte", "Flunder"],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-baltic-sea-7",
+              "question": "Welcher Fisch aus der Ostsee gehört zur gleichen Familie wie der Kabeljau und mag kühles Wasser?",
+              "options": ["Quappe", "Barsch", "Stint", "Aal"],
+              "correctIndex": 0
+            }
+          ]
+        },
+
+        {
+          "seaId": "mediterranean",
+          "title": "Quiz zum Mittelmeer",
+          "questions": [
+            {
+              "id": "q-mediterranean-1",
+              "question": "Welche Mittelmeer-Robbe ist stark bedroht und lebt nur noch an wenigen, ruhigen Küstenabschnitten und in Höhlen?",
+              "options": [
+                "Mittelmeer-Mönchsrobbe",
+                "Großer Tümmler",
+                "Gemeiner Delfin",
+                "Mittelmeer-Muräne"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-mediterranean-2",
+              "question": "Welcher Meeressäuger im Mittelmeer springt oft verspielt aus dem Wasser und schwimmt in Gruppen?",
+              "options": [
+                "Mittelmeer-Mönchsrobbe",
+                "Großer Tümmler",
+                "Rotfeuerfisch",
+                "Zackenbarsch"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "q-mediterranean-3",
+              "question": "Welche Meeresschildkröte kehrt jedes Jahr an denselben Strand zurück, um ihre Eier im Sand abzulegen?",
+              "options": [
+                "Unechte Karettschildkröte",
+                "Atlantische Meeresschildkröte",
+                "Meeresschildkröte der Karibik",
+                "Walhai"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-mediterranean-4",
+              "question": "Welcher Fisch im Mittelmeer hat eine lange, schwertähnliche Schnauze und kann sehr schnell schwimmen?",
+              "options": [
+                "Schwertfisch",
+                "Rotfeuerfisch",
+                "Gelbstreifen-Barrakuda",
+                "Zackenbarsch"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-mediterranean-5",
+              "question": "Welches Tier aus dem Mittelmeer versteckt sich in Felsspalten und zeigt oft nur seinen Kopf mit scharfen Zähnen?",
+              "options": ["Mittelmeer-Muräne", "Oktopus", "Flaschenqualle", "Gemeiner Delfin"],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-mediterranean-6",
+              "question": "Welcher auffällige Fisch hat lange, bunte Flossenstrahlen und sieht aus wie ein schwebender, stacheliger Fächer?",
+              "options": ["Rotfeuerfisch", "Schwertfisch", "Oktopus", "Gelbstreifen-Barrakuda"],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-mediterranean-7",
+              "question": "Welches dieser Mittelmeer-Tiere hat acht Arme, kann seine Farbe ändern und sich geschickt in Höhlen verstecken?",
+              "options": ["Oktopus", "Zackenbarsch", "Flaschenqualle", "Mittelmeer-Mönchsrobbe"],
+              "correctIndex": 0
+            }
+          ]
+        },
+
+        {
+          "seaId": "atlantic",
+          "title": "Quiz zum Atlantik",
+          "questions": [
+            {
+              "id": "q-atlantic-1",
+              "question": "Welches Tier im Atlantik ist das größte Tier der Erde und kann bis zu 30 Meter lang werden?",
+              "options": ["Pottwal", "Blauwal", "Makohai", "Atlantische Meeresschildkröte"],
+              "correctIndex": 1
+            },
+            {
+              "id": "q-atlantic-2",
+              "question": "Welches Tier kann sehr tief tauchen, Riesenkalmare jagen und über zwei Stunden unter Wasser bleiben?",
+              "options": ["Blauwal", "Pottwal", "Meerengel", "Papageienfisch"],
+              "correctIndex": 1
+            },
+            {
+              "id": "q-atlantic-3",
+              "question": "Welcher Hai im Atlantik gilt als der schnellste der Welt und kann bis zu 70 km/h schwimmen?",
+              "options": ["Meerengel", "Makohai", "Weißer Thunfisch", "Kompassqualle"],
+              "correctIndex": 1
+            },
+            {
+              "id": "q-atlantic-4",
+              "question": "Welcher Fisch im Atlantik kann mit seinen Flossen kurze Zeit über das Wasser gleiten?",
+              "options": ["Papageienfisch", "Weißer Thunfisch", "Lippfisch", "Fliegender Fisch"],
+              "correctIndex": 3
+            },
+            {
+              "id": "q-atlantic-5",
+              "question": "Welcher bunte Fisch hat einen schnabelartigen Mund, mit dem er Algen von Korallen abkratzt?",
+              "options": [
+                "Papageienfisch",
+                "Lippfisch",
+                "Klippenpinguin",
+                "Atlantische Meeresschildkröte"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-atlantic-6",
+              "question": "Welche Qualle im Atlantik hat braune Linien auf ihrem Körper, die an einen Kompass erinnern?",
+              "options": ["Kompassqualle", "Meerengel", "Klippenpinguin", "Pottwal"],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-atlantic-7",
+              "question": "Welcher flach am Boden liegende Hai tarnt sich im Sand und sieht ein wenig aus wie ein Engel mit Flügeln?",
+              "options": ["Makohai", "Papageienfisch", "Meerengel", "Lippfisch"],
+              "correctIndex": 2
+            }
+          ]
+        },
+
+        {
+          "seaId": "pacific",
+          "title": "Quiz zum Pazifik",
+          "questions": [
+            {
+              "id": "q-pacific-1",
+              "question": "Welches Tier im Pazifik ist ein schwarz-weißer Wal, der in Familiengruppen jagt und sehr intelligent ist?",
+              "options": ["Orca (Schwertwal)", "Walhai", "Buckelwal", "Seekuh (Dugong)"],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-pacific-2",
+              "question": "Welcher Riesenfisch im Pazifik ist der größte Fisch der Welt, frisst aber nur winziges Plankton?",
+              "options": ["Weißer Hai", "Walhai", "Mondfisch", "Manta-Rochen"],
+              "correctIndex": 1
+            },
+            {
+              "id": "q-pacific-3",
+              "question": "Welcher Wal im Pazifik ist für seine Gesänge bekannt, die kilometerweit zu hören sind?",
+              "options": ["Orca (Schwertwal)", "Buckelwal", "Walhai", "Mondfisch"],
+              "correctIndex": 1
+            },
+            {
+              "id": "q-pacific-4",
+              "question": "Welcher Vogel auf Pazifikinseln hat leuchtend blaue Füße und tanzt bei der Partnersuche?",
+              "options": ["Dickschnabellumme", "Schneesturmvogel", "Blaufußtölpel", "Sturmvogel"],
+              "correctIndex": 2
+            },
+            {
+              "id": "q-pacific-5",
+              "question": "Welcher Seestern im Pazifik hat viele spitze Arme und kann Korallenriffe schädigen, wenn er sich zu stark vermehrt?",
+              "options": ["Dornenkrone-Seestern", "Seegurke", "Seestern der Karibik", "Eisseeigel"],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-pacific-6",
+              "question": "Welcher Rochen kann bis zu sieben Meter breit werden und gleitet wie ein riesiger „Flügel“ durchs Wasser, frisst aber nur Plankton?",
+              "options": ["Manta-Rochen", "Stachelrochen", "Leopardrochen", "Milchrochen"],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-pacific-7",
+              "question": "Welches Tier im Pazifik schwimmt aufrecht, klammert sich mit dem Schwanz an Pflanzen fest und beim dem das Männchen die Eier trägt?",
+              "options": ["Seepferdchen", "Laubfisch", "Mondfisch", "Seekuh (Dugong)"],
+              "correctIndex": 0
+            }
+          ]
+        },
+
+        {
+          "seaId": "indian-ocean",
+          "title": "Quiz zum Indischen Ozean",
+          "questions": [
+            {
+              "id": "q-indian-ocean-1",
+              "question": "Welches Tier im Indischen Ozean sieht wie eine Seekuh aus und frisst Seegraswiesen am Meeresgrund?",
+              "options": ["Dugong", "Zebra-Hai", "Leopardrochen", "Riesenmuschel"],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-indian-ocean-2",
+              "question": "Welcher Hai hat als Jungtier Streifen wie ein Zebra, die später zu Punkten werden?",
+              "options": ["Hammerhai", "Zebra-Hai", "Geigenrochen", "Milchrochen"],
+              "correctIndex": 1
+            },
+            {
+              "id": "q-indian-ocean-3",
+              "question": "Welches kleine bunte Tier im Indischen Ozean versteckt sich im Korallenriff und putzt manchmal größere Fische?",
+              "options": ["Felsengarnele", "Seegurke", "Kaiserfisch", "Riesenmuschel"],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-indian-ocean-4",
+              "question": "Welches Tier sieht aus wie eine Mischung aus Hai und Rochen und liegt oft flach auf dem Sandboden?",
+              "options": ["Geigenrochen", "Zebra-Hai", "Leopardrochen", "Milchrochen"],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-indian-ocean-5",
+              "question": "Welches unscheinbare Tier im Indischen Ozean saugt Sand und kleine Partikel ein und reinigt damit den Meeresboden?",
+              "options": ["Seegurke", "Riesenmuschel", "Felsengarnele", "Kaiserfisch"],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-indian-ocean-6",
+              "question": "Welcher Hai hat einen auffälligen, hammerförmigen Kopf, mit dem er besonders gut riechen und sehen kann?",
+              "options": ["Zebra-Hai", "Hammerhai", "Milchrochen", "Seeschlange"],
+              "correctIndex": 1
+            },
+            {
+              "id": "q-indian-ocean-7",
+              "question": "Welches Tier kann mehr als 200 Kilogramm wiegen und sitzt fest am Meeresboden, während es Wasser filtert?",
+              "options": ["Riesenmuschel", "Seegurke", "Dugong", "Kaiserfisch"],
+              "correctIndex": 0
+            }
+          ]
+        },
+
+        {
+          "seaId": "arctic-ocean",
+          "title": "Quiz zum Arktischen Ozean",
+          "questions": [
+            {
+              "id": "q-arctic-ocean-1",
+              "question": "Welches Tier ist der größte Bär der Welt und jagt auf dem Eis nach Robben?",
+              "options": ["Eisbär", "Walross", "Ringelrobbe", "Schneegans"],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-arctic-ocean-2",
+              "question": "Welcher Wal im Arktischen Ozean hat einen langen Stoßzahn und wird auch „Einhorn des Meeres“ genannt?",
+              "options": ["Belugawal", "Narwal", "Grönlandwal", "Polardorsch"],
+              "correctIndex": 1
+            },
+            {
+              "id": "q-arctic-ocean-3",
+              "question": "Welche Robbe schneidet mit ihren Krallen Löcher ins Eis, um zu atmen, und versteckt ihre Jungen in Schneehöhlen?",
+              "options": ["Ringelrobbe", "Walross", "Eisbär", "Schneekrabbe"],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-arctic-ocean-4",
+              "question": "Welches Tier hat lange Stoßzähne und nutzt sie, um aus dem Wasser aufs Eis zu klettern?",
+              "options": ["Eisbär", "Walross", "Ringelrobbe", "Grönlandwal"],
+              "correctIndex": 1
+            },
+            {
+              "id": "q-arctic-ocean-5",
+              "question": "Welcher Wal im Arktischen Ozean hat eine besonders dicke Speckschicht und kann Eisdecken durchbrechen, um Luft zu holen?",
+              "options": ["Grönlandwal", "Belugawal", "Narwal", "Schwertwal"],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-arctic-ocean-6",
+              "question": "Welcher kleine Fisch im Arktischen Ozean hat Stoffe im Blut, die verhindern, dass es gefriert?",
+              "options": ["Polardorsch", "Schneefisch", "Silberfisch", "Hering"],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-arctic-ocean-7",
+              "question": "Welche Qualle im arktischen Meer sieht aus wie eine weiße Glocke und kann sogar unter Eisflächen überleben?",
+              "options": ["Eisqualle", "Flaschenqualle", "Kompassqualle", "Krill"],
+              "correctIndex": 0
+            }
+          ]
+        },
+
+        {
+          "seaId": "southern-ocean",
+          "title": "Quiz zum Südpolarmeer",
+          "questions": [
+            {
+              "id": "q-southern-ocean-1",
+              "question": "Welcher Pinguin im Südpolarmeer ist der größte aller Pinguine und brütet im Winter auf dem Eis?",
+              "options": [
+                "Kaiserpinguin",
+                "Blaufußtölpel",
+                "Schneesturmvogel",
+                "Dickschnabellumme"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-southern-ocean-2",
+              "question": "Welche kleinen Krebstiere bilden riesige Schwärme und sind die wichtigste Nahrung für viele Tiere im Südpolarmeer?",
+              "options": ["Krill", "Silberfisch", "Seegurke", "Nordseegarnele"],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-southern-ocean-3",
+              "question": "Welcher Robbenräuber mit Fleckmuster jagt im Südpolarmeer zum Beispiel Pinguine?",
+              "options": ["Seeleopard", "Rossrobbe", "Bartrobbe", "Ringelrobbe"],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-southern-ocean-4",
+              "question": "Welcher Fisch im Südpolarmeer hat Frostschutzstoffe im Körper, damit er im eisigen Wasser nicht gefriert?",
+              "options": [
+                "Weißflossen-Kreuzfisch",
+                "Antarktischer Silberfisch",
+                "Schneefisch",
+                "Polardorsch"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-southern-ocean-5",
+              "question": "Welche Robbe hat lange Schnurrhaare, mit denen sie Bewegungen im Sandboden spüren kann?",
+              "options": ["Bartrobbe", "Rossrobbe", "Seeleopard", "Südliche Elefantenrobbe"],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-southern-ocean-6",
+              "question": "Welche Robbenart im Südpolarmeer ist die größte der Welt und hat eine rüsselartige Nase?",
+              "options": ["Südliche Elefantenrobbe", "Rossrobbe", "Bartrobbe", "Ringelrobbe"],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-southern-ocean-7",
+              "question": "Welcher Wal im Südpolarmeer filtert Kieselalgen und Krill aus dem Wasser und schwimmt eher langsam?",
+              "options": ["Südlicher Glattwal", "Schwertwal (Orca)", "Grönlandwal", "Buckelwal"],
+              "correctIndex": 0
+            }
+          ]
+        },
+
+        {
+          "seaId": "caribbean",
+          "title": "Quiz zur Karibik",
+          "questions": [
+            {
+              "id": "q-caribbean-1",
+              "question": "Welches Tier in der Karibik kehrt oft an denselben Strand zurück, an dem es geboren wurde, um dort seine Eier zu legen?",
+              "options": [
+                "Meeresschildkröte",
+                "Karibischer Riffhai",
+                "Seepferdchen",
+                "Karibischer Delfin"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-caribbean-2",
+              "question": "Welcher bunte Fisch knabbert Korallen ab und hilft dabei, Sandstrände zu bilden?",
+              "options": ["Papageifisch", "Korallenkönigfisch", "Feuerfisch", "Muräne"],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-caribbean-3",
+              "question": "Welcher Hai in der Karibik hält das Ökosystem gesund, indem er kranke oder schwache Fische frisst?",
+              "options": ["Karibischer Riffhai", "Walhai", "Hammerhai", "Makohai"],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-caribbean-4",
+              "question": "Welches Tier in der Karibik hat einen giftigen Stachel am Schwanz, gleitet flach über den Boden und kann sich im Sand verstecken?",
+              "options": ["Stachelrochen", "Meeresschildkröte", "Muräne", "Seestern"],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-caribbean-5",
+              "question": "Welches Tier versteckt sich in Felslöchern, öffnet und schließt ständig sein Maul und jagt nachts kleine Fische?",
+              "options": ["Muräne", "Korallenkönigfisch", "Feuerfisch", "Schwamm"],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-caribbean-6",
+              "question": "Welcher Fisch in der Karibik hat lange, giftige Stacheln und sieht wie ein roter Fächer aus?",
+              "options": ["Feuerfisch", "Papageifisch", "Korallenkönigfisch", "Stachelrochen"],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-caribbean-7",
+              "question": "Welches Tier in der Karibik sieht aus wie eine Pflanze, bewegt sich nicht und filtert Nährstoffe aus dem Meerwasser?",
+              "options": ["Meerschwamm", "Seestern", "Meeresschildkröte", "Seepferdchen"],
+              "correctIndex": 0
+            }
+          ]
+        },
+
+        {
+          "seaId": "red-sea",
+          "title": "Quiz zum Roten Meer",
+          "questions": [
+            {
+              "id": "q-red-sea-1",
+              "question": "Welcher Fisch im Roten Meer hat leuchtend rote, gelbe und blaue Muster und verteidigt mutig sein Riffgebiet?",
+              "options": [
+                "Roter Kaiserfisch",
+                "Napoleon-Lippfisch",
+                "Rotfeuerfisch",
+                "Fledermausfisch"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-red-sea-2",
+              "question": "Welcher kleine Fisch versteckt sich zwischen den giftigen Tentakeln von Seeanemonen und ist aus einem bekannten Film bekannt?",
+              "options": ["Anemonenfisch", "Kugelfisch", "Korallendrache", "Kaiserfisch"],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-red-sea-3",
+              "question": "Welcher Rochen im Roten Meer hat leuchtend blaue Flecken auf dem Rücken und trägt einen giftigen Stachel am Schwanz?",
+              "options": ["Blaupunktrochen", "Fledermausfisch", "Napoleon-Lippfisch", "Kugelfisch"],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-red-sea-4",
+              "question": "Welcher große Riff-Fisch im Roten Meer hat eine Art ‚Beule‘ auf dem Kopf und schwimmt neugierig zu Tauchern?",
+              "options": [
+                "Napoleon-Lippfisch",
+                "Krokodilfisch",
+                "Korallendrache",
+                "Fledermausfisch"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-red-sea-5",
+              "question": "Welcher Fisch hat lange, giftige Flossenstrahlen und gehört zu den schönsten, aber gefährlichen Riffbewohnern?",
+              "options": [
+                "Rotfeuerfisch",
+                "Kugelfisch",
+                "Zackenbarsch",
+                "Langschnauzen-Seepferdchen"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-red-sea-6",
+              "question": "Welcher Fisch im Roten Meer sieht aus wie ein kleines Krokodil und tarnt sich im Sand am Boden?",
+              "options": ["Krokodilfisch", "Korallendrache", "Fledermausfisch", "Kugelfisch"],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-red-sea-7",
+              "question": "Welches Tier kann sich bei Gefahr zu einer runden Kugel aufblähen und enthält starkes Gift, wirkt aber lustig?",
+              "options": ["Kugelfisch", "Fledermausfisch", "Korallendrache", "Zackenbarsch"],
+              "correctIndex": 0
+            }
+          ]
+        },
+
+        {
+          "seaId": "black-sea",
+          "title": "Quiz zum Schwarzen Meer",
+          "questions": [
+            {
+              "id": "q-black-sea-1",
+              "question": "Welcher kleine Delfin im Schwarzen Meer lebt in Gruppen und ist streng geschützt?",
+              "options": ["Schwarzmeer-Delfin", "Orca", "Großer Tümmler", "Gemeiner Delfin"],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-black-sea-2",
+              "question": "Welcher Fisch mit rundem Körper kann sich an Felsen ansaugen und meidet starke Strömungen?",
+              "options": [
+                "Seehase",
+                "Schwarzmeer-Grundel",
+                "Schwarzmeer-Schnapper",
+                "Flussneunauge"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-black-sea-3",
+              "question": "Welcher Bodenfisch im Schwarzen Meer versteckt sich zwischen Steinen und gräbt sich manchmal in den Sand ein?",
+              "options": [
+                "Schwarzmeer-Grundel",
+                "Schwarzmeer-Sardelle",
+                "Schwarzmeer-Seestern",
+                "Schwarzmeer-Schnecke"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-black-sea-4",
+              "question": "Welcher kleine Schwarmfisch lebt küstennah und dient vielen Raubfischen als Nahrung?",
+              "options": [
+                "Schwarzmeer-Sardelle",
+                "Schwarzmeer-Grundel",
+                "Flussneunauge",
+                "Schwarzmeer-Seepferdchen"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-black-sea-5",
+              "question": "Welches Tier im Schwarzen Meer sieht aus wie ein kleiner Pilz am Boden und filtert Wasser, während es an Steinen sitzt?",
+              "options": [
+                "Seepilz",
+                "Felsenauster",
+                "Schwarzmeer-Schnecke",
+                "Schwarzmeer-Seestern"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-black-sea-6",
+              "question": "Welche Muschel verankert sich fest an Steinen und filtert ihre Nahrung aus dem Wasser?",
+              "options": ["Felsenauster", "Herzmuschel", "Miesmuschel", "Riesenmuschel"],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-black-sea-7",
+              "question": "Welches Tier im Schwarzen Meer hat ein aalartiges Aussehen und ein Saugmaul mit kleinen Hornzähnchen?",
+              "options": [
+                "Flussneunauge",
+                "Schwarzmeer-Schnecke",
+                "Schwarzmeer-Seepferdchen",
+                "Schwarzmeer-Schnapper"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        },
+
+        {
+          "seaId": "north-atlantic",
+          "title": "Quiz zum Nordatlantik",
+          "questions": [
+            {
+              "id": "q-north-atlantic-1",
+              "question": "Welcher Wal im Nordatlantik ist das größte bekannte Tier der Erde und frisst hauptsächlich Krill?",
+              "options": ["Blauwal", "Grindwal", "Orka (Schwertwal)", "Eisbartwal"],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-north-atlantic-2",
+              "question": "Welcher Wal im Nordatlantik lebt in großen Familiengruppen und kommuniziert mit Klick- und Pfeiflauten?",
+              "options": ["Grindwal", "Blauwal", "Eisbartwal", "Orka (Schwertwal)"],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-north-atlantic-3",
+              "question": "Welcher schwarz-weiße Wal im Nordatlantik ist ein Spitzenräuber und jagt in Gruppen wie Wölfe?",
+              "options": ["Orka (Schwertwal)", "Grindwal", "Blauwal", "Schwertfisch"],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-north-atlantic-4",
+              "question": "Welcher Vogel im Nordatlantik ist ganz weiß, lebt in kalten Regionen und sucht nach Fischresten am Meer?",
+              "options": ["Eismöwe", "Sturmvogel", "Schneesturmvogel", "Dickschnabellumme"],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-north-atlantic-5",
+              "question": "Welcher Fisch im Nordatlantik hat ein langes, schwertähnliches Maul und schwimmt sehr schnell?",
+              "options": ["Schwertfisch", "Steinbutt", "Eisseeigel", "Atlantischer Hering"],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-north-atlantic-6",
+              "question": "Welcher flache Bodenfisch tarnt sich im Sand und hat beide Augen auf einer Körperseite?",
+              "options": ["Steinbutt", "Polardorsch", "Hering", "Lippfisch"],
+              "correctIndex": 0
+            },
+            {
+              "id": "q-north-atlantic-7",
+              "question": "Welches Krustentier im Nordatlantik hat kräftige Scheren, kann sehr alt werden und versteckt sich tagsüber in Felsspalten?",
+              "options": [
+                "Atlantischer Hummer",
+                "Schneekrabbe",
+                "Nordseegarnele",
+                "Krabbe des Schwarzen Meeres"
+              ],
+              "correctIndex": 0
+            }
+          ]
+        }
+      ],
+
+      "resultTexts": {
+        "0": "Noch ist vieles neu für dich – und das ist völlig in Ordnung. Schau dir die Tierseiten noch einmal in Ruhe an und versuche das Quiz einfach wieder. Jede Runde macht dich schlauer!",
+        "1": "Du hast schon eine richtige Antwort geschafft – super! Mit jedem weiteren Versuch lernst du die Tiere noch besser kennen.",
+        "2": "Du hast schon einige richtige Antworten. Bleib dran, schau dir die Texte in der App noch einmal an und du wirst beim nächsten Mal noch mehr wissen.",
+        "3": "Das war eine tolle Leistung! Ein paar Antworten waren noch schwierig, aber genau so lernt man dazu. Probier das Quiz gern noch einmal.",
+        "4": "Du hast schon richtig viel Wissen gesammelt. Wenn du weiter übst, wirst du bald ein echter Meeres-Profi.",
+        "5": "Du hast die meisten Fragen richtig beantwortet. Man merkt, dass du gut aufgepasst hast und dir die Tiere merkst.",
+        "6": "Nur ganz wenige Fragen waren noch knifflig. Du kennst dich schon super aus. Wenn du magst, versuch die volle Punktzahl zu schaffen!",
+        "7": "Du hast alle Fragen richtig beantwortet! Deine Aufmerksamkeit und dein Wissen sind beeindruckend. Du könntest anderen Kindern schon viel über die Meere erklären."
+      }
     }
   ],
   "animalsBySea": [

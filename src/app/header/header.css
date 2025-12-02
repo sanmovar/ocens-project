@@ -8,19 +8,19 @@
 
 /* Buttons: alle gleich breit, schön breit */
 .main-nav__btn {
-  flex: 1 1 0; /* 🔹 sorgt für gleiche Breite */
-  max-width: 220px; /* 🔹 wie „breit“ jeder Button ist */
+  flex: 1 1 0;
+  max-width: 300px; /* etwas breiter */
   border-radius: 999px;
   background-color: #0094c6;
   border: none;
   color: #ffffff;
   display: inline-flex;
   align-items: center;
-  justify-content: center; /* Text+Icon mittig */
-  gap: 0.4rem;
-  padding: 0.5rem 1.2rem; /* etwas mehr Höhe & Innenabstand */
-  font-size: 0.98rem;
-  font-weight: 600;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.7rem 1.6rem; /* höher + breiter = "größerer" Button */
+  font-size: 1.5rem; /* Schrift minimal größer */
+  font-weight: 700; /* fetter als vorher */
   box-shadow: 0 3px 6px rgba(0, 96, 151, 0.35);
   transition: transform 0.12s ease, box-shadow 0.12s ease, background-color 0.12s ease;
 }
@@ -38,4 +38,18 @@
 
 .main-nav__label {
   white-space: nowrap;
+}
+
+.main-nav__btn--active {
+  background: linear-gradient(135deg, #fcd949, #0094c6);
+  box-shadow: 0 0 0 2px rgba(0, 50, 100, 0.4);
+  transform: translateY(-1px);
+}
+
+.main-nav__btn--active .main-nav__icon {
+  filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.3));
+}
+
+.main-nav__btn--active:hover {
+  background-color: #00b5f0;
 }

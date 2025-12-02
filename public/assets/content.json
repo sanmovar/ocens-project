@@ -355,7 +355,6 @@
       "id": "quiz",
       "route": "/quiz/:seaId",
       "title": "Dein Meeres-Quiz",
-
       "sections": [
         {
           "type": "quiz-intro",
@@ -363,7 +362,6 @@
           "text": "Wähle ein Meer aus und beantworte die Fragen zu den Tieren dort. Alle Fragen beziehen sich auf die Texte und Tiere, die du in der App sehen kannst."
         }
       ],
-
       "quizzes": [
         {
           "seaId": "north-sea",
@@ -372,48 +370,82 @@
             {
               "id": "q-north-sea-1",
               "question": "Welches Nordsee-Tier wird als „große Robbe mit langem Kopf“ beschrieben, die gern an Sandstränden und Felsen ruht?",
-              "options": ["Seehund", "Schweinswal", "Kegelrobbe", "Makrele"],
+              "options": [
+                "Seehund",
+                "Schweinswal",
+                "Kegelrobbe",
+                "Makrele"
+              ],
               "correctIndex": 2
             },
             {
               "id": "q-north-sea-2",
               "question": "Welches Tier aus der Nordsee ist ein kleiner Wal, der leise an der Wasseroberfläche auftaucht und wieder abtaucht?",
-              "options": ["Scholle", "Schweinswal", "Nordseegarnele", "Miesmuschel"],
+              "options": [
+                "Scholle",
+                "Schweinswal",
+                "Nordseegarnele",
+                "Miesmuschel"
+              ],
               "correctIndex": 1
             },
             {
               "id": "q-north-sea-3",
               "question": "Welches Nordsee-Tier liegt flach auf dem Meeresboden und kann sich im Sand tarnen?",
-              "options": ["Gemeiner Seestern", "Herzmuschel", "Scholle", "Seeskorpion"],
+              "options": [
+                "Gemeiner Seestern",
+                "Herzmuschel",
+                "Scholle",
+                "Seeskorpion"
+              ],
               "correctIndex": 2
             },
             {
               "id": "q-north-sea-4",
               "question": "Welches Tier bildet dichte Bänke und filtriert Nahrung aus dem Wasser, während es an Steinen festklebt?",
-              "options": ["Nordseegarnele", "Miesmuschel", "Makrele", "Atlantischer Kabeljau"],
+              "options": [
+                "Nordseegarnele",
+                "Miesmuschel",
+                "Makrele",
+                "Atlantischer Kabeljau"
+              ],
               "correctIndex": 1
             },
             {
               "id": "q-north-sea-5",
               "question": "Welcher Fisch hat einen Bartfaden am Kinn und ist ein bekannter Speisefisch in der Nordsee?",
-              "options": ["Atlantischer Kabeljau", "Atlantischer Hering", "Makrele", "Seeskorpion"],
+              "options": [
+                "Atlantischer Kabeljau",
+                "Atlantischer Hering",
+                "Makrele",
+                "Seeskorpion"
+              ],
               "correctIndex": 0
             },
             {
               "id": "q-north-sea-6",
               "question": "Welches dieser Tiere aus der Nordsee kann verlorene Arme nachwachsen lassen?",
-              "options": ["Kegelrobbe", "Gemeiner Seestern", "Herzmuschel", "Nordseegarnele"],
+              "options": [
+                "Kegelrobbe",
+                "Gemeiner Seestern",
+                "Herzmuschel",
+                "Nordseegarnele"
+              ],
               "correctIndex": 1
             },
             {
               "id": "q-north-sea-7",
               "question": "Welches Nordsee-Tier schwimmt in großen silbrig glänzenden Schwärmen und ist ein wichtiger Speisefisch?",
-              "options": ["Atlantischer Hering", "Seehund", "Schweinswal", "Herzmuschel"],
+              "options": [
+                "Atlantischer Hering",
+                "Seehund",
+                "Schweinswal",
+                "Herzmuschel"
+              ],
               "correctIndex": 0
             }
           ]
         },
-
         {
           "seaId": "baltic-sea",
           "title": "Quiz zur Ostsee",
@@ -421,25 +453,45 @@
             {
               "id": "q-baltic-sea-1",
               "question": "Welcher Ostsee-Fisch ist ein Plattfisch, der fast unsichtbar am sandigen Boden liegen kann?",
-              "options": ["Barsch", "Flunder", "Stint", "Aal"],
+              "options": [
+                "Barsch",
+                "Flunder",
+                "Stint",
+                "Aal"
+              ],
               "correctIndex": 1
             },
             {
               "id": "q-baltic-sea-2",
               "question": "Welcher Fisch aus der Ostsee riecht frisch gefangen ein bisschen nach Gurke und wandert in Flüsse zum Laichen?",
-              "options": ["Ostsee-Sprotte", "Quappe", "Stint", "Ostsee-Hering"],
+              "options": [
+                "Ostsee-Sprotte",
+                "Quappe",
+                "Stint",
+                "Ostsee-Hering"
+              ],
               "correctIndex": 2
             },
             {
               "id": "q-baltic-sea-3",
               "question": "Welches Tier wird in deinen Ostsee-Tiertexten als kleine Robbenart beschrieben, die im Winter auf dem Eis ruht?",
-              "options": ["Ostsee-Ringelrobbe", "Ostsee-Schweinswal", "Strandkrabbe", "Aal"],
+              "options": [
+                "Ostsee-Ringelrobbe",
+                "Ostsee-Schweinswal",
+                "Strandkrabbe",
+                "Aal"
+              ],
               "correctIndex": 0
             },
             {
               "id": "q-baltic-sea-4",
               "question": "Welcher Fisch mit dunklen Streifen und roten Flossen lebt dort, wo Süß- und Salzwasser sich mischen?",
-              "options": ["Barsch", "Hecht", "Aal", "Ostsee-Hering"],
+              "options": [
+                "Barsch",
+                "Hecht",
+                "Aal",
+                "Ostsee-Hering"
+              ],
               "correctIndex": 0
             },
             {
@@ -456,18 +508,27 @@
             {
               "id": "q-baltic-sea-6",
               "question": "Welches dieser Tiere aus der Ostsee wird als kleiner Krebs beschrieben, der flink über den Boden läuft und sich unter Steinen versteckt?",
-              "options": ["Strandkrabbe", "Quappe", "Ostsee-Sprotte", "Flunder"],
+              "options": [
+                "Strandkrabbe",
+                "Quappe",
+                "Ostsee-Sprotte",
+                "Flunder"
+              ],
               "correctIndex": 0
             },
             {
               "id": "q-baltic-sea-7",
               "question": "Welcher Fisch aus der Ostsee gehört zur gleichen Familie wie der Kabeljau und mag kühles Wasser?",
-              "options": ["Quappe", "Barsch", "Stint", "Aal"],
+              "options": [
+                "Quappe",
+                "Barsch",
+                "Stint",
+                "Aal"
+              ],
               "correctIndex": 0
             }
           ]
         },
-
         {
           "seaId": "mediterranean",
           "title": "Quiz zum Mittelmeer",
@@ -519,24 +580,38 @@
             {
               "id": "q-mediterranean-5",
               "question": "Welches Tier aus dem Mittelmeer versteckt sich in Felsspalten und zeigt oft nur seinen Kopf mit scharfen Zähnen?",
-              "options": ["Mittelmeer-Muräne", "Oktopus", "Flaschenqualle", "Gemeiner Delfin"],
+              "options": [
+                "Mittelmeer-Muräne",
+                "Oktopus",
+                "Flaschenqualle",
+                "Gemeiner Delfin"
+              ],
               "correctIndex": 0
             },
             {
               "id": "q-mediterranean-6",
               "question": "Welcher auffällige Fisch hat lange, bunte Flossenstrahlen und sieht aus wie ein schwebender, stacheliger Fächer?",
-              "options": ["Rotfeuerfisch", "Schwertfisch", "Oktopus", "Gelbstreifen-Barrakuda"],
+              "options": [
+                "Rotfeuerfisch",
+                "Schwertfisch",
+                "Oktopus",
+                "Gelbstreifen-Barrakuda"
+              ],
               "correctIndex": 0
             },
             {
               "id": "q-mediterranean-7",
               "question": "Welches dieser Mittelmeer-Tiere hat acht Arme, kann seine Farbe ändern und sich geschickt in Höhlen verstecken?",
-              "options": ["Oktopus", "Zackenbarsch", "Flaschenqualle", "Mittelmeer-Mönchsrobbe"],
+              "options": [
+                "Oktopus",
+                "Zackenbarsch",
+                "Flaschenqualle",
+                "Mittelmeer-Mönchsrobbe"
+              ],
               "correctIndex": 0
             }
           ]
         },
-
         {
           "seaId": "atlantic",
           "title": "Quiz zum Atlantik",
@@ -544,25 +619,45 @@
             {
               "id": "q-atlantic-1",
               "question": "Welches Tier im Atlantik ist das größte Tier der Erde und kann bis zu 30 Meter lang werden?",
-              "options": ["Pottwal", "Blauwal", "Makohai", "Atlantische Meeresschildkröte"],
+              "options": [
+                "Pottwal",
+                "Blauwal",
+                "Makohai",
+                "Atlantische Meeresschildkröte"
+              ],
               "correctIndex": 1
             },
             {
               "id": "q-atlantic-2",
               "question": "Welches Tier kann sehr tief tauchen, Riesenkalmare jagen und über zwei Stunden unter Wasser bleiben?",
-              "options": ["Blauwal", "Pottwal", "Meerengel", "Papageienfisch"],
+              "options": [
+                "Blauwal",
+                "Pottwal",
+                "Meerengel",
+                "Papageienfisch"
+              ],
               "correctIndex": 1
             },
             {
               "id": "q-atlantic-3",
               "question": "Welcher Hai im Atlantik gilt als der schnellste der Welt und kann bis zu 70 km/h schwimmen?",
-              "options": ["Meerengel", "Makohai", "Weißer Thunfisch", "Kompassqualle"],
+              "options": [
+                "Meerengel",
+                "Makohai",
+                "Weißer Thunfisch",
+                "Kompassqualle"
+              ],
               "correctIndex": 1
             },
             {
               "id": "q-atlantic-4",
               "question": "Welcher Fisch im Atlantik kann mit seinen Flossen kurze Zeit über das Wasser gleiten?",
-              "options": ["Papageienfisch", "Weißer Thunfisch", "Lippfisch", "Fliegender Fisch"],
+              "options": [
+                "Papageienfisch",
+                "Weißer Thunfisch",
+                "Lippfisch",
+                "Fliegender Fisch"
+              ],
               "correctIndex": 3
             },
             {
@@ -579,18 +674,27 @@
             {
               "id": "q-atlantic-6",
               "question": "Welche Qualle im Atlantik hat braune Linien auf ihrem Körper, die an einen Kompass erinnern?",
-              "options": ["Kompassqualle", "Meerengel", "Klippenpinguin", "Pottwal"],
+              "options": [
+                "Kompassqualle",
+                "Meerengel",
+                "Klippenpinguin",
+                "Pottwal"
+              ],
               "correctIndex": 0
             },
             {
               "id": "q-atlantic-7",
               "question": "Welcher flach am Boden liegende Hai tarnt sich im Sand und sieht ein wenig aus wie ein Engel mit Flügeln?",
-              "options": ["Makohai", "Papageienfisch", "Meerengel", "Lippfisch"],
+              "options": [
+                "Makohai",
+                "Papageienfisch",
+                "Meerengel",
+                "Lippfisch"
+              ],
               "correctIndex": 2
             }
           ]
         },
-
         {
           "seaId": "pacific",
           "title": "Quiz zum Pazifik",
@@ -598,48 +702,82 @@
             {
               "id": "q-pacific-1",
               "question": "Welches Tier im Pazifik ist ein schwarz-weißer Wal, der in Familiengruppen jagt und sehr intelligent ist?",
-              "options": ["Orca (Schwertwal)", "Walhai", "Buckelwal", "Seekuh (Dugong)"],
+              "options": [
+                "Orca (Schwertwal)",
+                "Walhai",
+                "Buckelwal",
+                "Seekuh (Dugong)"
+              ],
               "correctIndex": 0
             },
             {
               "id": "q-pacific-2",
               "question": "Welcher Riesenfisch im Pazifik ist der größte Fisch der Welt, frisst aber nur winziges Plankton?",
-              "options": ["Weißer Hai", "Walhai", "Mondfisch", "Manta-Rochen"],
+              "options": [
+                "Weißer Hai",
+                "Walhai",
+                "Mondfisch",
+                "Manta-Rochen"
+              ],
               "correctIndex": 1
             },
             {
               "id": "q-pacific-3",
               "question": "Welcher Wal im Pazifik ist für seine Gesänge bekannt, die kilometerweit zu hören sind?",
-              "options": ["Orca (Schwertwal)", "Buckelwal", "Walhai", "Mondfisch"],
+              "options": [
+                "Orca (Schwertwal)",
+                "Buckelwal",
+                "Walhai",
+                "Mondfisch"
+              ],
               "correctIndex": 1
             },
             {
               "id": "q-pacific-4",
               "question": "Welcher Vogel auf Pazifikinseln hat leuchtend blaue Füße und tanzt bei der Partnersuche?",
-              "options": ["Dickschnabellumme", "Schneesturmvogel", "Blaufußtölpel", "Sturmvogel"],
+              "options": [
+                "Dickschnabellumme",
+                "Schneesturmvogel",
+                "Blaufußtölpel",
+                "Sturmvogel"
+              ],
               "correctIndex": 2
             },
             {
               "id": "q-pacific-5",
               "question": "Welcher Seestern im Pazifik hat viele spitze Arme und kann Korallenriffe schädigen, wenn er sich zu stark vermehrt?",
-              "options": ["Dornenkrone-Seestern", "Seegurke", "Seestern der Karibik", "Eisseeigel"],
+              "options": [
+                "Dornenkrone-Seestern",
+                "Seegurke",
+                "Seestern der Karibik",
+                "Eisseeigel"
+              ],
               "correctIndex": 0
             },
             {
               "id": "q-pacific-6",
               "question": "Welcher Rochen kann bis zu sieben Meter breit werden und gleitet wie ein riesiger „Flügel“ durchs Wasser, frisst aber nur Plankton?",
-              "options": ["Manta-Rochen", "Stachelrochen", "Leopardrochen", "Milchrochen"],
+              "options": [
+                "Manta-Rochen",
+                "Stachelrochen",
+                "Leopardrochen",
+                "Milchrochen"
+              ],
               "correctIndex": 0
             },
             {
               "id": "q-pacific-7",
               "question": "Welches Tier im Pazifik schwimmt aufrecht, klammert sich mit dem Schwanz an Pflanzen fest und beim dem das Männchen die Eier trägt?",
-              "options": ["Seepferdchen", "Laubfisch", "Mondfisch", "Seekuh (Dugong)"],
+              "options": [
+                "Seepferdchen",
+                "Laubfisch",
+                "Mondfisch",
+                "Seekuh (Dugong)"
+              ],
               "correctIndex": 0
             }
           ]
         },
-
         {
           "seaId": "indian-ocean",
           "title": "Quiz zum Indischen Ozean",
@@ -647,48 +785,82 @@
             {
               "id": "q-indian-ocean-1",
               "question": "Welches Tier im Indischen Ozean sieht wie eine Seekuh aus und frisst Seegraswiesen am Meeresgrund?",
-              "options": ["Dugong", "Zebra-Hai", "Leopardrochen", "Riesenmuschel"],
+              "options": [
+                "Dugong",
+                "Zebra-Hai",
+                "Leopardrochen",
+                "Riesenmuschel"
+              ],
               "correctIndex": 0
             },
             {
               "id": "q-indian-ocean-2",
               "question": "Welcher Hai hat als Jungtier Streifen wie ein Zebra, die später zu Punkten werden?",
-              "options": ["Hammerhai", "Zebra-Hai", "Geigenrochen", "Milchrochen"],
+              "options": [
+                "Hammerhai",
+                "Zebra-Hai",
+                "Geigenrochen",
+                "Milchrochen"
+              ],
               "correctIndex": 1
             },
             {
               "id": "q-indian-ocean-3",
               "question": "Welches kleine bunte Tier im Indischen Ozean versteckt sich im Korallenriff und putzt manchmal größere Fische?",
-              "options": ["Felsengarnele", "Seegurke", "Kaiserfisch", "Riesenmuschel"],
+              "options": [
+                "Felsengarnele",
+                "Seegurke",
+                "Kaiserfisch",
+                "Riesenmuschel"
+              ],
               "correctIndex": 0
             },
             {
               "id": "q-indian-ocean-4",
               "question": "Welches Tier sieht aus wie eine Mischung aus Hai und Rochen und liegt oft flach auf dem Sandboden?",
-              "options": ["Geigenrochen", "Zebra-Hai", "Leopardrochen", "Milchrochen"],
+              "options": [
+                "Geigenrochen",
+                "Zebra-Hai",
+                "Leopardrochen",
+                "Milchrochen"
+              ],
               "correctIndex": 0
             },
             {
               "id": "q-indian-ocean-5",
               "question": "Welches unscheinbare Tier im Indischen Ozean saugt Sand und kleine Partikel ein und reinigt damit den Meeresboden?",
-              "options": ["Seegurke", "Riesenmuschel", "Felsengarnele", "Kaiserfisch"],
+              "options": [
+                "Seegurke",
+                "Riesenmuschel",
+                "Felsengarnele",
+                "Kaiserfisch"
+              ],
               "correctIndex": 0
             },
             {
               "id": "q-indian-ocean-6",
               "question": "Welcher Hai hat einen auffälligen, hammerförmigen Kopf, mit dem er besonders gut riechen und sehen kann?",
-              "options": ["Zebra-Hai", "Hammerhai", "Milchrochen", "Seeschlange"],
+              "options": [
+                "Zebra-Hai",
+                "Hammerhai",
+                "Milchrochen",
+                "Seeschlange"
+              ],
               "correctIndex": 1
             },
             {
               "id": "q-indian-ocean-7",
               "question": "Welches Tier kann mehr als 200 Kilogramm wiegen und sitzt fest am Meeresboden, während es Wasser filtert?",
-              "options": ["Riesenmuschel", "Seegurke", "Dugong", "Kaiserfisch"],
+              "options": [
+                "Riesenmuschel",
+                "Seegurke",
+                "Dugong",
+                "Kaiserfisch"
+              ],
               "correctIndex": 0
             }
           ]
         },
-
         {
           "seaId": "arctic-ocean",
           "title": "Quiz zum Arktischen Ozean",
@@ -696,48 +868,82 @@
             {
               "id": "q-arctic-ocean-1",
               "question": "Welches Tier ist der größte Bär der Welt und jagt auf dem Eis nach Robben?",
-              "options": ["Eisbär", "Walross", "Ringelrobbe", "Schneegans"],
+              "options": [
+                "Eisbär",
+                "Walross",
+                "Ringelrobbe",
+                "Schneegans"
+              ],
               "correctIndex": 0
             },
             {
               "id": "q-arctic-ocean-2",
               "question": "Welcher Wal im Arktischen Ozean hat einen langen Stoßzahn und wird auch „Einhorn des Meeres“ genannt?",
-              "options": ["Belugawal", "Narwal", "Grönlandwal", "Polardorsch"],
+              "options": [
+                "Belugawal",
+                "Narwal",
+                "Grönlandwal",
+                "Polardorsch"
+              ],
               "correctIndex": 1
             },
             {
               "id": "q-arctic-ocean-3",
               "question": "Welche Robbe schneidet mit ihren Krallen Löcher ins Eis, um zu atmen, und versteckt ihre Jungen in Schneehöhlen?",
-              "options": ["Ringelrobbe", "Walross", "Eisbär", "Schneekrabbe"],
+              "options": [
+                "Ringelrobbe",
+                "Walross",
+                "Eisbär",
+                "Schneekrabbe"
+              ],
               "correctIndex": 0
             },
             {
               "id": "q-arctic-ocean-4",
               "question": "Welches Tier hat lange Stoßzähne und nutzt sie, um aus dem Wasser aufs Eis zu klettern?",
-              "options": ["Eisbär", "Walross", "Ringelrobbe", "Grönlandwal"],
+              "options": [
+                "Eisbär",
+                "Walross",
+                "Ringelrobbe",
+                "Grönlandwal"
+              ],
               "correctIndex": 1
             },
             {
               "id": "q-arctic-ocean-5",
               "question": "Welcher Wal im Arktischen Ozean hat eine besonders dicke Speckschicht und kann Eisdecken durchbrechen, um Luft zu holen?",
-              "options": ["Grönlandwal", "Belugawal", "Narwal", "Schwertwal"],
+              "options": [
+                "Grönlandwal",
+                "Belugawal",
+                "Narwal",
+                "Schwertwal"
+              ],
               "correctIndex": 0
             },
             {
               "id": "q-arctic-ocean-6",
               "question": "Welcher kleine Fisch im Arktischen Ozean hat Stoffe im Blut, die verhindern, dass es gefriert?",
-              "options": ["Polardorsch", "Schneefisch", "Silberfisch", "Hering"],
+              "options": [
+                "Polardorsch",
+                "Schneefisch",
+                "Silberfisch",
+                "Hering"
+              ],
               "correctIndex": 0
             },
             {
               "id": "q-arctic-ocean-7",
               "question": "Welche Qualle im arktischen Meer sieht aus wie eine weiße Glocke und kann sogar unter Eisflächen überleben?",
-              "options": ["Eisqualle", "Flaschenqualle", "Kompassqualle", "Krill"],
+              "options": [
+                "Eisqualle",
+                "Flaschenqualle",
+                "Kompassqualle",
+                "Krill"
+              ],
               "correctIndex": 0
             }
           ]
         },
-
         {
           "seaId": "southern-ocean",
           "title": "Quiz zum Südpolarmeer",
@@ -756,13 +962,23 @@
             {
               "id": "q-southern-ocean-2",
               "question": "Welche kleinen Krebstiere bilden riesige Schwärme und sind die wichtigste Nahrung für viele Tiere im Südpolarmeer?",
-              "options": ["Krill", "Silberfisch", "Seegurke", "Nordseegarnele"],
+              "options": [
+                "Krill",
+                "Silberfisch",
+                "Seegurke",
+                "Nordseegarnele"
+              ],
               "correctIndex": 0
             },
             {
               "id": "q-southern-ocean-3",
               "question": "Welcher Robbenräuber mit Fleckmuster jagt im Südpolarmeer zum Beispiel Pinguine?",
-              "options": ["Seeleopard", "Rossrobbe", "Bartrobbe", "Ringelrobbe"],
+              "options": [
+                "Seeleopard",
+                "Rossrobbe",
+                "Bartrobbe",
+                "Ringelrobbe"
+              ],
               "correctIndex": 0
             },
             {
@@ -779,24 +995,38 @@
             {
               "id": "q-southern-ocean-5",
               "question": "Welche Robbe hat lange Schnurrhaare, mit denen sie Bewegungen im Sandboden spüren kann?",
-              "options": ["Bartrobbe", "Rossrobbe", "Seeleopard", "Südliche Elefantenrobbe"],
+              "options": [
+                "Bartrobbe",
+                "Rossrobbe",
+                "Seeleopard",
+                "Südliche Elefantenrobbe"
+              ],
               "correctIndex": 0
             },
             {
               "id": "q-southern-ocean-6",
               "question": "Welche Robbenart im Südpolarmeer ist die größte der Welt und hat eine rüsselartige Nase?",
-              "options": ["Südliche Elefantenrobbe", "Rossrobbe", "Bartrobbe", "Ringelrobbe"],
+              "options": [
+                "Südliche Elefantenrobbe",
+                "Rossrobbe",
+                "Bartrobbe",
+                "Ringelrobbe"
+              ],
               "correctIndex": 0
             },
             {
               "id": "q-southern-ocean-7",
               "question": "Welcher Wal im Südpolarmeer filtert Kieselalgen und Krill aus dem Wasser und schwimmt eher langsam?",
-              "options": ["Südlicher Glattwal", "Schwertwal (Orca)", "Grönlandwal", "Buckelwal"],
+              "options": [
+                "Südlicher Glattwal",
+                "Schwertwal (Orca)",
+                "Grönlandwal",
+                "Buckelwal"
+              ],
               "correctIndex": 0
             }
           ]
         },
-
         {
           "seaId": "caribbean",
           "title": "Quiz zur Karibik",
@@ -815,42 +1045,71 @@
             {
               "id": "q-caribbean-2",
               "question": "Welcher bunte Fisch knabbert Korallen ab und hilft dabei, Sandstrände zu bilden?",
-              "options": ["Papageifisch", "Korallenkönigfisch", "Feuerfisch", "Muräne"],
+              "options": [
+                "Papageifisch",
+                "Korallenkönigfisch",
+                "Feuerfisch",
+                "Muräne"
+              ],
               "correctIndex": 0
             },
             {
               "id": "q-caribbean-3",
               "question": "Welcher Hai in der Karibik hält das Ökosystem gesund, indem er kranke oder schwache Fische frisst?",
-              "options": ["Karibischer Riffhai", "Walhai", "Hammerhai", "Makohai"],
+              "options": [
+                "Karibischer Riffhai",
+                "Walhai",
+                "Hammerhai",
+                "Makohai"
+              ],
               "correctIndex": 0
             },
             {
               "id": "q-caribbean-4",
               "question": "Welches Tier in der Karibik hat einen giftigen Stachel am Schwanz, gleitet flach über den Boden und kann sich im Sand verstecken?",
-              "options": ["Stachelrochen", "Meeresschildkröte", "Muräne", "Seestern"],
+              "options": [
+                "Stachelrochen",
+                "Meeresschildkröte",
+                "Muräne",
+                "Seestern"
+              ],
               "correctIndex": 0
             },
             {
               "id": "q-caribbean-5",
               "question": "Welches Tier versteckt sich in Felslöchern, öffnet und schließt ständig sein Maul und jagt nachts kleine Fische?",
-              "options": ["Muräne", "Korallenkönigfisch", "Feuerfisch", "Schwamm"],
+              "options": [
+                "Muräne",
+                "Korallenkönigfisch",
+                "Feuerfisch",
+                "Schwamm"
+              ],
               "correctIndex": 0
             },
             {
               "id": "q-caribbean-6",
               "question": "Welcher Fisch in der Karibik hat lange, giftige Stacheln und sieht wie ein roter Fächer aus?",
-              "options": ["Feuerfisch", "Papageifisch", "Korallenkönigfisch", "Stachelrochen"],
+              "options": [
+                "Feuerfisch",
+                "Papageifisch",
+                "Korallenkönigfisch",
+                "Stachelrochen"
+              ],
               "correctIndex": 0
             },
             {
               "id": "q-caribbean-7",
               "question": "Welches Tier in der Karibik sieht aus wie eine Pflanze, bewegt sich nicht und filtert Nährstoffe aus dem Meerwasser?",
-              "options": ["Meerschwamm", "Seestern", "Meeresschildkröte", "Seepferdchen"],
+              "options": [
+                "Meerschwamm",
+                "Seestern",
+                "Meeresschildkröte",
+                "Seepferdchen"
+              ],
               "correctIndex": 0
             }
           ]
         },
-
         {
           "seaId": "red-sea",
           "title": "Quiz zum Roten Meer",
@@ -869,13 +1128,23 @@
             {
               "id": "q-red-sea-2",
               "question": "Welcher kleine Fisch versteckt sich zwischen den giftigen Tentakeln von Seeanemonen und ist aus einem bekannten Film bekannt?",
-              "options": ["Anemonenfisch", "Kugelfisch", "Korallendrache", "Kaiserfisch"],
+              "options": [
+                "Anemonenfisch",
+                "Kugelfisch",
+                "Korallendrache",
+                "Kaiserfisch"
+              ],
               "correctIndex": 0
             },
             {
               "id": "q-red-sea-3",
               "question": "Welcher Rochen im Roten Meer hat leuchtend blaue Flecken auf dem Rücken und trägt einen giftigen Stachel am Schwanz?",
-              "options": ["Blaupunktrochen", "Fledermausfisch", "Napoleon-Lippfisch", "Kugelfisch"],
+              "options": [
+                "Blaupunktrochen",
+                "Fledermausfisch",
+                "Napoleon-Lippfisch",
+                "Kugelfisch"
+              ],
               "correctIndex": 0
             },
             {
@@ -903,18 +1172,27 @@
             {
               "id": "q-red-sea-6",
               "question": "Welcher Fisch im Roten Meer sieht aus wie ein kleines Krokodil und tarnt sich im Sand am Boden?",
-              "options": ["Krokodilfisch", "Korallendrache", "Fledermausfisch", "Kugelfisch"],
+              "options": [
+                "Krokodilfisch",
+                "Korallendrache",
+                "Fledermausfisch",
+                "Kugelfisch"
+              ],
               "correctIndex": 0
             },
             {
               "id": "q-red-sea-7",
               "question": "Welches Tier kann sich bei Gefahr zu einer runden Kugel aufblähen und enthält starkes Gift, wirkt aber lustig?",
-              "options": ["Kugelfisch", "Fledermausfisch", "Korallendrache", "Zackenbarsch"],
+              "options": [
+                "Kugelfisch",
+                "Fledermausfisch",
+                "Korallendrache",
+                "Zackenbarsch"
+              ],
               "correctIndex": 0
             }
           ]
         },
-
         {
           "seaId": "black-sea",
           "title": "Quiz zum Schwarzen Meer",
@@ -922,7 +1200,12 @@
             {
               "id": "q-black-sea-1",
               "question": "Welcher kleine Delfin im Schwarzen Meer lebt in Gruppen und ist streng geschützt?",
-              "options": ["Schwarzmeer-Delfin", "Orca", "Großer Tümmler", "Gemeiner Delfin"],
+              "options": [
+                "Schwarzmeer-Delfin",
+                "Orca",
+                "Großer Tümmler",
+                "Gemeiner Delfin"
+              ],
               "correctIndex": 0
             },
             {
@@ -972,7 +1255,12 @@
             {
               "id": "q-black-sea-6",
               "question": "Welche Muschel verankert sich fest an Steinen und filtert ihre Nahrung aus dem Wasser?",
-              "options": ["Felsenauster", "Herzmuschel", "Miesmuschel", "Riesenmuschel"],
+              "options": [
+                "Felsenauster",
+                "Herzmuschel",
+                "Miesmuschel",
+                "Riesenmuschel"
+              ],
               "correctIndex": 0
             },
             {
@@ -988,7 +1276,6 @@
             }
           ]
         },
-
         {
           "seaId": "north-atlantic",
           "title": "Quiz zum Nordatlantik",
@@ -996,37 +1283,67 @@
             {
               "id": "q-north-atlantic-1",
               "question": "Welcher Wal im Nordatlantik ist das größte bekannte Tier der Erde und frisst hauptsächlich Krill?",
-              "options": ["Blauwal", "Grindwal", "Orka (Schwertwal)", "Eisbartwal"],
+              "options": [
+                "Blauwal",
+                "Grindwal",
+                "Orka (Schwertwal)",
+                "Eisbartwal"
+              ],
               "correctIndex": 0
             },
             {
               "id": "q-north-atlantic-2",
               "question": "Welcher Wal im Nordatlantik lebt in großen Familiengruppen und kommuniziert mit Klick- und Pfeiflauten?",
-              "options": ["Grindwal", "Blauwal", "Eisbartwal", "Orka (Schwertwal)"],
+              "options": [
+                "Grindwal",
+                "Blauwal",
+                "Eisbartwal",
+                "Orka (Schwertwal)"
+              ],
               "correctIndex": 0
             },
             {
               "id": "q-north-atlantic-3",
               "question": "Welcher schwarz-weiße Wal im Nordatlantik ist ein Spitzenräuber und jagt in Gruppen wie Wölfe?",
-              "options": ["Orka (Schwertwal)", "Grindwal", "Blauwal", "Schwertfisch"],
+              "options": [
+                "Orka (Schwertwal)",
+                "Grindwal",
+                "Blauwal",
+                "Schwertfisch"
+              ],
               "correctIndex": 0
             },
             {
               "id": "q-north-atlantic-4",
               "question": "Welcher Vogel im Nordatlantik ist ganz weiß, lebt in kalten Regionen und sucht nach Fischresten am Meer?",
-              "options": ["Eismöwe", "Sturmvogel", "Schneesturmvogel", "Dickschnabellumme"],
+              "options": [
+                "Eismöwe",
+                "Sturmvogel",
+                "Schneesturmvogel",
+                "Dickschnabellumme"
+              ],
               "correctIndex": 0
             },
             {
               "id": "q-north-atlantic-5",
               "question": "Welcher Fisch im Nordatlantik hat ein langes, schwertähnliches Maul und schwimmt sehr schnell?",
-              "options": ["Schwertfisch", "Steinbutt", "Eisseeigel", "Atlantischer Hering"],
+              "options": [
+                "Schwertfisch",
+                "Steinbutt",
+                "Eisseeigel",
+                "Atlantischer Hering"
+              ],
               "correctIndex": 0
             },
             {
               "id": "q-north-atlantic-6",
               "question": "Welcher flache Bodenfisch tarnt sich im Sand und hat beide Augen auf einer Körperseite?",
-              "options": ["Steinbutt", "Polardorsch", "Hering", "Lippfisch"],
+              "options": [
+                "Steinbutt",
+                "Polardorsch",
+                "Hering",
+                "Lippfisch"
+              ],
               "correctIndex": 0
             },
             {
@@ -1043,7 +1360,6 @@
           ]
         }
       ],
-
       "resultTexts": {
         "0": "Noch ist vieles neu für dich – und das ist völlig in Ordnung. Schau dir die Tierseiten noch einmal in Ruhe an und versuche das Quiz einfach wieder. Jede Runde macht dich schlauer!",
         "1": "Du hast schon eine richtige Antwort geschafft – super! Mit jedem weiteren Versuch lernst du die Tiere noch besser kennen.",
@@ -1076,7 +1392,7 @@
           },
           "bigImage": {
             "id": "big-img-north-sea-kegelrobbe",
-            "src": "assets/images/animals/north-sea/north-sea-kegelrobbe.png",
+            "src": "assets/images/animals-big/north-sea/north-sea-kegelrobbe.jpg",
             "alt": "Eine Kegelrobbe liegt am Strand der Nordsee."
           }
         },
@@ -1096,7 +1412,7 @@
           },
           "bigImage": {
             "id": "big-img-north-sea-seehund",
-            "src": "assets/images/animals/north-sea/north-sea-seehund.png",
+            "src": "assets/images/animals-big/north-sea/north-sea-seehund.jpg",
             "alt": "Ein Seehund schaut im Wasser der Nordsee aus den Wellen."
           }
         },
@@ -1116,7 +1432,7 @@
           },
           "bigImage": {
             "id": "big-img-north-sea-schweinswal",
-            "src": "assets/images/animals/north-sea/north-sea-schweinswal.png",
+            "src": "assets/images/animals-big/north-sea/north-sea-schweinswal.jpg",
             "alt": "Ein Schweinswal taucht in der Nordsee auf."
           }
         },
@@ -1136,7 +1452,7 @@
           },
           "bigImage": {
             "id": "big-img-north-sea-atlantischer-hering",
-            "src": "assets/images/animals/north-sea/north-sea-atlantischer-hering.png",
+            "src": "assets/images/animals-big/north-sea/north-sea-atlantischer-hering.jpg",
             "alt": "Ein Schwarm Atlantischer Heringe in der Nordsee."
           }
         },
@@ -1156,7 +1472,7 @@
           },
           "bigImage": {
             "id": "big-img-north-sea-atlantischer-kabeljau",
-            "src": "assets/images/animals/north-sea/north-sea-atlantischer-kabeljau.png",
+            "src": "assets/images/animals-big/north-sea/north-sea-atlantischer-kabeljau.jpg",
             "alt": "Ein Atlantischer Kabeljau schwimmt im Meer."
           }
         },
@@ -1176,7 +1492,7 @@
           },
           "bigImage": {
             "id": "big-img-north-sea-scholle",
-            "src": "assets/images/animals/north-sea/north-sea-scholle.png",
+            "src": "assets/images/animals-big/north-sea/north-sea-scholle.jpg",
             "alt": "Eine Scholle liegt getarnt auf dem Boden der Nordsee."
           }
         },
@@ -1196,7 +1512,7 @@
           },
           "bigImage": {
             "id": "big-img-north-sea-gemeiner-seestern",
-            "src": "assets/images/animals/north-sea/north-sea-gemeiner-seestern.png",
+            "src": "assets/images/animals-big/north-sea/north-sea-gemeiner-seestern.jpg",
             "alt": "Ein orangefarbener Seestern auf Steinen."
           }
         },
@@ -1216,7 +1532,7 @@
           },
           "bigImage": {
             "id": "big-img-north-sea-nordseegarnele",
-            "src": "assets/images/animals/north-sea/north-sea-nordseegarnele.png",
+            "src": "assets/images/animals-big/north-sea/north-sea-nordseegarnele.jpg",
             "alt": "Eine Nordseegarnele im flachen Wasser."
           }
         },
@@ -1236,7 +1552,7 @@
           },
           "bigImage": {
             "id": "big-img-north-sea-miesmuschel",
-            "src": "assets/images/animals/north-sea/north-sea-miesmuschel.png",
+            "src": "assets/images/animals-big/north-sea/north-sea-miesmuschel.jpg",
             "alt": "Viele Miesmuscheln kleben an einem Felsen."
           }
         },
@@ -1256,7 +1572,7 @@
           },
           "bigImage": {
             "id": "big-img-north-sea-makrele",
-            "src": "assets/images/animals/north-sea/north-sea-makrele.png",
+            "src": "assets/images/animals-big/north-sea/north-sea-makrele.jpg",
             "alt": "Eine Makrele schwimmt im offenen Wasser."
           }
         },
@@ -1276,7 +1592,7 @@
           },
           "bigImage": {
             "id": "big-img-north-sea-seeskorpion",
-            "src": "assets/images/animals/north-sea/north-sea-seeskorpion.png",
+            "src": "assets/images/animals-big/north-sea/north-sea-seeskorpion.jpg",
             "alt": "Ein Seeskorpion zwischen Steinen am Meeresboden."
           }
         },
@@ -1296,7 +1612,7 @@
           },
           "bigImage": {
             "id": "big-img-north-sea-herzmuschel",
-            "src": "assets/images/animals/north-sea/north-sea-herzmuschel.png",
+            "src": "assets/images/animals-big/north-sea/north-sea-herzmuschel.jpg",
             "alt": "Eine Herzmuschel liegt im Sand."
           }
         }
@@ -1321,7 +1637,7 @@
           },
           "bigImage": {
             "id": "big-img-baltic-sea-ostsee-hering",
-            "src": "assets/images/animals/baltic-sea/baltic-sea-ostsee-hering.png",
+            "src": "assets/images/animals-big/baltic-sea/baltic-sea-ostsee-hering.jpg",
             "alt": "Ein Schwarm Ostsee-Heringe im Wasser."
           }
         },
@@ -1341,7 +1657,7 @@
           },
           "bigImage": {
             "id": "big-img-baltic-sea-flunder",
-            "src": "assets/images/animals/baltic-sea/baltic-sea-flunder.png",
+            "src": "assets/images/animals-big/baltic-sea/baltic-sea-flunder.jpg",
             "alt": "Eine Flunder liegt auf dem Meeresboden."
           }
         },
@@ -1361,7 +1677,7 @@
           },
           "bigImage": {
             "id": "big-img-baltic-sea-barsch",
-            "src": "assets/images/animals/baltic-sea/baltic-sea-barsch.png",
+            "src": "assets/images/animals-big/baltic-sea/baltic-sea-barsch.jpg",
             "alt": "Ein Barsch mit roten Flossen im Wasser."
           }
         },
@@ -1381,7 +1697,7 @@
           },
           "bigImage": {
             "id": "big-img-baltic-sea-hecht",
-            "src": "assets/images/animals/baltic-sea/baltic-sea-hecht.png",
+            "src": "assets/images/animals-big/baltic-sea/baltic-sea-hecht.jpg",
             "alt": "Ein Hecht lauert im Pflanzenwasser."
           }
         },
@@ -1401,7 +1717,7 @@
           },
           "bigImage": {
             "id": "big-img-baltic-sea-ostsee-ringelrobbe",
-            "src": "assets/images/animals/baltic-sea/baltic-sea-ostsee-ringelrobbe.png",
+            "src": "assets/images/animals-big/baltic-sea/baltic-sea-ostsee-ringelrobbe.jpg",
             "alt": "Eine Ostsee-Ringelrobbe liegt auf dem Eis."
           }
         },
@@ -1421,7 +1737,7 @@
           },
           "bigImage": {
             "id": "big-img-baltic-sea-ostsee-schweinswal",
-            "src": "assets/images/animals/baltic-sea/baltic-sea-ostsee-schweinswal.png",
+            "src": "assets/images/animals-big/baltic-sea/baltic-sea-ostsee-schweinswal.jpg",
             "alt": "Ein Ostsee-Schweinswal springt aus dem Wasser."
           }
         },
@@ -1441,7 +1757,7 @@
           },
           "bigImage": {
             "id": "big-img-baltic-sea-strandkrabbe",
-            "src": "assets/images/animals/baltic-sea/baltic-sea-strandkrabbe.png",
+            "src": "assets/images/animals-big/baltic-sea/baltic-sea-strandkrabbe.jpg",
             "alt": "Eine Strandkrabbe sitzt am Meeresboden."
           }
         },
@@ -1461,7 +1777,7 @@
           },
           "bigImage": {
             "id": "big-img-baltic-sea-stint",
-            "src": "assets/images/animals/baltic-sea/baltic-sea-stint.png",
+            "src": "assets/images/animals-big/baltic-sea/baltic-sea-stint.jpg",
             "alt": "Ein Stint schwimmt im Wasser."
           }
         },
@@ -1481,7 +1797,7 @@
           },
           "bigImage": {
             "id": "big-img-baltic-sea-ostsee-sprotte",
-            "src": "assets/images/animals/baltic-sea/baltic-sea-ostsee-sprotte.png",
+            "src": "assets/images/animals-big/baltic-sea/baltic-sea-ostsee-sprotte.jpg",
             "alt": "Ein Schwarm Ostsee-Sprotten im Meer."
           }
         },
@@ -1501,7 +1817,7 @@
           },
           "bigImage": {
             "id": "big-img-baltic-sea-flussneunauge",
-            "src": "assets/images/animals/baltic-sea/baltic-sea-flussneunauge.png",
+            "src": "assets/images/animals-big/baltic-sea/baltic-sea-flussneunauge.jpg",
             "alt": "Ein Flussneunauge mit rundem Maul."
           }
         },
@@ -1521,7 +1837,7 @@
           },
           "bigImage": {
             "id": "big-img-baltic-sea-quappe",
-            "src": "assets/images/animals/baltic-sea/baltic-sea-quappe.png",
+            "src": "assets/images/animals-big/baltic-sea/baltic-sea-quappe.jpg",
             "alt": "Eine Quappe schwimmt nahe dem Boden."
           }
         },
@@ -1541,7 +1857,7 @@
           },
           "bigImage": {
             "id": "big-img-baltic-sea-aal",
-            "src": "assets/images/animals/baltic-sea/baltic-sea-aal.png",
+            "src": "assets/images/animals-big/baltic-sea/baltic-sea-aal.jpg",
             "alt": "Ein Aal schlängelt sich durchs Wasser."
           }
         }
@@ -1566,7 +1882,7 @@
           },
           "bigImage": {
             "id": "big-img-mediterranean-mittelmeer-moenchsrobbe",
-            "src": "assets/images/animals/mediterranean/mediterranean-mittelmeer-moenchsrobbe.png",
+            "src": "assets/images/animals-big/mediterranean/mediterranean-mittelmeer-moenchsrobbe.jpg",
             "alt": "Eine Mönchsrobbe ruht auf einem Felsen am Meer."
           }
         },
@@ -1586,7 +1902,7 @@
           },
           "bigImage": {
             "id": "big-img-mediterranean-grosser-tuemmler",
-            "src": "assets/images/animals/mediterranean/mediterranean-grosser-tuemmler.png",
+            "src": "assets/images/animals-big/mediterranean/mediterranean-grosser-tuemmler.jpg",
             "alt": "Ein Großer Tümmler springt aus dem Meer."
           }
         },
@@ -1606,7 +1922,7 @@
           },
           "bigImage": {
             "id": "big-img-mediterranean-gemeiner-delfin",
-            "src": "assets/images/animals/mediterranean/mediterranean-gemeiner-delfin.png",
+            "src": "assets/images/animals-big/mediterranean/mediterranean-gemeiner-delfin.jpg",
             "alt": "Mehrere Gemeine Delfine schwimmen gemeinsam."
           }
         },
@@ -1626,7 +1942,7 @@
           },
           "bigImage": {
             "id": "big-img-mediterranean-schwertfisch",
-            "src": "assets/images/animals/mediterranean/mediterranean-schwertfisch.png",
+            "src": "assets/images/animals-big/mediterranean/mediterranean-schwertfisch.jpg",
             "alt": "Ein Schwertfisch mit langer Schnauze im Meer."
           }
         },
@@ -1646,7 +1962,7 @@
           },
           "bigImage": {
             "id": "big-img-mediterranean-unechte-karettschildkroete",
-            "src": "assets/images/animals/mediterranean/mediterranean-unechte-karettschildkroete.png",
+            "src": "assets/images/animals-big/mediterranean/mediterranean-unechte-karettschildkroete.jpg",
             "alt": "Eine Meeresschildkröte schwimmt im klaren Wasser."
           }
         },
@@ -1666,7 +1982,7 @@
           },
           "bigImage": {
             "id": "big-img-mediterranean-mittelmeer-muraene",
-            "src": "assets/images/animals/mediterranean/mediterranean-mittelmeer-muraene.png",
+            "src": "assets/images/animals-big/mediterranean/mediterranean-mittelmeer-muraene.jpg",
             "alt": "Eine Muräne schaut aus einer Felsspalte."
           }
         },
@@ -1686,7 +2002,7 @@
           },
           "bigImage": {
             "id": "big-img-mediterranean-rotfeuerfisch",
-            "src": "assets/images/animals/mediterranean/mediterranean-rotfeuerfisch.png",
+            "src": "assets/images/animals-big/mediterranean/mediterranean-rotfeuerfisch.jpg",
             "alt": "Ein Rotfeuerfisch mit auffälligen Flossen."
           }
         },
@@ -1706,7 +2022,7 @@
           },
           "bigImage": {
             "id": "big-img-mediterranean-zackenbarsch",
-            "src": "assets/images/animals/mediterranean/mediterranean-zackenbarsch.png",
+            "src": "assets/images/animals-big/mediterranean/mediterranean-zackenbarsch.jpg",
             "alt": "Ein Zackenbarsch vor einer Felswand."
           }
         },
@@ -1726,7 +2042,7 @@
           },
           "bigImage": {
             "id": "big-img-mediterranean-oktopus",
-            "src": "assets/images/animals/mediterranean/mediterranean-oktopus.png",
+            "src": "assets/images/animals-big/mediterranean/mediterranean-oktopus.jpg",
             "alt": "Ein Oktopus sitzt auf dem Meeresboden."
           }
         },
@@ -1746,7 +2062,7 @@
           },
           "bigImage": {
             "id": "big-img-mediterranean-gelbstreifen-barrakuda",
-            "src": "assets/images/animals/mediterranean/mediterranean-gelbstreifen-barrakuda.png",
+            "src": "assets/images/animals-big/mediterranean/mediterranean-gelbstreifen-barrakuda.jpg",
             "alt": "Ein Barrakuda schwimmt im blauen Meer."
           }
         },
@@ -1766,7 +2082,7 @@
           },
           "bigImage": {
             "id": "big-img-mediterranean-roter-knurrhahn",
-            "src": "assets/images/animals/mediterranean/mediterranean-roter-knurrhahn.png",
+            "src": "assets/images/animals-big/mediterranean/mediterranean-roter-knurrhahn.jpg",
             "alt": "Ein Roter Knurrhahn mit ausgebreiteten Flossen."
           }
         },
@@ -1786,7 +2102,7 @@
           },
           "bigImage": {
             "id": "big-img-mediterranean-flaschenqualle",
-            "src": "assets/images/animals/mediterranean/mediterranean-flaschenqualle.png",
+            "src": "assets/images/animals-big/mediterranean/mediterranean-flaschenqualle.jpg",
             "alt": "Eine leuchtende Qualle im Meer."
           }
         }
@@ -1811,7 +2127,7 @@
           },
           "bigImage": {
             "id": "big-img-atlantic-pottwal",
-            "src": "assets/images/animals/atlantic/atlantic-pottwal.png",
+            "src": "assets/images/animals-big/atlantic/atlantic-pottwal.jpg",
             "alt": "Ein Pottwal taucht durch das tiefe Meer."
           }
         },
@@ -1831,7 +2147,7 @@
           },
           "bigImage": {
             "id": "big-img-atlantic-makohai",
-            "src": "assets/images/animals/atlantic/atlantic-makohai.png",
+            "src": "assets/images/animals-big/atlantic/atlantic-makohai.jpg",
             "alt": "Ein schneller Makohai schwimmt durch das Meer."
           }
         },
@@ -1851,7 +2167,7 @@
           },
           "bigImage": {
             "id": "big-img-atlantic-blauwal",
-            "src": "assets/images/animals/atlantic/atlantic-blauwal.png",
+            "src": "assets/images/animals-big/atlantic/atlantic-blauwal.jpg",
             "alt": "Ein riesiger Blauwal schwimmt im offenen Ozean."
           }
         },
@@ -1871,7 +2187,7 @@
           },
           "bigImage": {
             "id": "big-img-atlantic-seeschlange",
-            "src": "assets/images/animals/atlantic/atlantic-meerneunauge.png",
+            "src": "assets/images/animals-big/atlantic/atlantic-meerneunauge.jpg",
             "alt": "Ein Meerneunauge schlängelt sich durchs Wasser."
           }
         },
@@ -1891,7 +2207,7 @@
           },
           "bigImage": {
             "id": "big-img-atlantic-klippenpinguin",
-            "src": "assets/images/animals/atlantic/atlantic-klippenpinguin.png",
+            "src": "assets/images/animals-big/atlantic/atlantic-klippenpinguin.jpg",
             "alt": "Ein Klippenpinguin mit gelben Federn steht auf einem Felsen."
           }
         },
@@ -1911,7 +2227,7 @@
           },
           "bigImage": {
             "id": "big-img-atlantic-papageienfisch",
-            "src": "assets/images/animals/atlantic/atlantic-papageienfisch.png",
+            "src": "assets/images/animals-big/atlantic/atlantic-papageienfisch.jpg",
             "alt": "Ein bunter Papageienfisch schwimmt nahe einer Koralle."
           }
         },
@@ -1931,7 +2247,7 @@
           },
           "bigImage": {
             "id": "big-img-atlantic-seaturtle",
-            "src": "assets/images/animals/atlantic/atlantic-meeresschildkroete.png",
+            "src": "assets/images/animals-big/atlantic/atlantic-meeresschildkroete.jpg",
             "alt": "Eine Meeresschildkröte schwimmt durch den blauen Atlantik."
           }
         },
@@ -1951,7 +2267,7 @@
           },
           "bigImage": {
             "id": "big-img-atlantic-fliegender-fisch",
-            "src": "assets/images/animals/atlantic/atlantic-fliegender-fisch.png",
+            "src": "assets/images/animals-big/atlantic/atlantic-fliegender-fisch.jpg",
             "alt": "Ein fliegender Fisch gleitet über die Meeresoberfläche."
           }
         },
@@ -1971,7 +2287,7 @@
           },
           "bigImage": {
             "id": "big-img-atlantic-kompassqualle",
-            "src": "assets/images/animals/atlantic/atlantic-kompassqualle.png",
+            "src": "assets/images/animals-big/atlantic/atlantic-kompassqualle.jpg",
             "alt": "Eine Kompassqualle schwebt im Wasser."
           }
         },
@@ -1991,7 +2307,7 @@
           },
           "bigImage": {
             "id": "big-img-atlantic-weisser-thunfisch",
-            "src": "assets/images/animals/atlantic/atlantic-weisser-thunfisch.png",
+            "src": "assets/images/animals-big/atlantic/atlantic-weisser-thunfisch.jpg",
             "alt": "Ein weißer Thunfisch schwimmt im Atlantik."
           }
         },
@@ -2011,7 +2327,7 @@
           },
           "bigImage": {
             "id": "big-img-atlantic-lippfisch",
-            "src": "assets/images/animals/atlantic/atlantic-lippfisch.png",
+            "src": "assets/images/animals-big/atlantic/atlantic-lippfisch.jpg",
             "alt": "Ein farbenfroher Lippfisch vor einem Riff."
           }
         },
@@ -2031,7 +2347,7 @@
           },
           "bigImage": {
             "id": "big-img-atlantic-meerengel",
-            "src": "assets/images/animals/atlantic/atlantic-meerengel.png",
+            "src": "assets/images/animals-big/atlantic/atlantic-meerengel.jpg",
             "alt": "Ein Meerengel liegt am Meeresboden."
           }
         }
@@ -2056,7 +2372,7 @@
           },
           "bigImage": {
             "id": "big-img-pacific-orca",
-            "src": "assets/images/animals/pacific/pacific-orca.png",
+            "src": "assets/images/animals-big/pacific/pacific-orca.jpg",
             "alt": "Ein Orca springt aus dem Wasser."
           }
         },
@@ -2076,7 +2392,7 @@
           },
           "bigImage": {
             "id": "big-img-pacific-weisser-hai",
-            "src": "assets/images/animals/pacific/pacific-weisser-hai.png",
+            "src": "assets/images/animals-big/pacific/pacific-weisser-hai.jpg",
             "alt": "Ein Weißer Hai schwimmt durch den Pazifik."
           }
         },
@@ -2096,7 +2412,7 @@
           },
           "bigImage": {
             "id": "big-img-pacific-buckelwal",
-            "src": "assets/images/animals/pacific/pacific-buckelwal.png",
+            "src": "assets/images/animals-big/pacific/pacific-buckelwal.jpg",
             "alt": "Ein Buckelwal springt aus dem Meer."
           }
         },
@@ -2116,7 +2432,7 @@
           },
           "bigImage": {
             "id": "big-img-pacific-seekuh",
-            "src": "assets/images/animals/pacific/pacific-seekuh.png",
+            "src": "assets/images/animals-big/pacific/pacific-seekuh.jpg",
             "alt": "Eine Seekuh schwimmt gemütlich im Meer."
           }
         },
@@ -2136,7 +2452,7 @@
           },
           "bigImage": {
             "id": "big-img-pacific-manta-rochen",
-            "src": "assets/images/animals/pacific/pacific-manta-rochen.png",
+            "src": "assets/images/animals-big/pacific/pacific-manta-rochen.jpg",
             "alt": "Ein großer Manta-Rochen schwebt über dem Meeresboden."
           }
         },
@@ -2156,7 +2472,7 @@
           },
           "bigImage": {
             "id": "big-img-pacific-blaufusstolpel",
-            "src": "assets/images/animals/pacific/pacific-blaufusstolpel.png",
+            "src": "assets/images/animals-big/pacific/pacific-blaufusstolpel.jpg",
             "alt": "Ein Blaufußtölpel mit hellblauen Füßen auf einem Felsen."
           }
         },
@@ -2176,7 +2492,7 @@
           },
           "bigImage": {
             "id": "big-img-pacific-dornenkrone",
-            "src": "assets/images/animals/pacific/pacific-dornenkrone.png",
+            "src": "assets/images/animals-big/pacific/pacific-dornenkrone.jpg",
             "alt": "Ein großer Dornenkrone-Seestern auf einem Riff."
           }
         },
@@ -2196,7 +2512,7 @@
           },
           "bigImage": {
             "id": "big-img-pacific-napoleonfisch",
-            "src": "assets/images/animals/pacific/pacific-napoleonfisch.png",
+            "src": "assets/images/animals-big/pacific/pacific-napoleonfisch.jpg",
             "alt": "Ein Napoleonfisch schwimmt über ein Riff."
           }
         },
@@ -2216,7 +2532,7 @@
           },
           "bigImage": {
             "id": "big-img-pacific-laubfisch",
-            "src": "assets/images/animals/pacific/pacific-laubfisch.png",
+            "src": "assets/images/animals-big/pacific/pacific-laubfisch.jpg",
             "alt": "Ein Laubfisch, der wie ein Blatt aussieht."
           }
         },
@@ -2236,7 +2552,7 @@
           },
           "bigImage": {
             "id": "big-img-pacific-mondfisch",
-            "src": "assets/images/animals/pacific/pacific-mondfisch.png",
+            "src": "assets/images/animals-big/pacific/pacific-mondfisch.jpg",
             "alt": "Ein Mondfisch schwimmt seitlich im Wasser."
           }
         },
@@ -2256,7 +2572,7 @@
           },
           "bigImage": {
             "id": "big-img-pacific-seepferdchen",
-            "src": "assets/images/animals/pacific/pacific-seepferdchen.png",
+            "src": "assets/images/animals-big/pacific/pacific-seepferdchen.jpg",
             "alt": "Ein Seepferdchen hält sich an einer Pflanze fest."
           }
         },
@@ -2276,7 +2592,7 @@
           },
           "bigImage": {
             "id": "big-img-pacific-walhai",
-            "src": "assets/images/animals/pacific/pacific-walhai.png",
+            "src": "assets/images/animals-big/pacific/pacific-walhai.jpg",
             "alt": "Ein Walhai schwimmt majestätisch durch das Meer."
           }
         }
@@ -2301,7 +2617,7 @@
           },
           "bigImage": {
             "id": "big-img-indian-ocean-dugong",
-            "src": "assets/images/animals/indian-ocean/indian-ocean-dugong.png",
+            "src": "assets/images/animals-big/indian-ocean/indian-ocean-dugong.jpg",
             "alt": "Ein Dugong schwebt über dem Meeresboden."
           }
         },
@@ -2321,7 +2637,7 @@
           },
           "bigImage": {
             "id": "big-img-indian-ocean-zebra-hai",
-            "src": "assets/images/animals/indian-ocean/indian-ocean-zebra-hai.png",
+            "src": "assets/images/animals-big/indian-ocean/indian-ocean-zebra-hai.jpg",
             "alt": "Ein Zebra-Hai schwimmt über dem Sand."
           }
         },
@@ -2341,7 +2657,7 @@
           },
           "bigImage": {
             "id": "big-img-indian-ocean-felsengarnele",
-            "src": "assets/images/animals/indian-ocean/indian-ocean-felsengarnele.png",
+            "src": "assets/images/animals-big/indian-ocean/indian-ocean-felsengarnele.jpg",
             "alt": "Eine bunte Felsengarnele sitzt im Korallenriff."
           }
         },
@@ -2361,7 +2677,7 @@
           },
           "bigImage": {
             "id": "big-img-indian-ocean-leopardrochen",
-            "src": "assets/images/animals/indian-ocean/indian-ocean-leopardrochen.png",
+            "src": "assets/images/animals-big/indian-ocean/indian-ocean-leopardrochen.jpg",
             "alt": "Ein Leopardrochen gleitet durch das Wasser."
           }
         },
@@ -2381,7 +2697,7 @@
           },
           "bigImage": {
             "id": "big-img-indian-ocean-seegurke",
-            "src": "assets/images/animals/indian-ocean/indian-ocean-seegurke.png",
+            "src": "assets/images/animals-big/indian-ocean/indian-ocean-seegurke.jpg",
             "alt": "Eine Seegurke liegt auf dem Meeresboden."
           }
         },
@@ -2401,7 +2717,7 @@
           },
           "bigImage": {
             "id": "big-img-indian-ocean-hammerhai",
-            "src": "assets/images/animals/indian-ocean/indian-ocean-hammerhai.png",
+            "src": "assets/images/animals-big/indian-ocean/indian-ocean-hammerhai.jpg",
             "alt": "Ein Hammerhai schwimmt über dem Riff."
           }
         },
@@ -2421,7 +2737,7 @@
           },
           "bigImage": {
             "id": "big-img-indian-ocean-milchrochen",
-            "src": "assets/images/animals/indian-ocean/indian-ocean-milchrochen.png",
+            "src": "assets/images/animals-big/indian-ocean/indian-ocean-milchrochen.jpg",
             "alt": "Ein Milchrochen schwimmt durchs klare Wasser."
           }
         },
@@ -2441,7 +2757,7 @@
           },
           "bigImage": {
             "id": "big-img-indian-ocean-kaiserfisch",
-            "src": "assets/images/animals/indian-ocean/indian-ocean-kaiserfisch.png",
+            "src": "assets/images/animals-big/indian-ocean/indian-ocean-kaiserfisch.jpg",
             "alt": "Ein farbenprächtiger Kaiserfisch im Korallenriff."
           }
         },
@@ -2461,7 +2777,7 @@
           },
           "bigImage": {
             "id": "big-img-indian-ocean-geigenrochen",
-            "src": "assets/images/animals/indian-ocean/indian-ocean-geigenrochen.png",
+            "src": "assets/images/animals-big/indian-ocean/indian-ocean-geigenrochen.jpg",
             "alt": "Ein Geigenrochen auf dem Sandboden."
           }
         },
@@ -2481,7 +2797,7 @@
           },
           "bigImage": {
             "id": "big-img-indian-ocean-korallendoktorfisch",
-            "src": "assets/images/animals/indian-ocean/indian-ocean-korallendoktorfisch.png",
+            "src": "assets/images/animals-big/indian-ocean/indian-ocean-korallendoktorfisch.jpg",
             "alt": "Ein Doktorfisch schwimmt durch das Riff."
           }
         },
@@ -2501,7 +2817,7 @@
           },
           "bigImage": {
             "id": "big-img-indian-ocean-seeschlange",
-            "src": "assets/images/animals/indian-ocean/indian-ocean-seeschlange.png",
+            "src": "assets/images/animals-big/indian-ocean/indian-ocean-seeschlange.jpg",
             "alt": "Eine Seeschlange schlängelt durchs Wasser."
           }
         },
@@ -2521,7 +2837,7 @@
           },
           "bigImage": {
             "id": "big-img-indian-ocean-riesenmuschel",
-            "src": "assets/images/animals/indian-ocean/indian-ocean-riesenmuschel.png",
+            "src": "assets/images/animals-big/indian-ocean/indian-ocean-riesenmuschel.jpg",
             "alt": "Eine Riesenmuschel im Korallenriff."
           }
         }
@@ -2546,7 +2862,7 @@
           },
           "bigImage": {
             "id": "big-img-arctic-ocean-eisbaer",
-            "src": "assets/images/animals/arctic-ocean/arctic-ocean-eisbaer.png",
+            "src": "assets/images/animals-big/arctic-ocean/arctic-ocean-eisbaer.jpg",
             "alt": "Ein Eisbär steht auf einer Eisscholle."
           }
         },
@@ -2566,7 +2882,7 @@
           },
           "bigImage": {
             "id": "big-img-arctic-ocean-narwal",
-            "src": "assets/images/animals/arctic-ocean/arctic-ocean-narwal.png",
+            "src": "assets/images/animals-big/arctic-ocean/arctic-ocean-narwal.jpg",
             "alt": "Ein Narwal mit langem Stoßzahn im Wasser."
           }
         },
@@ -2586,7 +2902,7 @@
           },
           "bigImage": {
             "id": "big-img-arctic-ocean-belugawal",
-            "src": "assets/images/animals/arctic-ocean/arctic-ocean-belugawal.png",
+            "src": "assets/images/animals-big/arctic-ocean/arctic-ocean-belugawal.jpg",
             "alt": "Ein weißer Belugawal im eisigen Wasser."
           }
         },
@@ -2606,7 +2922,7 @@
           },
           "bigImage": {
             "id": "big-img-arctic-ocean-ringelrobbe",
-            "src": "assets/images/animals/arctic-ocean/arctic-ocean-ringelrobbe.png",
+            "src": "assets/images/animals-big/arctic-ocean/arctic-ocean-ringelrobbe.jpg",
             "alt": "Eine Ringelrobbe ruht auf dem Eis."
           }
         },
@@ -2626,7 +2942,7 @@
           },
           "bigImage": {
             "id": "big-img-arctic-ocean-walross",
-            "src": "assets/images/animals/arctic-ocean/arctic-ocean-walross.png",
+            "src": "assets/images/animals-big/arctic-ocean/arctic-ocean-walross.jpg",
             "alt": "Ein Walross mit langen Stoßzähnen auf dem Eis."
           }
         },
@@ -2646,7 +2962,7 @@
           },
           "bigImage": {
             "id": "big-img-arctic-ocean-groenlandwal",
-            "src": "assets/images/animals/arctic-ocean/arctic-ocean-groenlandwal.png",
+            "src": "assets/images/animals-big/arctic-ocean/arctic-ocean-groenlandwal.jpg",
             "alt": "Ein Grönlandwal schwimmt durch kaltes Wasser."
           }
         },
@@ -2666,7 +2982,7 @@
           },
           "bigImage": {
             "id": "big-img-arctic-ocean-polardorsch",
-            "src": "assets/images/animals/arctic-ocean/arctic-ocean-polardorsch.png",
+            "src": "assets/images/animals-big/arctic-ocean/arctic-ocean-polardorsch.jpg",
             "alt": "Ein Polardorsch im kalten Wasser."
           }
         },
@@ -2686,7 +3002,7 @@
           },
           "bigImage": {
             "id": "big-img-arctic-ocean-seespinne",
-            "src": "assets/images/animals/arctic-ocean/arctic-ocean-seespinne.png",
+            "src": "assets/images/animals-big/arctic-ocean/arctic-ocean-seespinne.jpg",
             "alt": "Eine Seespinne auf dem Meeresboden."
           }
         },
@@ -2706,7 +3022,7 @@
           },
           "bigImage": {
             "id": "big-img-arctic-ocean-schneekrabbe",
-            "src": "assets/images/animals/arctic-ocean/arctic-ocean-schneekrabbe.png",
+            "src": "assets/images/animals-big/arctic-ocean/arctic-ocean-schneekrabbe.jpg",
             "alt": "Eine Schneekrabbe im kalten Wasser."
           }
         },
@@ -2726,7 +3042,7 @@
           },
           "bigImage": {
             "id": "big-img-arctic-ocean-dickschnabellumme",
-            "src": "assets/images/animals/arctic-ocean/arctic-ocean-dickschnabellumme.png",
+            "src": "assets/images/animals-big/arctic-ocean/arctic-ocean-dickschnabellumme.jpg",
             "alt": "Eine Dickschnabellumme fliegt über das Meer."
           }
         },
@@ -2746,7 +3062,7 @@
           },
           "bigImage": {
             "id": "big-img-arctic-ocean-eisqualle",
-            "src": "assets/images/animals/arctic-ocean/arctic-ocean-eisqualle.png",
+            "src": "assets/images/animals-big/arctic-ocean/arctic-ocean-eisqualle.jpg",
             "alt": "Eine weiße Qualle im kalten Meer."
           }
         },
@@ -2766,7 +3082,7 @@
           },
           "bigImage": {
             "id": "big-img-arctic-ocean-schneefisch",
-            "src": "assets/images/animals/arctic-ocean/arctic-ocean-schneefisch.png",
+            "src": "assets/images/animals-big/arctic-ocean/arctic-ocean-schneefisch.jpg",
             "alt": "Ein heller Schneefisch im kalten Wasser."
           }
         }
@@ -2791,7 +3107,7 @@
           },
           "bigImage": {
             "id": "big-img-southern-ocean-kaiserpinguin",
-            "src": "assets/images/animals/southern-ocean/southern-ocean-kaiserpinguin.png",
+            "src": "assets/images/animals-big/southern-ocean/southern-ocean-kaiserpinguin.jpg",
             "alt": "Ein Kaiserpinguin steht auf dem Eis."
           }
         },
@@ -2811,7 +3127,7 @@
           },
           "bigImage": {
             "id": "big-img-southern-ocean-krill",
-            "src": "assets/images/animals/southern-ocean/southern-ocean-krill.png",
+            "src": "assets/images/animals-big/southern-ocean/southern-ocean-krill.jpg",
             "alt": "Ein Schwarm Krill im Wasser."
           }
         },
@@ -2831,7 +3147,7 @@
           },
           "bigImage": {
             "id": "big-img-southern-ocean-rossrobbe",
-            "src": "assets/images/animals/southern-ocean/southern-ocean-rossrobbe.png",
+            "src": "assets/images/animals-big/southern-ocean/southern-ocean-rossrobbe.jpg",
             "alt": "Eine Rossrobbe ruht auf Eis."
           }
         },
@@ -2851,7 +3167,7 @@
           },
           "bigImage": {
             "id": "big-img-southern-ocean-kreuzfisch",
-            "src": "assets/images/animals/southern-ocean/southern-ocean-kreuzfisch.png",
+            "src": "assets/images/animals-big/southern-ocean/southern-ocean-kreuzfisch.jpg",
             "alt": "Ein hell glänzender Kreuzfisch im dunklen Wasser."
           }
         },
@@ -2871,7 +3187,7 @@
           },
           "bigImage": {
             "id": "big-img-southern-ocean-glattwal",
-            "src": "assets/images/animals/southern-ocean/southern-ocean-glattwal.png",
+            "src": "assets/images/animals-big/southern-ocean/southern-ocean-glattwal.jpg",
             "alt": "Ein Glattwal schwimmt im Meer."
           }
         },
@@ -2891,7 +3207,7 @@
           },
           "bigImage": {
             "id": "big-img-southern-ocean-schneesturmvogel",
-            "src": "assets/images/animals/southern-ocean/southern-ocean-schneesturmvogel.png",
+            "src": "assets/images/animals-big/southern-ocean/southern-ocean-schneesturmvogel.jpg",
             "alt": "Ein weißer Schneesturmvogel fliegt über Eis."
           }
         },
@@ -2911,7 +3227,7 @@
           },
           "bigImage": {
             "id": "big-img-southern-ocean-seeleopard",
-            "src": "assets/images/animals/southern-ocean/southern-ocean-seeleopard.png",
+            "src": "assets/images/animals-big/southern-ocean/southern-ocean-seeleopard.jpg",
             "alt": "Ein Seeleopard schwimmt durchs eisige Wasser."
           }
         },
@@ -2931,7 +3247,7 @@
           },
           "bigImage": {
             "id": "big-img-southern-ocean-silberfisch",
-            "src": "assets/images/animals/southern-ocean/southern-ocean-silberfisch.png",
+            "src": "assets/images/animals-big/southern-ocean/southern-ocean-silberfisch.jpg",
             "alt": "Antarktische Silberfische unter dem Eis."
           }
         },
@@ -2951,7 +3267,7 @@
           },
           "bigImage": {
             "id": "big-img-southern-ocean-bartrobbe",
-            "src": "assets/images/animals/southern-ocean/southern-ocean-bartrobbe.png",
+            "src": "assets/images/animals-big/southern-ocean/southern-ocean-bartrobbe.jpg",
             "alt": "Eine Bartrobbe mit langen Schnurrhaaren."
           }
         },
@@ -2971,7 +3287,7 @@
           },
           "bigImage": {
             "id": "big-img-southern-ocean-schneegans",
-            "src": "assets/images/animals/southern-ocean/southern-ocean-schneegans.png",
+            "src": "assets/images/animals-big/southern-ocean/southern-ocean-schneegans.jpg",
             "alt": "Eine Schneegans steht auf Schnee."
           }
         },
@@ -2991,7 +3307,7 @@
           },
           "bigImage": {
             "id": "big-img-southern-ocean-schwertwal",
-            "src": "assets/images/animals/southern-ocean/southern-ocean-schwertwal.png",
+            "src": "assets/images/animals-big/southern-ocean/southern-ocean-schwertwal.jpg",
             "alt": "Ein Orca springt über das Wasser."
           }
         },
@@ -3011,7 +3327,7 @@
           },
           "bigImage": {
             "id": "big-img-southern-ocean-elefantenrobbe",
-            "src": "assets/images/animals/southern-ocean/southern-ocean-elefantenrobbe.png",
+            "src": "assets/images/animals-big/southern-ocean/southern-ocean-elefantenrobbe.jpg",
             "alt": "Eine Elefantenrobbe ruht auf dem Eis."
           }
         }
@@ -3036,7 +3352,7 @@
           },
           "bigImage": {
             "id": "big-img-caribbean-meeresschildkroete",
-            "src": "assets/images/animals/caribbean/caribbean-meeresschildkroete.png",
+            "src": "assets/images/animals-big/caribbean/caribbean-meeresschildkroete.jpg",
             "alt": "Eine Meeresschildkröte schwimmt im klaren Wasser."
           }
         },
@@ -3056,7 +3372,7 @@
           },
           "bigImage": {
             "id": "big-img-caribbean-korallenkoenig",
-            "src": "assets/images/animals/caribbean/caribbean-korallenkoenig.png",
+            "src": "assets/images/animals-big/caribbean/caribbean-korallenkoenig.jpg",
             "alt": "Ein bunter Korallenkönigfisch schwimmt im Riff."
           }
         },
@@ -3076,7 +3392,7 @@
           },
           "bigImage": {
             "id": "big-img-caribbean-papageifisch",
-            "src": "assets/images/animals/caribbean/caribbean-papageifisch.png",
+            "src": "assets/images/animals-big/caribbean/caribbean-papageifisch.jpg",
             "alt": "Ein Papageifisch schwimmt über Korallen."
           }
         },
@@ -3096,7 +3412,7 @@
           },
           "bigImage": {
             "id": "big-img-caribbean-riffhai",
-            "src": "assets/images/animals/caribbean/caribbean-riffhai.png",
+            "src": "assets/images/animals-big/caribbean/caribbean-riffhai.jpg",
             "alt": "Ein Karibischer Riffhai im Meer."
           }
         },
@@ -3116,7 +3432,7 @@
           },
           "bigImage": {
             "id": "big-img-caribbean-seepferdchen",
-            "src": "assets/images/animals/caribbean/caribbean-seepferdchen.png",
+            "src": "assets/images/animals-big/caribbean/caribbean-seepferdchen.jpg",
             "alt": "Ein Seepferdchen klammert sich an Seegras."
           }
         },
@@ -3136,7 +3452,7 @@
           },
           "bigImage": {
             "id": "big-img-caribbean-stachelrochen",
-            "src": "assets/images/animals/caribbean/caribbean-stachelrochen.png",
+            "src": "assets/images/animals-big/caribbean/caribbean-stachelrochen.jpg",
             "alt": "Ein Stachelrochen gleitet über den Sand."
           }
         },
@@ -3156,7 +3472,7 @@
           },
           "bigImage": {
             "id": "big-img-caribbean-delfin",
-            "src": "assets/images/animals/caribbean/caribbean-delfin.png",
+            "src": "assets/images/animals-big/caribbean/caribbean-delfin.jpg",
             "alt": "Ein Delfin springt aus dem Wasser."
           }
         },
@@ -3176,7 +3492,7 @@
           },
           "bigImage": {
             "id": "big-img-caribbean-feuerfisch",
-            "src": "assets/images/animals/caribbean/caribbean-feuerfisch.png",
+            "src": "assets/images/animals-big/caribbean/caribbean-feuerfisch.jpg",
             "alt": "Ein roter Feuerfisch im Korallenriff."
           }
         },
@@ -3196,7 +3512,7 @@
           },
           "bigImage": {
             "id": "big-img-caribbean-murene",
-            "src": "assets/images/animals/caribbean/caribbean-murene.png",
+            "src": "assets/images/animals-big/caribbean/caribbean-murene.jpg",
             "alt": "Eine Muräne lugt aus einer Felsöffnung."
           }
         },
@@ -3216,7 +3532,7 @@
           },
           "bigImage": {
             "id": "big-img-caribbean-manfisch",
-            "src": "assets/images/animals/caribbean/caribbean-manfisch.png",
+            "src": "assets/images/animals-big/caribbean/caribbean-manfisch.jpg",
             "alt": "Ein bläulicher Fisch im Dunkelwasser."
           }
         },
@@ -3236,7 +3552,7 @@
           },
           "bigImage": {
             "id": "big-img-caribbean-seestern",
-            "src": "assets/images/animals/caribbean/caribbean-seestern.png",
+            "src": "assets/images/animals-big/caribbean/caribbean-seestern.jpg",
             "alt": "Ein roter Seestern liegt auf Sand."
           }
         },
@@ -3256,7 +3572,7 @@
           },
           "bigImage": {
             "id": "big-img-caribbean-schwamm",
-            "src": "assets/images/animals/caribbean/caribbean-schwamm.png",
+            "src": "assets/images/animals-big/caribbean/caribbean-schwamm.jpg",
             "alt": "Ein bunter Meerschwamm am Korallenriff."
           }
         }
@@ -3281,7 +3597,7 @@
           },
           "bigImage": {
             "id": "big-img-red-sea-kaiserfisch",
-            "src": "assets/images/animals/red-sea/red-sea-kaiserfisch.png",
+            "src": "assets/images/animals-big/red-sea/red-sea-kaiserfisch.jpg",
             "alt": "Ein farbenfroher Kaiserfisch schwimmt über Korallen."
           }
         },
@@ -3301,7 +3617,7 @@
           },
           "bigImage": {
             "id": "big-img-red-sea-anemonenfisch",
-            "src": "assets/images/animals/red-sea/red-sea-anemonenfisch.png",
+            "src": "assets/images/animals-big/red-sea/red-sea-anemonenfisch.jpg",
             "alt": "Ein Anemonenfisch versteckt sich in einer Seeanemone."
           }
         },
@@ -3321,7 +3637,7 @@
           },
           "bigImage": {
             "id": "big-img-red-sea-blaupunktrochen",
-            "src": "assets/images/animals/red-sea/red-sea-blaupunktrochen.png",
+            "src": "assets/images/animals-big/red-sea/red-sea-blaupunktrochen.jpg",
             "alt": "Ein Blaupunktrochen liegt im Sand."
           }
         },
@@ -3341,7 +3657,7 @@
           },
           "bigImage": {
             "id": "big-img-red-sea-napoleonfisch",
-            "src": "assets/images/animals/red-sea/red-sea-napoleonfisch.png",
+            "src": "assets/images/animals-big/red-sea/red-sea-napoleonfisch.jpg",
             "alt": "Ein Napoleonfisch schwimmt im Riff."
           }
         },
@@ -3361,7 +3677,7 @@
           },
           "bigImage": {
             "id": "big-img-red-sea-rotfeuerfisch",
-            "src": "assets/images/animals/red-sea/red-sea-rotfeuerfisch.png",
+            "src": "assets/images/animals-big/red-sea/red-sea-rotfeuerfisch.jpg",
             "alt": "Ein Rotfeuerfisch zeigt seine fächerartigen Flossen."
           }
         },
@@ -3381,7 +3697,7 @@
           },
           "bigImage": {
             "id": "big-img-red-sea-zackenbarsch",
-            "src": "assets/images/animals/red-sea/red-sea-zackenbarsch.png",
+            "src": "assets/images/animals-big/red-sea/red-sea-zackenbarsch.jpg",
             "alt": "Ein roter Zackenbarsch ruht im Riff."
           }
         },
@@ -3401,7 +3717,7 @@
           },
           "bigImage": {
             "id": "big-img-red-sea-krokodilfisch",
-            "src": "assets/images/animals/red-sea/red-sea-krokodilfisch.png",
+            "src": "assets/images/animals-big/red-sea/red-sea-krokodilfisch.jpg",
             "alt": "Ein Krokodilfisch tarnt sich im Sand."
           }
         },
@@ -3421,7 +3737,7 @@
           },
           "bigImage": {
             "id": "big-img-red-sea-korallendrache",
-            "src": "assets/images/animals/red-sea/red-sea-korallendrache.png",
+            "src": "assets/images/animals-big/red-sea/red-sea-korallendrache.jpg",
             "alt": "Ein kleiner Korallendrache im Riff."
           }
         },
@@ -3441,7 +3757,7 @@
           },
           "bigImage": {
             "id": "big-img-red-sea-kugelfisch",
-            "src": "assets/images/animals/red-sea/red-sea-kugelfisch.png",
+            "src": "assets/images/animals-big/red-sea/red-sea-kugelfisch.jpg",
             "alt": "Ein Kugelfisch schwimmt durch das Riff."
           }
         },
@@ -3461,7 +3777,7 @@
           },
           "bigImage": {
             "id": "big-img-red-sea-seepferdchen",
-            "src": "assets/images/animals/red-sea/red-sea-seepferdchen.png",
+            "src": "assets/images/animals-big/red-sea/red-sea-seepferdchen.jpg",
             "alt": "Ein Seepferdchen klammert sich an Korallen."
           }
         },
@@ -3481,7 +3797,7 @@
           },
           "bigImage": {
             "id": "big-img-red-sea-fledermausfisch",
-            "src": "assets/images/animals/red-sea/red-sea-fledermausfisch.png",
+            "src": "assets/images/animals-big/red-sea/red-sea-fledermausfisch.jpg",
             "alt": "Ein Fledermausfisch schwimmt knapp über dem Boden."
           }
         },
@@ -3501,7 +3817,7 @@
           },
           "bigImage": {
             "id": "big-img-red-sea-wimpelfisch",
-            "src": "assets/images/animals/red-sea/red-sea-wimpelfisch.png",
+            "src": "assets/images/animals-big/red-sea/red-sea-wimpelfisch.jpg",
             "alt": "Ein Wimpelfisch mit langen Rückenflossen über einem Korallenriff."
           }
         }
@@ -3526,7 +3842,7 @@
           },
           "bigImage": {
             "id": "big-img-black-sea-delfin",
-            "src": "assets/images/animals/black-sea/black-sea-delfin.png",
+            "src": "assets/images/animals-big/black-sea/black-sea-delfin.jpg",
             "alt": "Ein Delfin springt aus dem Wasser."
           }
         },
@@ -3546,7 +3862,7 @@
           },
           "bigImage": {
             "id": "big-img-black-sea-seehase",
-            "src": "assets/images/animals/black-sea/black-sea-seehase.png",
+            "src": "assets/images/animals-big/black-sea/black-sea-seehase.jpg",
             "alt": "Ein Seehase schwimmt im flachen Wasser."
           }
         },
@@ -3566,7 +3882,7 @@
           },
           "bigImage": {
             "id": "big-img-black-sea-grundel",
-            "src": "assets/images/animals/black-sea/black-sea-grundel.png",
+            "src": "assets/images/animals-big/black-sea/black-sea-grundel.jpg",
             "alt": "Eine Grundel sitzt auf dem Sandboden."
           }
         },
@@ -3586,7 +3902,7 @@
           },
           "bigImage": {
             "id": "big-img-black-sea-sardelle",
-            "src": "assets/images/animals/black-sea/black-sea-sardelle.png",
+            "src": "assets/images/animals-big/black-sea/black-sea-sardelle.jpg",
             "alt": "Ein Schwarm Sardellen im Meer."
           }
         },
@@ -3606,7 +3922,7 @@
           },
           "bigImage": {
             "id": "big-img-black-sea-seepilz",
-            "src": "assets/images/animals/black-sea/black-sea-seepilz.png",
+            "src": "assets/images/animals-big/black-sea/black-sea-seepilz.jpg",
             "alt": "Ein Seepilz sitzt auf einem Felsen."
           }
         },
@@ -3626,7 +3942,7 @@
           },
           "bigImage": {
             "id": "big-img-black-sea-felsenauster",
-            "src": "assets/images/animals/black-sea/black-sea-felsenauster.png",
+            "src": "assets/images/animals-big/black-sea/black-sea-felsenauster.jpg",
             "alt": "Eine Felsenauster auf einem Stein."
           }
         },
@@ -3646,7 +3962,7 @@
           },
           "bigImage": {
             "id": "big-img-black-sea-schnapper",
-            "src": "assets/images/animals/black-sea/black-sea-schnapper.png",
+            "src": "assets/images/animals-big/black-sea/black-sea-schnapper.jpg",
             "alt": "Ein Schnapper schwimmt im Schwarzen Meer."
           }
         },
@@ -3666,7 +3982,7 @@
           },
           "bigImage": {
             "id": "big-img-black-sea-krabbe",
-            "src": "assets/images/animals/black-sea/black-sea-krabbe.png",
+            "src": "assets/images/animals-big/black-sea/black-sea-krabbe.jpg",
             "alt": "Eine Schwarzmeer-Krabbe krabbelt über Steine."
           }
         },
@@ -3686,7 +4002,7 @@
           },
           "bigImage": {
             "id": "big-img-black-sea-seestern",
-            "src": "assets/images/animals/black-sea/black-sea-seestern.png",
+            "src": "assets/images/animals-big/black-sea/black-sea-seestern.jpg",
             "alt": "Ein Seestern liegt auf Steinen."
           }
         },
@@ -3706,7 +4022,7 @@
           },
           "bigImage": {
             "id": "big-img-black-sea-flussneunauge",
-            "src": "assets/images/animals/black-sea/black-sea-flussneunauge.png",
+            "src": "assets/images/animals-big/black-sea/black-sea-flussneunauge.jpg",
             "alt": "Ein Flussneunauge schwimmt im Wasser."
           }
         },
@@ -3726,7 +4042,7 @@
           },
           "bigImage": {
             "id": "big-img-black-sea-schnecke",
-            "src": "assets/images/animals/black-sea/black-sea-schnecke.png",
+            "src": "assets/images/animals-big/black-sea/black-sea-schnecke.jpg",
             "alt": "Eine kleine Meerschnecke auf Sand."
           }
         },
@@ -3746,7 +4062,7 @@
           },
           "bigImage": {
             "id": "big-img-black-sea-seepferdchen",
-            "src": "assets/images/animals/black-sea/black-sea-seepferdchen.png",
+            "src": "assets/images/animals-big/black-sea/black-sea-seepferdchen.jpg",
             "alt": "Ein Seepferdchen im Schwarzen Meer."
           }
         }
@@ -3771,7 +4087,7 @@
           },
           "bigImage": {
             "id": "big-img-north-atlantic-blauwal",
-            "src": "assets/images/animals/north-atlantic/north-atlantic-blauwal.png",
+            "src": "assets/images/animals-big/north-atlantic/north-atlantic-blauwal.jpg",
             "alt": "Ein riesiger Blauwal schwimmt im kalten Meer."
           }
         },
@@ -3791,7 +4107,7 @@
           },
           "bigImage": {
             "id": "big-img-north-atlantic-grindwal",
-            "src": "assets/images/animals/north-atlantic/north-atlantic-grindwal.png",
+            "src": "assets/images/animals-big/north-atlantic/north-atlantic-grindwal.jpg",
             "alt": "Eine Gruppe Grindwale schwimmt gemeinsam."
           }
         },
@@ -3811,7 +4127,7 @@
           },
           "bigImage": {
             "id": "big-img-north-atlantic-orka",
-            "src": "assets/images/animals/north-atlantic/north-atlantic-orka.png",
+            "src": "assets/images/animals-big/north-atlantic/north-atlantic-orka.jpg",
             "alt": "Ein Orka springt aus dem Wasser."
           }
         },
@@ -3831,7 +4147,7 @@
           },
           "bigImage": {
             "id": "big-img-north-atlantic-eisbartwal",
-            "src": "assets/images/animals/north-atlantic/north-atlantic-eisbartwal.png",
+            "src": "assets/images/animals-big/north-atlantic/north-atlantic-eisbartwal.jpg",
             "alt": "Ein Eisbartwal in kaltem Wasser."
           }
         },
@@ -3851,7 +4167,7 @@
           },
           "bigImage": {
             "id": "big-img-north-atlantic-eismoewe",
-            "src": "assets/images/animals/north-atlantic/north-atlantic-eismoewe.png",
+            "src": "assets/images/animals-big/north-atlantic/north-atlantic-eismoewe.jpg",
             "alt": "Eine weiße Eismöwe fliegt über dem Meer."
           }
         },
@@ -3871,7 +4187,7 @@
           },
           "bigImage": {
             "id": "big-img-north-atlantic-schwertfisch",
-            "src": "assets/images/animals/north-atlantic/north-atlantic-schwertfisch.png",
+            "src": "assets/images/animals-big/north-atlantic/north-atlantic-schwertfisch.jpg",
             "alt": "Ein Schwertfisch schwimmt durch das Meer."
           }
         },
@@ -3891,7 +4207,7 @@
           },
           "bigImage": {
             "id": "big-img-north-atlantic-steinbutt",
-            "src": "assets/images/animals/north-atlantic/north-atlantic-steinbutt.png",
+            "src": "assets/images/animals-big/north-atlantic/north-atlantic-steinbutt.jpg",
             "alt": "Ein Steinbutt tarnt sich im Sand."
           }
         },
@@ -3911,7 +4227,7 @@
           },
           "bigImage": {
             "id": "big-img-north-atlantic-hummer",
-            "src": "assets/images/animals/north-atlantic/north-atlantic-hummer.png",
+            "src": "assets/images/animals-big/north-atlantic/north-atlantic-hummer.jpg",
             "alt": "Ein Hummer klettert über Felsen."
           }
         },
@@ -3931,7 +4247,7 @@
           },
           "bigImage": {
             "id": "big-img-north-atlantic-meeresengel",
-            "src": "assets/images/animals/north-atlantic/north-atlantic-meeresengel.png",
+            "src": "assets/images/animals-big/north-atlantic/north-atlantic-meeresengel.jpg",
             "alt": "Ein Meeresengel schwebt durchs Wasser."
           }
         },
@@ -3951,7 +4267,7 @@
           },
           "bigImage": {
             "id": "big-img-north-atlantic-sturmvogel",
-            "src": "assets/images/animals/north-atlantic/north-atlantic-sturmvogel.png",
+            "src": "assets/images/animals-big/north-atlantic/north-atlantic-sturmvogel.jpg",
             "alt": "Ein Sturmvogel fliegt über dem Meer."
           }
         },
@@ -3971,7 +4287,7 @@
           },
           "bigImage": {
             "id": "big-img-north-atlantic-eisseeigel",
-            "src": "assets/images/animals/north-atlantic/north-atlantic-eisseeigel.png",
+            "src": "assets/images/animals-big/north-atlantic/north-atlantic-eisseeigel.jpg",
             "alt": "Ein Eisseeigel in der Tiefe."
           }
         },
@@ -3991,7 +4307,7 @@
           },
           "bigImage": {
             "id": "big-img-north-atlantic-dinnahai",
-            "src": "assets/images/animals/north-atlantic/north-atlantic-dinnahai.png",
+            "src": "assets/images/animals-big/north-atlantic/north-atlantic-dinnahai.jpg",
             "alt": "Ein Tiefseehai schwimmt durch dunkles Wasser."
           }
         }
