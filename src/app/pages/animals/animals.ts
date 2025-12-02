@@ -3,11 +3,12 @@ import { CommonModule } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
 import { RouterLink } from '@angular/router';
 import { Content } from '../../services/content';
+import { SeaTitle } from '../../components/sea-title/sea-title';
 
 @Component({
   selector: 'app-animals',
   standalone: true,
-  imports: [CommonModule, RouterLink], // 🔹 RouterLink hinzugefügt
+  imports: [CommonModule, RouterLink, SeaTitle], // 🔹 RouterLink hinzugefügt
   templateUrl: './animals.html',
   styleUrl: './animals.css',
 })

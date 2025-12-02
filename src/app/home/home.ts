@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { RouterLink, RouterOutlet } from '@angular/router';
-import { Header } from '../header/header';
+import { Header } from '../components/header/header';
 import * as bootstrap from 'bootstrap';
 import { Content } from '../services/content';
 import { CommonModule } from '@angular/common';

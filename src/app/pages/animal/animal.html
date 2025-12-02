@@ -1,5 +1,10 @@
-@if (animal) {
+@if (animal && seaInfo) {
 <div class="container my-5 px-0">
+  <!-- Überschrift wie in animals.html -->
+  <div class="mb-4">
+    <app-sea-title [seaName]="seaInfo.name"></app-sea-title>
+  </div>
+
   <div class="row">
     <!-- LINKS: Bild -->
     <div class="col-lg-7 col-md-12 mb-4 text-center">
@@ -12,7 +17,6 @@
         <h2 class="animal-info__title">{{ animal.name }}</h2>
         <p class="animal-info__short">{{ animal.shortDescription }}</p>
 
-        <!-- Detailabsätze -->
         @for (p of animal.detailParagraphs; track p) {
         <p class="animal-info__paragraph">
           {{ p }}
@@ -31,9 +35,7 @@
     <button class="btn btn-primary btn-lg px-4 w-25" [routerLink]="['/quiz', seaId]">Quiz</button>
   </div>
 </div>
-}
-<!-- Fallback -->
-@if (!animal) {
+} @if (!animal || !seaInfo) {
 <div class="container my-5 px-0">
   <p>Lade Tierdaten...</p>
 </div>
