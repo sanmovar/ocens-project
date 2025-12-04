@@ -17,7 +17,7 @@
 
 .home-hero__image {
   width: 100%;
-  height: 550px;
+  /* height: 600px; */
   object-fit: cover;
   transition: transform 0.3s ease;
   display: block;
@@ -95,8 +95,8 @@
 
 /* MODAL-Bild etwas hübscher */
 .home-hero__modal-image {
-  max-width: 90vw;
-  max-height: 90vh;
+  max-width: 99vw;
+  max-height: 99vh;
   object-fit: contain;
   border-radius: 12px;
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.7);

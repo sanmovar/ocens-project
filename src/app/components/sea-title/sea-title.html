@@ -1,1 +1,7 @@
-<h2 class="animals-title animals-header mb-3">Tiere im {{ seaName }}</h2>
+<h2 class="animals-title animals-header mb-3">
+  Tiere im {{ seaName }}<br />
+
+  @if (showExtraText) {
+  <span class="extra-text">Klicke auf das Bild, um mehr über das Tier zu erfahren.</span>
+  }
+</h2>

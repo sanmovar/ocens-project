@@ -96,13 +96,12 @@ export class Content {
         return {
           questions: quiz.questions,
           title: quiz.title,
-          resultTexts: quizPage.resultTexts, // ← WICHTIG!
+          resultTexts: quizPage.resultTexts,
         };
       })
     );
   }
 
-  // (Optional) falls du irgendwo nur die Result-Texte brauchst:
   getQuizResultTexts(seaId: string): Observable<{ [key: string]: string } | null> {
     return this.getQuizForSea(seaId).pipe(
       map((quiz: any) => {

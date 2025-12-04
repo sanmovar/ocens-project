@@ -3,7 +3,7 @@
   <div class="row">
     <!-- LINKE SPALTE: Tiere im Gitter -->
     <div class="col-lg-7 col-md-12 mb-4">
-      <app-sea-title [seaName]="seaInfo.name"></app-sea-title>
+      <app-sea-title [seaName]="seaInfo.name" [showExtraText]="true"></app-sea-title>
 
       <div class="row g-3 animals-grid">
         @for (animal of animals; track animal) {

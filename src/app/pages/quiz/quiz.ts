@@ -123,10 +123,10 @@ export class Quiz implements OnInit, AfterViewInit {
     return '';
   }
 
-  resetQuiz(): void {
-    this.checked = false;
-    this.correctCount = 0;
-    this.resultText = '';
-    this.userAnswers = new Array(this.questions.length).fill(null);
-  }
+  // resetQuiz(): void {
+  //   this.checked = false;
+  //   this.correctCount = 0;
+  //   this.resultText = '';
+  //   this.userAnswers = new Array(this.questions.length).fill(null);
+  // }
 }

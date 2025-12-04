@@ -14,3 +14,9 @@
   box-shadow: 0 6px 14px rgba(0, 96, 151, 0.12);
   border-left: 6px solid #0094c6;
 }
+
+.extra-text {
+  font-size: 0.9rem;
+  color: #0a5678;
+  font-weight: 600;
+}
