@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Content } from '../../services/content';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { RouterLink } from '@angular/router';
 import { SeaTitle } from '../../components/sea-title/sea-title';
@@ -13,35 +13,64 @@ import { SeaTitle } from '../../components/sea-title/sea-title';
   styleUrl: './animal.css',
 })
 export class Animal implements OnInit {
-  pageData: any;
   animal: any = null;
+  seaInfo: any = null;
   seaId: string | null = null;
-  animalId: string | null = null;
-  seaInfo: any | null = null; // ⬅️ NEU
 
-  constructor(private content: Content, private route: ActivatedRoute) {}
+  isLoading = true;
+
+  constructor(private content: Content, private route: ActivatedRoute, private router: Router) {}
 
   ngOnInit(): void {
-    this.animalId = this.route.snapshot.paramMap.get('animalId');
+    const animalId = this.route.snapshot.paramMap.get('animalId');
 
-    // 1️ optional: Seitendaten (brauchst du evtl. später)
-    this.content.getPage('animal').subscribe((page) => {
-      this.pageData = page;
-    });
-
-    // 2️ Tierdaten laden
-    if (this.animalId) {
-      this.content.getAnimal(this.animalId).subscribe((animalData: any) => {
-        this.animal = animalData;
-        this.seaId = animalData?.seaId; // wichtig für zurück / quiz
-
-        // 3️ sobald seaId bekannt ist -> Meer-Infos nachladen
-        if (this.seaId) {
-          this.content.getSea(this.seaId).subscribe((sea: any | null) => {
-            this.seaInfo = sea;
-          });
-        }
-      });
+    if (!animalId) {
+      this.redirectHome();
+      return;
     }
+
+    this.content.getAnimal(animalId).subscribe({
+      next: (animalData: any) => {
+        if (!animalData) {
+          this.redirectHome();
+          return;
+        }
+
+        this.animal = animalData;
+        this.seaId = animalData.seaId;
+
+        if (!this.seaId) {
+          this.redirectHome();
+          return;
+        }
+
+        const sid = this.seaId;
+
+        this.content.getSea(sid).subscribe({
+          next: (seaData: any) => {
+            if (!seaData) {
+              this.redirectHome();
+              return;
+            }
+
+            this.seaInfo = seaData;
+            this.isLoading = false;
+          },
+          error: (err) => {
+            console.error('Fehler beim Laden des Meeres:', err);
+            this.redirectHome();
+          },
+        });
+      },
+      error: (err) => {
+        console.error('Fehler beim Laden des Tiers:', err);
+        this.redirectHome();
+      },
+    });
+  }
+
+  private redirectHome() {
+    this.isLoading = false; // falls die Navigation aus irgendeinem Grund scheitert
+    this.router.navigate(['/']);
   }
 }

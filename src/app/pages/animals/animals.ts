@@ -4,6 +4,7 @@ import { ActivatedRoute } from '@angular/router';
 import { RouterLink } from '@angular/router';
 import { Content } from '../../services/content';
 import { SeaTitle } from '../../components/sea-title/sea-title';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-animals',
@@ -17,19 +18,30 @@ export class Animals implements OnInit {
   animals: any[] = [];
   seaInfo: any | null = null;
 
-  constructor(private route: ActivatedRoute, private content: Content) {}
+  constructor(private route: ActivatedRoute, private content: Content, private router: Router) {}
 
   ngOnInit(): void {
     this.seaId = this.route.snapshot.paramMap.get('seaId');
 
-    if (this.seaId) {
-      this.content.getAnimalsBySea(this.seaId).subscribe((animals: any[]) => {
-        this.animals = animals;
-      });
-
-      this.content.getSea(this.seaId).subscribe((sea: any | null) => {
-        this.seaInfo = sea;
-      });
+    if (!this.seaId) {
+      this.router.navigate(['/']);
+      return;
     }
+
+    this.content.getAnimalsBySea(this.seaId).subscribe((animals: any[]) => {
+      if (!animals || animals.length === 0) {
+        this.router.navigate(['/']);
+        return;
+      }
+      this.animals = animals;
+    });
+
+    this.content.getSea(this.seaId).subscribe((sea: any | null) => {
+      if (!sea) {
+        this.router.navigate(['/']);
+        return;
+      }
+      this.seaInfo = sea;
+    });
   }
 }

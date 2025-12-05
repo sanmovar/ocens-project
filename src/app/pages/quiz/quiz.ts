@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
 import { Content } from '../../services/content';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-quiz',
@@ -30,44 +31,38 @@ export class Quiz implements OnInit, AfterViewInit {
   constructor(
     private route: ActivatedRoute,
     private content: Content,
-    private location: Location
+    private location: Location,
+    private router: Router
   ) {}
 
   ngOnInit(): void {
-    // seaId aus /quiz/:seaId oder ?seaId
     this.seaId =
       this.route.snapshot.paramMap.get('seaId') || this.route.snapshot.queryParamMap.get('seaId');
 
-    console.log('Quiz: seaId aus Route =', this.seaId);
-
     if (!this.seaId) {
-      this.noQuizFound = true;
+      this.router.navigate(['/']);
       return;
     }
 
-    // Meer-Infos (Name etc.)
+    // Meer prüfen
     this.content.getSea(this.seaId).subscribe((sea: any | null) => {
+      if (!sea) {
+        this.router.navigate(['/']);
+        return;
+      }
       this.seaInfo = sea;
     });
 
-    // Quizfragen & Ergebnis-Texte laden
+    // Quiz prüfen
     this.content.getQuizForSea(this.seaId).subscribe((quizData: any) => {
-      console.log('Quizdaten für', this.seaId, quizData);
-
-      if (!quizData) {
-        this.noQuizFound = true;
-        this.questions = [];
-        this.resultTexts = {};
+      if (!quizData || !quizData.questions || quizData.questions.length === 0) {
+        this.router.navigate(['/']);
         return;
       }
 
-      this.questions = quizData.questions ?? [];
-      this.resultTexts = quizData.resultTexts ?? {};
+      this.questions = quizData.questions;
+      this.resultTexts = quizData.resultTexts;
       this.userAnswers = new Array(this.questions.length).fill(null);
-
-      if (!this.questions.length) {
-        this.noQuizFound = true;
-      }
     });
   }
 

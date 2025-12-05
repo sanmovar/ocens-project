@@ -35,8 +35,6 @@
     <button class="btn btn-primary btn-lg px-4 w-25" [routerLink]="['/quiz', seaId]">Quiz</button>
   </div>
 </div>
-} @if (!animal || !seaInfo) {
-<div class="container my-5 px-0">
-  <p>Lade Tierdaten...</p>
-</div>
+} @if (isLoading) {
+<p>Lade Tierdaten...</p>
 }
